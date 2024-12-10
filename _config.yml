@@ -34,7 +34,8 @@ github_username:
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 locale: "en-US"
 
 plugins:

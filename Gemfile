@@ -4,13 +4,12 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
+#     bundle exec jekyll s --config _config.yml,_config_dev.yml --watch --unpublished --incremental --livereload
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.4"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
 
-gem "minimal-mistakes-jekyll"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

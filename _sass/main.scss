@@ -15,11 +15,5 @@ $serif      : "ETBembo RomanLF", Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
-/* Interface Tweaks */
-site-logo.img{
-  height: 120px;
-  width: auto;
-}
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@use "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@use "minimal-mistakes"; // main partials
