@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+// To make basic tweaks to theme’s style Sass variables can be overridden by adding to <your_project>/assets/css/main.scss. For instance, to change the link color used throughout the theme add:
+// $link-color: red;
+// Before any @import lines.
+
+@charset "utf-8";
+$paragraph-indent: true;
+$indent-var: 1.5em;
+
+/* system typefaces */
+$serif      : "ETBembo RomanLF", Times, serif;
+$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* Interface Tweaks */
+site-logo.img{
+  height: 120px;
+  width: auto;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
