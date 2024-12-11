@@ -6,4 +6,5 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
-.code-workspace
+*.code-workspace
+.obsidian/
