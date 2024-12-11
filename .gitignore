@@ -8,3 +8,4 @@ vendor/
 Gemfile.lock
 *.code-workspace
 .obsidian/
+.obsidian/workspace.json

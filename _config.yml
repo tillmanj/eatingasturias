@@ -11,7 +11,13 @@
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
+
+# Load Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-analytics
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -50,20 +56,33 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 # Site Defaults
 # all of these settings can be overridden on a per-page basis through YAML frontmatter
 defaults:
-  # _posts
   - scope:
-      path: ""
-      type: posts
+      path: "" # an empty string here means all files in the project
     values:
+      layout: "single"
       show_date: true
       read_time: true
       words_per_minute: 250
 
+# Collections
+# https://jekyllrb.com/docs/step-by-step/09-collections/
+collections:
+  docs:
+    output: true
+
+# Search
+search: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
+  search_full_content: true
 
 
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+# Analytics
+jekyll_analytics:
+  Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
+    url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /
+    siteId: "1"                  # Required - replace with your Matomo site id (Write id as string)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
