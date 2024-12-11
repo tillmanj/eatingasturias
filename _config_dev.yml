@@ -1,0 +1,8 @@
+# _config_dev.yml
+# The Jekyll development environment config file for eatingasturias.com
+# This is to be used with the command:
+# bundle exec jekyll s --config _config.yml,_config_dev.yml --watch --unpublished --incremental --livereload
+#
+# Basic Configuration Options
+#
+environment: development

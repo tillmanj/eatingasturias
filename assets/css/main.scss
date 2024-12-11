@@ -3,7 +3,12 @@
 search: false
 ---
 
+// Custom small declarations go here. More extensive changes should be made to the files in /_sass
+$link-color: #0066FF; // sets the blue for links to the Pantone color for the blue in the flag of Asturias
+$paragraph-indent: true; // turns on indenting of paragraphs for a more readerly feel
+$indent-var: 1.5em; // equivilent to ~1.75in on a printed page
+
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@use "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@use "minimal-mistakes"; // main partials

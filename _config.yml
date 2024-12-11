@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+locale: "en-US"
 title: "Eating Asturias"
 title_separator: "|"
 subtitle: "The English-Language Encyclopedia of Asturian Gastronomy"
@@ -26,20 +27,43 @@ masthead_title: "Eating Asturias"
 name: "Jon Tillman"
 email: jon@eatingasturias.com
 description: >-  # this means to ignore newlines until "baseurl:"
-  The English-Language Encyclopedia of Asturian Gastronomy
+  A website dedicated to bringing the best of Asturian food culture to the English-speaking world. Equal parts cookbook, travel guide, and ethnography.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "httos://eatingasturias.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+url: "https://eatingasturias.com" # the base hostname & protocol for your site, e.g. http://example.com
+breadcrumbs: true  # disabled by default
+date_format: "%Y-%m-%d"
+
+# Unused settings:
+# teaser: ""
+# 
+
+# Github settings
+# see https://github.com/jekyll/github-metadata
+
+repository: "tillmanj/eatingasturias" 
+github_username: "tillmanj"
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-locale: "en-US"
+# Site Defaults
+# all of these settings can be overridden on a per-page basis through YAML frontmatter
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      words_per_minute: 250
+
+
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
