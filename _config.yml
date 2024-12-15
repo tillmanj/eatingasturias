@@ -72,13 +72,16 @@ collections:
 
 # Search
 search: true
-search_provider: lunr
+search_provider: lunr # https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/
 lunr:
   search_within_pages: true
   search_full_content: true
 
 
 # Analytics
+google_site_verification: TDSlnEqLiDJGZc7K3Hs2lfVEq1R4QS8ZVTe6Qr2X4J4
+
+
 jekyll_analytics:
   Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
     url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /

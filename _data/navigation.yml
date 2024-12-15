@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Cook"
+    url: /cook/
+    description: "The Repertoire of Dishes and Techniques in Asturian Cooking, both Traditional and Modern"
+  - title: "Visit"
+    url: /visit/
+    description: "The Directory of the Notable Producers and Purveyors of Asturian Foodstuffs"
+  - title: "Learn"
+    url: /learn/
+    description: "The Inventory and Catalog of the Gastronomic Heritage of the Asturian People"
+  - title: "About"
+    url: /about/  
+    description: "Information about the website and how to contact me"

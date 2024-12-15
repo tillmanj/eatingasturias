@@ -4,17 +4,19 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: $header-color;
+  box-shadow: -2px 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);
 
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
     padding: 1em;
+    min-width: 90%;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,7 +41,8 @@
 }
 
 .site-logo img {
-  max-height: 2rem;
+  max-height: 7rem;
+  float: left;
 }
 
 .site-title {
@@ -49,6 +52,7 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  color: $header-alt-color;
   // z-index: 20;
 }
 
@@ -64,6 +68,7 @@
   clear: both;
 
   .site-nav {
+    width: 100%;
     margin-inline-start: 0;
 
     @include breakpoint($small) {
