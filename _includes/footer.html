@@ -1,21 +1,48 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="footer-container"></div>
+<footer>
+  <!-- Footer main -->
+  <section class="ft-main">
+    <div class="ft-main-item">
+      <h2 class="ft-title">Impressum</h2>
+      <ul>
+        <li><a href="/about/">About Eating Asturias</a></li>
+        <li><a href="/about/jon/">About Jon Tillman</a></li>
+        <li><a href="/about/disclaimer/">Disclaimers</a></li>
+        <li><a href="/about/terms/">Terms & Conditions</a></li>
+        <li><a href="/about/privacy/">Privacy Policy</a></li>
+        <li><a href="/about/policies/">Other Policies & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Resources</h2>
+      <ul>
+        <li><a href="#">Bibliography</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Suppliers</a></li>
+        <li><a href="#">Webinars</a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Contact</h2>
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Stay Updated</h2>
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-mastodon"></i></a></li>
+        <li><a href="#"><i class="fa fa-pixelfed"></i></a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Footer legal -->
+  <section class="ft-legal">
+    <ul class="ft-legal-list">
+      <li>Powered by Markdown, Jekyll, Github</li>
+      <li>&copy; Jon Tillman 2020 - {{ site.time | date: '%Y' }} | All Rights Reserved.</li>
+    </ul>
+  </section>
+</footer>

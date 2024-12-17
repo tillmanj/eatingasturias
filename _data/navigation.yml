@@ -12,3 +12,59 @@ main:
   - title: "About"
     url: /about/  
     description: "Information about the website and how to contact me"
+
+docs:
+  - title: Recipes
+    children:
+      - title: "Recipe Index"
+        url: /recipes/
+      - title: "How To Read A Recipe"
+        url: /recipes/how_to_read_a_recipe/
+      - title: "Seasonality"
+        url: /recipes/seasonality/
+      - title: "Units of Measurement"
+        url: /recipes/units_of_measurement/
+      - title: "Notes About Recipes"
+        url: /recipes/notes_about_recipes/
+  - title: Food Culture
+    children:
+      - title: "Asturian Food Culture"
+        url: /docs/configuration/
+      - title: "Food History"
+        url: /docs/navigation/
+      - title: "The Culinary Landscape"
+        url: /docs/ui-text/
+      - title: "Ingredients"
+        url: /docs/authors/
+      - title: "Products"
+        url: /docs/layouts/
+  - title: Visiting Asturias
+    children:
+      - title: "Tour Asturias with Me"
+        url: /docs/posts/
+      - title: "Food Festivals"
+        url: /docs/layouts/
+      - title: "Regions & Towns"
+        url: /docs/pages/
+      - title: "Asturian Market Days"
+        url: /docs/collections/
+      - title: "Cider Makers"
+        url: /docs/helpers/
+      - title: "Breweries"
+        url: /docs/utility-classes/
+      - title: "Cheese Makers"
+        url: /docs/utility-classes/
+      - title: "Sidrerías"
+        url: /docs/utility-classes/
+      - title: "Restaurants"
+        url: /docs/utility-classes/
+      - title: "Bars"
+        url: /docs/utility-classes/
+      - title: "Bakeries"
+        url: /docs/utility-classes/
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/

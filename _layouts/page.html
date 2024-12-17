@@ -1,0 +1,19 @@
+---
+layout: default
+permalink:
+status:
+audience:
+confidence:
+last_updated:
+---
+<article class="h-entry">
+  <h1 class="p-name">{{ page.title}}</h1>
+  {% if page.summary %}<p class="subtitle p-summary">{{ page.summary }}</p>{% endif %}
+  <div class="publication">
+  <span class="info_block"><a class="p-author h-card" href="{{ page.author_url }}"><span class="p-author">{{ page.author }}</span></a> {% if page.categories %} | Filed Under: <span class="p-category">{{ page.categories }}</span> {% endif %}{% if page.tags %}| Tagged: {% assign first = true %}{% for tag in page.tags %}{% unless first %},{% endunless %} {{ tag }}{% assign first = false %}{% endfor %} {% endif %}</span>
+  <span class="info_block"><span class="dt-published">First Published: {% if page.date %}{{ page.date | date: iso8601 }}{% else if page.created %}{{ page.created | date: iso8601 }}{% else %}{{ file.mtime | date: iso8601 }}{% endif %}</span>| <span class="dt-updated">Last Updated: {{ page.last_updated | date: iso8601 }}</span></span>
+  <span class="info_block">Status: <i>{{ page.status }}</i>| Audience: <i>{{ page.audience }}</i>| Confidence: <i>{{ page.confidence }}</i></span>
+  </div>
+  <div class="e-content">{{ content }}</div>
+  
+</article>

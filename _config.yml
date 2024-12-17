@@ -12,6 +12,10 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
+include:
+  - _pages
+  - .htaccess
+
 # Load Plugins
 plugins:
   - jekyll-feed

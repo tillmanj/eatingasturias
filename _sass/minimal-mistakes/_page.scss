@@ -35,7 +35,7 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: inline-end;
+    float: inline-start;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-inline-end: $right-sidebar-width-narrow;
   }
@@ -49,7 +49,7 @@ body {
     float: inline-start;
     margin-top: 1em;
     margin-inline: 0;
-    width: 100%;
+    width: 34rem; // To ensure line lengths don’t exceed 80 characters, the CSS max-width property can be set using font-relative lengths of around 70ch or 34em (https://baymard.com/blog/line-length-readability)
     clear: both;
 
     .page__content,
