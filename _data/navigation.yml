@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Cook"
-    url: /cook/
+    url: /recipes/
     description: "The Repertoire of Dishes and Techniques in Asturian Cooking, both Traditional and Modern"
   - title: "Visit"
     url: /visit/
     description: "The Directory of the Notable Producers and Purveyors of Asturian Foodstuffs"
   - title: "Learn"
-    url: /learn/
+    url: /culture/
     description: "The Inventory and Catalog of the Gastronomic Heritage of the Asturian People"
   - title: "About"
     url: /about/  

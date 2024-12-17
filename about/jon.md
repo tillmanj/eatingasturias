@@ -9,9 +9,7 @@ toc_sticky: true
 ---
 *My Story – From Appalachia to Asturias*
 
-
-[![Jon Tillman](https://eatingasturias.com/images/thumb/a/a8/Jon.jpg/300px-Jon.jpg)](https://eatingasturias.com/wiki/File:Jon.jpg)
-
+![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}
 So who is this guy telling you about Asturian food? How did a small-town cook from Appalachia end up in Asturias? What is his deal? Why so many recipes? Well, pull up a chair and let me tell you how I got here. Along the way I’ll explain why I care so much about food, about Asturias, and why you should too.
 
 I have always been a little bit (okay, a lot) obsessed with food. Growing it, preserving it, cooking it, eating it, reading about it, taking pictures of it, you get the gist. So, writing about it is a natural evolution of that obsession. Read on to learn specifically how I came to be where I am now.

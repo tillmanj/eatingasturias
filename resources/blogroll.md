@@ -20,7 +20,7 @@ This is a list of the blogs and websites I keep close tabs on. Some are directly
 - [Jewish Viennese Food](https://jewishviennesefood.com/) – Nino Shaye Weiss’ amazingly well footnoted food blog about the Jewish culinary traditions of Vienna
 - [Mónica R. Goya](https://www.monicargoya.com/) – Lest I take myself too seriously, let me introduce you to the original English language chronicler of [Asturian food culture](https://www.foodsfromasturias.com/).
 - [Pass the Flamingo](https://passtheflamingo.com/) – Andrew Coletti started with a blog of amazing ancient recipes, and branched out into a food history YouTube series and what seems like a thousand other projects.
-- [Petit Propos Culinaires](https://prospectbooks.co.uk/ppc-petits-propos-culinaires/) – Tom Jaine’s continuation of the late Alan Davidson’s journal of food studies, now blessedly available in digitized form from 1979 to present.
+- [Petit Propos Culinaires](https://shop.exacteditions.com/petits-propos-culinaires) – Tom Jaine’s continuation of the late Alan Davidson’s journal of food studies, now blessedly available in digitized form from 1979 to present.
 - [Rachel Lauden](https://www.rachellaudan.com/blog) – A Historian’s Take on Food and Food Politics. Her [Getting Started in Food History](https://www.rachellaudan.com/getting-started-in-food-history) pushed me to actually start.
 - [The Recipe Project](https://recipes.hypotheses.org) - Half blog, half OpenAcess journal focused on critical study of recipes through history.
 - [Restaurant-ing through history](https://restaurant-ingthroughhistory.com/) – Jan Whitaker is the standard bearer for restaurant history as a subject, and feeds my ephemera hunger with a never ending supply of menus and stories.
