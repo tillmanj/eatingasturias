@@ -1,34 +1,34 @@
-# Welcome to Jekyll!
+# _config.yml
+# The Jekyll config file for jontillman.me
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Basic Configuration Options
+# See also _config_dev.yml and the link below
+# https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-production-with-windows-command-line
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
 
+environment: production
+url: https://eatingasturias.com
+baseurl: "" # the subpath of your site, e.g. /blog
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+locale: "en-US"
+timezone: Europe/Madrid
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', '.obsidian/', '.pandoc/']
 include:
   - _pages
   - .htaccess
-
-# Load Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-analytics
+webmentions:
+  username: jontillman.me
+  cache_folder: .cache
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-locale: "en-US"
 title: "Eating Asturias"
 title_separator: "|"
 subtitle: "The English-Language Encyclopedia of Asturian Gastronomy"
@@ -38,24 +38,31 @@ name: "Jon Tillman"
 email: jon@eatingasturias.com
 description: >-  # this means to ignore newlines until "baseurl:"
   A website dedicated to bringing the best of Asturian food culture to the English-speaking world. Equal parts cookbook, travel guide, and ethnography.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eatingasturias.com" # the base hostname & protocol for your site, e.g. http://example.com
 breadcrumbs: true  # disabled by default
 date_format: "%Y-%m-%d"
 
-# Unused settings:
-# teaser: ""
-# 
-
 # Github settings
 # see https://github.com/jekyll/github-metadata
-
 repository: "tillmanj/eatingasturias" 
 github_username: "tillmanj"
 
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+sass:
+  style: compressed
+
+# https://jekyll.stevefenton.co.uk/config/robots/
+# https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
+robots_txt: >-
+  User-agent: GPTBot
+  Disallow: /
+  User-agent: ChatGPT-User
+  Disallow: /
+  User-agent: Google-Extended
+  Disallow: /
+  User-agent: CCBot
+  Disallow: /
 
 # Site Defaults
 # all of these settings can be overridden on a per-page basis through YAML frontmatter
@@ -81,32 +88,66 @@ lunr:
   search_within_pages: true
   search_full_content: true
 
+# Load Plugins
+plugins:
+  - jekyll-analytics
+  - jekyll-feed
+  - jekyll-glossary_tooltip
+  - jekyll-include-cache
+  - jekyll-last-modified-at  
+  - jekyll-link-attributes
+  - jekyll-loading-lazy
+  - microformats
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-webmention_io
+  - jekyll-wikirefs
 
-# Analytics
+# PLUGIN: jekyll-analytics
 google_site_verification: TDSlnEqLiDJGZc7K3Hs2lfVEq1R4QS8ZVTe6Qr2X4J4
-
 
 jekyll_analytics:
   Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
     url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /
     siteId: "1"                  # Required - replace with your Matomo site id (Write id as string)
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# PLUGIN: jekyll-feed
+# feed:
+#   collections:
+#     - recipes
+#     - articles
+
+# PLUGIN: jekyll-glossary_tooltip
+
+# PLUGIN: jekyll-include-cache
+
+# PLUGIN: jekyll-last-modified-at
+last-modified-at:
+    date-format: '%Y-%m-%d'
+
+# PLUGIN: jekyll-link-attributes
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _self
+  exclude:
+    - https://example.com
+
+# PLUGIN: jekyll-loading-lazy
+
+# PLUGIN: microformats
+
+# PLUGIN: jekyll-scholar
+scholar:
+  style: modern-language-association
+  locale: en
+  source: _bibliography
+  bibliography: eating_asturias.bib
+  allow_locale_overrides: true
+  
+
+# PLUGIN: jekyll-sitemap
+
+# PLUGIN: tzinfo
+
+# PLUGIN: jekyll-wikirefs
