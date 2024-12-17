@@ -105,7 +105,7 @@ plugins:
 
 # PLUGIN: jekyll-analytics
 google_site_verification: TDSlnEqLiDJGZc7K3Hs2lfVEq1R4QS8ZVTe6Qr2X4J4
-
+# https://matomo.org/gdpr-analytics/
 jekyll_analytics:
   Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
     url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /
@@ -138,13 +138,14 @@ external_links:
 # PLUGIN: microformats
 
 # PLUGIN: jekyll-scholar
+# https://github.com/inukshuk/jekyll-scholar
 scholar:
   style: modern-language-association
   locale: en
-  source: _bibliography
+  source: ./_data/bibliography
   bibliography: eating_asturias.bib
   allow_locale_overrides: true
-  
+
 
 # PLUGIN: jekyll-sitemap
 

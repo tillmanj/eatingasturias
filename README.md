@@ -7,14 +7,27 @@
 ## Installation
 To install the site:
 1. Install Jekyll into a directory named *eatingasturias*
-2. 
-## Contributing
+2. Install Nokogiri 1.13.10 using [standard system libraries](https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries)
+```
+ridk exec pacman -S mingw-w64-ucrt-x86_64-libxslt
+gem install nokogiri --version 1.13.10 --platform=ruby -- --use-system-libraries
+```
 ## Credits
 ### Jekyll Plugins & Extensions
 The following Jekyll plugins are used on the site:
-- [Jekyll Feed](https://github.com/jekyll/jekyll-feed) has been replaced with my version [tillmanj/jekyll-feed](https://github.com/tillmanj/jekyll-feed).
-- [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache) - _A Jekyll plugin to cache the rendering of Liquid includes_
 - [Jekyll Analytics](https://github.com/hendrikschneider/jekyll-analytics) - web analytics bridge to Matomo
+- [Jekyll Feed](https://github.com/jekyll/jekyll-feed) has been replaced with my version [tillmanj/jekyll-feed](https://github.com/tillmanj/jekyll-feed).
+- [Jekyll Glossary Tooltip](https://github.com/erikw/jekyll-glossary_tooltip) - provides a liquid tag that will show a tooltip of a term definition.
+- [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache) - _A Jekyll plugin to cache the rendering of Liquid includes_
+- [Jekyll Last Modified At](https://github.com/gjtorikian/jekyll-last-modified-at)
+- [Jekyll Link Attributes](https://github.com/twinsunllc/jekyll-link-attributes) - adds `rel` and `target` attributes to all external links in your Jekyll site.
+- [Jekyll Loading Lazy](https://github.com/gildesmarais/jekyll-loading-lazy) - lazy load images without javascript
+- [Ruby microformats](https://github.com/microformats/microformats-ruby) - extended support for microformats
+- [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) - bibliography and footnote management
+- [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) - silently generate a sitemaps.org compliant sitemap for your Jekyll site
+- [Jekyll Webmentions.io](jekyll-webmention_io) - renders Webmentions via Webmention.io
+- [Jekyll Wikirefs](https://github.com/wikibonsai/jekyll-wikirefs) - allows parsing wikiref style links into proper links
+
 ### UX & Interface
 Eating Asturias uses a custom built Jekyll theme based on [Minimal Mistakes](https://mmistakes.github.io).
 The following resources are used to assemble the site:
