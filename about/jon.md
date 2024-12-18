@@ -6,8 +6,9 @@ sidebar:
   - nav: docs
 toc: true
 toc_sticky: true
+excerpt: "My Story – From Appalachia to Asturias"
+subtitle: "My Story – From Appalachia to Asturias"
 ---
-*My Story – From Appalachia to Asturias*
 
 ![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}
 So who is this guy telling you about Asturian food? How did a small-town cook from Appalachia end up in Asturias? What is his deal? Why so many recipes? Well, pull up a chair and let me tell you how I got here. Along the way I’ll explain why I care so much about food, about Asturias, and why you should too.

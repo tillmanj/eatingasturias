@@ -1,8 +1,19 @@
+@use "sass:math";
+@use "sass:color";
+@use "sass:meta";
+@use "sass:string";
+@use "sass:map";
+@use "sass:list";
+@use "sass:selector";
+
 /* Copyright comment */
 @import "minimal-mistakes/copyright";
 
 /* Variables */
 @import "minimal-mistakes/variables";
+
+/* typography */
+@import "minimal-mistakes/fonts";
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
