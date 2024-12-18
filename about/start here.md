@@ -27,7 +27,7 @@ To get started on your journey into Asturian cuisine. I have compiled a few of m
 ## Who I Am
 ![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}
 
-My name is [Jon](https://eatingasturias.com/wiki/User:JonTillman "User:JonTillman"), and I’ve spent almost my entire professional life around food. I first began working in [restaurants](https://eatingasturias.com/wiki/Restaurants "Restaurants") at 15, and over the next 20 years held pretty much every conceivable job in food service; from dishwasher to executive chef. On my first visit to Asturias I fell in love, and now I live here full time.
+My name is [Jon](/about/jon/), and I’ve spent almost my entire professional life around food. I first began working in [restaurants](https://eatingasturias.com/wiki/Restaurants "Restaurants") at 15, and over the next 20 years held pretty much every conceivable job in food service; from dishwasher to executive chef. On my first visit to Asturias I fell in love, and now I live here full time.
 
 When I moved here in 2017, there was precious little information about the region in the English language. Disappointed by that fact, I made the decision to remedy the situation. The result of that decision is this website. It is meant to be the most comprehensive collection of English-language information on the food culture and [food history](https://eatingasturias.com/wiki/Food_History "Food History") of Asturias.
 
