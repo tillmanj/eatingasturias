@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: Terms & Conditions
+subtitle: the lawyer said we have to
 permalink: /about/terms/
-sidebar:
-  - nav: "docs"
 toc: true
 toc_sticky: true
 ---

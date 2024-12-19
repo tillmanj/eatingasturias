@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: WebSub
+subtitle: remember when the web was new and cool?
 permalink: /about/websub/
-sidebar:
-  - nav: docs
 toc: true
 toc_sticky: true
 ---

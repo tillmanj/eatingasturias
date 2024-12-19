@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: page
 title: Eating Asturias Glossary
 permalink: /resources/glossary/
-sidebar:
-  - nav: docs
 toc: true
 toc_sticky: true
 ---

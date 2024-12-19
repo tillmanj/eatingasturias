@@ -1,13 +1,8 @@
 ---
-layout: single
+layout: page
 title: About Me
-permalink: /about/jon/
-sidebar:
-  - nav: docs
-toc: true
-toc_sticky: true
-excerpt: "My Story – From Appalachia to Asturias"
 subtitle: "My Story – From Appalachia to Asturias"
+permalink: /about/jon/
 ---
 
 ![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}

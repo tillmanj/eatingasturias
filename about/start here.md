@@ -1,13 +1,12 @@
 ---
-layout: single
+layout: page
 title: Start Here
+subtitle: "*Afaiyvos en Asturies* - welcome to Asturias."
 permalink: /about/start-here/
-sidebar:
-  - nav: docs
 toc: true
 toc_sticky: true
 ---
-*Afaiyvos en Asturies* - welcome to Asturias. Eating Asturias is a website dedicated to bringing the best of Asturian food culture to the English-speaking world. It is a project that explores, documents, translates, and studies the food cultures of Asturias. It is an independent ethnography of food and eating in Asturias. It is produced from an outsider perspective. While I live in Asturias, I did not grow up here.
+Eating Asturias is a website dedicated to bringing the best of Asturian food culture to the English-speaking world. It is a project that explores, documents, translates, and studies the food cultures of Asturias. It is an independent ethnography of food and eating in Asturias. It is produced from an outsider perspective. While I live in Asturias, I did not grow up here.
 
 ## Why This Website?
 What do people in Asturias eat? Why do they eat those things? How do they feel about their food? What foods do they no longer eat, and why? How do people’s memories of those “forgotten” foods influence their current food choices and attitudes?

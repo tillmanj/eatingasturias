@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: About Eating Asturias
+subtitle: What we do and how we do it
 permalink: /about/
-sidebar:
-  - nav: "docs"
 toc: true
 toc_sticky: true
 ---

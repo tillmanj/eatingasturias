@@ -13,7 +13,7 @@ main:
     url: /about/  
     description: "Information about the website and how to contact me"
 
-docs:
+recipes:
   - title: Recipes
     children:
       - title: "Recipe Index"
@@ -26,22 +26,26 @@ docs:
         url: /recipes/units_of_measurement/
       - title: "Notes About Recipes"
         url: /recipes/notes_about_recipes/
+
+culture:
   - title: Food Culture
     children:
       - title: "Asturian Food Culture"
-        url: /docs/configuration/
+        url: /culture/
       - title: "Food History"
-        url: /docs/navigation/
+        url: /culture/history/
       - title: "The Culinary Landscape"
-        url: /docs/ui-text/
+        url: /culture/landscape/
       - title: "Ingredients"
-        url: /docs/authors/
+        url: /culture/ingredients/
       - title: "Products"
-        url: /docs/layouts/
+        url: /culture/products/
+
+visit:
   - title: Visiting Asturias
     children:
       - title: "Tour Asturias with Me"
-        url: /docs/posts/
+        url: /visit/tours/
       - title: "Food Festivals"
         url: /docs/layouts/
       - title: "Regions & Towns"
@@ -62,9 +66,9 @@ docs:
         url: /docs/utility-classes/
       - title: "Bakeries"
         url: /docs/utility-classes/
+
+extras:
   - title: Extras
     children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "Development Blog"
+        url: /news/

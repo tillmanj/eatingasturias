@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: Other Policies
+subtitle: be nice, be kind, give credit
 permalink: /about/policies/
-sidebar:
-  - nav: "docs"
 toc: true
 toc_sticky: true
 ---

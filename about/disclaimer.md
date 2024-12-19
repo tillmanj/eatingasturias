@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: General Disclaimer
+subtitle: I didn't tell you to eat 436 carbayones
 permalink: /about/disclaimer/
-sidebar:
-  - nav: "docs"
 toc: true
 toc_sticky: true
 ---

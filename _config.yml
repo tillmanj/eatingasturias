@@ -16,12 +16,13 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 locale: "en-US"
 timezone: Europe/Madrid
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', '.obsidian/', '.pandoc/']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', '.obsidian/', '.pandoc/', 'node_modules/', 'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/', '.sass-cache/', '.jekyll-cache/']
 include:
   - _pages
   - .htaccess
+  - news
 webmentions:
-  username: jontillman.me
+  username: eatingasturias.com
   cache_folder: .cache
 
 # Site settings
@@ -41,6 +42,30 @@ description: >-  # this means to ignore newlines until "baseurl:"
 breadcrumbs: true  # disabled by default
 date_format: "%Y-%m-%d"
 
+# Author settings
+author:
+  name: "Jon Tillman"
+  avatar: "/assets/images/Jon.jpeg"
+  bio: "*writer, farmer, photographer, food nerd*"
+  home: "/about/jon/"
+  location: "Llangréu, Asturias"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jontillman.me"
+    - label: "Mastodon"
+      icon: "fa fa-mastodon"
+      url: "https://epicure.social/@eatingasturias"
+    - label: "PixelFed"
+      icon: "fa fa-pixelfed"
+      url: "https://pixelfed.social/i/web/profile/424834595043706607"
+    - label: "Matrix Chat"
+      icon: "fa fa-matrix-org"
+      url: "https://matrix.to/#/@jontillman:matrix.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tillmanj"
+
 # Github settings
 # see https://github.com/jekyll/github-metadata
 repository: "tillmanj/eatingasturias" 
@@ -49,8 +74,12 @@ github_username: "tillmanj"
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# See https://github.com/jekyll/jekyll-sass-converter#usage
 sass:
   style: compressed
+  sourcemap: development # source maps will only be generated if the site is in development environment. That is, when the environment variable JEKYLL_ENV is set to development.
+  silence_deprecations: ['color-functions', 'global-builtin', 'imports', 'slash-div'] # see https://sass-lang.com/documentation/js-api/interfaces/deprecations/ for active deprecations that can be passed
+  quiet_deps: true
 
 # https://jekyll.stevefenton.co.uk/config/robots/
 # https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
@@ -66,12 +95,172 @@ robots_txt: >-
 
 # Site Defaults
 # all of these settings can be overridden on a per-page basis through YAML frontmatter
-
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      author: "Jon Tillman"
+      author_url: "/about/jon/"
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: [ recipes, culture, visit ]
+  -
+    scope:
+      path: "" # dev blog
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "single"
+      read_time: true
+      comments: true
+      share: false
+      related: false
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "drafts"
+    values:
+      layout: "single"
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "bars"
+    values:
+      layout: "bar"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "beers"
+    values:
+      layout: "beer"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "breweries"
+    values:
+      layout: "brewery"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "cheeses"
+    values:
+      layout: "cheese"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "ciders"
+    values:
+      layout: "cider"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "conceyos"
+    values:
+      layout: "conceyo"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "events"
+    values:
+      layout: "event"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "ingredients"
+    values:
+      layout: "ingredient"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "llagars"
+    values:
+      layout: "llagar"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "markets"
+    values:
+      layout: "market"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "producers"
+    values:
+      layout: "producer"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "recipes"
+    values:
+      layout: "recipe"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "restaurants"
+    values:
+      layout: "restaurant"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "barsshops"
+    values:
+      layout: "shop"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "towns"
+    values:
+      layout: "town"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "wines"
+    values:
+      layout: "wine"
 
 # Collections
 # https://jekyllrb.com/docs/step-by-step/09-collections/
 collections:
-  docs:
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
+  bars:
+    output: true
+  beers:
+    output: true
+  breweries:
+    output: true
+  cheeses:
+    output: true
+  ciders:
+    output: true
+  conceyos:
+    output: true
+  events:
+    output: true
+  ingredients:
+    output: true
+  llagars:
+    output: true
+  markets:
+    output: true
+  producers:
+    output: true
+  recipes:
+    output: true
+  restaurants:
+    output: true
+  shops:
+    output: true
+  towns:
+    output: true
+  wines:
     output: true
 
 # Search
@@ -84,6 +273,7 @@ lunr:
 # Load Plugins
 plugins:
   - jekyll-analytics
+  - jekyll-archives
   - jekyll-feed
   - jekyll-glossary_tooltip
   - jekyll-include-cache
@@ -103,6 +293,29 @@ jekyll_analytics:
   Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
     url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /
     siteId: "1"                  # Required - replace with your Matomo site id (Write id as string)
+
+# PLUGIN: jekyll-archives
+# https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: archive-year
+    month: archive-month
+    day: archive-day
+    category: archive-category
+    tag: archive-tag
+  permalinks:
+    year: '/news/:year/'
+    month: '/news/:year/:month/'
+    day: '/news/:year/:month/:day/'
+    tag: '/news/tag/:name/'
+    category: '/news/category/:name/'
+    scope:
+      type: all
+      path: ""
+    values:
+      sidebar:
+        nav: [ recipes, culture, visit ]
 
 # PLUGIN: jekyll-feed
 # feed:

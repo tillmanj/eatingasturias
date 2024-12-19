@@ -15,6 +15,7 @@ gem "minimal-mistakes-jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-analytics"
+  gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-glossary_tooltip'
   gem "jekyll-include-cache"

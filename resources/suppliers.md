@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: page
 title: Asturian Food Suppliers
 permalink: /resources/suppliers/
-sidebar:
-  - nav: docs
 toc: true
 toc_sticky: true
 ---

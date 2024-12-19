@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: page
 title: Privacy Policy
+subtitle: we don't share, sell, or otherwise mess with, your details
 permalink: /about/privacy/
-sidebar:
-  - nav: "docs"
 toc: true
 toc_sticky: true
 ---

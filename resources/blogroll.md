@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: page
 title: Eating Asturias Blogroll
 permalink: /resources/blogroll/
-sidebar:
-  - nav: docs
 toc: true
 toc_sticky: true
 ---

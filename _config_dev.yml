@@ -1,8 +1,16 @@
 # _config_dev.yml
 # The Jekyll development environment config file for eatingasturias.com
+#
+# See https://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development/ for why/how this hack works
+#
 # This is to be used with the command:
 # bundle exec jekyll s --config _config.yml,_config_dev.yml --watch --unpublished --incremental --livereload
-#
-# Basic Configuration Options
-#
+# 
+
+# Don't generate feed files in dev
 environment: development
+
+# Don't minify SCSS in dev
+# See https://github.com/jekyll/jekyll-sass-converter#usage
+sass:
+  style: expanded
