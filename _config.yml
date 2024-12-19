@@ -21,6 +21,7 @@ include:
   - _pages
   - .htaccess
   - news
+
 webmentions:
   username: eatingasturias.com
   cache_folder: .cache
