@@ -108,6 +108,24 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: [ recipes, culture, visit ]
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: true
+  - scope:
+      path: ""
+      type: category
+    values:
+      comments: false
+      sidebar:
+        nav: [ recipes, culture, visit ]
+  - scope:
+      type: year
+      path: ""
+    values:
+      sidebar:
+        nav: [ recipes, culture, visit ]
   -
     scope:
       path: "" # dev blog
@@ -297,26 +315,26 @@ jekyll_analytics:
 
 # PLUGIN: jekyll-archives
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
+category_archive:
+  type: jekyll-archives
+  path: /news/category/
+tag_archive:
+  type: jekyll-archives
+  path: /news/tag/
 jekyll-archives:
   enabled: all
   layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
     year: archive-year
     month: archive-month
     day: archive-day
-    category: archive-category
-    tag: archive-tag
   permalinks:
     year: '/news/:year/'
     month: '/news/:year/:month/'
     day: '/news/:year/:month/:day/'
     tag: '/news/tag/:name/'
     category: '/news/category/:name/'
-    scope:
-      type: all
-      path: ""
-    values:
-      sidebar:
-        nav: [ recipes, culture, visit ]
 
 # PLUGIN: jekyll-feed
 # feed:

@@ -184,6 +184,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 2em;
+    margin-top: -2em; /* pushes up to cover drop shadow */
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
