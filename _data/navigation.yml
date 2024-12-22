@@ -72,3 +72,87 @@ extras:
     children:
       - title: "Development Blog"
         url: /news/
+
+recipe_full:
+  - title: Meal & Course
+    children:
+      - title: "Breakfast Recipes"
+        url: /recipes/breakfasts/
+      - title: "Appetizers"
+        url: /recipes/appetizers/
+      - title: "First Courses"
+        url: /recipes/firsts/
+      - title: "Second Courses"
+        url: /recipes/seconds/
+      - title: "Desserts"
+        url: /recipes/desserts/
+  - title: Type of Dish
+    children:
+      - title: "Beverages"
+        url: /recipes/beverages/
+      - title: "Breads"
+        url: /recipes/breads/
+      - title: "Salads"
+        url: /recipes/salads/
+      - title: "Soups & Stews"
+        url: /recipes/soups-stews/
+  - title: Diet
+    children:
+      - title: "Vegetarian Recipes"
+        url: /recipes/vegetarian/
+      - title: "Vegan Recipes"
+        url: /recipes/vegan/
+  - title: About My Recipes
+    children:
+      - title: "How To Read A Recipe"
+        url: /recipes/how_to_read_a_recipe/
+      - title: "Seasonality"
+        url: /recipes/seasonality/
+      - title: "Units of Measurement"
+        url: /recipes/units_of_measurement/
+      - title: "Notes About Recipes"
+        url: /recipes/notes_about_recipes/
+  - title: Other 
+    children:
+      - title: "Recipes by Occasion"
+        url: /recipes/boiled/
+      - title: "Recipes by Season"
+        url: /recipes/boiled/
+      - title: "Recipes by Difficulty"
+        url: /recipes/baked/
+      - title: "Recipes by Origin"
+        url: /recipes/boiled/
+      - title: "Recipes by Preparation Technique"
+        url: /recipes/boiled/
+      - title: "Recipes by Main Ingredient"
+        url: /recipes/boiled/
+      - title: "Recipes by Source"
+        url: /recipes/boiled/
+
+recipe_hidden:
+  - title: Technique
+    children:
+      - title: "Baked Dishes"
+        url: /recipes/baked/
+      - title: "Boiled Dishes"
+        url: /recipes/boiled/
+      - title: "Broiled Dishes"
+        url: /recipes/broiled/
+      - title: "Deep Fried Dishes"
+        url: /recipes/deep-fried/
+      - title: "Grilled Dishes"
+        url: /recipes/grilled/
+      - title: "Pan-Fried Dishes"
+        url: /recipes/pan-fried/
+      - title: "Simmered Dishes"
+        url: /recipes/simmered/
+      - title: "Slow Cooked Dishes"
+        url: /recipes/slow-cooked/
+  - title: Extra
+    children:
+      - title: "Antroxu Recipes"
+        url: /recipes/antroxu/
+      - title: "Espicha Dishes"
+        url: /recipes/espichas/
+      - title: "Christmas Recipes"
+        url: /recipes/christmas/

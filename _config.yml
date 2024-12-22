@@ -214,10 +214,12 @@ defaults:
       layout: "producer"
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "/recipes/" # an empty string here means all files in the project
       type: "recipes"
     values:
       layout: "recipe"
+      sidebar:
+        nav: recipe_full
   -
     scope:
       path: "" # an empty string here means all files in the project
