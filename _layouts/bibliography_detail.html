@@ -1,0 +1,67 @@
+---
+layout: page
+toc: true
+toc_sticky: true
+toc_label: Publication Details
+
+# The display of the Source Materials Section can be configured in _data/publication_file_types.yml
+---
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-block">
+        <h2 class="card-title">Venue</h2>
+        <p class="card-text">{% include publication-venue.html entry=page.entry %}</p>
+        <h2 class="card-title">Publication Year</h2>
+        <p class="card-text">{{ page.entry.year }}</p>
+        {% if page.entry.keywords %}<h5 class="card-title">Keywords</h5>
+        <p class="card-text">{{ page.entry.keywords }}</p>{% endif %}
+        {% if page.entry.doi or page.entry.isbn %}<h2 class="card-title">Identifiers</h2>
+        <ul class="site-card-list">
+          {% if page.entry.doi %}<li>DOI: <a href="http://dx.doi.org/{{ page.entry.doi }}">{{ page.entry.doi }}</a></li>{% endif %}
+          {% if page.entry.isbn %}<li>ISBN: {{ page.entry.isbn }}</li>{% endif %}
+        </ul>{% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <h2>Authors</h2>
+    {% include publication-authors.html authors=page.entry.author_array %}
+
+    {% if page.entry.abstract %}
+    <h2>Abstract</h2>
+    <p>
+    {{ page.entry.abstract }}
+    </p>
+    {% endif %}
+
+    {% if page.entry.doi or page.links.size > 0 %}
+    <h2>Source Materials</h2>
+    <ul class="fa-ul">
+      {% comment %} Iterate all known types in the defined order {% endcomment %}
+      {% assign types = site.data.publication_file_types %}
+      {% for type in types %}
+      {% if page.links[type.ext] %}
+      {% capture link %}{% if type.include %}{% assign file = page.links[type.ext] | split: "/" | last %}{% include_relative {{file}} %}{% else %}{{ page.links[type.ext] }}{% endif %}{% endcapture %}
+      <li><a href="{{ link }}"> <i class="fa fa-li {{ type.icon }}"></i>{{ type.text }} </a></li>
+      {% endif %}
+      {% endfor %}
+
+      {% comment %} Iterate all files and pick unknown file types {% endcomment %}
+      {% assign known_types = types | map: "ext" %}
+      {% for link in page.links %}
+      {% unless known_types contains link[0] %}
+      <li><a href="{{ link[1] }}"><i class="fa fa-li fa-file-o"></i>
+          {{ link[0] }} File</a></li>
+      {% endunless %}
+      {% endfor %}
+
+      {% if page.entry.doi %}<li><a href="http://dx.doi.org/{{ page.entry.doi }}"><i class="fa fa-li fa-external-link"></i>
+          Published Edition</a></li>{% endif %}
+
+      <li><a download="{{page.entry.key}}.bib" href="data:application/x-bibtex,{{ page.entry.bibtex | uri_escape }}">
+          <i class="fa fa-li fa-at"></i>BibTeX Citation</a></li>
+    </ul>
+    {% endif %}
+  </div>
+</div>

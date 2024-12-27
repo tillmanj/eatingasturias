@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-environment: production
+environment: development
 url: https://eatingasturias.com
 baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
@@ -370,9 +370,14 @@ scholar:
   style: modern-language-association
   locale: en
   source: ./_data/bibliography
-  bibliography: eating_asturias.bib
+  bibliography: EA_complete.bib
   bibliography_template: bibliography
   allow_locale_overrides: true
+  relative: /resources/bibliography/
+  details_dir: resources/bibliography
+  details_layout: bibliography_detail.html
+  details_link: ""
+  repository: 
 
 
 # PLUGIN: jekyll-sitemap
