@@ -11,24 +11,46 @@ I try very hard to not make unsubstantiated claims or statements of unsupported 
 
 If you would like direct access to the bibliography files, they can be found at [Zotero Online](https://www.zotero.org/groups/2459245/eating_asturias/library).
 
-# Cooking
-A bibliography of all the books consulted and referenced in the preparation of the [Recipes](/recipes/) section of this website.
-## Cookbooks
-I have consulted a wide variety of cookbooks in the research for this site. These represent the ones I have consulted most often.
-## Food Science
-Food science and agri-archeology texts.
-# Food Culture
-## Generally
-## Food Production in Asturias
-## Ingredients
-# Food History
-## Generally
-Works of food history or ethnography not specifically focused on Asturias.
-## In Asturias
 # About Asturias
 ## General Works
-These are general works about Asturias, not focused specifically on food or agriculture.
+*These are general works about Asturias, not focused specifically on food or agriculture.*
+{% bibliography --file EA_About %}
 ## Asturian Geography
-Works specific to the gastronomy and agro-ethnology of Asturias.
+*Works about the physical landscape of Asturias*
+{% bibliography --file EA_Geography %}
 ## Asturian Ethnography
+*Works specific to the ehtnography and agro-ethnology of Asturias.*
+{% bibliography --file EA_Ethnography %}
 ## Asturian Language
+*Obres sobre les llingues del asturianu y l’eonaviegu*
+{% bibliography --file EA_Language %}
+# Cooking
+A bibliography of all the books consulted and referenced in the preparation of the [Recipes](/recipes/) section of this website.
+## Recipes
+*I have consulted a wide variety of cookbooks in the research for this site. These represent the ones I have consulted most often.*
+{% bibliography --file EA_Recipes %}
+## Food Science
+*Food science and agri-archeology texts.*
+{% bibliography --file EA_Food_Science %}
+# Food Culture
+*Works about food rituals, manners, and other aspects of food culture*
+## Generally
+*Works about food culture as a subject, and non-Asturian food cultures*
+{% bibliography --file EA_Culture_General %}
+## Food Culture in Asturias
+*Works focused specifically on food culture within Asturias*
+{% bibliography --file EA_Culture_Asturias %}
+### Cider & Pomiculture
+*Works about Asturian cider culture*
+{% bibliography --file EA_Culture_Cider %}
+## Product & Ingredients
+*Works addressing the ingredients and food products of Asturias*
+{% bibliography --file EA_Culture_Products %}
+# Food History
+*The history of foods and food cultures, both Asturian and of the Iberian peninsula more broadly*
+## Generally
+*Works of food history or ethnography not specifically focused on Asturias.*
+{% bibliography --file EA_History_General %}
+## In Asturias
+*Works of food history with particular focus on Asturias*
+{% bibliography --file EA_History_Asturias %}

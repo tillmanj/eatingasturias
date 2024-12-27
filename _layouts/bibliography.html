@@ -1,0 +1,20 @@
+<!-- 
+    This is the bibliopgrahy layout file for use with https://github.com/inukshuk/jekyll-scholar 
+    It must be pointed to in _config.yml via:
+        scholar:
+            bibliography_template: bibliography
+    It should not be used by any other template
+-->
+{% if entry.author %}{{ entry.author }}.{% endif %}
+{% if entry.title %}
+    {% if entry.url %}{% unless entry.url contains 'doi.org' %}<a href="{{ entry.url }}">{% endunless %}{% endif %}
+        <i>{{ entry.title }}</i>
+    {% if entry.url %}{% unless entry.url contains 'doi.org' %}</a>{% endunless %}{% endif %}
+    .{% endif %}
+{% if entry.publisher %} {{ entry.publisher }}.{% endif %}
+{% if entry.year %} {{ entry.year }}.{% endif %}
+{% if entry.doi %} <a href="https://doi.org/{{ entry.doi }}">{{ entry.doi }}</a>
+{% elsif entry.url contains 'doi.org' %}
+    {% assign s = entry.url | split: "org/" %}
+    <a href="{{ entry.url }}">{{ s[1] }}</a>
+{% endif %}

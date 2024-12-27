@@ -156,3 +156,111 @@ recipe_hidden:
         url: /recipes/espichas/
       - title: "Christmas Recipes"
         url: /recipes/christmas/
+
+visit_full:
+  - title: Why visit Asturias?
+    children:
+      - title: A Truly Spanish Vacation
+        url: 
+      - title: Cider Culture
+        url: 
+      - title: Rural Relaxation
+        url: 
+  - title: Travel
+    children:
+      - title: Getting To Asturias
+        url: 
+      - title: How To Get Around
+        url: 
+      - title: Where To Go
+        url: 
+  - title: See & Do
+    children:
+      - title: Food Markets
+        url: 
+      - title: Food Events
+        url: 
+      - title: Food Tours
+        url: 
+  - title: Eat & Drink
+    children:
+      - title: Bakeries
+        url: 
+      - title: Bars
+        url: 
+      - title: Cheese Makers
+        url: 
+      - title: Cider Makers
+        url: 
+      - title: Craft Brewers
+        url: 
+      - title: Sausgae Makers
+        url: 
+      - title: Traditional Restaurants
+        url: 
+      - title: Fine Dining
+        url: 
+      - title: Sidrerías & Marisquerías
+        url: 
+      - title: Parillas
+        url: 
+      - title: Other Restaurants
+        url: 
+
+culture_full:
+  - title: Customs & Rituals
+    children:
+      - title: Meal Times
+        url: 
+      - title: Table Manners
+        url: 
+      - title: The Cider Ritual
+        url: 
+  - title: Notable Products
+    children:
+      - title: Cider
+        url: 
+      - title: Beer
+        url: 
+      - title: Cheese
+        url: 
+      - title: Sausages
+        url: 
+      - title: Wine
+        url:
+  - title: The Culinary Landscape
+    children:
+      - title: The Natural Environment
+        url: 
+      - title: The Built Environment
+        url: 
+  - title: Common Ingredients
+    children:
+      - title: Beans
+        url: 
+      - title: Meats
+        url: 
+      - title: Fruits & Nuts
+        url: 
+      - title: Grains
+        url: 
+      - title: Seafood
+        url: 
+      - title: Vegetables
+        url: 
+  - title: Food History
+    children:
+      - title: Paleolithic Food in Asturias
+        url: 
+      - title: Bronze Age Dinner
+        url: 
+      - title: Iron Age Farming & Cooking
+        url: 
+      - title: Ancient Asturias
+        url: 
+      - title: Visigothic & Medieval Foods
+        url: 
+      - title: Early Modern Foodways
+        url: 
+      - title: Contemporary Asturian Cuisine
+        url: 

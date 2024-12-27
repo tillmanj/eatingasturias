@@ -371,6 +371,7 @@ scholar:
   locale: en
   source: ./_data/bibliography
   bibliography: eating_asturias.bib
+  bibliography_template: bibliography
   allow_locale_overrides: true
 
 
