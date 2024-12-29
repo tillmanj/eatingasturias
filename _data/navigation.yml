@@ -105,13 +105,13 @@ recipe_full:
   - title: About My Recipes
     children:
       - title: "How To Read A Recipe"
-        url: /recipes/how_to_read_a_recipe/
+        url: /recipes/how-to-read-a-recipe/
       - title: "Seasonality"
         url: /recipes/seasonality/
       - title: "Units of Measurement"
-        url: /recipes/units_of_measurement/
+        url: /recipes/units-of-measurement/
       - title: "Notes About Recipes"
-        url: /recipes/notes_about_recipes/
+        url: /recipes/notes-on-recipes/
   - title: Other 
     children:
       - title: "Recipes by Occasion"

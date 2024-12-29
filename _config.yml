@@ -339,7 +339,9 @@ jekyll-archives:
     category: '/news/category/:name/'
 
 # PLUGIN: jekyll-feed
-# feed:
+# https://github.com/jekyll/jekyll-feed
+feed:
+  disable_in_development: true
 #   collections:
 #     - recipes
 #     - articles
@@ -369,16 +371,43 @@ external_links:
 scholar:
   style: modern-language-association
   locale: en
+  # When true, allows the language entry in the BibTex to override the locale setting for individual entries. When the language is missing it will revert back to locale. The language value should be encoded using the two-letter ISO 639-1 standard. Ex. English = 'en', Spanish = 'es'.
+  allow_locale_overrides: true
+  # sort_by: 
+  # order: 
+  # group_by: 
+  # group_order: 
+  bibliography_group_tag: 'h2,h3,h4,h5'
+  # bibliography_list_tag: 
+  # bibliography_item_tag: 
+  # bibliography_list_attributes: 
+  # bibliography_item_attributes: 
   source: ./_data/bibliography
   bibliography: EA_complete.bib
-  bibliography_template: bibliography
-  allow_locale_overrides: true
-  relative: /resources/bibliography/
-  details_dir: resources/bibliography
+  # repository: 
+  # repository_file_delimiter: 
+  # bibtex_options: 
+  # config the next entry with values from https://github.com/inukshuk/bibtex-ruby#filters
+  # bibtex_filters:
+  # raw_bibtex_filters:
+  # bibtex_skip_fields:
+  # bibtex_quotes:
+  replace_strings: true
+  join_strings: true 
+  remove_duplicates: true 
+  details_dir: /resources/bibliography/
   details_layout: bibliography_detail.html
-  details_link: ""
-  repository: 
-
+  # details_link: ""
+  details_permalink: /:details_dir/:key/
+  # bibliography_class: 
+  bibliography_template: bibliography
+  # reference_tagname: 
+  # missing_reference: 
+  # details_link_class: 
+  # query: 
+  # cite_class: 
+  # https://github.com/inukshuk/jekyll-scholar?tab=readme-ov-file#citation-pointing-to-another-page-in-your-site
+  relative: /resources/bibliography/
 
 # PLUGIN: jekyll-sitemap
 
