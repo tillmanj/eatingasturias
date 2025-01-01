@@ -8,3 +8,4 @@ vendor/
 Gemfile.lock
 /.obsidian
 /eatingasturias.code-workspace
+/jekyll up.cmd

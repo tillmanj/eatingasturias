@@ -9,9 +9,10 @@ toc_label: Bibliographic Themes
 ---
 I try very hard to not make unsubstantiated claims or statements of unsupported fact on this website. Achieving that requires quite a bit of research, and I have amassed a sizable reference library in the course of assembling this website. Here, organized by theme, are the books, papers, proceedings, news articles, and other documents I have used in writing this website.
 
-If you would like direct access to the bibliography files, they can be found at [Zotero Online](https://www.zotero.org/groups/2459245/eating_asturias/library).
+If you would like direct access to the bibliography files they are freely available at [Zotero Online](https://www.zotero.org/groups/2459245/eating_asturias/library).
 
 # About Asturias
+Background information about Asturias. Political, geographic, climatological, and other types of broad surveys.
 ## General Works
 *These are general works about Asturias, not focused specifically on food or agriculture.*
 {% bibliography --file EA_About %}
@@ -19,7 +20,7 @@ If you would like direct access to the bibliography files, they can be found at 
 *Works about the physical landscape of Asturias*
 {% bibliography --file EA_Geography %}
 ## Asturian Ethnography
-*Works specific to the ehtnography and agro-ethnology of Asturias.*
+*Works specific to the ethnography and agro-ethnology of Asturias.*
 {% bibliography --file EA_Ethnography %}
 ## Asturian Language
 *Obres sobre les llingues del asturianu y l’eonaviegu*
@@ -54,3 +55,6 @@ A bibliography of all the books consulted and referenced in the preparation of t
 ## In Asturias
 *Works of food history with particular focus on Asturias*
 {% bibliography --file EA_History_Asturias %}
+# Meta Information
+Works about the process of writing on the web, building websites, and all the other plumbing that goes into actually getting this thing out into the public eye.
+{% bibliography --file EA_Meta %}

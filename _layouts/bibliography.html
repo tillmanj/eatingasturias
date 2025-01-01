@@ -3,9 +3,7 @@ layout: default
 ---
 <span class="bibliography" id="{{ entry.key }}">
 {% if entry.author %}{{ entry.author }}.{% endif %}
-{% if entry.title %}
-        <a href="{{ entry.key }}/" title="more details..."><i>{{ entry.title }}</i></a>
-    .{% endif %}
+{% if entry.title %}<a href="{{ entry.key }}/"><i>{{ entry.title }}</i></a>.{% endif %}
 {% if entry.publisher %} {{ entry.publisher }}.{% endif %}
 {% if entry.year %} {{ entry.year }}.{% endif %}
 {% if entry.doi %} <a href="https://doi.org/{{ entry.doi }}">{{ entry.doi }}</a>

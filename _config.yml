@@ -396,9 +396,9 @@ scholar:
   join_strings: true 
   remove_duplicates: true 
   details_dir: /resources/bibliography/
-  details_layout: bibliography_detail.html
+  # details_layout: bibliography_detail.html
   # details_link: ""
-  details_permalink: /:details_dir/:key/
+  # details_permalink: /:details_dir/:key/
   # bibliography_class: 
   bibliography_template: bibliography
   # reference_tagname: 

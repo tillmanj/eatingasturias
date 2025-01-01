@@ -1,0 +1,2 @@
+## Traditional Dishes
+Asturian cuisine, whether it be focused on the sea or on the mountain, is dominated by <em>{% glossary platos de cuchara %}</em>. While these stew dishes are a defining feature of Spanish cooking more widely, no where are they more prominent than in Asturias.

@@ -74,44 +74,52 @@ extras:
         url: /news/
 
 recipe_full:
-  - title: Meal & Course
+  - title: About These Recipes
     children:
-      - title: "Breakfast Recipes"
-        url: /recipes/breakfasts/
-      - title: "Appetizers"
-        url: /recipes/appetizers/
-      - title: "First Courses"
-        url: /recipes/firsts/
-      - title: "Second Courses"
-        url: /recipes/seconds/
-      - title: "Desserts"
-        url: /recipes/desserts/
+    - title: "How To Read A Recipe"
+      url: /recipes/how-to-read-a-recipe/
+    - title: "Seasonality"
+      url: /recipes/seasonality/
+    - title: "Units of Measurement"
+      url: /recipes/units-of-measurement/
+    - title: "Notes About Recipes"
+      url: /recipes/notes-on-recipes/
   - title: Type of Dish
     children:
-      - title: "Beverages"
-        url: /recipes/beverages/
-      - title: "Breads"
-        url: /recipes/breads/
+      - title: "Breakfast Recipes"
+        url: /recipes/breakfast/
+      - title: "Appetizers"
+        url: /recipes/appetizers/
       - title: "Salads"
         url: /recipes/salads/
       - title: "Soups & Stews"
         url: /recipes/soups-stews/
+      - title: "Bean Dishes"
+        url: /recipes/beans/
+      - title: "Potato Dishes"
+        url: /recipes/potato/
+      - title: "Vegetable Dishes"
+        url: /recipes/vegetables/
+      - title: "Meat Dishes"
+        url: /recipes/meats/
+      - title: "Seafood Dishes"
+        url: /recipes/seafood/
+      - title: "Pasta Dishes"
+        url: /recipes/pasta/
+      - title: "Rice Dishes"
+        url: /recipes/rice/      
+      - title: "Desserts"
+        url: /recipes/desserts/
+      - title: "Beverages"
+        url: /recipes/beverages/
+      - title: "Breads"
+        url: /recipes/breads/
   - title: Diet
     children:
       - title: "Vegetarian Recipes"
         url: /recipes/vegetarian/
       - title: "Vegan Recipes"
         url: /recipes/vegan/
-  - title: About My Recipes
-    children:
-      - title: "How To Read A Recipe"
-        url: /recipes/how-to-read-a-recipe/
-      - title: "Seasonality"
-        url: /recipes/seasonality/
-      - title: "Units of Measurement"
-        url: /recipes/units-of-measurement/
-      - title: "Notes About Recipes"
-        url: /recipes/notes-on-recipes/
   - title: Other 
     children:
       - title: "Recipes by Occasion"
@@ -124,11 +132,12 @@ recipe_full:
         url: /recipes/boiled/
       - title: "Recipes by Preparation Technique"
         url: /recipes/boiled/
-      - title: "Recipes by Main Ingredient"
-        url: /recipes/boiled/
       - title: "Recipes by Source"
         url: /recipes/boiled/
-
+      - title: "First Courses"
+        url: /recipes/firsts/
+      - title: "Second Courses"
+        url: /recipes/seconds/
 recipe_hidden:
   - title: Technique
     children:
@@ -161,106 +170,114 @@ visit_full:
   - title: Why visit Asturias?
     children:
       - title: A Truly Spanish Vacation
-        url: 
+        url: /visit/a-truly-spanish-vacation/
       - title: Cider Culture
-        url: 
+        url: /visit/asturian-cider-culture/
       - title: Rural Relaxation
-        url: 
+        url: /visit/rural-relaxation/
   - title: Travel
     children:
       - title: Getting To Asturias
-        url: 
-      - title: How To Get Around
-        url: 
-      - title: Where To Go
-        url: 
-  - title: See & Do
+        url: /visit/getting-to-asturias/
+      - title: Getting Around In Asturias
+        url: /visit/getting-around-asturias/
+      - title: Places To Go In Asturias
+        url: /visit/places-to-go-in-asturias/
+  - title: Food Destinations
     children:
       - title: Food Markets
-        url: 
+        url: /visit/food-markets/
       - title: Food Events
-        url: 
+        url: /visit/food-events/
       - title: Food Tours
-        url: 
-  - title: Eat & Drink
+        url: /visit/food-tours/
+  - title: Dining & Drinking
     children:
-      - title: Bakeries
-        url: 
+      - title: Eating & Drinking in Asturias
+        url: /visit/eating-and-drinking/
       - title: Bars
-        url: 
-      - title: Cheese Makers
-        url: 
-      - title: Cider Makers
-        url: 
-      - title: Craft Brewers
-        url: 
-      - title: Sausgae Makers
-        url: 
+        url: /visit/bars/
       - title: Traditional Restaurants
-        url: 
+        url: /visit/concina-tradicional
       - title: Fine Dining
-        url: 
+        url: /visit/cocina-de-autor/
       - title: Sidrerías & Marisquerías
-        url: 
+        url: /visit/sidrerias/
       - title: Parillas
-        url: 
+        url: /visit/parillas/
       - title: Other Restaurants
-        url: 
+        url: /visit/restaurants/
+  - title: Food Souvenirs
+    children:
+      - title: Food Souvenirs in Asturias
+        url: /visit/souvenirs/
+      - title: Bakeries
+        url: /visit/bakeries/
+      - title: Cheese Makers
+        url: /visit/queserías/
+      - title: Cider Makers
+        url: /visit/llagares/
+      - title: Craft Brewers
+        url: /visit/breweries/
+      - title: Sausage Makers
+        url: /visit/embutidos/
 
 culture_full:
-  - title: Customs & Rituals
+  - title: Etiquette
     children:
       - title: Meal Times
-        url: 
+        url: /culture/meal-times/
       - title: Table Manners
-        url: 
+        url: /culture/table-manners/
       - title: The Cider Ritual
-        url: 
-  - title: Notable Products
+        url: /culture/cider-ritual/
+  - title: Artisanal Products
     children:
       - title: Cider
-        url: 
+        url: /culture/products/cider/
       - title: Beer
-        url: 
+        url: /culture/products/beer/
       - title: Cheese
-        url: 
+        url: /culture/products/cheese/
       - title: Sausages
-        url: 
+        url: /culture/products/embutidos/
       - title: Wine
-        url:
-  - title: The Culinary Landscape
-    children:
-      - title: The Natural Environment
-        url: 
-      - title: The Built Environment
-        url: 
+        url: /culture/products/wine/
   - title: Common Ingredients
     children:
       - title: Beans
-        url: 
+        url: /culture/ingredients/beans/
       - title: Meats
-        url: 
+        url: /culture/ingredients/meat/
       - title: Fruits & Nuts
-        url: 
+        url: /culture/ingredients/fuits-nuts/
       - title: Grains
-        url: 
+        url: /culture/ingredients/grains/
       - title: Seafood
-        url: 
+        url: /culture/ingredients/seafood/
       - title: Vegetables
-        url: 
+        url: /culture/ingredients/vegetables/
+  - title: Culinary Landscape
+    children:
+      - title: The Natural Environment
+        url: /culture/natural-environment/
+      - title: The Built Environment
+        url: /culture/built-environment/
   - title: Food History
     children:
+      - title: Asturian Food History
+        url: /culture/history/
       - title: Paleolithic Food in Asturias
-        url: 
+        url: /culture/history/paleolithic/
       - title: Bronze Age Dinner
-        url: 
+        url: /culture/history/bronze-age/
       - title: Iron Age Farming & Cooking
-        url: 
+        url: /culture/history/iron-age/
       - title: Ancient Asturias
-        url: 
+        url: /culture/history/ancient-period/
       - title: Visigothic & Medieval Foods
-        url: 
+        url: /culture/history/medieval/
       - title: Early Modern Foodways
-        url: 
+        url: /culture/history/early-modern/
       - title: Contemporary Asturian Cuisine
-        url: 
+        url: /culture/history/contemporary/
