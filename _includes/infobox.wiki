@@ -1,0 +1,171 @@
+<noinclude>{{documentation}}</noinclude><includeonly>! colspan="2" height="30" {{Recipe Infobox Style|header_bar}} {{!}} Nutrition
+|-
+| colspan="2" |
+{| style="font-family: Helvetica, sans-serif; font-size:14px; border: 1px solid darkgray;" width="300px"
+|-
+| colspan="4" style="text-align: center; vertical-align: top;"| <span style="font-size:xx-large;">'''Nutrition Facts'''</span>{{#if: {{{Reference|}}} |  <ref name="nutrition">{{{Reference|}}}</ref>}}   
+|-
+| colspan="2" style="text-align: left; vertical-align: bottom;"| <small>Serving Size {{#if: {{{ServingSize|}}} |  {{{ServingSize}}} | ''-''<!-- Value not provided -->{{ #if: {{{Noincludecat|{{{noincludecat|}}}}}}||{{cookbook other|[[Category:Recipes without serving size|{{PAGENAME}}]]}}}}
+}}</small>
+| colspan="2" style="text-align: right; vertical-align: bottom;"| <small>Servings in recipe {{#if: {{{Servings|}}} |  {{{Servings}}} | ''-''<!-- Value not provided -->{{ #if: {{{Noincludecat|{{{noincludecat|}}}}}}||{{cookbook other|[[Category:Recipes without servings|{{PAGENAME}}]]}}}}
+}}</small>
+|-
+| colspan="4" height="8px" style="background-color: black;" | 
+|-
+| colspan="4" tyle="text-align: left;"| '''Amount Per Serving'''
+|-
+| colspan="2" style="text-align: left; border-bottom: black solid 2px;"| '''Calories''' {{#if: {{{Calories|}}} | {{{Calories}}} | ''-''{{ #if: {{{Noincludecat|{{{noincludecat|}}}}}}||{{cookbook other|[[Category:Recipes without calories|{{PAGENAME}}]]}}}}
+}}
+| colspan="2" style="text-align: right; border-bottom: black solid 2px;"|   {{#if: {{{TotalFat|}}} |  Calories from Fat {{#expr: (( {{{TotalFat}}}*9.0 ) round 0) }}   | <!-- Value not provided -->
+}}
+|-
+| colspan="4" style="text-align: right;"| '''% Daily Value*'''
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| '''Total Fat''' {{#if: {{{TotalFat|}}} |  {{{TotalFat}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{TotalFat|}}} |    {{#expr: (( {{{TotalFat}}}/65.0 ) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| &nbsp;&nbsp;&nbsp;&nbsp;Saturated Fat {{#if: {{{SaturatedFat|}}} |  {{{SaturatedFat}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{SaturatedFat|}}} |    {{#expr: (( {{{SaturatedFat}}}/20.0 ) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| &nbsp;&nbsp;&nbsp;&nbsp;''Trans'' Fat {{#if: {{{TransFat|}}} |  {{{TransFat}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| 
+{{#if: {{{MonoFat|}}} |<tr><td colspan="4" style="text-align: left;  border-bottom: black solid 2px;">&nbsp;&nbsp;&nbsp;&nbsp;Monounsaturated Fat {{{MonoFat}}}g</td></tr>
+}}
+{{#if: {{{PolyFat|}}} |<tr><td colspan="4" style="text-align: left;  border-bottom: black solid 2px;">&nbsp;&nbsp;&nbsp;&nbsp;Polyunsaturated Fat {{{PolyFat}}}g</td></tr>
+}}
+{{#if: {{{Omega3|}}} |<tr><td colspan="4" style="text-align: left;  border-bottom: black solid 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Omega-3 {{{Omega3}}}mg</td></tr>
+}}
+{{#if: {{{Omega6|}}} |<tr><td colspan="4" style="text-align: left;  border-bottom: black solid 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Omega-6 {{{Omega6}}}mg</td></tr>
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| '''Cholesterol''' {{#if: {{{Cholesterol|}}} |  {{{Cholesterol}}}mg | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{Cholesterol|}}} |    {{#expr: (( {{{Cholesterol}}}/300.0 ) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| '''Sodium''' {{#if: {{{Sodium|}}} |  {{{Sodium}}}mg | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{Cholesterol|}}} |    {{#expr: (( {{{Cholesterol}}}/2400.0 ) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| '''Total Carbohydrate''' {{#if: {{{Carbohydrates|}}} |  {{{Carbohydrates}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{Carbohydrates|}}} |    {{#expr: (( {{{Carbohydrates}}}/300.0) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| &nbsp;&nbsp;&nbsp;&nbsp;Dietary Fiber {{#if: {{{Fiber|}}} |  {{{Fiber}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| {{#if: {{{Fiber|}}} |    {{#expr: (( {{{Fiber}}}/25.0) round 2) * 100}}%   | <!-- Value not provided -->
+}}
+|-
+| colspan="3" style="text-align: left;  border-bottom: black solid 2px;"| &nbsp;&nbsp;&nbsp;&nbsp;Sugars 1g
+| colspan="1" style="text-align: right;  border-bottom: black solid 2px;"| 
+|-
+| colspan="3" style="text-align: left; "| '''Protein'''  {{#if: {{{Protein|}}} |  {{{Protein}}}g | ''-''<!-- Value not provided -->
+}}
+| colspan="1" style="text-align: right;"| 
+|-
+| colspan="4" height="8px" style="background-color: black;" | 
+|-
+| style="text-align: left;"| Vitamin A
+| style="text-align: right;"| {{#if: {{{VitaminA|}}} |  {{{VitaminA}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Folate
+| style="text-align: right;"| {{#if: {{{Folate|}}} |  {{{Folate}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Vitamin B1
+| style="text-align: right;"| {{#if: {{{VitaminB1|}}} |  {{{VitaminB1}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Vitamin B2
+| style="text-align: right;"| {{#if: {{{VitaminB2|}}} |  {{{VitaminB2}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Vitamin B3
+| style="text-align: right;"| {{#if: {{{VitaminB3|}}} |  {{{VitaminB3}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Vitamin B5
+| style="text-align: right;"| {{#if: {{{VitaminB5|}}} |  {{{VitaminB5}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Vitamin B6
+| style="text-align: right;"| {{#if: {{{VitaminB6|}}} |  {{{VitaminB6}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Vitamin B12
+| style="text-align: right;"| {{#if: {{{VitaminB12|}}} |  {{{VitaminB12}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Vitamin C 
+| style="text-align: right;"| {{#if: {{{VitaminC|}}} |  {{{VitaminC}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Vitamin D
+| style="text-align: right;"| {{#if: {{{VitaminD|}}} |  {{{VitaminD}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Vitamin E
+| style="text-align: right;"| {{#if: {{{VitaminE|}}} |  {{{VitaminE}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Vitamin K
+| style="text-align: right;"| {{#if: {{{VitaminK|}}} |  {{{VitaminK}}}% | ''-''<!-- Value not provided -->}}
+|-
+|colspan="4" height="1px" style="background-color: black;" | 
+|-
+| style="text-align: left;"| Calcium
+| style="text-align: right;"| {{#if: {{{Calcium|}}} |  {{{Calcium}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Copper
+| style="text-align: right;"| {{#if: {{{Copper|}}} |  {{{Copper}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Iron
+| style="text-align: right;"| {{#if: {{{Iron|}}} |  {{{Iron}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Magnesium
+| style="text-align: right;"| {{#if: {{{Magnesium|}}} |  {{{Magnesium}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Manganese
+| style="text-align: right;"| {{#if: {{{Manganese|}}} |  {{{Manganese}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Phosphorus
+| style="text-align: right;"| {{#if: {{{Phosphorus|}}} |  {{{Phosphorus}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Potassium
+| style="text-align: right;"| {{#if: {{{Potassium|}}} |  {{{Potassium}}}% | ''-''<!-- Value not provided -->}}
+| style="text-align: right;"| Selenium
+| style="text-align: right;"| {{#if: {{{Selenium|}}} |  {{{Selenium}}}% | ''-''<!-- Value not provided -->}}
+|-
+| style="text-align: left;"| Sodium
+| style="text-align: right;"| {{#if: {{{Sodium|}}} |    {{#expr: (( {{{Sodium}}}/2400.0 ) round 2) * 100}}%   |  ''-''<!-- Value not provided -->
+}}
+| style="text-align: right;"| Zinc
+| style="text-align: right;"| {{#if: {{{Zinc|}}} |  {{{Zinc}}}% | ''-''<!-- Value not provided -->}}
+|-
+| colspan="4" height="8px" style="background-color: black;" | 
+|-
+| colspan="4" style="text-align: left;"| <small>* Percent Daily Values are based on a 2,000 calorie diet.  Your daily values may be higher or lower depending on your calorie needs.</small>
+|-
+| style="border-bottom: black solid 1px;" |
+| style="border-bottom: black solid 1px;" |<small>Calories</small>
+| style="border-bottom: black solid 1px;" |<small>2,000</small>
+| style="border-bottom: black solid 1px;" |<small>2,500</small>
+|-
+|<small>Total Fat</small>
+|<small>Less than</small>
+|<small>65g</small>
+|<small>80g</small>
+|-
+|<small>&nbsp;&nbsp;Sat Fat</small>
+|<small>Less than</small>
+|<small>20g</small>
+|<small>25g</small>
+|-
+|<small>Cholesterol</small>
+|<small>Less than</small>
+|<small>300mg</small>
+|<small>300mg</small>
+|-
+|<small>Sodium</small>
+|<small>Less than</small>
+|<small>2,400mg</small>
+|<small>2,400mg</small>
+|-
+| colspan="2" |<small>Total Carbohydrate</small>
+|<small>300g</small>
+|<small>375g</small>
+|-
+|colspan="2" |&nbsp;&nbsp;<small>Dietary Fiber</small>
+| <small>25g</small>
+| <small>30g</small>
+|}
+|-
+</includeonly>

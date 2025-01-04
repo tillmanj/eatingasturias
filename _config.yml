@@ -297,6 +297,7 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-glossary_tooltip
+  - jekyll-image-size
   - jekyll-include-cache
   - jekyll-last-modified-at  
   - jekyll-link-attributes
@@ -347,6 +348,8 @@ feed:
 #     - articles
 
 # PLUGIN: jekyll-glossary_tooltip
+
+# PLUGIN: jekyll-image-size
 
 # PLUGIN: jekyll-include-cache
 

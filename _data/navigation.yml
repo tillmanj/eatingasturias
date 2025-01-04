@@ -93,7 +93,7 @@ recipe_full:
       - title: "Salads"
         url: /recipes/salads/
       - title: "Soups & Stews"
-        url: /recipes/soups-stews/
+        url: /recipes/soups/
       - title: "Bean Dishes"
         url: /recipes/beans/
       - title: "Potato Dishes"
@@ -101,7 +101,7 @@ recipe_full:
       - title: "Vegetable Dishes"
         url: /recipes/vegetables/
       - title: "Meat Dishes"
-        url: /recipes/meats/
+        url: /recipes/meat/
       - title: "Seafood Dishes"
         url: /recipes/seafood/
       - title: "Pasta Dishes"
@@ -123,17 +123,17 @@ recipe_full:
   - title: Other 
     children:
       - title: "Recipes by Occasion"
-        url: /recipes/boiled/
+        url: /recipes/occasion/
       - title: "Recipes by Season"
-        url: /recipes/boiled/
+        url: /recipes/season/
       - title: "Recipes by Difficulty"
-        url: /recipes/baked/
+        url: /recipes/difficulty/
       - title: "Recipes by Origin"
-        url: /recipes/boiled/
+        url: /recipes/irogin/
       - title: "Recipes by Preparation Technique"
-        url: /recipes/boiled/
+        url: /recipes/method/
       - title: "Recipes by Source"
-        url: /recipes/boiled/
+        url: /recipes/source/
       - title: "First Courses"
         url: /recipes/firsts/
       - title: "Second Courses"

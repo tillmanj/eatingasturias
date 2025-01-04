@@ -1,0 +1,105 @@
+.infobox > table {
+    width:280px; 
+    border:1px solid $header-alt-color;
+    background-color: $header-color;
+    padding: 0px;
+}
+
+.infobox th.header {
+    background-color: $header-alt-color;
+    color: $header-color;
+    text-align: center; 
+    vertical-align: middle;
+    font-family: $sans-serif-narrow;
+    font-variant-caps: small-caps;
+}
+
+.infobox figure {
+    display: flex;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-left: auto;
+}
+
+.infobox figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    color: $header-alt-color;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 2px;
+    margin-right: auto;
+    font-style: italic;
+    font-size: large;
+    font-weight: 700;
+}
+
+.infobox > table > tbody > tr > td.image {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.infobox > table > tbody > tr > td {
+    // REMOVE THIS LATER
+    border:1px solid $header-alt-color;
+    border-collapse: collapse;
+    overflow: auto;
+    max-width: max-content;
+}
+
+.infobox > table > tbody > tr.about > td:first-child { 
+    text-align: right;
+    font-weight: 700;
+}
+
+.infobox > table > tbody > tr.about > td:first-child::after {
+    content: ':';
+}
+
+.infobox > table > tbody > tr.about > td:nth-child(2) {
+    font-style: italic;
+}
+
+.infobox #divider {
+    border-bottom: 6px black solid;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.infobox #divider td {    
+    text-align: center;
+    box-sizing:content-box;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.indent1::before {
+    content: ' ';
+    display: inline-block;
+    width: 10px;
+}
+
+.indent2::before {
+    content: ' ';
+    display: inline-block;
+    width: 10px;
+}
+
+ul.ingredients {
+    list-style-type:square;
+    list-style-position: inside;
+}
