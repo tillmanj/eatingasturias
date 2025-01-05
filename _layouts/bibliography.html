@@ -1,14 +1,48 @@
 ---
 layout: default
 ---
-<span class="bibliography" id="{{ entry.key }}">
-{% if entry.author %}{{ entry.author }}.{% endif %}
-{% if entry.title %}<a href="{{ entry.key }}/"><i>{{ entry.title }}</i></a>.{% endif %}
-{% if entry.publisher %} {{ entry.publisher }}.{% endif %}
-{% if entry.year %} {{ entry.year }}.{% endif %}
-{% if entry.doi %} <a href="https://doi.org/{{ entry.doi }}">{{ entry.doi }}</a>
+
+<span class="bibliography" id="{{ entry.key }}" itemprop="citation" itemscope {% case entry.type %}
+{% when "article" %}
+    itemtype="https://schema.org/ScholarlyArticle"
+{% when "book" %}
+    itemtype="https://schema.org/Book"
+{% when "booklet" %}
+    itemtype="https://schema.org/CreativeWork"
+{% when "conference" %}
+    itemtype="https://schema.org/ScholarlyArticle"
+{% when "inbook" %}
+    itemtype="https://schema.org/Book"
+{% when "incollection" %}
+    itemtype="https://schema.org/Book"
+{% when "inproceedings" %}
+    itemtype="https://schema.org/ScholarlyArticle"
+{% when "manual" %}
+    itemtype="https://schema.org/CreativeWork"
+{% when "mastersthesis" %}
+    itemtype="https://schema.org/Thesis"
+{% when "misc" %}
+    itemtype="https://schema.org/CreativeWork"
+{% when "phdthesis" %}
+    itemtype="https://schema.org/Thesis"
+{% when "proceedings" %}
+    itemtype="https://schema.org/ScholarlyArticle"
+{% when "techreport" %}
+    itemtype="https://schema.org/Report"
+{% when "unpublished" %}
+    itemtype="https://schema.org/CreativeWork"    
+{% else %}
+    itemtype="https://schema.org/CreativeWork"
+{% endcase %} id="{{citation}}">
+{% assign authorName = {{entry.author}} | split: ", " %}
+{% if entry.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="familyName">{{ authorName[0] }}</span>, <span itemprop="givenName">{{ authorName[1]}}</span></span>.{% endif %}
+{% if entry.title %}<cite itemprop="name"><a itemprop="url" href="/resources/bibliography/{{ entry.key }}/"><i>{{ entry.title }}</i></a></cite>.{% endif %}
+{% if entry.publisher %}<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">{{ entry.publisher }}</span>.{% endif %}
+{% if entry.year %}<span itemprop="datePublished">{{ entry.year }}</span>.{% endif %}
+{% if entry.doi %} <a itemprop="url" href="https://doi.org/{{ entry.doi }}">{{ entry.doi }}</a>
 {% elsif entry.url contains 'doi.org' %}
     {% assign s = entry.url | split: "org/" %}
     <a href="{{ entry.url }}">{{ s[1] }}</a>
 {% endif %}
 </span>
+

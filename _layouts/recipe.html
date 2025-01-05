@@ -50,7 +50,7 @@ layout: default
             <h2>Ingredients</h2>
             <ul class="ingredients">
                 {% for ingredient in page.recipeIngredients %}
-                    <li><span itemprop="recipeIngredient">{{ingredient}}</span></li>
+                    <li itemprop="recipeIngredient">{{ingredient}}</li>
                 {% endfor %}
             </ul>
           {% endif  %}
@@ -60,7 +60,7 @@ layout: default
             <h2>Instructions</h2>
             <ol itemprop="recipeInstructions">
                 {% for instruction in page.recipeInstructions %}
-                    <li><span itemprop="step">{{instruction}}</span></li>
+                    <li itemprop="step">{{instruction}}</li>
                 {% endfor %}
             </ol>
           {% endif  %}
@@ -82,7 +82,7 @@ layout: default
             <h2>Sources</h2>
             <ul>
             {% for citation in page.recipeCitations %}
-                <li><span itemprop="isBasedOn">{% reference {{citation}} %}</span></li>
+                <li>{% bibliography --query @*[key={{citation}}] %}</li>
             {% endfor %}
             </ul>
         {% endif %}

@@ -10,7 +10,7 @@
                 <figure>
                     <picture>
                         <source srcset="/assets/images/{{page.recipeImage}}" type="image/png" media="(orientation: portrait)">
-                        <img src="/assets/images/{{page.recipeImage}}" alt="{{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                        <img itemprop="photograph" src="/assets/images/{{page.recipeImage}}" alt="a prepared dish of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                     </picture>
                     <figcaption>{{page.title}}</figcaption>
                 </figure>

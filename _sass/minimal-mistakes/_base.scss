@@ -152,6 +152,9 @@ blockquote {
 /* links */
 
 a {
+  -webkit-text-decoration-skip: auto;
+  text-decoration-skip: auto;
+  text-decoration-skip-ink: auto;
   &:focus {
     @extend %tab-focus;
   }
