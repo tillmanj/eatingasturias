@@ -372,7 +372,8 @@ external_links:
 # PLUGIN: jekyll-scholar
 # https://github.com/inukshuk/jekyll-scholar
 scholar:
-  style: modern-language-association
+  # choose one from https://www.zotero.org/styles?format=author-date&dependent=0
+  style: journal-of-social-philosophy
   locale: en
   # When true, allows the language entry in the BibTex to override the locale setting for individual entries. When the language is missing it will revert back to locale. The language value should be encoded using the two-letter ISO 639-1 standard. Ex. English = 'en', Spanish = 'es'.
   allow_locale_overrides: true

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<span class="bibliography" id="{{ entry.key }}" itemprop="citation" itemscope {% case entry.type %}
+<span class="bibliography" id="{{entry.key}}" itemprop="citation" itemscope {% case entry.type %}
 {% when "article" %}
     itemtype="https://schema.org/ScholarlyArticle"
 {% when "book" %}
@@ -33,7 +33,7 @@ layout: default
     itemtype="https://schema.org/CreativeWork"    
 {% else %}
     itemtype="https://schema.org/CreativeWork"
-{% endcase %} id="{{citation}}">
+{% endcase %}>
 {% assign authorName = {{entry.author}} | split: ", " %}
 {% if entry.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="familyName">{{ authorName[0] }}</span>, <span itemprop="givenName">{{ authorName[1]}}</span></span>.{% endif %}
 {% if entry.title %}<cite itemprop="name"><a itemprop="url" href="/resources/bibliography/{{ entry.key }}/"><i>{{ entry.title }}</i></a></cite>.{% endif %}

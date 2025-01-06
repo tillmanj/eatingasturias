@@ -15,7 +15,7 @@ Food and Culture are inseparable. In many ways, it is redundant to even say ‘f
 
 In this section of the website, I explore the whole sweep of history in Asturias from remotest ice ages to the current day, through the lens of the foods eaten here, the crops grown here, what was imported and what was exported as delicacies to other places.
 ## What Is Food Culture?
-For our purposes here, let's consider food culture to be "*how you get the ingredients you cook with, whyy you chose those ingredients, what you do with them before you cook them, how you cook them, how you present what you cook, who you share it with, and how you behave before, during, and after eating it*". 
+For our purposes here, let's consider food culture to be "*how you get the ingredients you cook with, why you chose those ingredients, what you do with them before you cook them, how you cook them, how you present what you cook, who you share it with, and how you behave before, during, and after eating it*". 
 
 In short, **food culture is the context in which food exists**.
 ## The Culinary Landscape

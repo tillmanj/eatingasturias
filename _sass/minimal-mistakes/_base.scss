@@ -133,20 +133,44 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin-block: 2em;
-  margin-inline-end: 1em;
-  padding-inline: 1em;
+  display: block;
+  float: right;
+  font-weight: 100;
+  font-size: 1.5rem;
   font-style: italic;
-  border-inline-start: 0.25em solid $primary-color;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  max-width: 60%;
+  padding: .5rem;
+  color: $header-alt-color;
 
   cite {
     font-style: italic;
-
+    display:block;
+    text-align: right;
     &::before {
       content: "\2014";
       padding-inline-end: 5px;
     }
   }
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  font-size: 1rem;
+
+}
+
+blockquote cite a {
+  color: $header-alt-color;
+  text-decoration: dotted underline;
 }
 
 /* links */
@@ -208,6 +232,17 @@ ol li {
 li ul,
 li ol {
   margin-top: 0.5em;
+}
+
+/* 2 column lists for entry indexes */
+.col2 {
+  column-count: 2;
+  column-width: 40%;
+  column-fill: auto;
+  column-gap: 40px;
+  column-rule-style: dotted;
+  column-rule-style: $header-alt-color;
+  column-rule-width: 8px;
 }
 
 /*
