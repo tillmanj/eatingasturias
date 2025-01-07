@@ -46,11 +46,12 @@ layout: default
                   </nav>
                 </aside>
               {% endif %}
-              
+
               {{ content }}
 
             <h2>The Recipes</h2>
-            {% assign recipes = site.recipes | where: "recipeCategory", page.title %}
+            {% assign pageCategory = page.name | split: "." | first %}
+            {% assign recipes = site.recipes | where: "recipeCategory", pageCategory %}
             <ul class="col2">
             {% for entry in recipes %}
                 <li><a href="{{entry.permalink}}">{{entry.title}}</a></li>

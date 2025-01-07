@@ -1,7 +1,7 @@
 ---
 layout: recipe-category
 permalink: /recipes/salads/
-title: Salads
+title: Salad Recipes
 subtitle: a growing body of leafy green delights
 toc: false
 sidebar:

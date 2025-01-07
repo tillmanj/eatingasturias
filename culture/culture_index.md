@@ -41,7 +41,7 @@ I am on a mission not just to catalog all the cheeses and ciders in Asturias (th
 ## Cooking Methods
 The cooking methods we choose (or choose to exclude) have a marked effect on our food culture. A society that does not baking is very different from one in which every home has an oven. A culture that does not ferment is very different from one that does. The cooking methods we use are a reflection of our culture, and they in turn shape our culture. Whether or not we look for labor-saving methods of cooking or revel in doing things by hand "the hard way" says a lot about who we are as a people.
 
-The Asturian food experience is defined by slow cooked <em>{%glossary platos de cuchara%}</em> and long-simmered stews, by the use of the *parilla* and the *plancha* for grilling, by the *cazuela* and the *olla* for simmering. I am working to catalog all of the traditional cooking methods in Asturias, and to provide a list of the best places to find them.
+The Asturian food experience is defined by slow cooking over low heat. Stews, soups, and other *platos de cuchara* predominate, and old-style wood-fired stoves are common in Asturian homes.
 ## Etiquette
 Food plays an intrinsic role in social interaction and community rituals. It is the centerpiece of celebrations and gatherings. Weddings, birthdays, and regional holidays all revolve in large part around what food is served at them and what food is considered appropriate to serve at them. Not only does cooking the same dishes and using the same ingredients as our neighbors create a sense of shared identity, of community, but the ways in which we eat them, the rituals and customs that surround the food, also create a sense of shared identity.
 

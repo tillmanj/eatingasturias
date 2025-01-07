@@ -1,7 +1,7 @@
 ---
 layout: recipe-category
 permalink: /recipes/beans/
-title: Beans
+title: Bean Recipes
 subtitle: a sturdy pillar of Asturian cooking
 toc: false
 sidebar:

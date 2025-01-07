@@ -1,10 +1,11 @@
 ---
+published: false
 layout: recipe
-permalink: /recipes/RECIPE-NAME/
+permalink: /recipes/enasalada-asturiana/
 sidebar:
   nav: recipe_full
-title: 
-subtitle: 
+title: Ensalada Asturiana
+subtitle: Emblematic Asturian ingredients in a summery salad
 author: Jon Tillman
 dateCreated: 
 datePublished: 
@@ -14,7 +15,7 @@ prepTime:
 cookTime: 
 totalTime: 
 recipeYield: 
-recipeCategory: Desserts
+recipeCategory: salads
 suitableForDiet:
   - Halal
 recipeOccasion: 
@@ -54,3 +55,5 @@ fiberContent:
 sugarContent: 
 proteinContent: 
 ---
+
+https://desidras.com/receta/ensalada-asturiana/

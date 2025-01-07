@@ -1,7 +1,7 @@
 ---
 layout: recipe-category
 permalink: /recipes/breakfast/
-title: Breakfast
+title: Breakfast Recipes
 subtitle: The most important meal of the day, unless you are in Spain
 toc: false
 sidebar:
