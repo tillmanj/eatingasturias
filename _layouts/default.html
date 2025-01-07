@@ -12,6 +12,12 @@
     </header>
     <main id="main_content">
       <div class="initial-content">
+        {% if page.published == false %}
+          <div class="notice notice--danger" markdown="1">
+            <h2>This page is not published.</h2>
+            <p>This file is visible only in development mode. To make this file visible in production, set the `published` parameter to `true` in the front matter, or remove the `published` parameter altogether.</p>
+          </div>
+        {% endif %}
         {{ content }}
         {% include after-content.html %}
       </div>

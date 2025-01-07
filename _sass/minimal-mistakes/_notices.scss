@@ -107,3 +107,14 @@
 .notice--danger {
   @include notice($danger-color);
 }
+
+.notice--header {
+  display: flexbox;
+  max-width: 80%;
+  min-width: 80%;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  text-transform: uppercase;
+  text-align: center;
+}

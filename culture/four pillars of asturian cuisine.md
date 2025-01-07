@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Four Pillars
 sidebar:
   nav: culture_full
+published: false
 ---
 Every cuisine, the world over, has it's bedrock ingredients, it's foundational dishes, and it's iconic products. They define what the cuisine is, it's essential flavor profile. Elisabeth Rozen made a whole career out of explaining these pillars of various cuisines.[^1] In Asturias, the pillars that define the flavor of the region are apples, beans, cheese, and seafood.
 
