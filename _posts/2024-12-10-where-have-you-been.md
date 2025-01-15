@@ -3,6 +3,7 @@ layout: single
 title:  "Where Have You Been?"
 subtitle: why there have been so few updates in 2024
 date:   2024-12-10 17:30:06 +0100
+show_date: true
 categories: news
 read_time: true
 comments: true
@@ -23,9 +24,7 @@ But early in 2024, after having built the site three time using other peoples so
 So that is what I have done. Over the last nine months or so, I have bulldozed the existing site to the ground and built a new one in its place. It has been a mammoth project, and one I am not eager to undertake again, but it has yielded exactly the results I was looking for.
 
 ## How I Work Now
-I have jettisoned nearly all of the tools and software used to host, and assemble, and present this website, and I have replaced all of it with the shortest, simplest toolchain I can. There are no databases, no presentation layers, no theme engines, no load-balancing clusters, no CDNs, no layered caching systems. There is just this: plain html files and pictures in modern image formats served by a nice fast webserver. I write my pages in [Markdown](https://daringfireball.net/projects/markdown/) - the simplest, lightest, openest markup language for plain documents I could find. It didn't hurt that I was already maintaining a huge pile of notes on the rest of my life in it! I use [Sass](https://sass-lang.com/) to maintain some style sheets that describe how it should look to you the reader. I use a collection of simple open source scripts called [Jekyll](https://jekyllrb.com/) written in the [Ruby](https://www.ruby-lang.org/en/) programmig language to turn those Markdown and Sass files into [HTML](https://html.spec.whatwg.org/) and [CSS](https://www.w3.org/TR/css-2023/) files that are understood by all web browsers and require no scripting languages, databases, presentation layers, or web apps to read and enjoy.
-
-I use a couple of editors to do the writing. I keep most of my notes in the [Obsidian.md](https://obsidian.md/) markdown editor, and quite a bit of the actual article writing for the site is done in that software. I also use [VSCodium](https://vscodium.com/) the free and open source version of Microsoft's VS Code editor for managing the templates and Jekyll scripts that build the markdown files into HTML. Both Obsidian and Jekyll are connected to my [Zotero](https://www.zotero.org/) database and allow me to insert citations, reference documents, and build bibliographies directly from the writing interface. The bibliography for this site is [available online](https://www.zotero.org/groups/2459245/eating_asturias/library) through Zotero as well. I publish all of the work I have done to make the website work on [GitHub](https://github.com/tillmanj/eatingasturias) for anyone who might be interested in seeing behind the scenes.
+I have jettisoned nearly all of the tools and software used to host, and assemble, and present this website, and I have replaced all of it with the shortest, simplest toolchain I can. There are no databases, no presentation layers, no theme engines, no load-balancing clusters, no CDNs, no layered caching systems. There is just this: plain html files and pictures in modern image formats served by a nice fast webserver. I will detail my toolchain in a later post, but for now, suffice it to say that I have made the site as simple as I can, and I am very happy with the results.
 
 ## Where Do I Go From Here?
 Back to work is where I go. Back to writing about cider, and cheese, and sausage makers, and goat herders, and the army of female chefs all those efforts go towards keeping supplied in all their glorious temples to *la comida popular*, the people's food that makes Asturias worth talking about, visiting, living in, and celebrating.

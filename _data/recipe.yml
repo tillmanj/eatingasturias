@@ -1,0 +1,77 @@
+Dish:
+  - title: Breakfast Recipes
+    description: The most important meal of the day, unless you are in Spain
+    url: /recipes/breakfast/
+  - title: Appetizer Recipes
+    description: The bewildering array of Asturian cosas para picar
+    url: /recipes/appetizers/
+  - title: Salad Recipes
+    description: a growing body of leafy green delights
+    url: /recipes/salads/
+  - title: Soup & Stew Recipes
+    description: The glory of platos de cucharas
+    url: /recipes/soups/ 
+  - title: Bean Recipes
+    description: a sturdy pillar of Asturian cooking
+    url: /recipes/beans/
+  - title: Potato Recipes
+    description: Asturias' favorite import from the Americas
+    url: /recipes/potato/
+  - title: Vegetable Recipes
+    description: The greenest part of the meal
+    url: /recipes/vegetables/
+  - title: Meat Recipes
+    description: The heart of the meal
+    url: /recipes/meat/
+    children:
+      - title: Beef Recipes
+        description: 
+        url: /recipes/meat/beef/
+      - title: Pork Recipes
+        description: 
+        url: /recipes/meat/pork/
+      - title: Wild Boar Recipes
+        description: 
+        url: /recipes/meat/boar/
+      - title: Goat Recipes
+        description: 
+        url: /recipes/meat/goat/
+      - title: Chicken Recipes
+        description: 
+        url: /recipes/meat/chicken/
+      - title: Turkey Recipes
+        description: 
+        url: /recipes/meat/turkey/
+      - title: Game Bird Recipes
+        description: 
+        url: /recipes/meat/bird/
+      - title:  Deer Recipes
+        description: 
+        url: /recipes/meat/deer/
+      - title: Rabbit Recipes
+        description: 
+        url: /recipes/meat/rabbit/
+      - title: Offal Recipes
+        description: 
+        url: /recipes/meat/offal/
+  - title: Fish & Seafood Recipes
+    description: From the Cantabrian Sea
+    url: /recipes/seafood/
+  - title: Pasta Recipes
+    description: The Italian influence
+    url: /recipes/pasta/
+  - title: Rice Recipes
+    description: What is Spanish cooking without rice?
+    url: /recipes/rice/
+  - title: Dessert Recipes
+    description: The sweetest part of the meal
+    url: /recipes/desserts/
+  - title: Drink Recipes
+    description: The liquid diet
+    url: /recipes/beverages/
+  - title: Sauce & Condiment Recipes
+    description: Things to put on the things you cook
+    url: /recipes/sauces/
+  - title: Bread Recipes
+    description: The staff of life
+    url: /recipes/bread/

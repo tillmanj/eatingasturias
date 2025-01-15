@@ -1,11 +1,10 @@
 ---
-published: false
 layout: recipe
-permalink: /recipes/enasalada-asturiana/
+permalink: /recipes/meat/beef/test-beef-recipe-2/
 sidebar:
   nav: recipe_full
-title: Ensalada Asturiana
-subtitle: Emblematic Asturian ingredients in a summery salad
+title: Test Beef Recipe 2
+subtitle: 
 author: Jon Tillman
 dateCreated: 
 datePublished: 
@@ -15,7 +14,7 @@ prepTime:
 cookTime: 
 totalTime: 
 recipeYield: 
-recipeCategory: salads
+recipeCategory: beef
 suitableForDiet:
   - Halal
 recipeOccasion: 
@@ -29,10 +28,8 @@ recipeNotes:
 recipeCitations:
   - Riestra2007ComidoServidoAproximacion
   - Domenech1942MiPlatoCocina
-isBasedOn:
-  - https://desidras.com/receta/ensalada-asturiana/
-mentions:
-  - 
+isBasedOn: 
+mentions: 
 recipeCourse: 
 recipeIngredients:
   - ingredient 1
@@ -53,7 +50,5 @@ sodiumContent:
 carbohydrateContent: 
 fiberContent: 
 sugarContent: 
-proteinContent: 
+proteinContent:
 ---
-
-https://desidras.com/receta/ensalada-asturiana/

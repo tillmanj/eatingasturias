@@ -237,12 +237,12 @@ li ol {
 /* 2 column lists for entry indexes */
 .col2 {
   column-count: 2;
-  column-width: 40%;
-  column-fill: auto;
-  column-gap: 40px;
-  column-rule-style: dotted;
-  column-rule-style: $header-alt-color;
-  column-rule-width: 8px;
+  column-width: 45%;
+  column-fill: balance;
+  column-gap: 10%;
+  column-rule-style: solid;
+  column-rule-color: $border-color;
+  column-rule-width: 1px;
 }
 
 /*

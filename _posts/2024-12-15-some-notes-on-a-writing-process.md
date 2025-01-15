@@ -32,22 +32,27 @@ I started this website in 2020 with an outline. I still use that outline every d
 I maintain the outline by setting aside time once a week to look it over. I also keep a little note with things I have come across during my research and writing that aren't already in the outline but perhaps should be. A new craft brewer has sprung up in Moreda, or I've run into an old timer at a bar with stories about how butchers in Asturias have their own particular argot for talking about cuts of meat that is different than the terms they use (in Asturian or Castilian) to sell those same cuts to the public. Time to think about whether those merit inclusion is important!
 
 This outlines helps to keep me **focused**. By working on the outline separate from the process of researching or writing about any particular subject, I put in place limits on how quickly it can grow. It helps to rein me in. *The more you add, the larger the subject becomes, and soon it’s about everything and nothing in particular.*[^2]
+
 ## Research
 Starting with the Outline as my guide, I pick a topic and begin my research. That research comes in two flavors; general and focused. Both are important to my writing, but are different enough to merit discussion separately.
 
 Regardless of whether I am doing general or focused research, I find it most useful to set aside a specific time to read. And for me what works is to set aside 45 minutes or so every weekday morning to read and annotate something. Whether it is a research paper, a book chapter, or a newspaper story, I follow the same general flow. I follow the classic 3 Pass concept for reading academic matter. The idea is to read the paper (or whatever) three times, each of which has specific goals. The first is to get a general idea of the paper and decide if it merits further study. The second pass lets you get the gist of the paper without getting into the weeds. The third is a close reading with a lot of attention to detail.[^7]
+
 ### General Research
-General research is what I call gathering facts or just "making notes". I read widely, both in food studies, and in general. I read a lot of what the {% glossary DDC %} calls "general works" - anthologies, specialist dictionaries, narrowly focused encyclopedias. When I read these, I mark up the text much as I would with more focused research.
+General research is what I call gathering facts or just "making notes". I read widely, both in food studies, and in general. I read a lot of what the {% glossary DDC %} calls "general works" - anthologies, specialist dictionaries, narrowly focused encyclopedias. When I read these, I mark up the text much as I would with more focused research. The difference is that I am not looking for anything in particular, more just trying to find interesting tidbits here and there that might relate to any of the various topics on the site.
+
+For this purpose, I use [Zotero](/news/2024/12/12/a-toolchain/#zotero) and leverage a couple of very cool features in it to begin loading up a virtual card file of sorts. Basically, it 
+
 ### Focused Research
 When addressing a specific subject, I like to focus narrowly on the topic, and do more of what might be considered classic research and study.
-### Skepticism
 
+### Skepticism
 > “Be skeptical. But when you get proof, accept proof.”  
 > <cite>[Michael Specter](https://www.ted.com/talks/michael_specter_the_danger_of_science_denial)</cite>
 
 Research does not mean passing along secondhand information or repeating well-worn but uncited cultural myths as fact. The plural of anecdote is not data.[^3] Food seems (to me at least) a topic full of hyperbole, wishful thinking, and plain exaggeration. Origins of customs or events are particularly suspect in food writing. Spanish scholarship in general between 1939 and 1975 is what was allowed by the censors of a fascist dictatorship, and should be viewed as propaganda first and potentially true as a distant second.[^6] Add to that the fact that lying about cuisine and culture had been official Spanish policy since the previous dictatorship in the late 19th century.[^5] Taken together, you do not have much reason to trust much of what counts as food scholarship for more than a century in Spain.[^4]
-## Notes
 
+## Notes
 [^1]: Project management has the term "process paralysis" and overthinking has been rebranded as "analysis paralysis". Both are what I like to think of as **meta-paralysis**: the state of being so involved in getting ready to do something that you never actually do it. Worrying about whether or not there might be a better tool out there, rearranging your files constantly in the hopes of having the perfect organizational structure. As Montesquieu said _Le mieux est le mortel ennemi du bien_.
 [^2]: Shamelessly lifted from {% cite Jacob2015WillWriteFood -l 32 %}.
 [^3]: Kenneth Kernaghan and P. K. Kuruvilla in the journal “Canadian Public Administration” in 1982 ([Quote Investigator](https://quoteinvestigator.com/2017/12/27/plural/))

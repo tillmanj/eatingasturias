@@ -24,6 +24,12 @@
   url: /culture/asturian-quality-marks/
 - term: Final Gravity
   definition: The specific gravity of a beer as measured when fermentation is complete (when all desired fermentable sugars have been converted to alcohol and carbon dioxide gas). When fermentation has occurred, this number is always less than Original Gravity.
+- term: Güerta
+  definition: a large vegetable garden, located near the house, but not as close as a Güertu. Usually includes fruit trees as well as vegetables.
+  url:
+- term: Güertu
+  definition: a small vegetable garden located very close to the house. A kitchen garden or potager.
+  url:
 - term: IBU
   definition: International Bitterness Unit. used for measuring how bitter a beer is
 - term: IGP
@@ -43,7 +49,7 @@
   url: /culture/asturian-quality-marks/
 - term: platos de cuchara
   definition: Traditional regional stews from around Spain.
-  url: /culture/asturian-quality-marks/
+  url: 
 - term: SRM
   definition: Standard Reference Method. a number that represents a color of a liquid
 - term: TSG
