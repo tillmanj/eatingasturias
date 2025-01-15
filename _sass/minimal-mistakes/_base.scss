@@ -229,6 +229,11 @@ ol li {
   margin-bottom: 0.5em;
 }
 
+main li::marker {
+  color: $contrast-color;
+  content: "» "; // https://www.lookuptables.com/text/html-character-codes
+}
+
 li ul,
 li ol {
   margin-top: 0.5em;
