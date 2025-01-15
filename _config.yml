@@ -11,6 +11,10 @@
 environment: development
 url: https://eatingasturias.com
 baseurl: "" # the subpath of your site, e.g. /blog
+# see options here: https://kramdown.gettalong.org/options.html
+kramdown:
+  input: Kramdown
+  footnote_backlink_inline: true
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 locale: "en-US"
@@ -304,6 +308,7 @@ plugins:
   - jekyll-loading-lazy
   - microformats
   - jekyll-scholar
+  - jekyll-sidenotes
   - jekyll-sitemap
   - jekyll-webmention_io
   - jekyll-wikirefs

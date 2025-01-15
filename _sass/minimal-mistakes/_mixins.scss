@@ -90,3 +90,23 @@
   background-color: $background-color;
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }
+
+/* 
+  Reverse Italics for marginnotes and sidenotes
+  https://ramseyinhouse.github.io/scut/reverse-italics.html
+  ========================================================================== */
+  @mixin scut-reverse-italics (
+    $elements: null
+  ) {
+  
+    $element-list: em, cite, i;
+    font-style: italic;
+    #{join($element-list, $elements)} {
+      font-style: normal;
+    }
+  
+  }
+  
+  %scut-reverse-italics {
+    @include scut-reverse-italics;
+  }

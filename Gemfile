@@ -18,16 +18,17 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-glossary_tooltip'
-  gem "jekyll-include-cache"
-  gem 'jekyll-scholar'
+  gem 'jekyll-image-size'
+  gem "jekyll-include-cache"  
   gem "jekyll-last-modified-at"
   gem 'jekyll-link-attributes'
   gem 'jekyll-loading-lazy' 
-  gem 'microformats'
+  gem 'jekyll-scholar'
+  gem 'jekyll-sidenotes'
   gem 'jekyll-sitemap'
   gem 'jekyll-webmention_io'
-  gem 'jekyll-wikirefs'
-  gem 'jekyll-image-size'
+  gem 'jekyll-wikirefs'  
+  gem 'microformats'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
