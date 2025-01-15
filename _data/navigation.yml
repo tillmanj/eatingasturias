@@ -114,13 +114,7 @@ recipe_full:
         url: /recipes/beverages/
       - title: "Breads"
         url: /recipes/breads/
-  - title: Diet
-    children:
-      - title: "Vegetarian Recipes"
-        url: /recipes/vegetarian/
-      - title: "Vegan Recipes"
-        url: /recipes/vegan/
-  - title: Other 
+  - title: Extra
     children:
       - title: "Recipes by Occasion"
         url: /recipes/occasion/
@@ -128,43 +122,16 @@ recipe_full:
         url: /recipes/season/
       - title: "Recipes by Difficulty"
         url: /recipes/difficulty/
+      - title: "Recipes by Diet"
+        url: /recipes/diet/
       - title: "Recipes by Origin"
-        url: /recipes/irogin/
-      - title: "Recipes by Preparation Technique"
+        url: /recipes/origin/
+      - title: "Recipes by Method"
         url: /recipes/method/
       - title: "Recipes by Source"
         url: /recipes/source/
-      - title: "First Courses"
-        url: /recipes/firsts/
-      - title: "Second Courses"
-        url: /recipes/seconds/
-recipe_hidden:
-  - title: Technique
-    children:
-      - title: "Baked Dishes"
-        url: /recipes/baked/
-      - title: "Boiled Dishes"
-        url: /recipes/boiled/
-      - title: "Broiled Dishes"
-        url: /recipes/broiled/
-      - title: "Deep Fried Dishes"
-        url: /recipes/deep-fried/
-      - title: "Grilled Dishes"
-        url: /recipes/grilled/
-      - title: "Pan-Fried Dishes"
-        url: /recipes/pan-fried/
-      - title: "Simmered Dishes"
-        url: /recipes/simmered/
-      - title: "Slow Cooked Dishes"
-        url: /recipes/slow-cooked/
-  - title: Extra
-    children:
-      - title: "Antroxu Recipes"
-        url: /recipes/antroxu/
-      - title: "Espicha Dishes"
-        url: /recipes/espichas/
-      - title: "Christmas Recipes"
-        url: /recipes/christmas/
+      - title: "Recipes by Spanish Course"
+        url: /recipes/courses/
 
 visit_full:
   - title: Why visit Asturias?

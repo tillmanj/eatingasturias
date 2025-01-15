@@ -83,11 +83,6 @@ th, td{
 }
 /* -- End of Table Styling section --*/
 
-main li::marker {
-    color: $contrast-color;
-    content: "✶ "; // https://www.lookuptables.com/text/html-character-codes
-}
-
 .sidenote, .marginnote { 
     float: right;
     clear: right;
