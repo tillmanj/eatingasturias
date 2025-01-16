@@ -17,7 +17,7 @@ When the main concern was making sure there are enough calories for most of the 
 
 That is not to say that there are not seasonal recipes in Asturias. Apples are processed into cider and dulce de manzanas only in Autumn. [Frixuelos](https://eatingasturias.com/wiki/Frixuelos "Frixuelos") are eaten primarily during carnaval. [Fabada](https://eatingasturias.com/wiki/Fabada "Fabada") is the ultimate winter food, made from dried beans and long keeping pork sausages.
 
-I mark recipes with the season or the holiday if they have a particular association with it. As Asturians get used to having fresh seasonal vegetables in every season, they too will add to the seasonality of the food here.
+I mark recipes with the season or the holiday if they have a particular association with it. As Asturians get used to having fresh seasonal vegetables in every season, they too will add to the seasonality of the food here. There is a separate section for [seasonal recipes](/recipes/season/) that are particularly associated with a season and a section for [holiday recipes](/recipes/occasion/) that are associated with a specific occasion.
 
 ## Notes
 [^1]: See {% cite VilaDiez2013HuertaEcologicaAsturiana %} for a traditional year-round gardening calendar in Asturias that highlights the traditional weeks and months in which ingredients are considered best to eat. See also {% cite DiazFormenti2001AsturiasEstaciones -l 12-17 %} for a nature observation guide that revolves almost entirely around edible plants and seafood.
