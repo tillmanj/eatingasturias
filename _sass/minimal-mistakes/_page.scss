@@ -55,6 +55,7 @@ body {
     .page__content,
     .page__meta,
     .page__share {
+      display:inline-block; 
       position: relative;
       float: inline-start;
       margin-inline: 0;
@@ -81,6 +82,12 @@ body {
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  font-style: italic;
+  padding: 0px;
+  &::before {
+    content: '\2003'; // Em Space (&emsp;) Canonically equivalent to Em Quad — in HTML/XML Em Space is preferred. It may scale by the condensation factor of a font.
+    white-space: pre;
+  }
 }
 
 .page__content {
