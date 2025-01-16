@@ -24,6 +24,7 @@ cookingMethod: Simmered
 recipeNotes:
   - You can absolutely make this recipe with canned chicken broth, as time and budget allows.
   - this is a second note to mess up the code
+recipeSource: Alvarez2004CocinaTradicionalAsturiana
 recipeCitations:
   - Riestra2007ComidoServidoAproximacion
   - Domenech1942MiPlatoCocina

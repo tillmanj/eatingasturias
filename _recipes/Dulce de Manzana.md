@@ -28,6 +28,7 @@ recipeNotes:
 recipeCitations:
   - Riestra2007ComidoServidoAproximacion
   - Domenech1942MiPlatoCocina
+recipeSource: Alvarez2004CocinaTradicionalAsturiana
 isBasedOn:
   - 
 mentions:

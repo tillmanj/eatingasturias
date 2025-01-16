@@ -29,6 +29,7 @@ recipeNotes:
 recipeCitations:
   - Riestra2007ComidoServidoAproximacion
   - Domenech1942MiPlatoCocina
+recipeSource: Riestra2001CocinarAsturias
 isBasedOn:
   - https://desidras.com/receta/ensalada-asturiana/
 mentions:
