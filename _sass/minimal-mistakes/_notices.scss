@@ -11,7 +11,7 @@
  */
 
 @mixin notice($notice-color) {
-  margin: 2em 0 !important;  /* override*/
+  margin: 0rem 1rem 4rem 1rem !important; /* override */
   padding: 1em;
   color: $text-color;
   font-family: $global-font-family;
@@ -19,7 +19,7 @@
   text-indent: initial; /* override*/
   background-color: mix($background-color, $notice-color, $notice-background-mix);
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  box-shadow: 0 2px 2px rgba($notice-color, 0.25);
 
   h4 {
     margin-top: 0 !important; /* override*/

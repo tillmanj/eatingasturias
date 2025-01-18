@@ -190,8 +190,10 @@ visit_full:
         url: /visit/embutidos/
 
 culture_full:
-  - title: Etiquette
+  - title: Culture Basics
     children:
+      - title: Start Here!
+        url: /culture/primer/
       - title: Meal Times
         url: /culture/meal-times/
       - title: Table Manners

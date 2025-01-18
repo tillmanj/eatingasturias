@@ -5,6 +5,7 @@ subcategories:
     - Summer Recipes
     - Autumn Recipes
     - Winter Recipes
+sort: strict
 permalink: /recipes/season/
 title: Recipes by Season
 subtitle: what once was old is new again

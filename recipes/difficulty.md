@@ -4,6 +4,7 @@ subcategories:
     - Easy Recipes
     - Medium Recipes
     - Challenging Recipes
+sort: strict
 permalink: /recipes/difficulty/
 title: Recipes by Difficulty
 subtitle: from easy to challenging

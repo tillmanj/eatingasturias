@@ -52,7 +52,11 @@ layout: default
               {% assign catName = page.title | split: " "| first %}
               <h2>{{ catName }} Categories</h2>
             <ul class="col2">
-            {% assign sortedCats = (page.subcategories | sort_natural ) %}
+            {% if page.sort == 'strict' %}
+              {% assign sortedCats = (page.subcategories) %}
+            {% else %}
+              {% assign sortedCats = (page.subcategories | sort_natural ) %}
+            {% endif %}
             {% for subCat in sortedCats %}
                 {% assign subCatTrim = subCat | split: " Recipes"| first | slugify %}
                 {% assign subCatLink = page.url | append: subCatTrim | relative_url %}

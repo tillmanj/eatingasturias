@@ -109,7 +109,7 @@ fieldset {
 
 /* Drop Caps */
 
-.page__content > p:first-of-type:first-letter, .archive > p:first-of-type:first-letter {
+.page__content > p:not(.notice--warning):first-of-type:first-letter, .archive > p:not(.notice--warning):first-of-type:first-letter, .page__content > p.notice--warning:first-of-type + p:first-letter {
   color: $header-alt-color;
   float: left;
   font-family: ETBook;
