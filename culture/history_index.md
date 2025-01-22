@@ -17,3 +17,4 @@ sidebar:
 ## Visigothic & Medieval Foods
 ## Early Modern Foodways
 ## Contemporary Asturian Cuisine
+### Menu del día

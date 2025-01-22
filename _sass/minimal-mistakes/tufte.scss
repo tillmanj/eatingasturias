@@ -87,7 +87,7 @@ th, td{
     float: right;
     clear: right;
     margin-top: 0;    
-    margin-right: -17vw;
+    margin-right: -19vw;
     margin-bottom: 1.96rem;
     width: 17vw;
     font-size: 0.8rem;
@@ -95,6 +95,14 @@ th, td{
     vertical-align: top;
     color: darken($contrast-color, 5%); // change this?
     position: relative; 
+    @include scut-reverse-italics; // mixins.scss
+}
+
+/* This is essentially an inline version of the sidenote or marginnote for very short parenthetical statements */
+.parenthetical{
+    font-size: 0.8rem;
+    line-height: 0.96; //changed to bring line heights into rational pattern
+    color: darken($contrast-color, 5%); // change this?
     @include scut-reverse-italics; // mixins.scss
 }
 
