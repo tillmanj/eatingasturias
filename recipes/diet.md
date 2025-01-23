@@ -8,7 +8,6 @@ subcategories:
     - Kosher Recipes
     - Low Calorie Recipes
     - Low Fat Recipes
-    - Low Lactose Recipes
     - Low Salt Recipes
     - Vegan Recipes
     - Vegetarian Recipes

@@ -1,1 +1,38 @@
---- {}
+---
+https://eatingasturias.com/news/2024/12/12/a-toolchain/:
+  https://daringfireball.net/projects/markdown/: false
+  https://html.spec.whatwg.org/: false
+  https://sass-lang.com/: false
+  https://www.zotero.org/: false
+  https://jrost.org/: false
+  https://www.zotero.org/groups/2459245/eating_asturias/library: false
+  https://github.com/tillmanj/eatingasturias: false
+  https://obsidian.md/: false
+  https://logseq.com/: false
+  https://vscodium.com/: false
+  https://jekyllrb.com/: false
+  https://www.ruby-lang.org/en/: false
+  https://www.w3.org/TR/css-2023/: false
+  https://www.bostonreview.net/articles/what-does-that-server-really-serve/: false
+  https://www.bostonreview.net/: false
+https://eatingasturias.com/news/2024/12/15/some-notes-on-a-writing-process/:
+  https://www.ted.com/talks/michael_specter_the_danger_of_science_denial: false
+  https://quoteinvestigator.com/2017/12/27/plural/: false
+  https://thesilenceofothers.com/: false
+  https://arc.duke.edu/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/: false
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC7392212/: false
+https://eatingasturias.com/news/2024/12/19/notes-on-bibliographies/:
+  https://www.mediawiki.org/wiki/MediaWiki: false
+  https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki: false
+  https://www.semantic-mediawiki.org/wiki/Extension:Semantic_Cite: false
+  https://www.ctan.org/pkg/bibtex: false
+  https://www.zotero.org/: false
+  https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_changes_9th_edition.html: false
+  https://github.com/inukshuk/jekyll-scholar: false
+  https://github.com/inukshuk/jekyll-scholar/issues/344: false
+  https://github.com/sneakers-the-rat/jekyll-scholar/commit/4a3bc1f9e2fff956ff585d2b8c14d2d825b5ca5b: false
+https://eatingasturias.com/news/2024/12/21/Semantic-Markup/:
+  https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA: false
+  https://html.com/semantic-markup/: false
+https://eatingasturias.com/news/2024/12/23/Structured-Data/:
+  https://www.w3.org/DesignIssues/LinkedData.html: false

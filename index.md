@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Afaiyavos en Asturies
+title: Afayáivos en Asturies
 permalink: /
 date: 2024-12-20
 header:
