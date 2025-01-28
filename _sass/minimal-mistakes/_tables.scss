@@ -3,11 +3,10 @@
    ========================================================================== */
 
 table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
+  table-layout: auto;
+  margin: 0 auto;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: 0.95rem;
   border-collapse: collapse;
   overflow-x: auto;
 
@@ -17,7 +16,8 @@ table {
 }
 
 thead {
-  background-color: $border-color;
+  background-color: $header-color;
+  color: $contrast-color;
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
@@ -25,6 +25,7 @@ th {
   padding: 0.5em;
   font-weight: bold;
   text-align: start;
+  word-break: break-word;
 }
 
 td {

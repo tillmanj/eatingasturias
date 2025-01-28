@@ -24,4 +24,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('sidenote', Jekyll::RenderSideNoteTag)
-
