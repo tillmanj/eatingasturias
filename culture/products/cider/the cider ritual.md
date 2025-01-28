@@ -11,7 +11,7 @@ sidebar:
 ---
 {% epigraph '<span title="A blackbird sang a song, from an apple tree. Because he doesn´t drink cider, he isn´t Asturian">Canciaba un ñerbatu<br />&nbsp;&nbsp;&nbsp; dende un manzanu;<br />el que nun bebe sidra<br />&nbsp;&nbsp;&nbsp;nun ye asturianu</span>' 'traditional' 'Refranes y Cantares Populares n´Asturianu' %}
 
-{% newthought 'Welcome to the land of cider.'%} Asturias produces 80% of all the cider in Spain, and drinks even more. It is not out of place to say that life in Asturias revolves around sidra. Social life in Asturias most certainly revolves around the sidrería - the cider house. 
+{% newthought 'Welcome to the land of cider.'%} Asturias produces 80% of all the cider in Spain, and [drinks even more](/culture/cider-consumption/). It is not out of place to say that life in Asturias revolves around sidra. Social life in Asturias most certainly revolves around the sidrería - the cider house. 
 
 Cider has been made in Asturias for roughly 1,000 years, and since the 18th century has been so wildly popular that only now, in the 21st century, is there any real movement to produce anything other than cider, meaning wine or craft beer, in the territory.
 
