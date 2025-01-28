@@ -24,10 +24,11 @@ Since this website is a writing project, most of my process is focused on the di
 Without a purpose, there can be no direction and no guiding principle. Every project has to start by answering the question "what's the point?" 
 
 For me, the point is to capture the cuisine and culture of my adopted home. I chose this place, on purpose, and moved here at great expense, leaving behind 40 years worth of cultural knowledge and understanding, to plunge myself into a strange and unfamiliar place. And I did so in large part because of the food culture. This is perhaps at its simplest, what I am trying to do: to explain to people where I come from what it is about the food and food culture here that made me up sticks and move.
+
 ## Information Architecture
 Information architecture (IA), at its base, is the discipline of making information findable and understandable. It is about laying out relevant information that users are seeking in a way that makes sense to the user.
 
-I started this website in 2020 with an outline. I still use that outline every day. It is the defining document for this project. It determines what topics are in the project and which ones are outside the scope of the project. Its form contains all of the layout and organizational decisions made to organize this website and all the content within it. For all intents and purposes, it **is** my information architecture.
+I started this website in 2020 with **The Outline**. I still use that outline every day. It is the defining document for this project. It determines what topics are in the project and which ones are outside the scope of the project. Its form contains all of the layout and organizational decisions made to organize this website and all the content within it. For all intents and purposes, it **is** my information architecture.
 
 I maintain the outline by setting aside time once a week to look it over. I also keep a little note with things I have come across during my research and writing that aren't already in the outline but perhaps should be. A new craft brewer has sprung up in Moreda, or I've run into an old timer at a bar with stories about how butchers in Asturias have their own particular argot for talking about cuts of meat that is different than the terms they use (in Asturian or Castilian) to sell those same cuts to the public. Time to think about whether those merit inclusion is important!
 
@@ -41,10 +42,10 @@ Regardless of whether I am doing general or focused research, I find it most use
 ### General Research
 General research is what I call gathering facts or just "making notes". I read widely, both in food studies, and in general. I read a lot of what the {% glossary DDC %} calls "general works" - anthologies, specialist dictionaries, narrowly focused encyclopedias. When I read these, I mark up the text much as I would with more focused research. The difference is that I am not looking for anything in particular, more just trying to find interesting tidbits here and there that might relate to any of the various topics on the site.
 
-For this purpose, I use [Zotero](/news/2024/12/12/a-toolchain/#zotero) and leverage a couple of very cool features in it to begin loading up a virtual card file of sorts. Basically, it 
+For this purpose, I use [Zotero](/news/2024/12/12/a-toolchain/#zotero) and leverage a couple of very cool features in it to begin loading up a virtual card file of sorts. Basically, it allows me to store an electronic version of the book, journal article, or other text, along with my annotations of the text in a single database. Careful tagging of annotations allows me to "assign" them to a topic within the Outline. Then, when I work on that topic in the Outline, I can quickly pull up all of the notes I have made on the topic across all of my reading, along with a copy of the source document. I find this enormously powerful.
 
 ### Focused Research
-When addressing a specific subject, I like to focus narrowly on the topic, and do more of what might be considered classic research and study.
+When addressing a specific subject, I like to focus narrowly on the topic, and do more of what might be considered classic research and study. This usually involves reading journal articles, marking them up, and synthesizing the notes I make into something approximating an outline of the topic. This topic outline then gets added to The Outline as the framework for a future article. As in my general research, careful tagging of annotations in Zotero allows for instant recall of the notes on the topic once I get around to actually writing.
 
 ### Skepticism
 > “Be skeptical. But when you get proof, accept proof.”  

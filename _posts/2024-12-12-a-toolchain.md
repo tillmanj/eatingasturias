@@ -15,6 +15,7 @@ toc: true
 Previously I wrote a bit about how I have jettisoned nearly all of the tools and software used to host, and assemble, and present this website, and I have replaced all of it with the shortest, simplest toolchain I can. I thought it might be interesting to go into a bit more detail about what that toolchain looks like.
 
 First things first; I have some baseline requirements for the tools I use to build this site. They are:
+
 - **Linux Native** - *(with bonus points for having a Windows version)* I am working hard to have only Linux (and BSD) systems in my life by the end of 2025, so making sure every piece of software I use is Linux-native is non-negotiable at this point.
 - **Open Source** - Proprietary software is a business model. Open source software is decidedly **not** a business model. Proprietary software is a tool that you rent. Open source software is a tool that you own. I prefer to own my tools.
 - **Not Software as a Service (SaaS)** - Software as a Service takes the business model of proprietary rental software and turns it into a subscription service. I am not interested in renting my tools, I want to own them. Also, I trust myslf to keep my data private more than I trust some random company.[^1]
@@ -40,16 +41,21 @@ I use [Zotero](https://www.zotero.org/) as my reference manager, eBook repositor
 
 The bibliography for this site is [available online](https://www.zotero.org/groups/2459245/eating_asturias/library) through Zotero as well. I publish all of the work I have done to make the website work on [GitHub](https://github.com/tillmanj/eatingasturias) for anyone who might be interested in seeing behind the scenes.
 
-## Obsidian
- I use a couple of editors to do the writing. I keep most of my notes in the [Obsidian.md](https://obsidian.md/) markdown editor, and quite a bit of the actual article writing for the site is done in that software.  Both Obsidian and Jekyll are connected to my [Zotero](https://www.zotero.org/) database and allow me to insert citations, reference documents, and build bibliographies directly from the writing interface.
+## Logseq
+[Logseq](https://logseq.com/) is a markdown powered outliner tool, and the one that I use to maintain **The Outline**; the master document that I use to structure the notes and ideas that eventually become the articles on this website. 
 
- MY only real concern with Obsidian is that it is not Open-Source. I would prefer to use Open-Source tools wherever possible, and I have been spending some time with [Logseq](https://logseq.com/) as a possible replacement. My goal is to have found or built the plugins for it that I need to replace Obsidian by the end of the year.
+Prior to Logseq I used the excellent [TreeLine](https://treeline.bellz.org/) by Doug Bell.
+
+## Obsidian
+I use a couple of editors to do the writing. I keep most of my notes in the [Obsidian.md](https://obsidian.md/) markdown editor, and quite a bit of the actual article writing for the site is done in that software.  Both Obsidian and Jekyll are connected to my [Zotero](https://www.zotero.org/) database and allow me to insert citations, reference documents, and build bibliographies directly from the writing interface.
+
+MY only real concern with Obsidian is that it is not Open-Source. I would prefer to use Open-Source tools wherever possible, and I have been spending some time with Logseq as a possible replacement. My goal is to have found or built the plugins for it that I need to replace Obsidian by the end of the year.
 
 ## VSCodium
 I also use [VSCodium](https://vscodium.com/) the free and open source version of Microsoft's VS Code editor for managing the templates and Jekyll scripts that build the markdown files into HTML.
 
 ## Jekyll
-I use a collection of simple open source scripts called [Jekyll](https://jekyllrb.com/) written in the [Ruby](https://www.ruby-lang.org/en/) programming language to turn those Markdown and Sass files into [HTML](https://html.spec.whatwg.org/) and [CSS](https://www.w3.org/TR/css-2023/) files that are understood by all web browsers and require no scripting languages, databases, presentation layers, or web apps to read and enjoy.
-## Notes 
+I use the static site generator [Jekyll](https://jekyllrb.com/) written in the [Ruby](https://www.ruby-lang.org/en/) programming language to turn those Markdown and Sass files into [HTML](https://html.spec.whatwg.org/) and [CSS](https://www.w3.org/TR/css-2023/) files that are understood by all web browsers and require no scripting languages, databases, presentation layers, or web apps to read and enjoy.
 
+## Notes 
 [^1]: Richard Stallman was pointing out the dangers to SaaS back in 2010, long before most people were even interacting with it on a regular basis. See his article [What Does That Server Really Serve?](https://www.bostonreview.net/articles/what-does-that-server-really-serve/) published on March 18, 2010 in [Boston Review](https://www.bostonreview.net/)

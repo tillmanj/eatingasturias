@@ -12,4 +12,4 @@ share: false
 related: false
 toc: true
 ---
-This post is a sample version of how I arrange what I write on this site. It is intended to explain what all the various bits and bobs are and why they exist.
+{% newthought 'This post is a sample version'%} of how I arrange what I write on this site. It is intended to explain what all the various bits and bobs are and why they exist.

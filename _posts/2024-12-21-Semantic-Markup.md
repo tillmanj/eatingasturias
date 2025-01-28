@@ -13,10 +13,12 @@ related: false
 toc: true
 ---
 One of the most important aspects of the new design is the use of semantic markup.[^1] This is a way of marking up the content of the website so that it is clear what each part of the content is. This is important for a number of reasons:
+
   - It makes the content more accessible to people who use screen readers, translation tools, or other assistive technologies
   - It makes the content more accessible to search engines, which can use the markup to understand the content of the page
   - It makes the content more maintainable, as the markup can be used to define the structure of the content, rather than relying on the presentation to do so
   - It makes the content more portable, as the markup can be used to define the structure of the content, rather than relying on the presentation to do so
+
 ## Core Concept
 The core concept of Semantic Markup is to completely sever the ties between the content layer (the HTML) and the presentation layer (the CSS). This is a powerful concept, as it allows for the content to be presented in a variety of ways, depending on the needs of the user. Most importantly, it does not require the publisher (me in this instance) to anticipate what users might view my site, or what technologies they might need or want in order to best make use of the content.
 

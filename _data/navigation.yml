@@ -47,25 +47,25 @@ visit:
       - title: "Tour Asturias with Me"
         url: /visit/tours/
       - title: "Food Festivals"
-        url: /docs/layouts/
+        url: /visit/food-events/
       - title: "Regions & Towns"
-        url: /docs/pages/
+        url: /visit/places/
       - title: "Asturian Market Days"
-        url: /docs/collections/
+        url: /visit/food-markets/
       - title: "Cider Makers"
-        url: /docs/helpers/
+        url: /visit/llagares/
       - title: "Breweries"
-        url: /docs/utility-classes/
+        url: /visit/breweries/
       - title: "Cheese Makers"
-        url: /docs/utility-classes/
+        url: /visit/queserías/
       - title: "Sidrerías"
-        url: /docs/utility-classes/
+        url: /visit/sidrerías/
       - title: "Restaurants"
-        url: /docs/utility-classes/
+        url: /visit/restaurants/
       - title: "Bars"
-        url: /docs/utility-classes/
+        url: /visit/bars/
       - title: "Bakeries"
-        url: /docs/utility-classes/
+        url: /visit/bakeries/
 
 extras:
   - title: Extras
@@ -199,7 +199,7 @@ culture_full:
       - title: Table Manners
         url: /culture/table-manners/
       - title: The Cider Ritual
-        url: /culture/cider-ritual/
+        url: /culture/products/cider/cider-ritual/
   - title: Artisanal Products
     children:
       - title: Cider

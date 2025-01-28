@@ -9,6 +9,7 @@ toc_label: Recipe Notes
 sidebar:
   nav: recipe_full
 ---
+
 A large portion of this website is [recipes](/recipes/). Not unusual given that I love to cook, love the food of Asturias, and there is little in the way of cookbooks covering this part of Spain. I write my recipes primarily for an American audience, but not entirely in the way you might be used to if you are habituated to cookbooks in the States that are aimed at home cooks. Here I aim to provide some helpful hints and explanations for the home cook tackling my recipes.
 
 ## Weights and Measures
@@ -36,11 +37,25 @@ For all of my baking recipes, I include the type of flour I use. The “number�
 |All-Purpose Flour|55|All-purpose flour|Plain flour|550|55|
 |Pastry Flour|45|Pastry flour|Patent flour|405|45|
 
+### Preheating
+
+Most baking recipes call for a pre-heated oven. However, there are two things to be aware of:
+
+1. Built-in oven thermometers are garbage
+2. Heat rises
+
+When the pre-heat light on an oven turns off all that means is that the air temperature near the probe in the oven has reached the desired temperature, assuming that the thermometer is right - which it often is not. When you open the oven door a large part of that heat energy comes billowing out and, because the oven walls are still relatively cool, the oven takes between five and ten minutes to recover to its original temperature.
+
+The solution is also two-fold:
+
+1. Buy a good oven thermometer and put it in your oven where you can see the temperature without opening the oven door
+2. Allow your oven to sit (unopened) for fifteen to twenty minutes **after** the preheating light turns off (or the thermometer you bought shows the proper temperature) to allow the oven walls to absorb heat, thus reducing recovery time.
+
 ## Substitutions
 
 **Pimentón** – If you can’t find “Spanish Pimentón” or “Pimentón de la Vera”, fear not. Literally any “Smoked Paprika” that isn’t labeled “hot” is perfect as a substitute.
 
-### Salt Notes
+## Salt Notes
 
 **Pinch of Salt** – Salt only adds a “salty” flavor to foods in rather large quantities. Up until that point, salt acts as a flavor intensifier and enhancer. This is doubly true for dessert recipes, where the other ingredients can have a tendency to get lost behind a wall of sweet flavors. Salt helps to preserve the intended balance of flavors. There is absolutely no reason to skip or substitute this ingredient. Sorry. Cut salt out of your diet somewhere else.
 
