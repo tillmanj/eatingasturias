@@ -20,7 +20,27 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 locale: "en-US"
 timezone: Europe/Madrid
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', '.obsidian/', '.pandoc/', 'node_modules/', 'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/', '.sass-cache/', '.jekyll-cache/']
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'Rakefile',
+  'UploadToGithub.Rakefile',
+  'README.md',
+  '.obsidian/',
+  '.pandoc/',
+  'node_modules/',
+  'vendor/bundle/',
+  'vendor/cache/',
+  'vendor/gems/',
+  'vendor/ruby/',
+  '.sass-cache/',
+  '.jekyll-cache/',
+  'eatingasturias.code-workspace',
+  'frontmatter.json',
+  'jekyll up.cmd',
+  'jekyll_build.cmd',
+  'Snippets.md'
+]
 include:
   - _pages
   - .htaccess

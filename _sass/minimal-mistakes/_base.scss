@@ -241,7 +241,7 @@ li ol {
   margin-top: 0.5em;
 }
 
-/* 2 column lists for entry indexes */
+/* 2 & 3 column lists for entry indexes */
 .col2 {
   column-count: 2;
   column-width: 45%;
@@ -250,6 +250,11 @@ li ol {
   column-rule-style: solid;
   column-rule-color: $border-color;
   column-rule-width: 1px;
+}
+
+.col3 {
+  column-count: 3;
+  
 }
 
 /*

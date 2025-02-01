@@ -14,14 +14,15 @@ module Jekyll
   
       def render(context)
         baseurl = context.registers[:site].config['baseurl']
+        pageTitle = context.registers[:page]['title']
         if @text[1].start_with?('http://', 'https://', '//')
           "<label for='#{@text[0]}' class='margin-toggle'>&#8853;</label>"+
           "<input type='checkbox' id='#{@text[0]}' class='margin-toggle'/>"+
-          "<span class='marginnote'><img class='fullwidth' src='#{@text[1]}'/><br>#{@text[2]}</span>"
+          "<span class='marginnote'><a href='#{@text[1]}' data-lightbox='#{pageTitle}' data-alt='#{@text[2]}' data-title='#{@text[2]}' title='#{@text[2]}'><img class='fullwidth' src='#{@text[1]}'/></a><br>#{@text[2]}</span>"
         else
           "<label for='#{@text[0]}' class='margin-toggle'>&#8853;</label>"+
           "<input type='checkbox' id='#{@text[0]}' class='margin-toggle'/>"+
-          "<span class='marginnote'><img class='fullwidth' src='#{baseurl}/#{@text[1]}'/><br>#{@text[2]}</span>"
+          "<span class='marginnote'><a href='#{baseurl}/#{@text[1]}' data-lightbox='#{pageTitle}' data-alt='#{@text[2]}' data-title='#{@text[2]}' title='#{@text[2]}'><img class='fullwidth' src='#{baseurl}/#{@text[1]}'/></a><br>#{@text[2]}</span>"
         end
       end
     end

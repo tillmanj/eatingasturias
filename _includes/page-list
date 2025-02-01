@@ -1,0 +1,8 @@
+{% assign pages = site.pages | sort: 'title' %}
+<ul class="page-list">  
+  {%- for item in pages %}
+    {%- if item.dir == page.dir and item.path != page.path %}
+      <li><a href="{{item.url | relative_url}}">{{item.title}}</a> -- {{item.subtitle}}</li>
+    {% endif -%}
+  {% endfor -%}
+</ul>
