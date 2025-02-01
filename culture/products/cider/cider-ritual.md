@@ -2,7 +2,7 @@
 layout: page
 title: The Cider Ritual
 subtitle: how to drink cider like a local
-permalink: /culture/products/cider/cider-ritual/
+
 toc: true
 toc_sticky: true
 toc_label: Cider Ritual Steps

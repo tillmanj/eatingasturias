@@ -2,13 +2,14 @@
 layout: page
 title: Asturian Cider History
 subtitle: a brief overview
-permalink: /culture/products/cider/cider-history/
 toc: true
 toc_sticky: true
 toc_label: Cider History
 sidebar:
   nav: culture_full
 ---
+{% epigraph 'The flowers of the apple are perhaps the most beautiful of any tree´s, so copious and so delicious to both sight and scent.' 'Henry David Thoreau' 'Walking, Wild Apples' %}
+
 It is no exaggeration to say that everything in Asturias revolves around apples. As many as five hundred varieties are grown here, twenty-two of which are approved for use in traditional Asturian cider by the Regulatory Council.{% sidenote '01' 'The [Regulatory Council](https://sidradeasturias.es/en/) is the official body established to certify that a cider qualifies for the “*Sidra de Asturias*” [Designation of Origin](/culture/asturian-quality-marks/)' %}
 
 How that came to be is a fascinating story. Read on for the very briefest story of apple cider in Asturias. This is a topic I could probably write a book on. Perhaps I will one day. 

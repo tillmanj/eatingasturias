@@ -27,10 +27,14 @@ We begin with the literal landscape; the physical environment in which a food cu
 
 To me, this is a fascinating aspect of our food cultures, and I spend quite a bit of time researching how the landscape forms our culture. I delve into the two great divisions of landscape as it pertains to food culture, the [physical landscape](/culture/natural-environment/); formed by erosion, weathering, tectonic activity and made up of mountains, rivers, plains, and sea, and the the [human landscape](/culture/built-environment/); shaped by human activity and comprising the cities, roads, farms, urban areas, and infrastructure that moves people (and food) around.
 
+*read more about the [culinary landscape](/culture/landscape/) of Asturias.*
+
 ## Food History
 The historical context is just as important as the physical context when it comes to understanding a food culture. Other cultures who were neighbors of, conquerors of, or conquered by the culture in question all leave their marks on the food and food customs of the culture. Asturian food history spans a truly amazing amount of time: from Neanderthal cooking and medicine 49,000 years ago[^3] to the rise of Latino immigrants in Spain from 3% of the population to 14% (equal to the US latino immigrant population) in just two decades in the early 21st century.[^2]
 
 Between those two bookends lies a celt-iberian cultural substrate changed over time by influences from Phoenician, Roman, Visigothic, pan-Catholic, Arabic, Mozarabic, Sephardic, South American, French, and other cultures and cuisines.[^4] Each of these cultures contributed something to the food culture of Asturias. Some more than others, and some in less direct and obvious ways.
+
+*read more about the [food history](/culture/history/) of Asturias*
 
 ## Common Ingredients
 One of the less visible, but still incredibly important ways that a culture contributes to the food culture of another group is through the sharing of ingredients. What we grow determines what we eat, obviously, so ingredients borrowed from our neighbors, much more so than fashionable dishes copied for a season and then forgotten, mark their true contribution to our food culture.
@@ -39,6 +43,8 @@ From the French beans that makes possible one of the most-loved Asturian seafood
 
 As a novice farmer and avid smallholder, I am obsessed with the raw ingredients, the *materia prima*, of Asturian cooking. I grow them, cook them, write about them - my life revolves around them. I am an unabashed booster for local produce, local farmers, home gardens, and seed conservation. I aim to catalog the entirety of Asturian garden produce and commercial agriculture for local and regional consumption.
 
+*read more about the [ingredients](/culture/ingredients/) in Asturian cooking*
+
 ## Artisanal Products
 Not all ingredients are used directly in a dish. Many of them are first converted into new products; cheeses, other dairy products, drinks, sausages, etc… And not every food culture produces all (or even most) of the products it loves. The USA, for instance, is one of the world’s biggest consumers of artisanal cheeses, but produces very little of what it consumes. But the things that a food culture both produces and consumes in great quantities come to define those cultures.
 
@@ -46,15 +52,14 @@ Asturias is (rightly) famous for two of these products; its [cheeses](/products/
 
 I am on a mission not just to catalog all the cheeses and ciders in Asturias (though I am definitely trying to do that!), but to provide as complete a list of small artisanal producers of all of the food products in Asturias as I can.
 
-## Cooking Methods
-The cooking methods we choose (or choose to exclude) have a marked effect on our food culture. A society that does not baking is very different from one in which every home has an oven. A culture that does not ferment is very different from one that does. The cooking methods we use are a reflection of our culture, and they in turn shape our culture. Whether or not we look for labor-saving methods of cooking or revel in doing things by hand "the hard way" says a lot about who we are as a people.
-
-The Asturian food experience is defined by slow cooking over low heat. Stews, soups, and other *platos de cuchara* predominate, and old-style wood-fired stoves are common in Asturian homes.
+*read more about the [artisan foods](/culture/products/) of Asturias*
 
 ## Etiquette
 Food plays an intrinsic role in social interaction and community rituals. It is the centerpiece of celebrations and gatherings. Weddings, birthdays, and regional holidays all revolve in large part around what food is served at them and what food is considered appropriate to serve at them. Not only does cooking the same dishes and using the same ingredients as our neighbors create a sense of shared identity, of community, but the ways in which we eat them, the rituals and customs that surround the food, also create a sense of shared identity.
 
 These rules of etiquette; what foods can be eaten with the hands and which require utensils, who eats first at the table, who is served first, who is served last, who is served at all, who is invited to eat with us, who is not, who is allowed to cook, who is not, who is allowed to eat, who is not, all of these things are part of the food culture of a people. I am working to catalog all of the traditional food customs in Asturias, concentrating, of course, on the ones most likely to be encountered by the [visitor](/visit/) in Asturias.
+
+*read more about [food etiquette](/culture/primer/) in Asturias*
 
 ## Notes
 [^1]: It is really worth looking at {% cite Benetiere2019ManifestePatrimonialPour %} for an even-handed appraisal of what the concept of "gastronomic heritage" (gastronomiá patrimonial) might ***actually*** mean with respect to the concept of *Paisaje culinario*

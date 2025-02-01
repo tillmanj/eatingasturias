@@ -2,7 +2,6 @@
 layout: page
 title: Cider Consumption in Asturias
 subtitle:  By the Numbers
-permalink: /culture/products/cider/cider-consumption/
 toc: false
 toc_sticky: true
 toc_label: Cider Ritual Steps

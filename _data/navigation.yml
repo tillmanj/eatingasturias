@@ -238,11 +238,11 @@ culture_full:
     children:
       - title: Asturian Food History
         url: /culture/history/
-      - title: Paleolithic Food in Asturias
-        url: /culture/history/paleolithic/
-      - title: Bronze Age Dinner
+      - title: Stone Age Food in Asturias
+        url: /culture/history/stone-age/
+      - title: Bronze Age Trade
         url: /culture/history/bronze-age/
-      - title: Iron Age Farming & Cooking
+      - title: Iron Age Hill Forts
         url: /culture/history/iron-age/
       - title: Ancient Asturias
         url: /culture/history/ancient-period/

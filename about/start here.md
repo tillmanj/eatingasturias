@@ -1,10 +1,15 @@
 ---
 layout: page
-title: Start Here
+title: "Start Here: A Brief Introduction to Eating Asturias"
 subtitle: Welcome to Asturias
 permalink: /about/start-here/
 toc: true
 toc_sticky: true
+description: "An introduction to the Eating Asturias website and the topics it covers: recipes, food culture, places to visit, and a brief bio of the author; Jon Tillman"
+keywords:
+    - eating asturias
+    - food culture
+    - recipes
 ---
 
 {% epigraph 'If you can see, look. If you can look, observe' 'Edward of Portugal' 'O leal conselheiro' %}

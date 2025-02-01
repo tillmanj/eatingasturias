@@ -1,8 +1,11 @@
 ---
 layout: page
 title: About Me
-subtitle: "My Story – From Appalachia to Asturias"
+subtitle: My Story – From Appalachia to Asturias
 permalink: /about/jon/
+keywords:
+    - Jon Tillman
+description: The biography of Jon Tillman, the author of Eating Asturias
 ---
 
 ![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}
