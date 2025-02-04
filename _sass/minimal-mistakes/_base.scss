@@ -6,6 +6,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100vh;
+  font-size: clamp(14px, calc(0.875rem + ((1vw - 7.68px) * 0.8681)), 24px); // https://websemantics.uk/tools/responsive-font-calculator/
 }
 
 body {
