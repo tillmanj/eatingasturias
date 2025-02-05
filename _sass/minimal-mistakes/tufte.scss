@@ -5,11 +5,13 @@ Based on Tufte CSS by Dave Liepmann ( https://github.com/edwardtufte/tufte-css )
 /* Chapter Epigraphs */
 div.epigraph {
     all: unset;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
     margin-top: .5636rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
-    display:inline-block;
-    width: 80%;
     }
 
 div.epigraph > blockquote {
@@ -31,7 +33,10 @@ div.epigraph > blockquote > footer {
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 0;
-    margin-top: 0.4455rem;
+    margin-top: 1.4455rem;
+    &::before {
+        content: "—";
+    }
     margin-bottom: 1rem;
 }
 
@@ -44,6 +49,59 @@ div.epigraph > blockquote > footer > cite {
       }
 }
 /* end chapter epigraphs styles */
+
+/* In-Text Blockquotes */
+div.blockquote {
+    all: unset;
+    display: flex;
+    width: 95%;
+    margin-top: .5636rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 17px;
+    border-left: 3px solid $contrast-color;    
+    }
+
+div.blockquote > blockquote {
+    all: unset;
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    
+}
+
+div.blockquote > blockquote, div.blockquote > blockquote > p {
+    all: unset;
+    font-family: 'Gill Sans C';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+div.blockquote > blockquote > footer {  
+    all: unset;
+    display:inline-block;
+    vertical-align: bottom;
+    float: right;
+    font-style: normal;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0;
+    margin-top: 1.4455rem;
+    &::before {
+        content: "—";
+    }
+}
+
+div.blockquote > blockquote > footer > cite {    
+    all: unset;
+    font-style: italic;
+    &::before {
+        content: "";
+        padding-inline-end: 5px;
+      }
+}
+/* End In-Text Blockquotes */
 
 .sidenote, .marginnote { 
     float: right;

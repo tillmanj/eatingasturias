@@ -120,6 +120,11 @@
       "description": "provides tooltip access to definitions in the glossary",
       "body": "{% glossary TERM %}",
       "fields": []
+    },
+    "blockquote": {
+      "description": "in-text blockquotes that are visually distinct from eipgraphs",
+      "body": "{% blockquote 'QUOTE' 'AUTHOR' 'SOURCE' %}",
+      "fields": []
     }
   },
   "frontMatter.website.host": "https://staging.eatingasturias.com/"

@@ -4,6 +4,7 @@
 
 @charset "UTF-8";
 
+// Main content font
 @font-face {
 	font-family: 'ETBembo';
 	src: url("../fonts/ETBembo/ETBembo-RomanLF.woff2") format(woff2);
@@ -37,37 +38,102 @@
 	font-display: swap;
 }
 
-/*
+// Sans-serif font for interface elements and blockquotes
 @font-face {
-	font-family: 'ETbook';
-	src: url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.eot");
-	src: url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../fonts/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbemboromanosf") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+    font-family: 'Gill Sans Cond C';
+    src: url('../fonts/Gill-Sans/GillSansCondC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'ETbook';
-	src: url("../fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
-	src: url("../fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("../fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("../fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbemboromanosf") format("svg");
-	font-weight: normal;
-	font-style: italic;
-	font-display: swap;
+    font-family: 'Gill Sans Cond Black C';
+    src: url('../fonts/Gill-Sans/GillSansCondBlackC.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'ETbook';
-	src: url("../fonts/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-	src: url("../fonts/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../fonts/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../fonts/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbemboromanosf") format("svg");
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
+    font-family: 'Gill Sans Cond C';
+    src: url('../fonts/Gill-Sans/GillSansCondC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'ETbook';
-	src: url("../fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
-	src: url("../fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbemboromanosf") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+    font-family: 'Gill Sans C';
+    src: url('../fonts/Gill-Sans/GillSansC-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
 }
-*/
+
+@font-face {
+    font-family: 'Gill Sans C';
+    src: url('../fonts/Gill-Sans/GillSansC-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gill Sans C';
+    src: url('../fonts/Gill-Sans/GillSansC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Extra Bold C';
+    src: url('../fonts/Gill-Sans/GillSansExtraBoldC.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans C';
+    src: url('../fonts/Gill-Sans/GillSansC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Light C';
+    src: url('../fonts/Gill-Sans/GillSansLightC.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Light C';
+    src: url('../fonts/Gill-Sans/GillSansLightC-Italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+// Code snippet font after Github
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas/Consolas.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas/Consolas-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas/Consolas-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas/Consolas-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}

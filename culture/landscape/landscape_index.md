@@ -53,7 +53,7 @@ These cultural and personal expectations, likes and dislikes, and comfort routin
 
 ### Articles
 
-- The Psycheogeography of Asturias
+- [The Psychogeography of Asturias](/culture/landscape/psychogeography-of-asturias.html)
 - Neophobia & Neophilia
 
 ## Notes

@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"  
   gem "jekyll-last-modified-at"
   gem 'jekyll-link-attributes'
-  gem 'jekyll-loading-lazy' 
+  gem 'jekyll-loading-lazy'
   gem 'jekyll-scholar'
   gem 'jekyll-sidenotes'
   gem 'jekyll-sitemap'
