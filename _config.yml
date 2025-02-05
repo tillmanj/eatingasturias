@@ -106,18 +106,6 @@ sass:
   silence_deprecations: ['color-functions', 'global-builtin', 'imports', 'slash-div'] # see https://sass-lang.com/documentation/js-api/interfaces/deprecations/ for active deprecations that can be passed
   quiet_deps: true
 
-# https://jekyll.stevefenton.co.uk/config/robots/
-# https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
-robots_txt: >-
-  User-agent: GPTBot
-  Disallow: /
-  User-agent: ChatGPT-User
-  Disallow: /
-  User-agent: Google-Extended
-  Disallow: /
-  User-agent: CCBot
-  Disallow: /
-
 # Site Defaults
 # all of these settings can be overridden on a per-page basis through YAML frontmatter
 defaults:
