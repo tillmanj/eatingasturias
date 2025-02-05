@@ -123,7 +123,7 @@
     },
     "blockquote": {
       "description": "in-text blockquotes that are visually distinct from eipgraphs",
-      "body": "{% blockquote 'QUOTE' 'AUTHOR' 'SOURCE' %}",
+      "body": "{% blockquote 'ID' 'QUOTE' 'AUTHOR' 'SOURCE' 'MARGINALIA' %}",
       "fields": []
     }
   },
