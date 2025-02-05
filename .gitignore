@@ -9,3 +9,10 @@ Gemfile.lock
 /.obsidian
 /eatingasturias.code-workspace
 /jekyll up.cmd
+/.cache
+/.frontmatter
+/.vscode
+/frontmatter.json
+/jekyll_build.cmd
+/Snippets.md
+/test.md
