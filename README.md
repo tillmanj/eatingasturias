@@ -25,7 +25,7 @@ The following Jekyll plugins are used on the site:
 - [Ruby microformats](https://github.com/microformats/microformats-ruby) - extended support for microformats
 - [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) - bibliography and footnote management
 - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) - silently generate a sitemaps.org compliant sitemap for your Jekyll site
-- [Jekyll Webmentions.io](jekyll-webmention_io) - renders Webmentions via Webmention.io
+- [Jekyll Webmentions.io](https://github.com/aarongustafson/jekyll-webmention_io) - renders Webmentions via Webmention.io
 - [Jekyll Wikirefs](https://github.com/wikibonsai/jekyll-wikirefs) - allows parsing wikiref style links into proper links
 
 ### UX & Interface

@@ -444,3 +444,12 @@ scholar:
 # PLUGIN: tzinfo
 
 # PLUGIN: jekyll-wikirefs
+
+# PLUGIN: jekyll-webmentions
+# https://aarongustafson.github.io/jekyll-webmention_io/tags/webmentions_js
+webmentions:
+  cache_folder: .cache
+  cache_bad_uris_for: 5
+  js:
+    destination: /assets/js
+    uglify: false
