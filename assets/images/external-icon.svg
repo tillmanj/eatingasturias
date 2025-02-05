@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14.82015"
+   height="16.41304"
+   viewBox="0 0 5.5575564 6.15489"
+   fill="none"
+   stroke="#54692a"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="external-icon.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="15.75"
+     inkscape:cx="14.848866"
+     inkscape:cy="31.128095"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0"
+     transform="translate(-3.3348853,-0.33014893)" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     transform="translate(-3.3348853,-0.33014893)" />
+  <g
+     id="SVGRepo_iconCarrier"
+     transform="matrix(0.24622123,0,0,0.23774075,0.28572077,-0.6656032)">
+    <path
+       d="m 20,4 -8,8 M 20,4 V 8.5 M 20,4 h -4.5 m 3.5,8.5 v 4.3 c 0,1.1201 0,1.6802 -0.218,2.108 -0.1917,0.3763 -0.4977,0.6823 -0.874,0.874 C 17.4802,20 16.9201,20 15.8,20 H 7.2 C 6.0799,20 5.51984,20 5.09202,19.782 4.71569,19.5903 4.40973,19.2843 4.21799,18.908 4,18.4802 4,17.9201 4,16.8 V 8.2 C 4,7.0799 4,6.51984 4.21799,6.09202 4.40973,5.71569 4.71569,5.40973 5.09202,5.21799 5.51984,5 6.07989,5 7.2,5 h 4.3"
+       stroke="#54692a"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path4" />
+  </g>
+</svg>

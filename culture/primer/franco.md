@@ -2,7 +2,6 @@
 layout: page
 title: Francisco Franco, A Primer
 subtitle: It's Franco's world, we just live in it
-permalink: /culture/franco/
 toc: true
 toc_sticky: true
 toc_label: Cider

@@ -35,7 +35,7 @@ div.epigraph > blockquote > footer {
     padding-top: 0;
     margin-top: 1.4455rem;
     &::before {
-        content: "—";
+        content: "— ";
     }
     margin-bottom: 1rem;
 }
@@ -56,9 +56,10 @@ div.blockquote {
     display: flex;
     width: 95%;
     margin-top: .5636rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
     margin-right: 17px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;    
     border-left: 3px solid $contrast-color;    
     }
 
@@ -67,7 +68,6 @@ div.blockquote > blockquote {
     display: flex;
     justify-content: right;
     margin-top: 1rem;
-    
 }
 
 div.blockquote > blockquote, div.blockquote > blockquote > p {
@@ -89,7 +89,7 @@ div.blockquote > blockquote > footer {
     padding-top: 0;
     margin-top: 1.4455rem;
     &::before {
-        content: "—";
+        content: "— ";
     }
 }
 
@@ -128,7 +128,7 @@ div.blockquote > blockquote > footer > cite {
 
 li .sidenote, li .marginnote{ margin-right: -80%; } //added to allow for the fact that lists are indented and marginnotes and sidenotes push to right
 
-blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
+// blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 

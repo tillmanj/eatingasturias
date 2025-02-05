@@ -195,6 +195,10 @@ a {
   }
 }
 
+a[rel~="external"]::after {
+  content: url('/assets/images/external-icon.svg');
+}
+
 /* buttons */
 
 button:focus {

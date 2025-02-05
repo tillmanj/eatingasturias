@@ -18,7 +18,7 @@ However, they do not snack absentmindedly, or while doing other things. It is no
 ## Desayuno
 *First Breakfast: from 7 to 9 am*
 
-Many people in Spain completely skip this meal entirely, having nothing but a cup of [coffee](/culture/coffee/) before leaving for work. Those who do eat *desayuno* at home opt for a combination of carbohydrates and sugars. Common breakfast sweets include cake (*bizcocho*), [cookies](/recipes/desserts/cookie/) (*galletas*) dunked in coffee, and various [pastries](/recipes/desserts/pastry/). On weekends or special days, *churros con chocolate* are a very popular *desayuno*.
+Many people in Spain completely skip this meal entirely, having nothing but a cup of [coffee](/culture/primer/coffee.html) before leaving for work. Those who do eat *desayuno* at home opt for a combination of carbohydrates and sugars. Common breakfast sweets include cake (*bizcocho*), [cookies](/recipes/desserts/cookie/) (*galletas*) dunked in coffee, and various [pastries](/recipes/desserts/pastry/). On weekends or special days, *churros con chocolate* are a very popular *desayuno*.
 
 **Where:** Most people eat this breakfast at home. Visitors should head to their hotel bar, or a nearby pastry shop.
 
@@ -32,7 +32,7 @@ Known as *almuerzo* in most of Spain, this it the time for the second coffee of 
 ## Aperitivo or Vermut
 *Pre-lunch drink or snack: from 12 to 2 pm*
 
-Confined almost entirely to the weekend (particularly Sunday), and timed to begin when mass lets out, this is the most Spanish of all Spanish meal times. Essentially designed to solve the problem of not wanting to go home after church, but it not being time to eat lunch yet, this institution has seen a resurgence of late, after falling into obscurity in the decades after [Franco](/culture/franco/)'s death. The focus is on drinks rather than food, and there has been something of a craft *[vermut](/culture/products/vermut/)* renaissance as a result.
+Confined almost entirely to the weekend (particularly Sunday), and timed to begin when mass lets out, this is the most Spanish of all Spanish meal times. Essentially designed to solve the problem of not wanting to go home after church, but it not being time to eat lunch yet, this institution has seen a resurgence of late, after falling into obscurity in the decades after [Franco](/culture/primer/franco.html)'s death. The focus is on drinks rather than food, and there has been something of a craft *[vermut](/culture/products/vermut/)* renaissance as a result.
 
 Food does play a part, as it always does when drinking in Spain, and since this is Asturias, the offerings are heartier than elsewhere. *Raciones* are commonly on offer, and many a number of vermouth bars have signature pinchos to try.
 
@@ -41,7 +41,7 @@ Food does play a part, as it always does when drinking in Spain, and since this 
 ## La Hora De Comer
 *Lunch: from 2 to 4 pm*
 
-{% marginnote 'mn-meals-02' 'The *menú del día* has a fascinating history that is probably a lot shorter (and weirder) than you think. I have put together a comprehensive [history of the menú del día](/culture/history/menu-del-día/) if you would like to know the story behind this Spanish lunch institution.' %}
+{% marginnote 'mn-meals-02' 'The *menú del día* has a fascinating history that is probably a lot shorter (and weirder) than you think. I have put together a comprehensive [history of the menú del día](/culture/history/contemporary/menu-del-día.html) if you would like to know the story behind this Spanish lunch institution.' %}
 Also known as *la comida*, this is the main event. Whether eaten at home or in a restaurant, lunch is the main meal of the day in Asturias, and in Spain generally. When eating outside the home, Spaniards most often choose a *menú del día* which consists of three courses plus drink and bread for a set price. That price is usually somewhere between €10 and €15 per person.
 
 The *menú del día* follows a general pattern of a lighter first course followed by a heavier meat-centric second course and a third dessert (and maybe coffee) course.
@@ -61,7 +61,7 @@ In the interest of [seasonality](/recipes/seasonality/), I would skip places tha
 No proper meal can exist without a dessert course. And in Asturias the desserts are very often house-made. As a matter of fact, the best places for *menú del día* only serve *postres caseros*. Common options on this part of the menu in Asturias include *arroz con leche*, *tarta de abuela*, and *tarta de queso*.
 
 ### Sobremesa
-An essential part of the Spanish lunch is the time spent after dessert around the table. *Digestivos* will perhaps make an appearance, along with another coffee or tea for those who eschew alcohol. Conversation will continue for as long as there are still people at the table, and no one will leave until they have to (to go back to work, or to an appointment). (*there is more information about [sobremesa](/culture/sobremesa/) elsewhere on the site*{:.parenthetical})
+An essential part of the Spanish lunch is the time spent after dessert around the table. *Digestivos* will perhaps make an appearance, along with another coffee or tea for those who eschew alcohol. Conversation will continue for as long as there are still people at the table, and no one will leave until they have to (to go back to work, or to an appointment). (*there is more information about [sobremesa](/culture/sobremesa.html) elsewhere on the site*{:.parenthetical})
 
 **Where:** While most restaurants in Asturias offer a *menú del día* the absolute best options are found away from the touristy parts of town. You will never as good a lunch downtown in the shadow of the cathedral as you will on the outskirts of town in an industrial estate in the shadow of a power plant.
 
@@ -80,7 +80,7 @@ Popular snacks at this time include *bizcocho*, sandwiches, *tablas* of cheese o
 
 For American and British visitors to Spain, this can be the most confusing (and frustrating) time of the day. You are looking around for a restaurant to eat dinner, but none are open yet. "Surely not everyone can wait until late into the night to eat" you explain to your partner. And you are right. They are all eating, just not dinner yet. They are in the bars, having *tapas*, *pintxos*, or *pinchus*, depending on where you are in the country. Some are out for a quick snack and a drink with friends before dinner (especially if they didn't have a chance to *merendar* earlier), some are eschewing the coming dinner period entirely, choosing to roam from bar to bar having a snack in each one, and some haven't decided what to do yet.
 
-Regardless, you aren't going to find a good Asturian restaurant serving dinner yet, so you might as well wade in and get in the swing of things. 
+Regardless, you aren't going to find a good Asturian restaurant serving dinner yet, so you might as well wade in and get in the swing of things. If you aren't up for full-on snacking, and simply need something to do during this time, you might consider joining the great Spanish pastime of *El paseo* -- the pre-dinner ramble through town. See the sights, people watch, have a drink or two along the way. (*there is more information about [el paeo](/culture/el-paseo.html) if you are interested*{:.parenthetical})
 
 **Where:** You have the full gamut of options here, from a slice of *tortilla de patata* at a local *chigre* through any number of types of local bars, to the high-end grazing places with a reputation for architectural constructions and walls full of awards for their past accomplishments. No matter where you choose, there will be several things to try while you wait around for the restaurants to open.
 
