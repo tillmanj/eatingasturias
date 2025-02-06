@@ -16,3 +16,4 @@ Gemfile.lock
 /jekyll_build.cmd
 /Snippets.md
 /test.md
+/_config_dev.yml
