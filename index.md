@@ -2,16 +2,15 @@
 layout: splash
 title: Afayáivos en Asturies
 permalink: /
-date: 2024-12-20
+date: 2025-02-06
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/cudillero-splash-main.jpg
+  overlay_image: /assets/images/hero-splash-2.avif
   actions:
-    - label: "Start Here"
+    - label: "Start Here!"
       url: "/about/start-here/"
-  caption: "Photo by [Juan Antonio Guzmán](https://unsplash.com/@juanaan95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-      "
+  caption: "Photo by [Juan Antonio Guzmán](https://unsplash.com/@juanaan95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
 excerpt: "This is a website dedicated to bringing the best of Asturian food culture to the English-speaking world. Equal parts [cookbook](/recipes/), [travel guide](/visit/), and [ethnography](/culture/)."
 intro: 
   - excerpt: '*In Spain, perhaps more so than anywhere in Europe, the geography of the land has played a major role in the political. cultural, and culinary history of the people who lived on the land. It has certainly played a role in what those people put in their cooking pot.*<br />
@@ -22,7 +21,7 @@ feature_row:
     title: "Recipes"
     excerpt: "The Recipe Index contains my recipes, and my writing about those recipes. I provide both context and a trans-cultural perspective on each recipe I post. Like much regional American food, Asturian food is easy to cook, homey, and hearty. It’s basically perfect for home cooking, and the majority of Asturian restaurants pride themselves on being home-cooking types of places that serve exactly what people want to eat. 
     
-    
+
     *If you want to learn about how people cook in Asturias and how to reproduce those dishes at home, this is where you should look.*"
     url: "/recipes/"
     btn_label: "Start Cooking"
