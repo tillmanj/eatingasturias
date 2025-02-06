@@ -1,9 +1,9 @@
 name: Build & Publish Eating Asturias
 
 on:
-  push:
+  workflow_dispatch:
     branches:
-      -master
+      - main
 
 jobs:
   build:
