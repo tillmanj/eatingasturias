@@ -307,7 +307,6 @@ lunr:
 plugins:
   - jekyll-analytics
   - jekyll-archives
-  - jekyll-darkvisitors
   - jekyll-environment-variables
   - jekyll-feed
   - jekyll-glossary_tooltip
