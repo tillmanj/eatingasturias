@@ -308,6 +308,7 @@ plugins:
   - jekyll-analytics
   - jekyll-archives
   - jekyll-darkvisitors
+  - jekyll-environment-variables
   - jekyll-feed
   - jekyll-glossary_tooltip
   - jekyll-image-size
@@ -356,7 +357,7 @@ jekyll-archives:
 # PLUGIN: jekyll-darkvisitors
 # https://github.com/pettazz/jekyll-darkvisitors
 darkvisitors:
-  access_token: ${DARK_VISITORS_ACCESS_TOKEN}
+  access_token: {{ site.env.DARK_VISITORS_ACCESS_TOKEN }}
   append_existing: false
   agent_types:
     - AI Data Scraper

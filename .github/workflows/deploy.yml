@@ -24,6 +24,8 @@ jobs:
           bundle install
 
       - name: Build Jekyll
+        env:
+          DARK_VISITORS_ACCESS_TOKEN: ${{ secrets.DARK_VISITORS_ACCESS_TOKEN }}
         run: |
           bundle exec jekyll build
 
