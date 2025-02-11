@@ -10,5 +10,5 @@ $indent-var: 1.5em; // equivilent to ~1.75in on a printed page
 
 @charset "utf-8";
 
-@use "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// @use "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @use "minimal-mistakes"; // main partials

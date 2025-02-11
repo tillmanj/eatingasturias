@@ -21,49 +21,59 @@
             <th colspan="2" class="header">About</td>
         </tr>
         <tr class="about">
-            <td>Category</td>
+            <td class="infobox-label">Category</td>
             {% assign categoryLink = {{page.recipeCategory}} | downcase | split: " " | first %}
             <td><span itemprop="recipeCategory"><a href="/recipes/{{categoryLink}}/">{{page.recipeCategory}}</a></span></td>
         </tr>
         <tr class="about">
-            <td>Prep Time</td>
+            <td class="infobox-label">Prep Time</td>
             <td>{{page.prepTime}}</td>
         </tr>
         <tr class="about">
-            <td>Cook Time</td>
+            <td class="infobox-label">Cook Time</td>
             <td><span itemprop="cookTime">{{page.cookTime}}</span></td>
         </tr>
         <tr class="about">
-            <td>Cooking Method</td>
+            <td class="infobox-label">Cooking Method</td>
             <td><span itemprop="cookingMethod"><a href="/recipes/method/{{page.cookingMethod | downcase}}/">{{page.cookingMethod}}</a></span></td>
         </tr>
         {%if page.suitableForDiet%}
             <tr class="about">
-                <td>Special Diets</td>
-                <td><span itemprop="suitableForDiet"><a href="/recipes/diet/{{page.suitableForDiet | downcase}}/">{{page.suitableForDiet}}</a></span></td>
+                <td class="infobox-label">Special Diets</td>
+                <td>
+                    {% if page.suitableForDiet.size == 1 %}
+                        <span itemprop="suitableForDiet"><a href="/recipes/diet/{{page.suitableForDiet | downcase}}/">{{page.suitableForDiet}}</a></span>
+                    {%  else %}
+                        <ul style="float: left;">
+                            {% for diet in page.suitableForDiet %}
+                                <li><span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | downcase}}/">{{diet}}</a></span></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </td>
             </tr>
         {%endif%}
         {%if page.recipeOccasion%}
             <tr class="about">
-                <td>Special Occasion</td>
+                <td class="infobox-label">Special Occasion</td>
                 <td><span itemprop="keywords"><a href="/recipes/occasion/{{page.recipeOccasion | downcase}}/">{{page.recipeOccasion}}</a></span></td>
             </tr>
         {%endif%}
         {%if page.recipeSeason%}
             <tr class="about">
-                <td>Season</td>
+                <td class="infobox-label">Season</td>
                 <td><span itemprop="keywords"><a href="/recipes/season/{{page.recipeSeason | downcase}}/">{{page.recipeSeason}}</a></span></td>
             </tr>
         {%endif%}
         {%if page.recipeDifficulty%}
             <tr class="about">
-                <td>Difficulty</td>
+                <td class="infobox-label">Difficulty</td>
                 <td><span itemprop="keywords"><a href="/recipes/difficulty/{{page.recipeDifficulty | downcase}}/">{{page.recipeDifficulty}}</a></span></td>
             </tr>
         {%endif%}
         {%if page.recipeCourse%}
             <tr class="about">
-                <td>Course</td>
+                <td class="infobox-label">Course</td>
                 <td><span itemprop="keywords"><a href="/recipes/course/{{page.recipeCourse | downcase}}/">{{page.recipeCourse}}</a></span></td>
             </tr>
         {%endif%}
