@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/hindu/
 title: Hindu Recipes
 subtitle: Asturian eating with ahimsa
+type: diet
+category: Hindu
 toc: false
 sidebar:
   nav: recipe_full

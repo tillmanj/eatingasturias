@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/desserts/pudding/
 title: Pudding Dessert Recipes
-subtitle: 
+subtitle: custards as far as the eye can see
+type: category
+category: Pudding
 toc: false
 sidebar:
   nav: recipe_full

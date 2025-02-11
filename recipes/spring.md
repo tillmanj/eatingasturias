@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/season/spring/
 title: Spring Recipes
 subtitle: Afayáivos a Primavera
+type: season
+category: Spring
 toc: false
 sidebar:
   nav: recipe_full

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/occasion/espicha/
 title: Espicha Recipes
 subtitle: the best of Asturian party food
+type: occasion
+category: Espicha
 excerpt: the best of Asturian party food
 header:
   overlay_image: /assets/images/header-espicha-test.jpg

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/occasion/antroxu/
 title: Antroxu Recipes
 subtitle: laissez les bon temps rouler
+type: occasion
+category: Antroxu
 toc: false
 sidebar:
   nav: recipe_full

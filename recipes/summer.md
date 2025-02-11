@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/season/summer/
 title: Summer Recipes
 subtitle: Branu brings all the birds to the yard
+type: season
+category: Summer
 toc: false
 sidebar:
   nav: recipe_full

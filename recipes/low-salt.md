@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/low-salt/
 title: Low Salt Recipes
 subtitle: I did the math so you don't have to
+type: diet
+category: Low-salt
 toc: false
 sidebar:
   nav: recipe_full

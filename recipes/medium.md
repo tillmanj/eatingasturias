@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/difficulty/medium/
 title: Medium Recipes
 subtitle: Everyday cooking, everyday effort
+type: difficulty
+category: Medium
 toc: false
 sidebar:
   nav: recipe_full

@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/meat/pork/
 title: Pork Recipes
-subtitle: 
+subtitle: We know it's now white meat, right?
+type: category
+category: Pork
 toc: false
 sidebar:
   nav: recipe_full

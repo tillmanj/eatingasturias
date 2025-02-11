@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/diet/vegan/
 title: Vegan Recipes
-subtitle: 
+subtitle: not a hox gene in sight
+type: diet
+category: Vegan
 toc: false
 sidebar:
   nav: recipe_full

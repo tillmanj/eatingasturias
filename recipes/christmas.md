@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/occasion/christmas/
 title: Christmas Recipes
 subtitle: from ancient solstice to modern extravaganza
+type: occasion
+category: Christmas
 toc: false
 sidebar:
   nav: recipe_full

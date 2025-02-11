@@ -2,6 +2,9 @@
 layout: recipe-category
 permalink: /recipes/meat/chicken/
 title: Chicken Recipes
+subtitle: Yard birds and others
+type: category
+category: Chicken
 subtitle: 
 toc: false
 sidebar:

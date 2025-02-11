@@ -2,6 +2,8 @@
 layout: recipe-category
 permalink: /recipes/method/baked/
 title: Baking Recipes
+type: method
+category: Baking
 subtitle: but it's a dry heat
 toc: false
 sidebar:

@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/desserts/mousse-cream/
 title: Mousses & Creams Dessert Recipes
-subtitle: 
+subtitle: Puddings galore!
+type: category
+category: Mousse
 toc: false
 sidebar:
   nav: recipe_full

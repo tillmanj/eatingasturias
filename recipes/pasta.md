@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/pasta/
 title: Pasta Recipes
 subtitle: from Italy to Asturias
+type: category
+category: Pasta
 toc: false
 sidebar:
   nav: recipe_full

@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/desserts/fruit-dessert/
 title: Fruit Dessert Recipes
-subtitle: 
+subtitle: the all-natural answer to what's for afters
+type: category
+category: Fruit
 toc: false
 sidebar:
   nav: recipe_full

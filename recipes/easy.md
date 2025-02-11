@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/difficulty/easy/
 title: Easy Recipes
 subtitle: Not every recipe needs to be a test of your limits
+type: difficulty
+category: Easy
 toc: false
 sidebar:
   nav: recipe_full

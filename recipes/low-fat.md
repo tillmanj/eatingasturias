@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/low-fat/
 title: Low Fat Recipes
 subtitle: I did the math so you don't have to
+type: diet
+category: Low-fat
 toc: false
 sidebar:
   nav: recipe_full

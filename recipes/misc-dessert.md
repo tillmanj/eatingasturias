@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/desserts/misc-dessert/
 title: Miscellaneous Dessert Recipes
-subtitle: 
+subtitle: The best of the rest
+type: category
+category: Misc-dessert
 toc: false
 sidebar:
   nav: recipe_full

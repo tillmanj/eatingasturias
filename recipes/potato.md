@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/potato/
 title: Potato Recipes
 subtitle: Asturias' favorite import from the Americas
+type: category
+category: Potato
 toc: false
 sidebar:
   nav: recipe_full

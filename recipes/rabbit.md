@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/meat/rabbit/
 title: Rabbit & Hare Recipes
-subtitle: 
+subtitle: not just for hunters anymore
+type: category
+category: Rabbit
 toc: false
 sidebar:
   nav: recipe_full

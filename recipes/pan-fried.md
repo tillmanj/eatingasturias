@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/method/pan-fried/
 title: Pan Frying and Sautéing Recipes
 subtitle: high heat, little oil
+type: method
+category: Pan-fried
 toc: false
 sidebar:
   nav: recipe_full

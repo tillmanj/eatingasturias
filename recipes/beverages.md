@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/beverages/
 title: Beverage Recipes
-subtitle: 
+subtitle: What to drink that isn't cider
+type: category
+category: Beverages
 toc: false
 sidebar:
   nav: recipe_full

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/gluten-free/
 title: Gluten-Free Recipes
 subtitle: Celiacs eat well in Asturias
+type: diet
+category: Gluten-free
 toc: false
 sidebar:
   nav: recipe_full

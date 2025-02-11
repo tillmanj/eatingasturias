@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/diet/vegetarian/
 title: Vegetarian Recipes
-subtitle: 
+subtitle: meat-free and fancy
+type: diet
+category: Vegetarian
 toc: false
 sidebar:
   nav: recipe_full

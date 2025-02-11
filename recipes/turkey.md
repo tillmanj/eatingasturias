@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/turkey/
 title: Turkey Recipes
 subtitle: From Guatemalan highlands to global conquest
+type: category
+category: Turkey
 toc: false
 sidebar:
   nav: recipe_full

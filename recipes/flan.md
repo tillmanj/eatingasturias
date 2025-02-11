@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/flan/
 title: Flan Recipes
 subtitle: the quintessential <s>Spanish</s> <s>French</s> Italian dessert
+type: category
+category: Flan
 toc: false
 sidebar:
   nav: recipe_full

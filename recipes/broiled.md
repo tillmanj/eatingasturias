@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/method/broiled/
 title: Broiling Recipes
 subtitle: it's not grilling, I swear
+type: method
+category: Broiled
 toc: false
 sidebar:
   nav: recipe_full

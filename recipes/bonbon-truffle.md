@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/bonbon-truffle/
 title: Bonbon & Truffle Recipes
 subtitle: does it matter which one is which?
+type: category
+category: Bonbons
 toc: false
 sidebar:
   nav: recipe_full

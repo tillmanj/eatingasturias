@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/cake/
 title: Cake Recipes
 subtitle: How sweet the cake, its layers dear, Delicious, moist, and full of cheer
+type: category
+category: Cake
 toc: false
 sidebar:
   nav: recipe_full

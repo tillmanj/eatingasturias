@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/halal/
 title: Halal Recipes
 subtitle: that which is permitted and allowed
+type: diet
+category: Halal
 toc: false
 sidebar:
   nav: recipe_full

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/deer/
 title: Deer Recipes
 subtitle: the hunter's quarry
+type: category
+category: Deer
 toc: false
 sidebar:
   nav: recipe_full

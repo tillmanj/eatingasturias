@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/method/boiled/
 title: Boiling Recipes
 subtitle: Gentler than it looks
+type: method
+category: Boiled
 toc: false
 sidebar:
   nav: recipe_full

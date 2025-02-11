@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/frozen-dessert/
 title: Frozen Dessert Recipes
 subtitle: ice cream and more
+type: category
+category: Frozen
 toc: false
 sidebar:
   nav: recipe_full

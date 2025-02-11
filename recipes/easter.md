@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/occasion/easter/
 title: Easter Recipes
 subtitle: it's baking season!
+type: occasion
+category: Easter
 toc: false
 sidebar:
   nav: recipe_full

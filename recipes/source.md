@@ -2,7 +2,7 @@
 layout: recipe-sources
 permalink: /recipes/source/
 title: Recipes by Source
-subtitle: 
+subtitle: attribution is the sincerest form of flattery
 toc: false
 sidebar:
   nav: recipe_full

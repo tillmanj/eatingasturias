@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/difficulty/challenging/
 title: Challenging Recipes
 subtitle: Special effort for special meals
+type: difficulty
+category: Challenging
 toc: false
 sidebar:
   nav: recipe_full

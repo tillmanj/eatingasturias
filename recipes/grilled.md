@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/method/grilled/
 title: Grilling Recipes
 subtitle: a la parrilla
+type: method
+category: Grilled
 toc: false
 sidebar:
   nav: recipe_full

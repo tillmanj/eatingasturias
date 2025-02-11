@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/rice/
 title: Rice Recipes
 subtitle: just make sure you call it 'rice with things'
+type: category
+category: Rice
 toc: false
 sidebar:
   nav: recipe_full

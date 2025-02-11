@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/soups/
 title: Soup & Stew Recipes 
 subtitle: The glory of platos de cucharas
+type: category
+category: Soup
 toc: false
 sidebar:
   nav: recipe_full

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/low-calorie/
 title: Low Calorie Recipes
 subtitle: I did the math so you don't have to
+type: diet
+category: Low-calorie
 toc: false
 sidebar:
   nav: recipe_full

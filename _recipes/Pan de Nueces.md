@@ -18,6 +18,7 @@ recipeCategory:
   - Breads
 suitableForDiet:
   - Halal
+  - Kosher
 recipeOccasion: 
 recipeSeason: 
 recipeDifficulty: Medium

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/appetizers/
 title: Appetizer Recipes
 subtitle: The bewildering array of Asturian cosas para picar
+type: category
+category: Appetizers
 toc: false
 sidebar:
   nav: recipe_full

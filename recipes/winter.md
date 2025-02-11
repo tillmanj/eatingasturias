@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/season/winter/
 title: Winter Recipes
 subtitle: Inviernu is for stew
+type: season
+category: Winter
 toc: false
 sidebar:
   nav: recipe_full

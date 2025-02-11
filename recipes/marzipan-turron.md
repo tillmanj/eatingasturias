@@ -2,6 +2,8 @@
 layout: recipe-category
 permalink: /recipes/desserts/marzipan-turron/
 title: Marzipan & Turron Recipes
+type: category
+category: Marzipan
 subtitle: 
 toc: false
 sidebar:

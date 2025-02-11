@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/meat/goat/
 title: Goat Recipes
-subtitle: the other, other red meat
+subtitle: he other, other red meat
+type: category
+category: Goat
 toc: false
 sidebar:
   nav: recipe_full

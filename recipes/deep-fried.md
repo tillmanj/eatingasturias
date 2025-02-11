@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/method/deep-fried/
 title: Deep Frying Recipes
 subtitle: liquid dry heat
+type: method
+category: Deep-fried
 toc: false
 sidebar:
   nav: recipe_full

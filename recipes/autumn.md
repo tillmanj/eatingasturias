@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/season/autumn/
 title: Autumn Recipes
 subtitle: Seronda is for fruit harvests
+type: season
+category: Autumn
 toc: false
 sidebar:
   nav: recipe_full

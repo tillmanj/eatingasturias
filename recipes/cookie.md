@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/cookie/
 title: Cookie Recipes
 subtitle: the universal, and best, dessert choice at all occasions
+type: category
+category: Cookie
 toc: false
 sidebar:
   nav: recipe_full

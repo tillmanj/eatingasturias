@@ -2,7 +2,9 @@
 layout: recipe-category
 permalink: /recipes/meat/beef/
 title: Beef Recipes
-subtitle: 
+subtitle: Where's the beef?
+type: category
+category: Beef
 toc: false
 sidebar:
   nav: recipe_full

@@ -50,8 +50,29 @@ layout: default
               {{ content }}
 
             <h2>The Recipes</h2>
-            {% assign pageCategory = page.name | split: "." | first %}
-            {% assign recipes = site.recipes | where: "recipeCategory", pageCategory %}
+
+            {% assign pageCategory = page.category %}
+            {% case page.type %}
+              {% when "category" %}
+                {% assign recipes = site.recipes | where: "recipeCategory", pageCategory %}
+              {% when "occasion" %}
+                {% assign recipes = site.recipes | where: "recipeOccasion", pageCategory %}
+              {% when "season" %}
+                {% assign recipes = site.recipes | where: "recipeSeason", pageCategory %}
+              {% when "difficulty" %}
+                {% assign recipes = site.recipes | where: "recipeDifficulty", pageCategory %}
+              {% when "diet" %}
+                {% assign recipes = site.recipes | where: "suitableForDiet", pageCategory %}
+              {% when "origin" %}
+                {% assign recipes = site.recipes | where: "recipeCuisine", pageCategory %}
+              {% when "method" %}
+                {% assign recipes = site.recipes | where: "cookingMethod", pageCategory %}
+              {% when "source" %}
+                {% assign recipes = site.recipes | where: "recipeCitations", pageCategory %}
+              {% when "course" %}
+                {% assign recipes = site.recipes | where: "recipeCourse", pageCategory %}
+            {% endcase %}
+
             <ul class="col2">
             {% for entry in recipes %}
                 <li><a href="{{entry.permalink}}">{{entry.title}}</a></li>

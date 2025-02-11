@@ -2,6 +2,9 @@
 layout: recipe-category
 permalink: /recipes/breads/
 title: Bread & Savory Baking Recipes
+subtitle: Lovin'from the oven
+type: category
+category: Breads
 subtitle: 
 toc: false
 sidebar:

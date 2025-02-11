@@ -1,7 +1,7 @@
 name: Build & Publish Eating Asturias
 
 on:
-  workflow_dispatch:
+  push:
     branches:
       - main
 
@@ -24,11 +24,11 @@ jobs:
           bundle install
 
       - name: Build Jekyll
-        env:
-          DARK_VISITORS_ACCESS_TOKEN: ${{ secrets.DARK_VISITORS_ACCESS_TOKEN }}
         run: |
           bundle exec jekyll build
-
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy Site
         uses: wlixcc/SFTP-Deploy-Action@v1.2.5
         with:
@@ -36,7 +36,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_path: './_site/*'
+          local_path: '_site/*'
           remote_path: '/home/eatingas/staging.eatingasturias.com'
-          sftp_only: true
           sftpArgs: '-o ConnectTimeout=5'

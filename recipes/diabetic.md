@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/diabetic/
 title: Diabetes-Friendly Recipes
 subtitle: fitting on the Diabetes Plate
+type: diet
+category: Diabetic
 toc: false
 sidebar:
   nav: recipe_full

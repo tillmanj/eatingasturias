@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/desserts/pastry/
 title: Pastry Recipes
 subtitle: 
+type: category
+category: pastry
 toc: false
 sidebar:
   nav: recipe_full

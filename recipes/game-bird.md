@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/game-bird/
 title: Game Bird Recipes
 subtitle: tastes like chicken?
+type: category
+category: Game-bird
 toc: false
 sidebar:
   nav: recipe_full

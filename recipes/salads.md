@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/salads/
 title: Salad Recipes
 subtitle: a growing body of leafy green delights
+type: category
+category: Salad
 toc: false
 sidebar:
   nav: recipe_full

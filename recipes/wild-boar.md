@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/wild-boar/
 title: Wild Boar Recipes
 subtitle: the king of the forest
+type: category
+category: Boar
 toc: false
 sidebar:
   nav: recipe_full

@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/seafood/
 title: Fish & Seafood Recipes
 subtitle: the bounty of the mar Cantabrico
+type: category
+category: Seafood
 toc: false
 sidebar:
   nav: recipe_full

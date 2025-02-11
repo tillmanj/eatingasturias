@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/offal/
 title: Offal Recipes
 subtitle: Varietal Cuts, Usable Trim, Scraps, and Bones
+type: category
+category: Offal
 toc: false
 sidebar:
   nav: recipe_full

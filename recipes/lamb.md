@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/meat/lamb/
 title: Lamb & Mutton Recipes
 subtitle: the other, other, other red meat
+type: category
+category: Lamb
 toc: false
 sidebar:
   nav: recipe_full

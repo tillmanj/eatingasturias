@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/vegetables/
 title: Vegetable Recipes
 subtitle: From the garden to the plate
+type: category
+category: Vegetable
 toc: false
 sidebar:
   nav: recipe_full

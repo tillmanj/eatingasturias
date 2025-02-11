@@ -3,6 +3,8 @@ layout: recipe-category
 permalink: /recipes/diet/kosher/
 title: Kosher Recipes
 subtitle: Asturian food according to the Kashrut
+type: diet
+category: Kosher
 toc: false
 sidebar:
   nav: recipe_full
