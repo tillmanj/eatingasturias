@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Early Modern Asturian Food History
-subtitle: Columbian Exchange, Industrialization, Migration
+subtitle: 1492 - 1808 CE
 permalink: /culture/history/early-modern/
 toc: true
 toc_sticky: true
@@ -9,6 +9,7 @@ toc_label: Early Modern Asturias
 sidebar:
   nav: culture_full
 ---
+Early Modern Asturias is the time from the expulsion of the Jews from Spain, the Columbian Exchange, Industrialization, Migration
 
 ### Columbian Exchange
 

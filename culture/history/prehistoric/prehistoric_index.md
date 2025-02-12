@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stone Age Asturian Food History
-subtitle: The Remotest Origins of Asturian Cuisine
+subtitle: 50,000 - 1300 BCE
 permalink: /culture/history/stone-age/
 toc: true
 toc_sticky: true

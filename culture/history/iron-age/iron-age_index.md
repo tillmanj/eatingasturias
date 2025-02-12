@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Iron Age Asturian Food History
-subtitle: The rise of the Castro Culture
+subtitle: 900 - 100 BCE
 permalink: /culture/history/iron-age/
 toc: true
 toc_sticky: true
@@ -9,7 +9,7 @@ toc_label: History
 sidebar:
   nav: culture_full
 ---
-9th century BCE to 1st century BCE
+The rise of the Castro Culture
 
 Occupants of these castros developed a food economy that remains the basis of Asturian food culture to this day. They bred cattle for meat, milk, and butter. Sheep and goats were also bred for meat and wool, and pigs were raised for meat. In-shore fishing and hunting deer and boar were widespread.
 
