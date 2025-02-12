@@ -92,7 +92,7 @@ body {
 
 .page__content {
   h2 {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
     border-bottom: 1px solid $border-color;
   }
 
@@ -132,6 +132,13 @@ body {
         margin-top: -($indent-var);
       }
     }
+  }
+
+  .subtitle {
+    font-style: italic;
+    margin-top: -18px;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
   }
 
   a:not(.btn) {
