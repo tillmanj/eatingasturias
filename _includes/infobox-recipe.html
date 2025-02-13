@@ -12,47 +12,20 @@
                         <source srcset="/assets/images/{{page.recipeImage}}" type="image/png" media="(orientation: portrait)">
                         <img itemprop="photograph" src="/assets/images/{{page.recipeImage}}" alt="a prepared dish of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                     </picture>
-                    <figcaption>{{page.title}}</figcaption>
+                    <figcaption>{{page.recipeImageCaption}}</figcaption>
                 </figure>
             </td>
         </tr>
     {% endif %}
-        <tr class="about">
-            <th colspan="2" class="header">About</td>
-        </tr>
         <tr class="about">
             <td class="infobox-label">Category</td>
             {% assign categoryLink = {{page.recipeCategory}} | downcase | split: " " | first %}
             <td><span itemprop="recipeCategory"><a href="/recipes/{{categoryLink}}/">{{page.recipeCategory}}</a></span></td>
         </tr>
         <tr class="about">
-            <td class="infobox-label">Prep Time</td>
-            <td>{{page.prepTime}}</td>
-        </tr>
-        <tr class="about">
-            <td class="infobox-label">Cook Time</td>
-            <td><span itemprop="cookTime">{{page.cookTime}}</span></td>
-        </tr>
-        <tr class="about">
             <td class="infobox-label">Cooking Method</td>
             <td><span itemprop="cookingMethod"><a href="/recipes/method/{{page.cookingMethod | downcase}}/">{{page.cookingMethod}}</a></span></td>
         </tr>
-        {%if page.suitableForDiet%}
-            <tr class="about">
-                <td class="infobox-label">Special Diets</td>
-                <td>
-                    {% if page.suitableForDiet.size == 1 %}
-                        <span itemprop="suitableForDiet"><a href="/recipes/diet/{{page.suitableForDiet | downcase}}/">{{page.suitableForDiet}}</a></span>
-                    {%  else %}
-                        <ul style="float: left;">
-                            {% for diet in page.suitableForDiet %}
-                                <li><span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | downcase}}/">{{diet}}</a></span></li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </td>
-            </tr>
-        {%endif%}
         {%if page.recipeOccasion%}
             <tr class="about">
                 <td class="infobox-label">Special Occasion</td>
@@ -79,75 +52,84 @@
         {%endif%}
     </tbody>
     </table>
+
     {% if page.nutrition %}
     <table class="nutrition" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">    
         <thead>
             <tr class="nutrition">
-                <th colspan="2" class="header">Nutrition Facts</td>
+                <th colspan="2" class="header">Nutrition</td>
             </tr>
         </thead>
         <tbody>
-            <tr class="nutrition">
-                <td colspan="2">
-                    <span class="recipeYield">{{page.recipeYield}} servings per recipe</span>
+            <tr class="nutrition" id="divider">
+                <td class="nutrition-label">Serving Size</td>
+                <td class="nutrition-value right" itemprop="servingSize">{{page.servingSize}}</td>
+            </tr>
+            <tr class="nutrition" >
+                <td class="nutrition-label nutrition-note right small">per serving</td>
+                <td class="calories" rowspan="2">
+                    <span itemprop="calories">{{page.calories}}</span>
                 </td>
             </tr>
-            <tr class="nutrition" id="divider">
-                <td><p>Serving Size:</p></td>
-                <td><span itemprop="servingSize">{{page.servingSize}}</span></td>
-            </tr>
-            <tr class="nutrition" >
-                <td>per serving</td>
-                <td rowspan="2" class="right"><span itemprop="calories">{{page.calories}}</span></td>
+            <tr class="nutrition">
+                <td class="nutrition-label">Calories</td>
             </tr>
             <tr class="nutrition">
-                <td>Calories</td>
+                <td colspan="2" class="nutrition-note right small">%DV*</td>                
             </tr>
             <tr class="nutrition">
-                <td colspan="2" class="right">% Daily Value*</td>                
-            </tr>
-            <tr class="nutrition">
-                <td>Total Fat </td>
-                <td><span itemprop="fatContent">{{page.fatContent}}</span></td>
+                <td class="nutrition-label">Total Fat&nbsp;&nbsp;<span itemprop="fatContent">{{page.fatContent}}g</span></td>
+                <td class="nutrition-value">{{page.fatContent | divided_by: 65 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td class="indent1">Saturated Fat</td>
-                <td><span itemprop="saturatedFatContent">{{page.saturatedFatContent}}</span></td>
+                <td class="nutrition-label indent1">Saturated Fat&nbsp;&nbsp;<span itemprop="saturatedFatContent">{{page.saturatedFatContent}}g</span></td>
+                <td class="nutrition-value">{{page.saturatedFatContent | divided_by: 20 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td class="indent1">Trans Fat</td>
-                <td><span itemprop="transFatContent">{{page.transFatContent}}</span></td>
+                <td class="nutrition-label indent1">Trans Fat&nbsp;&nbsp;<span itemprop="transFatContent">{{page.transFatContent}}g</span></td>
+                <td class="nutrition-value">{{page.transFatContent | divided_by: 56 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td>Cholesterol</td>
-                <td><span itemprop="cholesterolContent">{{page.cholesterolContent}}</span></td>
+                <td class="nutrition-label">Cholesterol&nbsp;&nbsp;<span itemprop="cholesterolContent">{{page.cholesterolContent}}mg</span></td>
+                <td class="nutrition-value">{{page.cholesterolContent | divided_by: 300 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td>Sodium</td>
-                <td><span itemprop="sodiumContent">{{page.sodiumContent}}</span></td>
+                <td class="nutrition-label">Sodium&nbsp;&nbsp;<span itemprop="sodiumContent">{{page.sodiumContent}}mg</span></td>
+                <td class="nutrition-value">{{page.sodiumContent | divided_by: 2400 | times: 100.0 | round}}%</td>
+
             </tr>
             <tr class="nutrition" >
-                <td>Total Carbohydrate</td>
-                <td><span itemprop="carbohydrateContent">{{page.carbohydrateContent}}</span></td>
+                <td class="nutrition-label">Carbohydrate&nbsp;&nbsp;<span itemprop="carbohydrateContent">{{page.carbohydrateContent}}g</span></td>
+                <td class="nutrition-value">{{page.carbohydrateContent | divided_by: 130 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td class="indent1">Dietary Fiber</td>
-                <td><span itemprop="fiberContent">{{page.fiberContent}}</span></td>
+                <td class="nutrition-label indent1">Dietary Fiber&nbsp;&nbsp;<span itemprop="fiberContent">{{page.fiberContent}}g</span></td>
+                <td class="nutrition-value">{{page.fiberContent | divided_by: 33.6 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
-                <td class="indent1">Sugars</td>
-                <td><span itemprop="sugarContent">{{page.sugarContent}}</span></td>
+                <td class="nutrition-label indent1">Sugars&nbsp;&nbsp;<span itemprop="sugarContent">{{page.sugarContent}}g</span></td>
+                <td class="nutrition-value"><em>n/a</em></td>
             </tr>
             <tr class="nutrition" >
-                <td>Protein</td>
-                <td><span itemprop="proteinContent">{{page.proteinContent}}</span></td>
+                <td class="nutrition-label">Protein&nbsp;&nbsp;<span itemprop="proteinContent">{{page.proteinContent}}g</span></td>
+                <td class="nutrition-value">{{page.fatContent | divided_by: 56 | times: 100.0 | round}}%</td>
             </tr>
         </tbody>
         <tfoot>
             <tr class="nutrition" >
-                <td colspan="2"><p><small>* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</small></p></td>
+                <td colspan="2" class="nutrition-note small">* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</td>
             </tr>
         </tfoot>    
     </table>
     {% endif %}
+    {% if page.suitableForDiet.size %}
+        <h3 class="recipe-suit">This Recipe Is:</h3>
+        <div class="recipe-foot">
+            {% for diet in page.suitableForDiet %}
+                <div class="recipe-diet">
+                    <span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | downcase}}/">{{diet}}</a></span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 </aside>

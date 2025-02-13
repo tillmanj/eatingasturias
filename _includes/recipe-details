@@ -1,0 +1,30 @@
+{% if page.recipeIngredients %}
+  <h2>Ingredients</h2>
+  <ul class="ingredients">
+    {% for ingredient in page.recipeIngredients %}
+    <li itemprop="recipeIngredient">{{ingredient}}</li>
+    {% endfor %}
+  </ul>
+{% endif  %}
+
+
+{% if page.recipeInstructions %}
+  <h2>Instructions</h2>
+  <ol itemprop="recipeInstructions">
+    {% for instruction in page.recipeInstructions %}
+    <li itemprop="step">{{instruction}}</li>
+    {% endfor %}
+  </ol>
+{% endif  %}
+
+
+{% if page.recipeNotes %}
+  {% assign i = 1 %}
+  <h2>Hints</h2>
+  <ol class="ingredients">
+    {% for note in page.recipeNotes %}
+    <li role="note" aria-label="recipe hint {{i}}">{{note}}</li>
+    {% assign i = i | plus: 1 %}
+    {% endfor %}
+  </ol>
+{% endif  %}

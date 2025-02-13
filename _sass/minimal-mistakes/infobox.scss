@@ -13,15 +13,12 @@ td.image {
 
 .infobox > table {
     display: inline-block;
-    border:1px solid $header-alt-color;
     border-radius: $border-radius;
-    background-color: $header-color;
     padding: 0px;
 }
 
 .infobox th.header {
-    background-color: $header-alt-color;
-    color: $header-color;
+    color: $contrast-color;
     text-align: center; 
     vertical-align: middle;
     font-family: $sans-serif-narrow;
@@ -67,15 +64,12 @@ td.image {
 }
 
 .infobox > table > tbody > tr > td {
-    // REMOVE THIS LATER
-    // border:1px solid $header-alt-color;
-    border-collapse: collapse;
     overflow: auto;
-    max-width: max-content;
+    padding: 0 0.5rem;
 }
 
 .infobox > table > tbody > tr.about > td:first-child { 
-    text-align: right;
+    text-align: end;
     font-family: $sans-serif-narrow;
     font-weight: 500;
     font-size: 1cqw;
@@ -88,6 +82,10 @@ td.image {
 
 .infobox > table > tbody > tr.about > td:nth-child(2) {
     font-style: italic;
+}
+
+tr.about td {
+    border-bottom: none;
 }
 
 .infobox #divider {
@@ -131,4 +129,40 @@ td.image {
 ul.ingredients {
     list-style-type:square;
     list-style-position: inside;
+}
+
+table.nutrition thead {
+    all: initial;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.nutrition-label {
+    display: flexbox;
+}
+
+.nutrition-note {
+    justify-content: right;
+    font-style: italic;
+    color: $contrast-color;
+}
+
+.flexright {
+    justify-content: right;
+}
+
+.nutrition-value {
+    font-family: $sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    box-sizing:content-box;
+    vertical-align: middle;
+}
+
+td.calories {
+    font-family: $sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    vertical-align: middle;
+    text-align: center;
 }

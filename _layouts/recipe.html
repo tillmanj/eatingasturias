@@ -36,53 +36,18 @@ layout: default
             {% if page.subtitle %}<span class="subtitle">{{page.subtitle}}</span>{% endif %}
             {% include page__meta.html %}
           </header>
-        {% endunless %}
-  
+        {% endunless %}  
         <section class="page__content" itemprop="text">
-
         <!--- Recipe Infobox --->
         {% include infobox-recipe.html %}
-          
-          {{ content }}
-
-          <!--- Ingredients --->
-          {% if page.recipeIngredients %}
-            <h2>Ingredients</h2>
-            <ul class="ingredients">
-                {% for ingredient in page.recipeIngredients %}
-                    <li itemprop="recipeIngredient">{{ingredient}}</li>
-                {% endfor %}
-            </ul>
-          {% endif  %}
-          
-          <!--- Instructions --->
-          {% if page.recipeInstructions %}
-            <h2>Instructions</h2>
-            <ol itemprop="recipeInstructions">
-                {% for instruction in page.recipeInstructions %}
-                    <li itemprop="step">{{instruction}}</li>
-                {% endfor %}
-            </ol>
-          {% endif  %}
-
-           <!--- Recipe Notes --->
-           {% if page.recipeNotes %}
-            {% assign i = 1 %}
-            <h2>Hints</h2>
-            <ul class="ingredients">
-            {% for note in page.recipeNotes %}
-                <li role="note" aria-label="recipe hint {{i}}">{{note}}</li>
-                {% assign i = i | plus: 1 %}
-            {% endfor %}
-            </ul>
-          {% endif  %}
-
+        {% include recipe-head %}
+        {{ content }}
           <!--- Sources --->
         {% if page.recipeCitations %}
-            <h2>Sources</h2>
+            <h2>Additional Sources</h2>
             <ul>
             {% for citation in page.recipeCitations %}
-                <li>{% bibliography --query @*[key={{citation}}] %}</li>
+                {% bibliography --query @*[key={{citation}}] %}
             {% endfor %}
             </ul>
         {% endif %}
@@ -106,7 +71,6 @@ layout: default
                 </ul>
             {% endif %}
         {% endif %}
-        
           <!--- Recipe Tags --->
           {% if page.recipeTags %}
             <h2>Tags</h2>

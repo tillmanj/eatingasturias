@@ -1,0 +1,18 @@
+<div class="recipe-head">
+    <div class="recipe-time prep">
+        <span class="unit-title">Prep Time</span>
+        <span>{{page.prepTime}}</span>
+    </div>
+    <div class="recipe-time cook">
+        <span class="unit-title">Cook Time</span>
+        <span>{{page.cookTime}}</span>
+    </div>
+    <div class="recipe-time total">
+        <span class="unit-title">Total Time</span>
+        <span>{{page.totalTime}}</span>
+    </div>
+    <div class="recipe-time yield">
+        <span class="unit-title">Yield</span>
+        <span>{{page.recipeYield}}</span>
+    </div>
+</div>
