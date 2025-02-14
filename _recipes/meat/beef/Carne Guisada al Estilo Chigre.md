@@ -17,7 +17,7 @@ totalTime: 1 h 30 m
 recipeYield: 1.2 kg
 recipeCategory: Beef
 suitableForDiet:
-  - Halal
+  - Diabetic
   - Kosher
 recipeOccasion: 
 recipeSeason: 
