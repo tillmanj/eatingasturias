@@ -1,6 +1,6 @@
 ---
 layout: recipe-category
-permalink: /recipes/desserts/frozen-dessert/
+permalink: /recipes/desserts/frozen-desserts/
 title: Frozen Dessert Recipes
 subtitle: ice cream and more
 type: category

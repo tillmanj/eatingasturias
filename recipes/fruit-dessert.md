@@ -1,10 +1,10 @@
 ---
 layout: recipe-category
-permalink: /recipes/desserts/fruit-dessert/
+permalink: /recipes/desserts/fruit-desserts/
 title: Fruit Dessert Recipes
 subtitle: the all-natural answer to what's for afters
 type: category
-category: Fruit
+category: Fruit Dessert
 toc: false
 sidebar:
   nav: recipe_full

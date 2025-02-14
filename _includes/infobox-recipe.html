@@ -19,8 +19,8 @@
     {% endif %}
         <tr class="about">
             <td class="infobox-label">Category</td>
-            {% assign categoryLink = {{page.recipeCategory}} | downcase | split: " " | first %}
-            <td><span itemprop="recipeCategory"><a href="/recipes/{{categoryLink}}/">{{page.recipeCategory}}</a></span></td>
+            {% assign categoryLink = {{page.url}} | split: "/" | reverse | join: "/" | replace_first: "/", "|" | split: "|" | last | split: "/" | reverse | join: "/" | prepend: "/" %}
+            <td><span itemprop="recipeCategory"><a href="{{categoryLink}}/">{{page.recipeCategory}}</a></span></td>
         </tr>
         <tr class="about">
             <td class="infobox-label">Cooking Method</td>

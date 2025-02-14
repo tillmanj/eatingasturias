@@ -5,10 +5,10 @@ subcategories:
     - Cake Recipes
     - Pastry Recipes
     - Flan Recipes
-    - Frozen Dessert Recipes
+    - Frozen Desserts Recipes
     - Pudding Recipes
-    - Fruit Dessert Recipes
-    - Misc Dessert Recipes
+    - Fruit Desserts Recipes
+    - Misc Desserts Recipes
     - Marzipan & Turron Recipes
     - Bonbon & Truffle Recipes
     - Mousse & Cream Recipes
