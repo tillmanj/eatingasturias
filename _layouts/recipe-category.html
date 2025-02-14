@@ -75,7 +75,7 @@ layout: default
 
             <ul class="col2">
             {% for entry in recipes %}
-                <li><a href="{{entry.permalink}}">{{entry.title}}</a></li>
+                <li><a href="{{entry.permalink}}" title="{{entry.subtitle}}">{{entry.title}}</a></li>
             {% endfor %}
             </ul>
 
