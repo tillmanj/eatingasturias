@@ -4,7 +4,7 @@ sidebar:
   nav: recipe_full
 title: Carne Guisada al Estilo Chigre
 permalink: /recipes/meat/beef/carne-guisada-al-estilo-chigre.html
-subtitle: Beef stew, cider-bar stle
+subtitle: Beef stew, cider-bar style
 author: Jon Tillman
 dateCreated: 
 datePublished: 
@@ -25,8 +25,8 @@ recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Simmer
 recipeNotes:
-  - This dish is often served alongside boiled cachelos (Kennebec potatoes grown in neighboring Galicia)
-  - I prefer it served simply with some slightly warmed crusty bread.
+  - This dish is often served alongside boiled *cachelos* (Kennebec potatoes grown in neighboring Galicia)
+  - I prefer it served simply with some slightly warmed crusty bread
 recipeCitations:
   - MendezRiestra2017DiccionarioCocinaGastronomia
 recipeSource: GarciaSanchez1984PlatosTipicosAsturias, 40
@@ -34,13 +34,13 @@ isBasedOn:
 mentions:
 recipeCourse: Second
 recipeIngredients:
-  - 800g Stew Beef, cut into chunks
-  - 1 large White Onion, diced
-  - 200 ml *sidra natural*, or other still cider
-  - 20 ml neutral cooking oil
-  - sea salt, to taste
-  - white pepper, to taste
-  - smoked paprika, to taste
+  - 800g **Stew Beef**, cut into chunks
+  - 1 large **White Onion**, diced
+  - 200 ml *[sidra natural](/culture/products/cider/)*, or other still cider
+  - 20 ml neutral **cooking oil**
+  - "**sea salt**, to taste"
+  - "**white pepper**, to taste"
+  - "**smoked paprika**, to taste"
 recipeInstructions:
   - Place the 800g of stew beef into a mixing bowl, add your salt, pepper, and paprika to taste, toss and set aside.
   - Put 20 ml of cooking oil in your dutch oven and heat over high heat until shimmering.

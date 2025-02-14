@@ -51,7 +51,7 @@ layout: default
         {% endif %}
         <!--- Article Sources --->
         {% if page.recipeCitations %}
-            <h2>Additional Sources</h2>
+            <h2>References</h2>
             <ul>
             {% for citation in page.recipeCitations %}
                 {% bibliography --query @*[key={{citation}}] %}
