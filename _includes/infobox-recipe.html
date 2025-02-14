@@ -81,28 +81,28 @@
             </tr>
             <tr class="nutrition">
                 <td class="nutrition-label">Total Fat&nbsp;&nbsp;<span itemprop="fatContent">{{page.fatContent}}g</span></td>
-                <td class="nutrition-value">{{page.fatContent | divided_by: 65 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.fatContent | divided_by: 65.0 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label indent1">Saturated Fat&nbsp;&nbsp;<span itemprop="saturatedFatContent">{{page.saturatedFatContent}}g</span></td>
-                <td class="nutrition-value">{{page.saturatedFatContent | divided_by: 20 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.saturatedFatContent | divided_by: 20.0 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label indent1">Trans Fat&nbsp;&nbsp;<span itemprop="transFatContent">{{page.transFatContent}}g</span></td>
-                <td class="nutrition-value">{{page.transFatContent | divided_by: 56 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.transFatContent | divided_by: 56.0 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label">Cholesterol&nbsp;&nbsp;<span itemprop="cholesterolContent">{{page.cholesterolContent}}mg</span></td>
-                <td class="nutrition-value">{{page.cholesterolContent | divided_by: 300 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.cholesterolContent | divided_by: 300.0 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label">Sodium&nbsp;&nbsp;<span itemprop="sodiumContent">{{page.sodiumContent}}mg</span></td>
-                <td class="nutrition-value">{{page.sodiumContent | divided_by: 2400 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.sodiumContent | divided_by: 2400.0 | times: 100.0 | round}}%</td>
 
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label">Carbohydrate&nbsp;&nbsp;<span itemprop="carbohydrateContent">{{page.carbohydrateContent}}g</span></td>
-                <td class="nutrition-value">{{page.carbohydrateContent | divided_by: 130 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.carbohydrateContent | divided_by: 130.0 | times: 100.0 | round}}%</td>
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label indent1">Dietary Fiber&nbsp;&nbsp;<span itemprop="fiberContent">{{page.fiberContent}}g</span></td>
@@ -114,7 +114,7 @@
             </tr>
             <tr class="nutrition" >
                 <td class="nutrition-label">Protein&nbsp;&nbsp;<span itemprop="proteinContent">{{page.proteinContent}}g</span></td>
-                <td class="nutrition-value">{{page.fatContent | divided_by: 56 | times: 100.0 | round}}%</td>
+                <td class="nutrition-value">{{page.fatContent | divided_by: 56.0 | times: 100.0 | round}}%</td>
             </tr>
         </tbody>
         <tfoot>
@@ -129,7 +129,7 @@
         <div class="recipe-foot">
             {% for diet in page.suitableForDiet %}
                 <div class="recipe-diet">
-                    <span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | downcase}}/">{{diet}}</a></span>
+                    <span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | slugify}}/">{{diet}}</a></span>
                 </div>
             {% endfor %}
         </div>
