@@ -2,7 +2,7 @@
   <h2>Ingredients</h2>
   <ul class="ingredients">
     {% for ingredient in page.recipeIngredients %}
-    <li itemprop="recipeIngredient">{{ingredient}}</li>
+    <li itemprop="recipeIngredient">{{ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% endfor %}
   </ul>
 {% endif  %}
@@ -12,7 +12,7 @@
   <h2>Instructions</h2>
   <ol itemprop="recipeInstructions">
     {% for instruction in page.recipeInstructions %}
-    <li itemprop="step">{{instruction}}</li>
+    <li itemprop="step">{{instruction | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% endfor %}
   </ol>
 {% endif  %}
@@ -23,7 +23,7 @@
   <h2>Hints</h2>
   <ol class="ingredients">
     {% for note in page.recipeNotes %}
-    <li role="note" aria-label="recipe hint {{i}}">{{note}}</li>
+    <li role="note" aria-label="recipe hint {{i}}">{{note | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% assign i = i | plus: 1 %}
     {% endfor %}
   </ol>

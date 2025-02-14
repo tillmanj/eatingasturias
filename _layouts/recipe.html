@@ -42,7 +42,14 @@ layout: default
         {% include infobox-recipe.html %}
         {% include recipe-head %}
         {{ content }}
-          <!--- Sources --->
+        <!--- Recipe Source --->  
+        {% if page.recipeSource %}
+          {% assign source = page.recipeSource | split: ',' %}
+          <h2>Recipe Source</h2>
+          <p>This recipe is a modified version of a recipe found on page {{source.last}} of:</p>
+          {% bibliography --query @*[key={{source.first}}] %}
+        {% endif %}
+        <!--- Article Sources --->
         {% if page.recipeCitations %}
             <h2>Additional Sources</h2>
             <ul>
