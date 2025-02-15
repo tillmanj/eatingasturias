@@ -178,6 +178,10 @@ body {
   }
 
   .small {
+    font-size: $type-size-6 !important;
+  }
+
+  figcaption.small p {
     font-size: $type-size-6;
   }
 

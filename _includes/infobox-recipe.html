@@ -14,7 +14,7 @@
                         <img itemprop="photograph" src="/assets/images/{{page.recipeImage}}" alt="a prepared dish of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                         </a>
                     </picture>
-                    <figcaption>{{page.recipeImageCaption}}</figcaption>
+                    <figcaption class="small">{{page.recipeImageCaption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
                 </figure>
             </td>
         </tr>
@@ -80,6 +80,7 @@
                 <td colspan="2" class="nutrition-note right small">%DV*</td>                
             </tr>
             <tr class="nutrition">
+                {%  comment %} See logseq://graph/Jon?block-id=67af8cad-eb56-4314-8a5f-957df0be8549 for explanation of why you have to always FIRST multiply by a float {% endcomment %}
                 <td class="nutrition-label">Total Fat&nbsp;&nbsp;<span itemprop="fatContent">{{page.fatContent}}g</span></td>
                 <td class="nutrition-value">{{page.fatContent | divided_by: 65.0 | times: 100.0 | round}}%</td>
             </tr>
