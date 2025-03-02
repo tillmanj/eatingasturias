@@ -9,4 +9,4 @@ toc: false
 sidebar:
   nav: recipe_full
 ---
-Bar snacks, grown-up *merienda*, a little of both? Sure, why not. While the distinctions can be subtle between what is a pintxo and what is a tapa, the important thing is that the yare bite-sized snacks meant to accompany alcoholic beverages.
+Bar snacks, grown-up *merienda*, a little of both? Sure, why not. While the distinctions can be subtle between what is a pintxo and what is a tapa, the important thing is that they are bite-sized snacks meant to accompany alcoholic beverages.

@@ -18,7 +18,9 @@ recipeYield: 1.2 kg
 recipeCategory: Beef
 suitableForDiet:
   - Diabetic
+  - Gluten Free
   - Kosher
+  - Low Salt
 recipeOccasion: 
 recipeSeason: 
 recipeDifficulty: Medium
@@ -52,15 +54,17 @@ recipeInstructions:
 nutrition: true
 servingSize: 300g
 calories: 334
-fatContent: 15.1
+fatContent: 15
 saturatedFatContent: 4.6
 transFatContent: 0.5
-cholesterolContent: 132
-sodiumContent: 168
+cholesterolContent: 132.0
+sodiumContent: 168.0
 carbohydrateContent: 5.5
 fiberContent: 0.7
 sugarContent: 1
 proteinContent: 44.7
+myINT: 15
+myFLOAT: 15.0
 ---
 
 {% newthought 'The chigre is one of the cornerstones'%} of Asturian gastronomy. Or at least of Asturian drinking culture. Which may actually be the same thing. The longer I live here the more muddled the distinction between the two becomes. That muddle is not helped by “bars” that have excellent home-style food. Nor by “restaurants” that you go to solely to drink. 
