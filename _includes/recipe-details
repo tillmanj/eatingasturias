@@ -28,3 +28,8 @@
     {% endfor %}
   </ol>
 {% endif  %}
+
+{% if page.gallery %}
+  <h2>Process Pictures</h2>
+  {% include gallery %}
+{% endif  %}
