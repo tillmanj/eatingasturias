@@ -1,6 +1,17 @@
 {% if page.recipeIngredients %}
   <h2>Ingredients</h2>
   <ul class="ingredients">
+    {% if page.requires.size > 1 %}
+      {% for r in page.requires %}
+        {% assign thisTitle = r | downcase %}
+        {% for entry in site.recipes %}
+          {% assign thatTitle = entry.title | downcase %}
+          {% if thatTitle == thisTitle %}
+            <li itemprop="recipeIngredient"><a href="{{entry.permalink}}" title="{{entry.subtitle}}">{{entry.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
     {% for ingredient in page.recipeIngredients %}
     <li itemprop="recipeIngredient">{{ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% endfor %}

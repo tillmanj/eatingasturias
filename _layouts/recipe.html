@@ -49,6 +49,10 @@ layout: default
           <p>This recipe is a modified version of a recipe found on page {{source.last}} of:</p>
           {% bibliography --query @*[key={{source.first}}] %}
         {% endif %}
+        {% if page.recipeSourceExt %}
+          <h2>Recipe Source</h2>
+          <p>{{page.recipeSourceExt | markdownify}}</p>
+        {% endif %}
         <!--- Article Sources --->
         {% if page.recipeCitations %}
             <h2>References</h2>
@@ -63,21 +67,38 @@ layout: default
             <h3>Variation</h3>
             <p>This recipe is based on or is otherwise a variation of the recipe <span itemprop="hasPart"><a href="{{parentRecipe.permalink}}">{{page.isBasedOn}}</a></span>.</p>
         {% endif %}
-        {% if page.mentions %}
-            <h3>Mentions</h3>
-            {% if page.mentions.size == 1 %}
-                {% assign mentions = site.pages | where: "title", {{page.mentions}} | first %}
-                <p>This recipe is mentioned in the article <a href="{{mentions.permalink}}">{{page.mentions}}</a></p>
-            {% else %}
-                <p>This recipe is mentioned in the following articles:</p>
-                <ul>
-                {% for mention in page.mentions %}
-                    {% assign mentionURL = site.pages | where: "title", {{mention}} | first %}
-                    <li><a href="{{mentionURL.permalink}}">{{mention}}</a></li>
-                {% endfor %}
-                </ul>
-            {% endif %}
-        {% endif %}
+        <!--- mentions from other recipes -->
+        {%- assign countMentions = 0 -%}
+        {%- assign thisTitle = page.title | downcase -%}
+          {%- for recipe in site.recipes -%}
+            {%- assign thatRequires = recipe.requires | downcase -%}
+            {%- if thatRequires contains thisTitle -%}
+              {%- assign countMentions = countMentions | plus:1 -%}
+            {%- endif -%}
+          {% endfor %}
+ 
+          {% if countMentions == 1 %}
+            {% for recipe in site.recipes %}
+              {%- assign thatRequires = recipe.requires | downcase -%}
+              {%- if thatRequires contains thisTitle -%}
+                {% assign thisPermalink = recipe.permalink %}
+                {% assign thisTitle = recipe.title %}
+              {% endif %}
+            {% endfor %}
+            <h3>Used Elsewhere</h3>            
+            <p>This recipe is used as an ingredient in the recipe <a href="{{thisPermalink}}">{{thisTitle}}</a>.</p>
+          {% elsif countMentions > 1 %}
+            <h3>Used Elsewhere</h3>
+            <p>This recipe is used as an ingredient in the following recipes:</p>
+            <ul>
+            {% for recipe in site.recipes %}
+              {%- assign thatRequires = recipe.requires | downcase -%}
+              {%- if thatRequires contains thisTitle -%}
+                <li><a href="{{recipe.permalink}}" title="{{recipe.subtitle}}">{{recipe.title}}</a></li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          {% endif %}
           <!--- Recipe Tags --->
           {% if page.recipeTags %}
             <h2>Tags</h2>

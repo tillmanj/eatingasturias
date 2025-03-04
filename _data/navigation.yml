@@ -15,9 +15,8 @@ main:
 
 recipes:
   - title: Recipes
+    url: /recipes/
     children:
-      - title: "Recipe Index"
-        url: /recipes/
       - title: "How To Read A Recipe"
         url: /recipes/how_to_read_a_recipe/
       - title: "Seasonality"
@@ -29,9 +28,8 @@ recipes:
 
 culture:
   - title: Food Culture
+    url: /culture/
     children:
-      - title: "Asturian Food Culture"
-        url: /culture/
       - title: "Food History"
         url: /culture/history/
       - title: "The Culinary Landscape"
@@ -43,6 +41,7 @@ culture:
 
 visit:
   - title: Visiting Asturias
+    url: /visit/
     children:
       - title: "Tour Asturias with Me"
         url: /visit/tours/
@@ -76,6 +75,8 @@ extras:
 recipe_full:
   - title: About These Recipes
     children:
+    - title: Common Ingredients
+      url: /culture/ingredients/
     - title: "How To Read A Recipe"
       url: /recipes/how-to-read-a-recipe/
     - title: "Seasonality"
@@ -159,9 +160,8 @@ visit_full:
       - title: Food Tours
         url: /visit/food-tours/
   - title: Dining & Drinking
+    url: /visit/eating-and-drinking/
     children:
-      - title: Eating & Drinking in Asturias
-        url: /visit/eating-and-drinking/
       - title: Bars
         url: /visit/bars/
       - title: Traditional Restaurants
@@ -175,9 +175,8 @@ visit_full:
       - title: Other Restaurants
         url: /visit/restaurants/
   - title: Food Souvenirs
+    url: /visit/souvenirs/
     children:
-      - title: Food Souvenirs in Asturias
-        url: /visit/souvenirs/
       - title: Bakeries
         url: /visit/bakeries/
       - title: Cheese Makers
@@ -191,9 +190,8 @@ visit_full:
 
 culture_full:
   - title: Culture Basics
+    url: /culture/primer/
     children:
-      - title: Start Here!
-        url: /culture/primer/
       - title: Meal Times
         url: /culture/meal-times/
       - title: Table Manners
@@ -201,6 +199,7 @@ culture_full:
       - title: The Cider Ritual
         url: /culture/products/cider/cider-ritual/
   - title: Artisanal Products
+    url: /culture/products/
     children:
       - title: Cider
         url: /culture/products/cider/
@@ -215,6 +214,7 @@ culture_full:
       - title: Other Products
         url: /culture/products/other/
   - title: Common Ingredients
+    url: /culture/ingredients/
     children:
       - title: Beans
         url: /culture/ingredients/beans/
@@ -235,9 +235,8 @@ culture_full:
       - title: The Built Environment
         url: /culture/built-environment/
   - title: Food History
+    url: /culture/history/
     children:
-      - title: Asturian Food History
-        url: /culture/history/
       - title: Stone Age Food in Asturias
         url: /culture/history/stone-age/
       - title: Bronze Age Trade

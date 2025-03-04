@@ -226,7 +226,7 @@ defaults:
       layout: "producer"
   -
     scope:
-      path: "/recipes/" # an empty string here means all files in the project
+      path: "" # an empty string here means all files in the project
       type: "recipes"
     values:
       layout: "recipe"

@@ -1,37 +1,45 @@
 ---
 layout: page
-permalink: /mathtest/
-myINT: 15
-myFLOAT: 15.0
+title: Test Scratch Pad
+subtitle: you shouldn't be here
+permalink: /test/
+requires:
+  - Empanada Dough
+  - ChorizO A La Sidra
 ---
-It seems that there is something broken in how Jekyll 4.4.1 handles YAML integers. Take for example the two frontmatter variables on this page: `myINT` and `myFLOAT`
+A place to mess with problems I am having in figuring out the syntax to make Liquid do what I want to do.
 
 ## Basic Output
-myINT: {{page.myINT}}
+requires length: {{page.requires.size}}
 
-myFLOAT: {{page.myFLOAT}}
+## r = \{\{r\}\}
+<ul>
+{% for r in page.requires %}
+    <li>
+        r = {{r}} / downcase: {{r | downcase}}
+    </li>
+{% endfor %}
+</ul>
 
-Let's step through each step of my chain of operations and see where it shits the bed. Ultimately, what I want to work is something like:
-{% raw %}<pre>
-{{page.myINT | divided_by: 65 | times: 100 | round}}
-</pre>{% endraw %}
+## loop counter test
+{% assign i = 0 %}
+i = {{0}}
+<ul>
+{% for r in page.requires %}
+    {% assign i = i | plus: 1 %}
+    <li>{{i}}</li>
+{% endfor %}
+</ul>
 
-## Division
-
-Attempting to divide each variable results in:
-
-{% raw %}<pre>
-{{page.myINT | divided_by: 65 }}
-</pre>{% endraw %}
-
-Expected Result: 0.2307
-
-Actual Result: {{page.myINT | divided_by: 65 }}
-
-{% raw %}<pre>
-{{page.myFLOAT | divided_by: 65 }}
-</pre>{% endraw %}
-
-Expected Result: 0.2307
-
-Actual Result: {{page.myFLOAT | divided_by: 65.0 }}
+## nested loop
+<ul>
+{% for r in page.requires %}
+    {% assign thisTitle = r | downcase %}
+    {% for entry in site.recipes %}
+        {% assign thatTitle = entry.title | downcase %}
+        {% if thatTitle == thisTitle %}
+            <li itemprop="recipeIngredient"><a href="{{entry.permalink}}" title="{{entry.subtitle}}">{{entry.title}}</a></li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>
