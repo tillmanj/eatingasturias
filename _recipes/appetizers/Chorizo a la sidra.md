@@ -38,7 +38,8 @@ recipeIngredients:
   - 250 ml still cider.
 recipeInstructions:
   - Remove the string from the chorizos (if any) and place them in a saucepan. Prick them with the tip of a knife so that they do not burst and release part of the juice during cooking. Pour the cider on top and put on high heat.
-  - When it starts to boil, Leave it over a high heat for five minutes, then lower to low heat and finish the cooking. The time will depend on the freshness, size and quality of the chorizo, but in about 15 or 20 minutes they will be done. , When the liquid has reduced a bit, leaving a sauce at the bottom of the pan.
+  - When it starts to boil, Leave it over a high heat for five minutes, then lower to low heat and finish the cooking. The time will depend on the freshness, size and quality of the chorizo, but in about 15 or 20 minutes they will be done.
+  - When the liquid has reduced a bit, leaving a sauce at the bottom of the pan.
   - Remove the chorizos from the pan and slice into rounds. Now you have a choice; fry the rounds for a minute over high heat to brown them a bit, or serve them as-is. It is a matter of personal taste. Try both and see which you prefer!
   - To serve, put them in small wide shallow bowls (like you would use to make crème brûlé), pour a little of the liquid over the slices, and stick a toothpick in one to serve as a utensil.
 nutrition: true
