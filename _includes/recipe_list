@@ -1,0 +1,10 @@
+{% assign ingredient_recipes = site.recipes | where: "requires", page.title %}
+{% if ingredient_recipes.size > 0 %}
+  <h2>Recipes</h2>
+  <p>The following recipes make use of {{page.title}}:</p>
+  <ul>
+  {% for recipe in ingredient_recipes %}
+    <li><a href="{{recipe.url}}" title="{{recipe.subtitle}}">{{recipe.title}}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}

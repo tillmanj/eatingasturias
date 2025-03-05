@@ -16,7 +16,7 @@ cookTime: 45 m
 totalTime: 1 h 15 m
 recipeYield: 12 pieces
 recipeCategory:
-  - Appetizers
+  - Breads
 suitableForDiet:
 recipeOccasion: Espicha
 recipeSeason: Summer
