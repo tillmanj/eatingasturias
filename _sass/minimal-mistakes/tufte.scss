@@ -8,7 +8,8 @@ div.epigraph {
     display:flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
+    max-width: 100%;
+    width: 85%;
     margin-top: .5636rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
@@ -22,18 +23,26 @@ div.epigraph > blockquote {
 div.epigraph > blockquote, div.epigraph > blockquote > p {
     all: unset;
     font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 100%;
     color: $contrast-color;
 }
 
 div.epigraph > blockquote > footer {  
     all: unset;
-    display:inline-block;
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    flex-direction: row;
+    justify-content: right;
     float: right;
     font-style: normal;
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 0;
-    margin-top: 1.4455rem;
+    margin-top: 0.45rem;
     &::before {
         content: "— ";
     }
@@ -48,6 +57,18 @@ div.epigraph > blockquote > footer > cite {
         padding-inline-end: 5px;
       }
 }
+
+span.left {
+    flex: auto;
+    white-space: nowrap;
+    margin-right: 5%;
+}
+
+span.right {
+    flex: auto;
+    white-space: nowrap;
+}
+
 /* end chapter epigraphs styles */
 
 /* In-Text Blockquotes */

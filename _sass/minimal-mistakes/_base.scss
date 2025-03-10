@@ -246,6 +246,16 @@ li ol {
   margin-top: 0.5em;
 }
 
+/* list headers */
+span.listSectionHead {
+  font-size: $h-size-4;
+  font-weight: 700;
+}
+
+span.listSectionHead::after {
+  content: ":";
+}
+
 /* 2 & 3 column lists for entry indexes */
 .col2 {
   column-count: 2;

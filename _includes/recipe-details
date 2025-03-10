@@ -13,7 +13,18 @@
       {% endfor %}
     {% endif %}
     {% for ingredient in page.recipeIngredients %}
-    <li itemprop="recipeIngredient">{{ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    <li>
+      {% if ingredient.title %}
+        <span class="listSectionHead">{{ingredient.title}}</span>
+          <ul>
+          {% for step in ingredient.steps %}
+            <li itemprop="recipeIngredient">{{step | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor%}
+          </ul>
+      {% else %}
+      <li itemprop="recipeIngredient">{{ingredient | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {% endif %}
+    </li>
     {% endfor %}
   </ul>
 {% endif  %}

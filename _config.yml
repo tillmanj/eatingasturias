@@ -275,6 +275,8 @@ collections:
     output: true
   conceyos:
     output: true
+  embutidos:
+    output: true
   events:
     output: true
   ingredients:
