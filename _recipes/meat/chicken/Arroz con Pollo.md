@@ -55,6 +55,9 @@ recipeInstructions:
   - Strain broth, discarding vegetables and seasonings.
   - Refrigerate for 8 hours or overnight.
   - Skim fat from surface.
+  - Return the chicken meat to a large pot, along with the vegetables, the rice, and the skimmed broth
+  - Bring to a boil and lower heat to medium-low
+  - Let simmer for one hour. Serve hot
 nutrition: true
 servingSize: 400g
 calories: 315

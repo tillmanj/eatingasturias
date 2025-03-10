@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Francisco Franco, A Primer
+permalink: /culture/primer/franco.html
 subtitle: It's Franco's world, we just live in it
 toc: true
 toc_sticky: true
