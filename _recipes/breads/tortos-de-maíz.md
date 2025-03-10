@@ -9,7 +9,7 @@ author: Jon Tillman
 dateCreated: 
 datePublished: 
 dateModified: 
-recipeImage: 
+recipeImage: tortos_stack.png
 recipeImageCaption: The Asturian version of the hoecake, itself an ancient form of very simple cornbread found throughout the Americas, is a hearty, and easy recipe. 
 prepTime: 20 m
 cookTime: 5 m

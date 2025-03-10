@@ -17,6 +17,10 @@ The autarky of the family farm (casería) became the primary goal of bread labor
 
 ## Timeline
 
+711 CE - Arabs and Berbers from North Africa invade the Iberian Peninsula and defeat the Visigoths. New methods in agriculture introduced by them include intensive irrigation, the use of animal droppings as fertilizers, im proved plows, and crop rotation. New foodstuffs introduced by the Arabs include rice, sugar, and saffron.
+750 CE - Famine is followed by plague on the Iberian Peninsula.
 803 CE - Ego Fakilo
+915 CE - Crop failure causes a famine on the Iberian Peninsula that is ruled in the south by the Arabs, and in the north by Christian princes.
+961 CE - The Arabs begin the production of the spice saffron on the Iberian Peninsula.
 980 CE - Nodicia de kesos
-1550 - 1850 CE - Little Ice Age
+1492 CE - In an attempt to reach Asia, Spanish navigator Christopher Columbus lands by accident in the Bahamas. His discovery of the New World will lead to the introduction of many new foods to Europe, among them potatoes, peppers, maize, tomatoes, pineapples, allspice, cacao, and turkey.

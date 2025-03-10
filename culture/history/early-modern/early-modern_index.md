@@ -19,6 +19,8 @@ The potato quickly became a staple crop in Asturias, as did corn.[Notes 4] Corn 
 
 Beans as well were enthusiastically incorporated into Asturian foodways. Indeed the American Phaseolus vulgaris quickly supplanted almost all other beans in cultivation, not just in Asturias, but throughout Europe.
 
+1550 - 1850 CE - Little Ice Age
+
 ### The Indianos
 Indianos is the name given to Asturians who went to the Americas to seek their fortunes in the 19th and early 20th centuries. They are responsible, in part, for one of the biggest developments in Asturian food distribution. Namely, the mass bottling of cider for export.
 
