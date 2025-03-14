@@ -21,11 +21,15 @@ module Jekyll
         baseurl = context.registers[:site].config['baseurl']
         quote = Kramdown::Document.new(@text[1],{remove_span_html_tags:true}).to_html # render markdown in caption
         quote = converter.convert(quote).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
+        author = Kramdown::Document.new(@text[2],{remove_span_html_tags:true}).to_html # render markdown in source
+        author = converter.convert(author).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
         source = Kramdown::Document.new(@text[3],{remove_span_html_tags:true}).to_html # render markdown in source
         source = converter.convert(source).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
-          "<div class='blockquote'><blockquote id='#{@text[0]}'><p>#{quote}</p>"+
-          "<span class='marginnote'>#{@text[4]} </span>"+
-          "<footer>#{@text[2]}, "+"<cite>#{source}</cite></footer></blockquote></div>"
+        marginalia = Kramdown::Document.new(@text[4],{remove_span_html_tags:true}).to_html # render markdown in source
+        marginalia = converter.convert(marginalia).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
+          "<div class='blockquote'><blockquote id='#{@text[0]}'><span class='marginnote'>#{marginalia} </span><p>#{quote}</p>"+
+          ""+
+          "<footer>#{author}, "+"<cite>#{source}</cite></footer></blockquote></div>"
       end
     end
   end
