@@ -9,7 +9,11 @@ toc_label: History
 sidebar:
   nav: culture_full
 ---
-The rise of the Castro Culture
+Around the year 1000 BCE, Celtic culture was in bloom in Asturias. Whether this grew out of earlier Hallstatt expansions or dates very close to 600 is up for debate. What we do know is that a well-developed Celtic _castro_ (hill fort) dwelling people called the _Astures_ were resident throughout modern Asturias, and parts of Galicia and León.
+
+Occupants of these _castros_ developed a food economy that remains the basis of Asturian food culture to this day. They bred cattle for meat, milk, and butter. Sheep and goats were also bred for meat and wool, and pigs were raised for meat. In-shore fishing and hunting deer and boar were widespread.
+
+With axe, plough, sickle, and hoe, they grew wheat, millet, rye, oats, flax, and barley. Beans, peas, and cabbage were widespread, and huge amounts of [chestnuts](https://eatingasturias.com/wiki/Casta%C3%B1es "Castañes") have been found in castros. That nut based gastronomy would last until corn was introduced in the Columbian exchange. Echoes of it can be found in the [Amagüestu](https://eatingasturias.com/wiki/Amag%C3%BCestu "Amagüestu") celebrations at the end of the harvest season in modern Asturias.
 
 Occupants of these castros developed a food economy that remains the basis of Asturian food culture to this day. They bred cattle for meat, milk, and butter. Sheep and goats were also bred for meat and wool, and pigs were raised for meat. In-shore fishing and hunting deer and boar were widespread.
 

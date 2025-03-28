@@ -16,11 +16,12 @@ It feels like every holiday, celebration, and regular event on the calendar in A
 While much of Spain sees the chestnut roaster arrive at the beginning of Autumn, in Asturias things get turned up a notch. Amagüestu marries chestnuts to the first fruits of the cider barrel, and preserves a pre-Christian harvest celebration that immediately follows the Celtic Samaín.
 
 ## Articles
+- [Cachopo: A History](/culture/history/contemporary/cachopo-history.html)
+- [El Desarme](/culture/history/contemporary/el-desarme.html)
 - Espicha
 - Menú del día
 - Menú obrero
 - El paseo
 - Romería
 - Samaín
-- Tapeo
-- El Desarme
+- Tapeo 

@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+    {% include page__hero.html %}
+  {% elsif page.header.video.id and page.header.video.provider %}
+    {% include page__hero_video.html %}
+  {% endif %}
+  
+  {% assign breadcrumbs_enabled = site.breadcrumbs %}
+  {% if page.breadcrumbs != null %}
+    {% assign breadcrumbs_enabled = page.breadcrumbs %}
+  {% endif %}
+  {% if page.url != "/" and breadcrumbs_enabled %}
+    {% unless paginator %}
+      {% include breadcrumbs.html %}
+    {% endunless %}
+  {% endif %}
+  
+  <div id="main" role="main">
+    {% include sidebar.html %}
+    <article class="page" itemscope itemtype="https://schema.org/Recipe"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+      {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+      {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+      <div class="page__inner-wrap">
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <header>
+            {% if page.title -%}
+            <h1 id="page-title" class="page__title" itemprop="headline">
+              <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+            </h1>
+            {%- endif %}
+            {% if page.subtitle %}<span class="subtitle">{{page.subtitle}}</span>{% endif %}
+            {% include page__meta.html %}
+          </header>
+        {% endunless %}  
+        <section class="page__content" itemprop="text">
+        <!--- Recipe Infobox --->
+        {% include infobox-recipe.html %}
+        {% include recipe-head %}
+        {{ content }}
+        <!--- Recipe Source --->  
+        {% if page.recipeSource %}
+          {% assign source = page.recipeSource | split: ',' %}
+          <h2>Recipe Source</h2>
+          <p>This recipe is a modified version of a recipe found on page {{source.last}} of:</p>
+          {% bibliography --query @*[key={{source.first}}] %}
+        {% endif %}
+        {% if page.recipeSourceExt %}
+          <h2>Recipe Source</h2>
+          <p>{{page.recipeSourceExt | markdownify}}</p>
+        {% endif %}
+        <!--- Article Sources --->
+        {% if page.recipeCitations %}
+            <h2>References</h2>
+            <ul>
+            {% for citation in page.recipeCitations %}
+                {% bibliography --query @*[key={{citation}}] %}
+            {% endfor %}
+            </ul>
+        {% endif %}
+        {% if page.isBasedOn %}
+            {% assign parentRecipe = site.pages | where: "title", {{page.isBasedOn}} | first %}
+            <h3>Variation</h3>
+            <p>This recipe is based on or is otherwise a variation of the recipe <span itemprop="hasPart"><a href="{{parentRecipe.permalink}}">{{page.isBasedOn}}</a></span>.</p>
+        {% endif %}
+        <!--- mentions from other recipes -->
+        {%- assign countMentions = 0 -%}
+        {%- assign thisTitle = page.title | downcase -%}
+          {%- for recipe in site.recipes -%}
+            {%- assign thatRequires = recipe.requires | downcase -%}
+            {%- if thatRequires contains thisTitle -%}
+              {%- assign countMentions = countMentions | plus:1 -%}
+            {%- endif -%}
+          {% endfor %}
+ 
+          {% if countMentions == 1 %}
+            {% for recipe in site.recipes %}
+              {%- assign thatRequires = recipe.requires | downcase -%}
+              {%- if thatRequires contains thisTitle -%}
+                {% assign thisPermalink = recipe.permalink %}
+                {% assign thisTitle = recipe.title %}
+              {% endif %}
+            {% endfor %}
+            <h3>Used Elsewhere</h3>            
+            <p>This recipe is used as an ingredient in the recipe <a href="{{thisPermalink}}">{{thisTitle}}</a>.</p>
+          {% elsif countMentions > 1 %}
+            <h3>Used Elsewhere</h3>
+            <p>This recipe is used as an ingredient in the following recipes:</p>
+            <ul>
+            {% for recipe in site.recipes %}
+              {%- assign thatRequires = recipe.requires | downcase -%}
+              {%- if thatRequires contains thisTitle -%}
+                <li><a href="{{recipe.permalink}}" title="{{recipe.subtitle}}">{{recipe.title}}</a></li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          {% endif %}
+          <!--- Recipe Tags --->
+          {% if page.recipeTags %}
+            <h2>Tags</h2>
+            <ul class="tags">
+                {% for tag in page.recipeTags %}
+                    <li><a href="/recipes/tag/{{tag | downcase}}/">{{tag}}</a></li>
+                {% endfor %}
+            </ul>
+          {% endif  %}        
+
+          {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        </section>
+  
+        <footer class="page__meta">
+          {% if site.data.ui-text[site.locale].meta_label %}
+            <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          {% endif %}
+          {% include page__taxonomy.html %}
+          {% include page__date.html %}
+        </footer>
+      </div>
+    </article>
+  </div>

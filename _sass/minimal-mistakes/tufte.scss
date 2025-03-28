@@ -127,7 +127,7 @@ div.blockquote > blockquote > footer > cite {
 .sidenote, .marginnote { 
     float: right;
     clear: right;
-    margin-top: 0;    
+    margin-top: 0;
     margin-right: -19vw;
     margin-bottom: 1.96rem;
     width: 17vw;
@@ -137,6 +137,10 @@ div.blockquote > blockquote > footer > cite {
     color: darken($contrast-color, 5%); // change this?
     position: relative; 
     @include scut-reverse-italics; // mixins.scss
+}
+
+figcaption.marginnote { //push down marginalia from main_column_img.rb plugin only
+    margin-top: 1rem;
 }
 
 /* This is essentially an inline version of the sidenote or marginnote for very short parenthetical statements */

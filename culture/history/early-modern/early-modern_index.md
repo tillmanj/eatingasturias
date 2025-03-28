@@ -12,12 +12,10 @@ sidebar:
 Early Modern Asturias is the time from the expulsion of the Jews from Spain, the Columbian Exchange, Industrialization, Migration
 
 ### Columbian Exchange
+*Main article: [The Columbian Exchange](/culture/history/early-modern/columbian-exchange.html)*
 
 Try as they might, the Spanish conquistadores could not bend Mother Nature to their imperious will, and their demands that the Americas produce wheat bread and wine for their sacraments fell on the equally imperious deaf ears of nature. Instead, they learned the ways of potato, corn, pumpkin, tomato, bean, and chile pepper. Imagine Spanish food without tomatoes and pimentón! As impossible as imagining American food without the previously unknown pig!
 
-The potato quickly became a staple crop in Asturias, as did corn.[Notes 4] Corn was initially so popular in northern Spain that John Locke observed in the 1670s that it was grown throughout the Mediterranean region, where it had acquired the name “Spanish Bread”. So quickly did Spain adopt corn that they invented (as they often do) a story about how it was an indigenous Spanish plant.
-
-Beans as well were enthusiastically incorporated into Asturian foodways. Indeed the American Phaseolus vulgaris quickly supplanted almost all other beans in cultivation, not just in Asturias, but throughout Europe.
 
 1550 - 1850 CE - Little Ice Age
 

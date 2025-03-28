@@ -1,4 +1,11 @@
 ---
+term: 
+  connotation: 
+  definition: 
+  domain: sidra
+  subdomain: 
+  topic: 
+
 layout: page
 title: Test Scratch Pad
 subtitle: you shouldn't be here

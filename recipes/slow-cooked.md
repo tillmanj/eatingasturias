@@ -2,9 +2,9 @@
 layout: recipe-category
 permalink: /recipes/method/slow-cooked/
 title: Slow-Cooker Recipes
-subtitle: modern methods for ancient technique
+subtitle: modern methods for ancient techniques
 type: method
-category: Slow-cooked
+category: Slow Cooked
 toc: false
 sidebar:
   nav: recipe_full

@@ -430,9 +430,16 @@ $text-alignments: left, right, start, end, center, justify;
   ol,
   li,
   p {
+    margin-bottom: unset;
     margin-bottom: 0;
+    font-size: unset;
     font-size: $type-size-6;
   }
+}
+
+.footnotes ol li p {
+  margin-bottom: 0;
+  font-size: $type-size-6;
 }
 
 a.reversefootnote {

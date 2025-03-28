@@ -53,17 +53,8 @@ layout: default
           <h2>Recipe Source</h2>
           <p>{{page.recipeSourceExt | markdownify}}</p>
         {% endif %}
-        <!--- Article Sources --->
-        {% if page.recipeCitations %}
-            <h2>References</h2>
-            <ul>
-            {% for citation in page.recipeCitations %}
-                {% bibliography --query @*[key={{citation}}] %}
-            {% endfor %}
-            </ul>
-        {% endif %}
         {% if page.isBasedOn %}
-            {% assign parentRecipe = site.pages | where: "title", {{page.isBasedOn}} | first %}
+            {% assign parentRecipe = site.recipes | where: "title", {{page.isBasedOn}} | first %}
             <h3>Variation</h3>
             <p>This recipe is based on or is otherwise a variation of the recipe <span itemprop="hasPart"><a href="{{parentRecipe.permalink}}">{{page.isBasedOn}}</a></span>.</p>
         {% endif %}

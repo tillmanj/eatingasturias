@@ -115,6 +115,8 @@ recipe_full:
         url: /recipes/beverages/
       - title: "Breads"
         url: /recipes/breads/
+      - title: "Sauces & Condiments"
+        url: /recipes/sauces/
   - title: Extra
     children:
       - title: "Recipes by Occasion"
@@ -229,11 +231,14 @@ culture_full:
       - title: Vegetables
         url: /culture/ingredients/vegetables/
   - title: Culinary Landscape
+    url: /culture/landscape/
     children:
       - title: The Natural Environment
-        url: /culture/natural-environment/
+        url: /culture/landscape/natural-environment/
       - title: The Built Environment
-        url: /culture/built-environment/
+        url: /culture/landscape/built-environment/
+      - title: The Culinary Mind
+        url: /culture/landscape/culinary-mind/
   - title: Food History
     url: /culture/history/
     children:

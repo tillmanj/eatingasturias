@@ -1,12 +1,98 @@
-
+- term: Ablanáu
+  connotation: neutral
+  definition: An aftertaste of roasted hazelnuts. 
+  domain: sidra
+  subdomain: flavors
+  topic: aromas
 - term: ABV
   definition: Alcohol By Volume. the percentage of alcohol in a beverage
+- term: Adelantáu
+  connotation: negative
+  definition: A cider that has excessive acetic acid, and is becoming vinegary. 
+  domain: sidra
+  subdomain: flavors
+  topic: acetic
+- term: Aguya
+  connotation: negative
+  definition: Very young cider (one or two weeks fermentation) that is super sweet and full of carbon dioxide. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
+- term: Agüina
+  connotation: negative
+  definition: Flat and lacking alcohol. Very weak cider.
+  url: /resources/glossary/agüina.html
+  domain: sidra
+  subdomain: flavor
+  topic: alcohol
+- term: Alma
+  connotation: positive
+  definition: Sufficient alcohol and espalme. 
+  domain: sidra
+  subdomain: flavors
+  topic: alcohol
+- term: Antoxana
+  connotation: neutral
+  definition: The yard area immediately outside a farmhouse in Asturias, surrounded by the most important buildings
+  url: 
+  domain: environment
+  subdomain: built
+  topic: casería
 - term: Autochthonous
   definition: Native to the place where found; indigenous
 - term: Autolyse
   definition: The gentle mixing of the flour and water in a bread recipe, followed by a rest period of between 20 minutes and 1 day. Primarily the autolyse allows the flour to fully hydrate, weak gluten bonds develop without any kneading of the dough, and the dough as a result becomes more stretchy, allowing it to expand easily.
+- term: Axiblantáu
+  connotation: negative
+  definition: An excess of carbon dioxide, over carbonated.
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
+- term: Berza
+  definition: Wild B. oleracea is a tall biennial or perennial wild cabbage plant that is native to coastal regions of the Mediterranean and W. Europe north to France and Britain.
+  url: /culture/ingredients/vegetables/berza.html
+- term: Blandu
+  url: /resources/glossary/blandu.html
+  connotation: negative
+  definition: Low alcohol and flat, perhaps from an error in production. 
+  domain: sidra
+  subdomain: flavors
+  topic: alcohol
 - term: Blind Cap
   definition: (Caecum) The pouch at the junction of the small and large intestines. Commonly used in small-scale sausage production in the US and very popular in Spanish sausage making.
+- term: Caleya
+  connotation: neutral
+  definition: A narrow path; in the city an alley, in the country a walking path too narrow for a cart
+  url: 
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Cantarina
+  connotation: neutral
+  definition: A cider that invites singing in public, because of the excess of alcohol. A very high alcohol cider. 
+  domain: sidra
+  subdomain: flavors
+  topic: alcohol
+- term: Casería
+  connotation: neutral
+  definition: The Asturian term for a farmstead
+  url: /culture/landscape/built-environment/casería.html
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Caserío
+  connotation: neutral
+  definition: The Asturian term for a hamlet comprised of 2-6 houses
+  url: 
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Desvanecíu
+  connotation: negative
+  definition: Very little carbon dioxide, which dissipates too quickly. 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
 - term: Dewlap
   definition: A fold of loose skin hanging from the neck or throat of an animal, especially that present in many cattle.
 - term: DDC
@@ -19,17 +105,84 @@
   url: /culture/asturian-quality-marks/
 - term: DMS
   definition: Di-Methyl Sulfide. exhibits itself as a canned vegetable or creamed corn flavor in beer. It’s presence is considered a defect.
+- term: Dulcín
+  connotation: negative
+  definition: Overly sweet cider as a result of being insufficiently fermented. 
+  domain: sidra
+  subdomain: flavors
+  topic: tannic
+- term: Duru
+  connotation: negative
+  definition: A synonym of Adelantáu. 
+  domain: sidra
+  subdomain: flavors
+  topic: acetic
+- term: Encabezáu 
+  connotation: negative
+  definition: “Fortified” Having had additional alcohol added to the fermentation, resulting in not just higher alcohol content, but negatively effecting the other qualities of the cider. 
+  domain: sidra
+  subdomain: flavors
+  topic: alcohol
+- term: Espalmar
+  connotation: neutral
+  definition: To “raise the bubbles in the glass” To agitate the cider (usually by pouring in the traditional escanciando way). 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
+- term: Espalme
+  connotation: neutral
+  definition: The effects of espalmar on the cider.
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
+- term: Espoleta
+  connotation: negative
+  definition: see *Volador*
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
 - term: ETG
   definition: Especialidad Tradicional Garantizada. An EU scheme for geographical indications and traditional specialties
   url: /culture/asturian-quality-marks/
+- term: Fechu
+  connotation: neutral
+  definition: A full bodied cider with high alcohol content and a strong flavor. For me, this is the cider par excellence and the one that all cider makers should have, though some prefer a more restrained and finu balance. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
+- term: Fema
+  connotation: negative
+  definition: Undetectable or unacceptably low amounts of acetic acid. 
+  domain: sidra
+  subdomain: flavors
+  topic: acetic
 - term: Final Gravity
   definition: The specific gravity of a beer as measured when fermentation is complete (when all desired fermentable sugars have been converted to alcohol and carbon dioxide gas). When fermentation has occurred, this number is always less than Original Gravity.
+- term: Finu
+  connotation: positive
+  definition: A cider that is clean, clear, and balanced. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
+- term: Granu
+  connotation: positive
+  definition: Having many tiny bubbles that adhere to the side of glass.
+  domain: sidra
+  subdomain: appearance
+  topic: legs
 - term: Güerta
   definition: a large vegetable garden, located near the house, but not as close as a Güertu. Usually includes fruit trees as well as vegetables.
   url:
 - term: Güertu
   definition: a small vegetable garden located very close to the house. A kitchen garden or potager.
   url:
+- term: Hórreo
+  connotation: neutral
+  definition: A square Asturian raised granary. See also Panera
+  url: 
+  domain: environment
+  subdomain: built
+  topic: casería
 - term: IBU
   definition: International Bitterness Unit. used for measuring how bitter a beer is
 - term: IGP
@@ -38,21 +191,147 @@
 - term: Jowl
   definition: A common culinary term for pork cheeks. Technically it means any cheeks, especially droopy ones.
 - term: Landrace
-  definition: A landrace is a domesticated, locally adapted, traditional variety of a species of animal or plant that has developed over time, through adaptation to its natural and cultural environment of agriculture and pastoralism, and due to isolation from other populations of the species.
+  definition: A landrace is a domesticated, locally adapted, traditional variety of a species of animal or plant that has developed over time, through adaptation to its natural and cultural environment of agriculture and pastoralism, and due to isolation from other populations of the species. *See also [Autocthonous](#def-Autochthonous)*
+- term: Llandiu
+  connotation: negative
+  definition: A thin, emotionless cider that has not finished its maturation. 
+  domain: sidra
+  subdomain: Mouthfeel
+  topic: body
+- term: Machu
+  connotation: neutral
+  definition: A cider with a large quantity of volatile acids, making a very prickly sensation in the mouth. 
+  domain: sidra
+  subdomain: mouthfeel
+  topic: sensation
+- term: Muertu 
+  connotation: negative
+  definition: Unacceptably low carbon dioxide and/or alcohol. 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
+- term: Mui fechu
+  connotation: negative
+  definition: Overly strong and becoming vinegary. “Gone off”. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
 - term: Original Gravity (OG)
   definition: The specific gravity of wort (un-fermented beer) before fermentation. A measure of the total amount of solids that are dissolved in the wort, it compares the density of the wort to the density of water, which is conventionally given as 1.000 at 60 Fahrenheit.
+- term: pa la fábrica
+  connotation: negative
+  definition: Too acidic; good only for making vinegar. 
+  domain: sidra
+  subdomain: flavors
+  topic: acetic
+- term: Panera
+  connotation: neutral
+  definition: A rectangular Asturian raised granary. See also Hórreo
+  url: 
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Panizal
+  connotation: positive
+  definition: Lively carbon dioxide. 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
 - term: PDO
   definition: Protected Designation of Origin
   url: /culture/asturian-quality-marks/
+- term: Pegue
+  connotation: neutral
+  definition: The thin film that adheres to the glass after it is drunk. The more legs the better. 
+  domain: sidra
+  subdomain: appearance
+  topic: legs
 - term: PGI
   definition: Protected Geographical Indication
   url: /culture/asturian-quality-marks/
+- term: Plasmáu
+  connotation: negative
+  definition: No detectable carbon dioxide. 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation
 - term: platos de cuchara
   definition: Traditional regional stews from around Spain.
+  url: /culture/primer/platos-de-cuhcara.html
+  term: Pote
+  definition: The Asturian stew most closely allied to the *cocidos* of elsewhere in Spain.
+  url: /culture/primer/platos-de-cuhcara.html#el-pote
+- term: Pumarada
+  connotation: neutral
+  definition: An orchard specifically for apple trees
+  url: /culture/landscape/built-environment/pumarada.html
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Puxarra
+  connotation: negative
+  definition: A cider of generally bad quality. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
+- term: Quintana
+  connotation: neutral
+  definition: A term that loosely translates to farmyard
   url: 
+  domain: environment
+  subdomain: built
+  topic: casería
+- term: Resquemor
+  connotation: negative
+  definition: Already vinegar, or even beyond. Attacks the tongue. 
+  domain: sidra
+  subdomain: flavors
+  topic: acetic
+- term: de restallu
+  connotation: neutral
+  definition: Strongly astringent, mouth puckering. Onomatopoeia for the sound you make when you smack your lips from something tannic. 
+  domain: sidra
+  subdomain: flavors
+  topic: tannic
+- term: Secante
+  connotation: positive
+  definition: Refreshingly dry, stimulating to the palate. 
+  domain: sidra
+  subdomain: flavors
+  topic: tannic
 - term: SRM
   definition: Standard Reference Method. a number that represents a color of a liquid
+- term: Tastu
+  connotation: negative 
+  definition: A moldy aroma and taste, usually imparted by old, poorly washed, wooden barrels 
+  domain: sidra
+  subdomain: flavors
+  topic: aromas
+- term: Tienru
+  connotation: negative 
+  definition: Low alcohol and flat, from not being fermented long enough. “Too young”. 
+  domain: sidra
+  subdomain: balance
+  topic: balance
 - term: TSG
   definition: Traditional Specialties Guaranteed
+- term: Turrín
+  connotation: neutral
+  definition: the flavor of toasted hazelnuts 
+  domain: sidra
+  subdomain: flavors
+  topic: aromas
 - term: UHT
   definition: Ultra-High Temperature Milk. ultra-pasteurized milk that comes in sterilized containers
+- term: Verdín
+  connotation: negative
+  definition: Excessive flavors of unripe apples, or of apple wood.
+  domain: sidra
+  subdomain: flavors
+  topic: apple
+- term: Volador
+  connotation: negative
+  definition: Overly carbonated, to the point of potential flying corks. 
+  domain: sidra
+  subdomain: appearance
+  topic: carbonation

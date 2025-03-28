@@ -8,15 +8,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-environment: development
+environment: production
 url: https://eatingasturias.com
 baseurl: "" # the subpath of your site, e.g. /blog
 # see options here: https://kramdown.gettalong.org/options.html
-kramdown:
-  input: Kramdown
-  footnote_backlink_inline: true
-markdown: kramdown
+# markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# kramdown:
+#   input: Kramdown
+#   footnote_backlink_inline: true
 locale: "en-US"
 timezone: Europe/Madrid
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
@@ -259,6 +259,7 @@ defaults:
 
 # Collections
 # https://jekyllrb.com/docs/step-by-step/09-collections/
+collections_dir: collections
 collections:
   posts:
     output: true
@@ -279,9 +280,11 @@ collections:
     output: true
   events:
     output: true
+  glossary:
+    output: true
   ingredients:
     output: true
-  llagars:
+  llagares:
     output: true
   markets:
     output: true
