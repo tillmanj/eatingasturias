@@ -23,8 +23,11 @@ module Jekyll
       quote = converter.convert(quote).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
       source = Kramdown::Document.new(@text[2],{remove_span_html_tags:true}).to_html # render markdown in source
       source = converter.convert(source).gsub(/<\/?p[^>]*>/, "").chomp # remove <p> tags from render output
+      if source.length > 0
+        source = ", " + source
+      end
         "<div class='epigraph'><blockquote><p>#{quote}</p>"+
-        "<footer>#{@text[1]}, "+"<cite>#{source}</cite></footer></blockquote></div>"
+        "<footer>#{@text[1]}"+"<cite>#{source}</cite></footer></blockquote></div>"
     end
   end
 end
