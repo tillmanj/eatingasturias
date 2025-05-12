@@ -12,8 +12,8 @@ $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
 
 /* paragraph indention */
-$paragraph-indent: false !default; // true, false (default)
-$indent-var: 1.3em !default;
+$paragraph-indent: true !default; // true, false (default)
+$indent-var: 1.3rem !default;
 
 /* system typefaces */
 $serif: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !default;

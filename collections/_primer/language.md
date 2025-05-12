@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Asturian Language
+title: Notes on the Asturian Language
 subtitle: 
 permalink: /culture/primer/language.html
 toc: false
@@ -9,6 +9,7 @@ toc_label: Cider
 sidebar:
   nav: culture_full
 ---
+{% marginfigure 'mf01' 'assets/images/Oficialidá_bandera.png' 'Iniciativa pol Asturianu is a broad coalition aimed at securing official recognition by the Spanish government of Asturianu as one of the co-official languages of the country' %}
 As this website is dedicated to the study of both traditional and modern Asturian foodways, and that food culture is inextricably linked with the larger cultural milieu it is a part of, it is necessary to establish linguistic criteria that accurately reflect the essence of what I am investigating in the most honest and faithful way. Representing Asturians as they present themselves to me is important, as is being respectful of the regional differences within a country.[^1] The Asturian language is a sign of cultural identity that is inseparable from the socio-cultural reality of living and working in Asturias.
 
 Taking into account the existence of the "Law for the use and promotion of Asturian", and wishing to promote Asturian culture through the understanding of food and food culture, I decided that:[^2]
@@ -23,7 +24,6 @@ Taking into account the existence of the "Law for the use and promotion of Astur
 
 
 ## Asturianu
-{% marginfigure 'mf01' 'assets/images/Oficialidá_bandera.png' 'I support the campaign to make Asturian a co-official language within Asturias, and the more general movement towards a [pluri-linguistic future](https://asturianu.igualtatlinguistica.cat/) for Spain and Europe.' %}
 Asturianu is a West Iberian Romance Language that evolved from the Vulgar Latin in the early Middle Ages.[^5] In the 14th century, Castilian Spanish began to (officially) replace Asturianu as the political and ecclesiastical language, and since that time it has suffered from official neglect, outright hostility, or benign neglect, depending on the political situation in Madrid at the time.[^6]
 
 The Law 1/93 of 23 March 1993 on the _Use and Promotion of the Asturian Language_ addressed the issue, and according to article four of the Asturias Statute of Autonomy: "The Asturian language will enjoy protection. Its use, teaching and diffusion in the media will be furthered, whilst its local dialects and voluntary apprenticeship will always be respected.”[^7] Unfortunately this status, being not equal to the other co-official languages of Spain (Catalan, Aranese, Valencian, Galician, and Basque) has put the current situation very much in the "benign neglect" category. Since 2001 Asturian has been covered under the [European Charter for Regional or Minority Languages](https://www.coe.int/en/web/european-charter-regional-or-minority-languages/about-the-charter)' "safeguard and promote" clause.

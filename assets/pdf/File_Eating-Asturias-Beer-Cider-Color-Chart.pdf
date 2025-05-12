@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Eating-Asturias-Beer-Cider-Color-Chart.pdf - Eating Asturias</title>
+<script>
+document.documentElement.className = "client-js";
+
+RLCONF = {
+    "wgBreakFrames": false,
+    "wgSeparatorTransformTable": [
+        "",
+        ""
+    ],
+    "wgDigitTransformTable": [
+        "",
+        ""
+    ],
+    "wgDefaultDateFormat": "dmy",
+    "wgMonthNames": [
+        "",
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ],
+    "wgRequestId": "382c8f61be1118aa4107e7c7",
+    "wgCSPNonce": false,
+    "wgCanonicalNamespace": "File",
+    "wgCanonicalSpecialPageName": false,
+    "wgNamespaceNumber": 6,
+    "wgPageName": "File:Eating-Asturias-Beer-Cider-Color-Chart.pdf",
+    "wgTitle": "Eating-Asturias-Beer-Cider-Color-Chart.pdf",
+    "wgCurRevisionId": 3878,
+    "wgRevisionId": 3878,
+    "wgArticleId": 326,
+    "wgIsArticle": true,
+    "wgIsRedirect": false,
+    "wgAction": "view",
+    "wgUserName": null,
+    "wgUserGroups": [
+        "*"
+    ],
+    "wgCategories": [],
+    "wgPageContentLanguage": "en",
+    "wgPageContentModel": "wikitext",
+    "wgRelevantPageName": "File:Eating-Asturias-Beer-Cider-Color-Chart.pdf",
+    "wgRelevantArticleId": 326,
+    "wgIsProbablyEditable": false,
+    "wgRelevantPageIsProbablyEditable": false,
+    "wgRestrictionEdit": [],
+    "wgRestrictionMove": [],
+    "wgRestrictionUpload": [],
+    "wgCargoDefaultQueryLimit": 100,
+    "wgCargoMapClusteringMinimum": 80,
+    "wgCargoMonthNamesShort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+    ],
+    "wgPageFormsTargetName": null,
+    "wgPageFormsAutocompleteValues": [],
+    "wgPageFormsAutocompleteOnAllChars": false,
+    "wgPageFormsFieldProperties": [],
+    "wgPageFormsCargoFields": [],
+    "wgPageFormsDependentFields": [],
+    "wgPageFormsCalendarValues": [],
+    "wgPageFormsCalendarParams": [],
+    "wgPageFormsCalendarHTML": null,
+    "wgPageFormsGridValues": [],
+    "wgPageFormsGridParams": [],
+    "wgPageFormsContLangYes": null,
+    "wgPageFormsContLangNo": null,
+    "wgPageFormsContLangMonths": [],
+    "wgPageFormsHeightForMinimizingInstances": 800,
+    "wgPageFormsShowOnSelect": [],
+    "wgPageFormsScriptPath": "/extensions/PageForms",
+    "edgValues": null,
+    "wgPageFormsEDSettings": null,
+    "wgAmericanDates": false,
+    "wgVisualEditor": {
+        "pageLanguageCode": "en",
+        "pageLanguageDir": "ltr",
+        "pageVariantFallbacks": "en"
+    },
+    "VEForAllToolbarNormal": [
+        {
+            "header": "visualeditor-toolbar-paragraph-format",
+            "title": "visualeditor-toolbar-format-tooltip",
+            "type": "menu",
+            "include": {
+                "group": "format"
+            },
+            "promote": [
+                "paragraph"
+            ],
+            "demote": [
+                "preformatted",
+                "blockquote"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-text-style",
+            "title": "visualeditor-toolbar-style-tooltip",
+            "include": [
+                "bold",
+                "italic",
+                "moreTextStyle"
+            ]
+        },
+        {
+            "include": [
+                "link"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-structure",
+            "title": "visualeditor-toolbar-structure",
+            "type": "list",
+            "icon": "listBullet",
+            "include": {
+                "group": "structure"
+            },
+            "demote": [
+                "outdent",
+                "indent"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-insert",
+            "title": "visualeditor-toolbar-insert",
+            "type": "list",
+            "icon": "add",
+            "label": "",
+            "include": [
+                "insertTable",
+                "specialCharacter",
+                "warningblock",
+                "preformatted",
+                "infoblock",
+                "ideablock",
+                "dontblock",
+                "pinblock"
+            ]
+        }
+    ],
+    "VEForAllToolbarWide": [
+        {
+            "header": "visualeditor-toolbar-paragraph-format",
+            "title": "visualeditor-toolbar-format-tooltip",
+            "type": "menu",
+            "include": {
+                "group": "format"
+            },
+            "promote": [
+                "paragraph"
+            ],
+            "demote": [
+                "preformatted",
+                "blockquote"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-text-style",
+            "title": "visualeditor-toolbar-style-tooltip",
+            "include": [
+                "bold",
+                "italic",
+                "moreTextStyle"
+            ]
+        },
+        {
+            "include": [
+                "link"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-structure",
+            "title": "visualeditor-toolbar-structure",
+            "type": "list",
+            "icon": "listBullet",
+            "include": {
+                "group": "structure"
+            },
+            "demote": [
+                "outdent",
+                "indent"
+            ]
+        },
+        {
+            "header": "visualeditor-toolbar-insert",
+            "title": "visualeditor-toolbar-insert",
+            "type": "list",
+            "icon": "add",
+            "label": "",
+            "include": [
+                "media",
+                "insertTable",
+                "specialCharacter",
+                "warningblock",
+                "preformatted",
+                "infoblock",
+                "ideablock",
+                "dontblock",
+                "pinblock"
+            ]
+        }
+    ],
+    "simpleBatchUploadMaxFilesPerBatch": {
+        "*": 1000
+    },
+    "srfFilteredConfig": null,
+    "egMapsScriptPath": "/extensions/Maps/",
+    "egMapsDebugJS": false,
+    "egMapsAvailableServices": [
+        "leaflet",
+        "googlemaps3"
+    ],
+    "egMapsLeafletLayersApiKeys": {
+        "MapBox": "",
+        "MapQuestOpen": "",
+        "Thunderforest": "",
+        "GeoportailFrance": ""
+    },
+    "wgMediaViewerOnClick": true,
+    "wgMediaViewerEnabledByDefault": true,
+    "wgPopupsFlags": 8,
+    "pageproperties-js-alert-1": "Are you sure you want to delete this property?",
+    "pageproperties-js-alert-2": "Submitting the form will delete stored semantic properties, continue?",
+    "wgEditSubmitButtonLabelPublish": false,
+    "VEForAll": {
+        "VisualEditorEnable": 1
+    }
+};
+
+RLSTATE = {
+    "site.styles": "ready",
+    "user.styles": "ready",
+    "user": "ready",
+    "user.options": "loading",
+    "mediawiki.interface.helpers.styles": "ready",
+    "filepage": "ready",
+    "mediawiki.action.view.filepage": "ready",
+    "mediawiki.ui.button": "ready",
+    "skins.chameleon": "ready",
+    "zzz.ext.bootstrap.styles": "ready",
+    "ext.visualEditor.desktopArticleTarget.noscript": "ready",
+    "ext.smw.style": "ready",
+    "ext.smw.tooltip.styles": "ready",
+    "ext.srf.styles": "ready"
+};
+
+RLPAGEMODULES = [
+    "smw.entityexaminer",
+    "ext.smw.style",
+    "ext.smw.tooltips",
+    "site",
+    "mediawiki.page.ready",
+    "mmv.head",
+    "mmv.bootstrap.autostart",
+    "ext.stickytoc",
+    "ext.visualEditor.desktopArticleTarget.init",
+    "ext.visualEditor.targetLoader",
+    "ext.popups",
+    "ext.bootstrap.scripts",
+    "skin.chameleon.sticky"
+];
+</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement( "user.options@", function ( $, jQuery, require, module ) {
+mw.user.tokens.set({
+    "patrolToken": "+\\",
+    "watchToken": "+\\",
+    "csrfToken": "+\\"
+});
+
+} );});</script>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=ext.smw.style&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=ext.smw.tooltip.styles&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=ext.srf.styles&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=ext.visualEditor.desktopArticleTarget.noscript&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=filepage&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=mediawiki.action.view.filepage&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=mediawiki.interface.helpers.styles&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=mediawiki.ui.button&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=skins.chameleon&amp;only=styles&amp;skin=chameleon"/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=zzz.ext.bootstrap.styles&amp;only=styles&amp;skin=chameleon"/>
+<script async="" src="/load.php?debug=1&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=chameleon"></script>
+<style>#mw-indicator-mw-helplink {display:none;}</style><style>#mw-indicator-mw-helplink {display:none;}</style><style>#mw-indicator-mw-helplink {display:none;}</style>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=1&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=chameleon"/>
+<meta name="generator" content="MediaWiki 1.39.3"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://eatingasturias.com/resources/assets/file-type-icons/fileicon-pdf.png"/>
+<meta property="og:image:width" content="120"/>
+<meta property="og:image:height" content="120"/>
+<meta property="og:image" content="https://eatingasturias.com/resources/assets/file-type-icons/fileicon-pdf.png"/>
+<meta property="og:image:width" content="120"/>
+<meta property="og:image:height" content="120"/>
+<meta name="google-site-verification" content="TDSlnEqLiDJGZc7K3Hs2lfVEq1R4QS8ZVTe6Qr2X4J4"/>
+<meta name="msvalidate.01" content="CODE"/>
+<meta name="description" content="."/>
+<meta name="twitter:site" content="@EatingAsturias"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="viewport" content="width=1000"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<link rel="alternate" type="application/rdf+xml" title="File:Eating-Asturias-Beer-Cider-Color-Chart.pdf" href="/index.php?title=Special:ExportRDF/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;xmlmime=rdf"/>
+<link rel="icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Eating Asturias (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://eatingasturias.com/api.php?action=rsd"/>
+<link rel="license" href="/wiki/Eating_Asturias:Copyright"/>
+<link rel="canonical" href="https://eatingasturias.com/wiki/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf"/>
+<style>.pageproperties-content-model-text{ font-family: monospace; white-space:pre-wrap; word-wrap:break-word; }</style>
+<script type="application/ld+json">{"@graph":[{"@id":"http:///wiki/Special:URIResolver/File-3AEating-2DAsturias-2DBeer-2DCider-2DColor-2DChart.pdf","@type":"http://semantic-mediawiki.org/swivt/1.0#Subject","http:///wiki/Special:URIResolver/Property-3ACreation_date-23aux":2459849.0887269000522792339324951171875,"http:///wiki/Special:URIResolver/Property-3AIs_a_new_page":false,"http:///wiki/Special:URIResolver/Property-3AModification_date-23aux":2459849.0887269000522792339324951171875,"http://semantic-mediawiki.org/swivt/1.0#file":{"@id":"images/7/7b/Eating-Asturias-Beer-Cider-Color-Chart.pdf"},"http://semantic-mediawiki.org/swivt/1.0#page":{"@id":"wiki/File-3AEating-2DAsturias-2DBeer-2DCider-2DColor-2DChart.pdf"},"http://semantic-mediawiki.org/swivt/1.0#wikiNamespace":6,"http://semantic-mediawiki.org/swivt/1.0#wikiPageContentLanguage":"en","http://semantic-mediawiki.org/swivt/1.0#wikiPageCreationDate":{"@type":"http://www.w3.org/2001/XMLSchema#dateTime","@value":"2022-09-26T14:07:46Z"},"http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate":{"@type":"http://www.w3.org/2001/XMLSchema#dateTime","@value":"2022-09-26T14:07:46Z"},"http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey":"Eating-Asturias-Beer-Cider-Color-Chart.pdf","http://www.w3.org/2000/01/rdf-schema#isDefinedBy":{"@id":"wiki/Special:ExportRDF/File-3AEating-2DAsturias-2DBeer-2DCider-2DColor-2DChart.pdf"},"http://www.w3.org/2000/01/rdf-schema#label":"File:Eating-Asturias-Beer-Cider-Color-Chart.pdf"},{"@id":"http:///wiki/Special:URIResolver/Property-3ACreation_date-23aux","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http:///wiki/Special:URIResolver/Property-3AIs_a_new_page","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http:///wiki/Special:URIResolver/Property-3AModification_date-23aux","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#creationDate","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#file","@type":"http://www.w3.org/2002/07/owl#ObjectProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#page","@type":"http://www.w3.org/2002/07/owl#ObjectProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#wikiNamespace","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#wikiPageContentLanguage","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#wikiPageCreationDate","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey","@type":"http://www.w3.org/2002/07/owl#DatatypeProperty"},{"@id":"wiki/Special:ExportRDF/File-3AEating-2DAsturias-2DBeer-2DCider-2DColor-2DChart.pdf","@type":"http://www.w3.org/2002/07/owl#Ontology","http://semantic-mediawiki.org/swivt/1.0#creationDate":{"@type":"http://www.w3.org/2001/XMLSchema#dateTime","@value":"2025-05-08T23:40:51+00:00"},"http://www.w3.org/2002/07/owl#imports":{"@id":"http://semantic-mediawiki.org/swivt/1.0"}}]}</script>
+<link rel="alternate" href="https://eatingasturias.com/wiki/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf" hreflang="en-us"/>
+<meta property="og:title" content="File:Eating-Asturias-Beer-Cider-Color-Chart.pdf"/>
+<meta property="og:site_name" content="Eating Asturias"/>
+<meta property="og:url" content="https://eatingasturias.com/wiki/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf"/>
+<meta property="og:description" content="."/>
+<meta property="article:modified_time" content="2022-09-26T14:07:46Z"/>
+<meta property="article:published_time" content="2022-09-26T14:07:46Z"/>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"article","name":"Eating-Asturias-Beer-Cider-Color-Chart.pdf - Eating Asturias","headline":"Eating-Asturias-Beer-Cider-Color-Chart.pdf - Eating Asturias","mainEntityOfPage":"Eating-Asturias-Beer-Cider-Color-Chart.pdf","identifier":"https:\/\/eatingasturias.com\/wiki\/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf","url":"https:\/\/eatingasturias.com\/wiki\/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf","description":".","dateModified":"2022-09-26T14:07:46Z","datePublished":"2022-09-26T14:07:46Z","image":[],"author":{"@type":"Organization","name":"Eating Asturias","url":"https:\/\/eatingasturias.com","logo":[]},"publisher":{"@type":"Organization","name":"Eating Asturias","url":"https:\/\/eatingasturias.com","logo":[]},"potentialAction":{"@type":"SearchAction","target":"https:\/\/eatingasturias.com\/index.php?title=Special:Search&search={search_term}","query-input":"required name=search_term"}}</script>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-6 ns-subject page-File_Eating-Asturias-Beer-Cider-Color-Chart_pdf rootpage-File_Eating-Asturias-Beer-Cider-Color-Chart_pdf layout-stickyhead skin-chameleon action-view">
+	<!-- navigation bar -->
+	<nav class="p-navbar collapsible small bg-darker" role="navigation" id="mw-navigation">
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#i18wcng4jc"></button>
+		<div class="collapse navbar-collapse i18wcng4jc" id="i18wcng4jc">
+			<div class="navbar-nav">
+			</div>
+		</div>
+	</nav>
+	<!-- navigation bar -->
+	<nav class="p-navbar collapsible sticky" role="navigation" id="mw-navigation-i18wcng4jx">
+		<!-- logo and main page link -->
+		<div id="p-logo" class="navbar-brand p-logo" role="banner">
+			<a href="/wiki/Main_Page" title="Visit the main page"><img src="/resources/assets/EAlogo.svg" alt="Eating Asturias"/></a>
+		</div>
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#i18wcngmeb"></button>
+		<div class="collapse navbar-collapse i18wcngmeb" id="i18wcngmeb">
+			<div class="navbar-nav">
+				<!-- Recipes -->
+				<div class="nav-item dropdown p-Recipes-dropdown">
+					<a href="#" class="nav-link dropdown-toggle p-Recipes-toggle" data-toggle="dropdown" data-boundary="viewport">Recipes</a>
+					<div class="dropdown-menu p-Recipes" id="p-Recipes">
+						<div id="n-Recipe-Index" class="mw-list-item"><a href="/wiki/Recipe_Index" title="The Repertoire of Dishes and Techniques in Asturian Cooking, both Traditional and Modern" class="nav-link n-Recipe-Index">Recipe Index</a></div>
+						<div id="n-Notes-on-Recipes" class="mw-list-item"><a href="/wiki/Notes_on_Recipes" title="Helpful tidbits about the recipes on this site" class="nav-link n-Notes-on-Recipes">Notes on Recipes</a></div>
+						<div id="n-How-to-Read-a-Recipe" class="mw-list-item"><a href="/wiki/How_to_Read_a_Recipe" title="Recipes have their own conventions and assumptions. This is what you need to know." class="nav-link n-How-to-Read-a-Recipe">How to Read a Recipe</a></div>
+						<div id="n-Seasonality" class="mw-list-item"><a href="/wiki/Seasonality" title="Cooking with the seasons, and seasonal recipe examples." class="nav-link n-Seasonality">Seasonality</a></div>
+						<div id="n-Units-of-Measurement" class="mw-list-item"><a href="/wiki/Units_of_Measurement" title="Volume measurements are the devil and I do not use them." class="nav-link n-Units-of-Measurement">Units of Measurement</a></div>
+					</div>
+				</div>
+				<!-- Food Culture -->
+				<div class="nav-item dropdown p-Food-Culture-dropdown">
+					<a href="#" class="nav-link dropdown-toggle p-Food-Culture-toggle" data-toggle="dropdown" data-boundary="viewport">Food Culture</a>
+					<div class="dropdown-menu p-Food-Culture" id="p-Food-Culture">
+						<div id="n-Food-Culture" class="mw-list-item"><a href="/wiki/Food_Culture" title="The Inventory and Catalog of the Gastronomic Heritage of the Asturian People" class="nav-link n-Food-Culture">Food Culture</a></div>
+						<div id="n-Asturian-Food-History" class="mw-list-item"><a href="/wiki/Food_History" title="A broad overview of food history, as it pertains to Asturias" class="nav-link n-Asturian-Food-History">Asturian Food History</a></div>
+						<div id="n-The-Culinary-Landscape-of-Asturias" class="mw-list-item"><a href="/wiki/Culinary_Landscape" title="The natural and built environments in Asturias, and how they shape and are shaped by food culture." class="nav-link n-The-Culinary-Landscape-of-Asturias">The Culinary Landscape of Asturias</a></div>
+						<div id="n-Asturian-Ingredients" class="mw-list-item"><a href="/wiki/Ingredients" title="Raw ingredients commonly found in Asturian cooking" class="nav-link n-Asturian-Ingredients">Asturian Ingredients</a></div>
+						<div id="n-Asturian-Food-Products" class="mw-list-item"><a href="/wiki/Products" title="The cheeses, sausages, ciders, and other food products of Asturias" class="nav-link n-Asturian-Food-Products">Asturian Food Products</a></div>
+						<div id="n-Food-Festivals" class="mw-list-item"><a href="/wiki/Food_Festivals" title="Asturias has many gastronomic festivals to explore." class="nav-link n-Food-Festivals">Food Festivals</a></div>
+					</div>
+				</div>
+				<!-- Visit Asturias -->
+				<div class="nav-item dropdown p-Visit-Asturias-dropdown">
+					<a href="#" class="nav-link dropdown-toggle p-Visit-Asturias-toggle" data-toggle="dropdown" data-boundary="viewport">Visit Asturias</a>
+					<div class="dropdown-menu p-Visit-Asturias" id="p-Visit-Asturias">
+						<div id="n-Visit-Asturias" class="mw-list-item"><a href="/wiki/Visit_Asturias" class="nav-link n-Visit-Asturias">Visit Asturias</a></div>
+						<div id="n-English-Language-Tours-of-Asturias" class="mw-list-item"><a href="/wiki/English_Language_Tours_of_Asturias" class="nav-link n-English-Language-Tours-of-Asturias">English Language Tours of Asturias</a></div>
+						<div id="n-Asturias-by-Region-and-City" class="mw-list-item"><a href="/wiki/Regions" class="nav-link n-Asturias-by-Region-and-City">Asturias by Region and City</a></div>
+						<div id="n-Food-Markets" class="mw-list-item"><a href="/wiki/Markets" class="nav-link n-Food-Markets">Food Markets</a></div>
+						<div id="n-Cider-Makers" class="mw-list-item"><a href="/wiki/Llagares" class="nav-link n-Cider-Makers">Cider Makers</a></div>
+						<div id="n-Craft-Beer-Breweries" class="mw-list-item"><a href="/wiki/Breweries" class="nav-link n-Craft-Beer-Breweries">Craft Beer Breweries</a></div>
+						<div id="n-Artisan-Cheese-Makers" class="mw-list-item"><a href="/wiki/Cheese_Makers" class="nav-link n-Artisan-Cheese-Makers">Artisan Cheese Makers</a></div>
+						<div id="n-Sidrerías" class="mw-list-item"><a href="/wiki/Sidrer%C3%ADas" class="nav-link n-Sidrerías">Sidrerías</a></div>
+						<div id="n-Restaurants" class="mw-list-item"><a href="/wiki/Restaurants" class="nav-link n-Restaurants">Restaurants</a></div>
+						<div id="n-Bars" class="mw-list-item"><a href="/wiki/Bars" class="nav-link n-Bars">Bars</a></div>
+						<div id="n-Bakeries" class="mw-list-item"><a href="/wiki/Bakeries" class="nav-link n-Bakeries">Bakeries</a></div>
+					</div>
+				</div>
+				<!-- ? -->
+				<div class="nav-item dropdown p-?-dropdown">
+					<a href="#" class="nav-link dropdown-toggle p-?-toggle" data-toggle="dropdown" data-boundary="viewport">?</a>
+					<div class="dropdown-menu p-?" id="p-?">
+						<div id="n-Frequently-Asked-Questions" class="mw-list-item"><a href="/wiki/Frequently_Asked_Questions" title="The answers to the most frequent questions I get asked about life and food in Northern Spain." class="nav-link n-Frequently-Asked-Questions">Frequently Asked Questions</a></div>
+						<div id="n-Asturian-Food-Suppliers-in-the-United-States" class="mw-list-item"><a href="/wiki/Asturian_Food_Suppliers_in_the_United_States" title="Where to look for Asturian ingredients you cannot find locally" class="nav-link n-Asturian-Food-Suppliers-in-the-United-States">Asturian Food Suppliers in the United States</a></div>
+						<div id="n-Bibliography" class="mw-list-item"><a href="/wiki/Bibliography" title="An (annotated) bibliography of the sources used on this site" class="nav-link n-Bibliography">Bibliography</a></div>
+						<div id="n-Blogroll" class="mw-list-item"><a href="/wiki/Blogroll" title="Blogs, online magazines, and Mastodon/Twitter users I follow" class="nav-link n-Blogroll">Blogroll</a></div>
+						<div id="n-Links" class="mw-list-item"><a href="/wiki/Links" title="Online resources, databases, etc... that are useful for food history" class="nav-link n-Links">Links</a></div>
+						<div id="n-Wishlist" class="mw-list-item"><a href="/wiki/Wishlist" title="Support Eating Asturias directly with research materials" class="nav-link n-Wishlist">Wishlist</a></div>
+						<div id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r" class="nav-link n-recentchanges">Recent changes</a></div>
+						<div id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x" class="nav-link n-randompage">Random page</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar-nav right">
+				<!-- page tools -->
+				<div class="navbar-tools navbar-nav flex-row">
+					<div class="navbar-tool dropdown">
+						<a data-toggle="dropdown" data-boundary="viewport" class="navbar-more-tools" href="#" title="Page tools"></a>
+						<!-- Content navigation -->
+						<div class="flex-row navbar-pagetools dropdown-menu p-contentnavigation" id="p-contentnavigation">
+							<!-- namespaces -->
+							<div id="ca-talk" class="new mw-list-item"><a href="/index.php?title=File_talk:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t" class="new ca-talk">Discussion</a></div>
+							<!-- views -->
+							<div id="ca-viewsource" class="mw-list-item"><a href="/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e" class="ca-viewsource">View source</a></div>
+							<div id="ca-history" class="mw-list-item"><a href="/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class="ca-history">View history</a></div>
+						</div>
+					</div>
+				</div>
+				<!-- search form -->
+				<div  id="p-search" class="p-search order-first order-cmln-0 navbar-form" role="search"  >
+					<form  id="searchform" class="mw-search" action="/index.php" >
+						<input type="hidden" name="title" value=" Special:Search" />
+						<div class="input-group">
+							<input type="search" name="search" placeholder="Search Eating Asturias" aria-label="Search Eating Asturias" autocapitalize="sentences" title="Search Eating Asturias [f]" accesskey="f" id="searchInput" class="form-control"/>
+							<div class="input-group-append">
+								<button value="Go" id="searchGoButton" name="go" type="submit" class="search-btn searchGoButton" aria-label="Go to page" title="Go to a page with this exact name if it exists"></button>
+							</div>
+						</div>
+					</form>
+				</div>
+				
+				<!-- personal tools -->
+				<div class="navbar-tools navbar-nav" >
+					<div class="navbar-tool dropdown">
+						<a class="navbar-usernotloggedin" href="#" data-toggle="dropdown" data-boundary="viewport" title="You are not logged in.">
+						</a>
+						<div class="p-personal-tools dropdown-menu">
+							<div id="pt-login" class="mw-list-item"><a href="/index.php?title=Special:UserLogin&amp;returnto=File%3AEating-Asturias-Beer-Cider-Color-Chart.pdf" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class="pt-login">Log in</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="flex-fill container">
+		<div class="row">
+			<div class="col">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<!-- start the content area -->
+				<div id="content" class="mw-body content"><a id="top" class="top"></a>
+					<div id="mw-indicators" class="mw-indicators">
+						<div id="mw-indicator-smw-entity-examiner" class="mw-indicator mw-indicator-smw-entity-examiner"><div class="smw-entity-examiner smw-indicator-vertical-bar-loader" data-subject="Eating-Asturias-Beer-Cider-Color-Chart.pdf#6##" data-dir="ltr" data-uselang="" title="Running an examiner in the background"></div></div>
+					</div>
+						<div class="contentHeader">
+						<!-- title of the page -->
+						<h1 id="firstHeading" class="firstHeading">Eating-Asturias-Beer-Cider-Color-Chart.pdf</h1>
+						<!-- tagline; usually goes something like "From WikiName" primary purpose of this seems to be for printing to identify the source of the content -->
+						<div id="siteSub" class="siteSub">From Eating Asturias, the Encyclopedia of Asturian Gastronomy</div><div id="jump-to-nav" class="mw-jump jump-to-nav">Jump to:<a href="#mw-navigation">navigation</a>, <a href="#p-search">search</a></div>
+					</div>
+					<div id="bodyContent" class="bodyContent">
+						<!-- body text -->
+
+						<div id="mw-content-text" class="mw-body-content"><ul id="filetoc"><li><a href="#file">File</a></li>
+<li><a href="#filehistory">File history</a></li>
+<li><a href="#filelinks">File usage</a></li></ul><div class="fullImageLink" id="file"><a href="/images/7/7b/Eating-Asturias-Beer-Cider-Color-Chart.pdf"><img alt="" src="/resources/assets/file-type-icons/fileicon-pdf.png" decoding="async" width="120" height="120" data-file-width="0" data-file-height="0" /></a></div>
+<div class="fullMedia"><p><a href="/images/7/7b/Eating-Asturias-Beer-Cider-Color-Chart.pdf" class="internal" title="Eating-Asturias-Beer-Cider-Color-Chart.pdf">Eating-Asturias-Beer-Cider-Color-Chart.pdf</a> &#8206;<span class="fileInfo">(file size: 39 KB, MIME type: <span class="mime-type">application/pdf</span>)</span>
+</p></div><div id="mw-imagepage-content" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output pageproperties-content-model-wikitext"><h2><span class="mw-headline" id="Summary">Summary</span></h2>
+<p>Printable PDF SRM chart of my own design for describing the color of the cider. It provides a way to set the glass in the center of the chart for easier identification of the color
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20250508234050
+Cache expiry: 86400
+Reduced expiry: false
+Complications: []
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.002 seconds
+Real time usage: 0.002 seconds
+Preprocessor visited node count: 2/1000000
+Post‐expand include size: 0/5242880 bytes
+Template argument size: 0/5242880 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key eatingas_mw19279-mwbc_:pcache:idhash:326-0!canonical and timestamp 20250508234050 and revision id 3878.
+ -->
+</div></div><h2 id="filehistory">File history</h2>
+<div id="mw-imagepage-section-filehistory">
+<p>Click on a date/time to view the file as it appeared at that time.
+</p>
+<table class="wikitable filehistory">
+<tr><th></th><th>Date/Time</th><th>Dimensions</th><th>User</th><th>Comment</th></tr>
+<tr><td>current</td><td class="filehistory-selected" style="white-space: nowrap;"><a href="/images/7/7b/Eating-Asturias-Beer-Cider-Color-Chart.pdf">14:07, 26 September 2022</a></td><td> <span style="white-space: nowrap;">(39 KB)</span></td><td><a href="/wiki/User:JonTillman" class="mw-userlink" title="User:JonTillman"><bdi>JonTillman</bdi></a><span style="white-space: nowrap;"> <span class="mw-usertoollinks">(<a href="/wiki/User_talk:JonTillman" class="mw-usertoollinks-talk" title="User talk:JonTillman">talk</a> | <a href="/wiki/Special:Contributions/JonTillman" class="mw-usertoollinks-contribs" title="Special:Contributions/JonTillman">contribs</a>)</span></span></td><td dir="ltr">Printable PDF SRM chart of my own design for describing the color of the cider. It provides a way to set the glass in the center of the chart for easier identification of the color</td></tr>
+</table>
+
+</div>
+<div class="mw-imagepage-upload-links"><p id="mw-imagepage-upload-disallowed">You cannot overwrite this file.</p></div><h2 id="filelinks">File usage</h2>
+<div id="mw-imagepage-nolinkstoimage">
+<p>There are no pages that use this file.
+</p>
+</div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://eatingasturias.com/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;oldid=3878">https://eatingasturias.com/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;oldid=3878</a>"</div>
+
+						<!-- end body text -->
+						<!-- data blocks which should go somewhere after the body text, but not before the catlinks block-->
+						
+					</div>
+					<!-- category links -->
+					<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mb-2 mt-4 container-fluid">
+		<div class="row">
+			<div class="col">
+				<!-- navigation bar -->
+				<nav class="p-navbar not-collapsible small mb-2" role="navigation" id="mw-navigation-i18wcngmpe">
+					<div class="navbar-nav">
+					<!-- toolbox -->
+					<div class="nav-item p-tb-dropdown dropup">
+						<a href="#" class="nav-link dropdown-toggle p-tb-toggle" data-toggle="dropdown" data-boundary="viewport">Tools</a>
+						<div class="dropdown-menu">
+							<div id="t-whatlinkshere" class="nav-item mw-list-item"><a href="/wiki/Special:WhatLinksHere/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf" title="A list of all wiki pages that link here [j]" accesskey="j" class="nav-link t-whatlinkshere">What links here</a></div>
+							<div id="t-recentchangeslinked" class="nav-item mw-list-item"><a href="/wiki/Special:RecentChangesLinked/File:Eating-Asturias-Beer-Cider-Color-Chart.pdf" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k" class="nav-link t-recentchangeslinked">Related changes</a></div>
+							<div id="t-specialpages" class="nav-item mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q" class="nav-link t-specialpages">Special pages</a></div>
+							<div id="t-print" class="nav-item mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p" class="nav-link t-print">Printable version</a></div>
+							<div id="t-permalink" class="nav-item mw-list-item"><a href="/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;oldid=3878" title="Permanent link to this revision of this page" class="nav-link t-permalink">Permanent link</a></div>
+							<div id="t-info" class="nav-item mw-list-item"><a href="/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;action=info" title="More information about this page" class="nav-link t-info">Page information</a></div>
+							<div id="t-cargopagevalueslink" class="nav-item mw-list-item"><a href="/index.php?title=File:Eating-Asturias-Beer-Cider-Color-Chart.pdf&amp;action=pagevalues" rel="cargo-pagevalues" class="nav-link t-cargopagevalueslink">Cargo data</a></div>
+							<div id="t-smwbrowselink" class="nav-item mw-list-item"><a href="/wiki/Special:Browse/:File:Eating-2DAsturias-2DBeer-2DCider-2DColor-2DChart.pdf" rel="search" class="nav-link t-smwbrowselink">Browse properties</a></div>
+						</div>
+					</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<!-- footer links -->
+				<div id="footer-info" class="footer-info">
+					<!-- info -->
+					<div> This page was last edited on 26 September 2022, at 14:07.</div>
+					<div>Content on Eating Asturias is available under <a href="/wiki/Eating_Asturias:Copyright" title="Eating Asturias:Copyright">Eating Asturias License</a> unless otherwise noted.</div>
+				</div>
+				<!-- places -->
+				<div id="footer-places" class="footer-places">
+					<div><a href="/wiki/Eating_Asturias:Privacy_policy">Privacy policy</a></div>
+					<div><a href="/wiki/Eating_Asturias:About">About Eating Asturias</a></div>
+					<div><a href="/wiki/Eating_Asturias:General_disclaimer">Disclaimers</a></div>
+				</div>
+			</div>
+			<div class="col">
+				<!-- footer icons -->
+				<div id="footer-icons" class="justify-content-end footer-icons">
+					<!-- poweredby -->
+					<div><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/res/smw/logo_footer.png" alt="Powered by Semantic MediaWiki" class="smw-footer" width="88" height="31" loading="lazy"/></a></div>
+				</div>
+			</div>
+		</div>
+	</div><script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.001",
+            "walltime": "0.001",
+            "ppvisitednodes": {
+                "value": 3,
+                "limit": 1000000
+            },
+            "postexpandincludesize": {
+                "value": 0,
+                "limit": 5242880
+            },
+            "templateargumentsize": {
+                "value": 0,
+                "limit": 5242880
+            },
+            "expansiondepth": {
+                "value": 1,
+                "limit": 100
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 100
+            },
+            "unstrip-depth": {
+                "value": 0,
+                "limit": 20
+            },
+            "unstrip-size": {
+                "value": 0,
+                "limit": 5000000
+            },
+            "timingprofile": [
+                "100.00%    0.000      1 -total"
+            ]
+        },
+        "cachereport": {
+            "timestamp": "20250508234050",
+            "ttl": 86400,
+            "transientcontent": false
+        }
+    }
+});});</script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u = (("https:" == document.location.protocol) ? "https" : "http") + "://"+"stats.eatingasturias.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<!-- Matomo Image Tracker -->
+<noscript><img src="https://stats.eatingasturias.com/piwik.php?idsite=1&rec=1" style="border:0" alt="" /></noscript>
+<!-- End Matomo --><!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u = (("https:" == document.location.protocol) ? "https" : "http") + "://"+"stats.eatingasturias.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<!-- Matomo Image Tracker -->
+<noscript><img src="https://stats.eatingasturias.com/piwik.php?idsite=1&rec=1" style="border:0" alt="" /></noscript>
+<!-- End Matomo -->
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({
+    "wgBackendResponseTime": 836
+});});</script>
+</body>
+</html>

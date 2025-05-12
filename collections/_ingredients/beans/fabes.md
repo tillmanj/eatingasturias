@@ -16,9 +16,11 @@ variety:
   - del cura
 dop: 
 ---
-{% newthought 'Fabes may be the single most important'%} contribution to Asturian cooking to come out of the Columbian Exchange I grew up in Western North Carolina, a place that, for reasons not entirely clear to me, has a very similar food culture to Asturias. Nowhere is this more obvious than in the local love for Greasy Short-Cuts and Fabes, respectively.
+{% newthought 'Fabes may be the single most important'%} contribution to Asturian cooking to come out of the [Columbian Exchange](/culture/history/early-modern/columbian-exchange.html).
 
-Maybe it's just that stew-eating mountain folk across the world value the same kinds of high-fat runner beans. In both places, people are awfully picky about their beans. And in both they are awfully protective of what they consider to be their beans. More so in Asturias I suppose, given that fabes have a protected IGP status, but only barely more so.
+I grew up in Western North Carolina, a place that, for reasons not entirely clear to me, has a very similar food culture to Asturias. Nowhere is this more obvious than in the local love for *Greasy Short-Cuts* and *Fabes*, respectively.
+
+Maybe it's just that stew-eating mountain folk across the world value the same kinds of high-fat runner beans. I think that is a very possible explanation. I do know that in both places, people are very particular about their beans. And in both they are awfully protective of what they consider to be their beans. More so in Asturias I suppose, given that fabes have a protected IGP status, but only barely more so.
 
 
 ## Fabes la granxa
@@ -26,7 +28,6 @@ Maybe it's just that stew-eating mountain folk across the world value the same k
 Literally "farm beans". These are the gold standard for making Fabada.
 
 For beans to qualify as Fabes la granxa they must have the following characteristics:
-
 - no stained, broken, empty, or wrinkled grains
 - humidity: 14-18%
 - size: big and uniform
@@ -37,7 +38,6 @@ For beans to qualify as Fabes la granxa they must have the following characteris
 - color and shade: sparkly white.
 
 This variety has a high fat content, which makes it especially smooth and meaty.
-
 
 ## Acceptable Substitutions
 

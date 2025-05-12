@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Columbian Eschange
+title: The Columbian Exchange
 subtitle: 
 permalink: /culture/history/early-modern/columbian-exchange.html
 toc: false
@@ -24,9 +24,9 @@ Beans as well were enthusiastically incorporated into Asturian foodways. Indeed 
 | Latin                                | English          | Asturian         | Castilian       |
 |--------------------------------------|------------------|------------------|-----------------|
 | *Zea mays*                           | Corn             |                  |                 |
-| *Phaseolus vulgaris*                 | Pinto Beans      | [[Fabes]] pintas | frijoles pintas |
+| *Phaseolus vulgaris*                 | Pinto Beans      | Fabes pintas     | frijoles pintas |
 | *Phaseolus lunatus*                  | Lima Beans       |                  | garrafón        |
-| *Phaseolus vulgaris*                 | Green Beans      | Fabes de granxa  |                 |
+| *Phaseolus vulgaris*                 | Green Beans      | [Fabes de granxa](/culture/ingredients/beans/fabes.html)  |                 |
 | *Phaseolus vulgaris*                 | Kidney Beans     |                  |                 |
 | *Pleurotus eryngii*                  | Oyster Mushroom  |                  | Seta de cardo   |
 | *Vaccinium* sect. *Cyanococcus*      | Blueberry        | Arando           | Arandano        |

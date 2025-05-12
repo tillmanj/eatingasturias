@@ -21,4 +21,5 @@ Here I explore all of the pieces of the landscape that make Asturias the agropol
 - [Chigre](/culture/landscape/built-environment/chigre.html) - the cider “dive bar”
 - [Cocina de leña](/culture/landscape/built-environment/cocina-leña.html) - the Asturian wood stove
 - [Hórreos & Paneras](/culture/landscape/built-environment/hórreo-panera.html) - Granaries for the farm
+- [Llagar](/culture/landscape/built-environment/llagar.html) - the home cider-making equipment
 - [Pumarada](/culture/landscape/built-environment/pumarada.html) - the apple orchard
