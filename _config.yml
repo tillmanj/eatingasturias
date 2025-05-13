@@ -323,6 +323,7 @@ plugins:
   - jekyll-last-modified-at  
   - jekyll-link-attributes
   - jekyll-loading-lazy
+  - jekyll-maps
   - microformats
   - jekyll-scholar
   - jekyll-sidenotes
@@ -400,6 +401,11 @@ external_links:
     - https://jontillman.me
 
 # PLUGIN: jekyll-loading-lazy
+
+# PLUGIN: jekyll-maps
+maps:
+  google:
+    api_key: AIzaSyAfXJb95B8pPw7YsEQxyOOUiIQIFZMnWHw
 
 # PLUGIN: microformats
 

@@ -280,7 +280,7 @@ span.listSectionHead::after {
 
 figure {
   display: -webkit-box;
-  display: flex;
+  display: inline-block;
   -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
@@ -314,7 +314,10 @@ figure {
     }
 
     figcaption {
-      width: 100%;
+      font-style: italic;
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
     }
   }
 

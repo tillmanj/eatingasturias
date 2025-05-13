@@ -1,0 +1,12 @@
+{% assign ciders = site.ciders | where: "llagar", page.title %}
+<h2>Ciders</h2>
+{% if ciders.size > 0 %}
+<p>The following ciders from {{page.title}} have been reviewed here:</p>
+<ul>
+    {% for cider in ciders %}
+        <li><a href="{{cider.url}}" title="{{cider.subtitle}}">{{cider.title}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>I have not reviewed any ciders from {{page.title}} yet.</p>
+{% endif %}

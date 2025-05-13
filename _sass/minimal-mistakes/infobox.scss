@@ -127,6 +127,12 @@ tr.about td {
     width: 10px;
 }
 
+.flexright {
+    justify-content: right;
+}
+
+/* infobox-recipe.html styles */
+
 ul.ingredients {
     list-style-type:square;
     list-style-position: inside;
@@ -148,10 +154,6 @@ table.nutrition thead {
     color: $contrast-color;
 }
 
-.flexright {
-    justify-content: right;
-}
-
 .nutrition-value {
     font-family: $sans-serif;
     font-weight: 500;
@@ -167,4 +169,19 @@ td.calories {
     font-size: 2vw;
     vertical-align: middle;
     text-align: center;
+}
+
+/* infobox-cheese.html styles */
+
+tr.cheese td {
+    vertical-align: top;
+    border-bottom: 1px dotted #264142;
+}
+
+tr.cheese td.producer {
+    white-space: nowrap;
+}
+
+tr.cheese td.descriptor {
+    width: 80% !important;
 }

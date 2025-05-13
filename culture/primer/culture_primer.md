@@ -11,7 +11,7 @@ sidebar:
 ---
 {% epigraph 'People who love to eat are always the best people.' 'Julia Child' 'The French Chef, WGBH' %}
 
-{%newthought 'food culture is the context'%} in which food exists. That is the best definition of [food culture](/culture/) I can come up with, and the ways it expresses itself in a place can sometimes be less than obvious. To help you immerse yourself in the food culture of Asturias more comepletely, I have compiled some pointers that will hopefully lessen the instances of confusion you might experience while in Asturias.
+{%newthought 'food culture is the context'%} in which food exists. That is the best definition of [food culture](/culture/) I can come up with, and the ways it expresses itself in a place can sometimes be less than obvious. To help you immerse yourself in the food culture of Asturias more completely, I have compiled some pointers that will hopefully lessen the instances of confusion you might experience while in Asturias.
 
 
 ## The Basics

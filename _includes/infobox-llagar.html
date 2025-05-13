@@ -1,0 +1,109 @@
+<aside class="sidebar__right infobox">
+    <table id="llagar-info">
+        <tbody>
+            {% if page.image_logo %}
+                {%  assign imgName = {{page.image_logo | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="/assets/images/{{page.image_logo}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.title}} logo">
+                                <img itemprop="photograph" src="/assets/images/{{page.image_logo}}" alt="the logo of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                        </figure>
+                    </td>
+                </tr>
+                <tr class="about">
+                    <td colspan="2" class="infobox-label">Status</td>
+                    <td colspan="4" >{{page.status}}</td>
+                </tr>
+                <tr class="about">
+                    <td colspan="2" class="infobox-label">Production</td>
+                    <td colspan="4" >{{page.production}}</td>
+                </tr>
+                <tr class="about">
+                    <td colspan="2" class="infobox-label">Manager</td>
+                    <td colspan="4" >{{page.manager}}</td>
+                </tr>
+                <tr class="about">
+                    <td colspan="2" class="infobox-label">Conceyu</td>
+                    <td colspan="4" >{{page.conceyu}}</td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        {% google_map zoom="16" width="300" height="250" %}
+                    </td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+    <table id="llagar-hours">
+        <thead>
+            <tr class="about hours">
+                <th colspan="2" class="header">Hours of Operation</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="about hours">
+                <td class="day infobox-label">Monday</td>
+                <td class="hours">{{page.hours.mon}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Tuesday</td>
+                <td class="hours">{{page.hours.tue}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Wednesday</td>
+                <td class="hours">{{page.hours.wed}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Thursday</td>
+                <td class="hours">{{page.hours.thu}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Friday</td>
+                <td class="hours">{{page.hours.fri}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Saturday</td>
+                <td class="hours">{{page.hours.sat}}</td>
+            </tr>
+            <tr class="about hours">
+                <td class="day infobox-label">Sunday</td>
+                <td class="hours">{{page.hours.sun}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="llagar-contact">
+        <thead>
+            <tr class="contact">
+                <th colspan="6" class="header">Contact</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="about">
+                <td colspan="2" class="contact infobox-label">Telephone</td>
+                <td colspan="4"><a href="tel://+34{{page.telephone | remove: " "}}">{{page.telephone}}</a></td>
+            </tr>
+            <tr class="about">
+                <td colspan="2" class="contact infobox-label">Email</td>
+                <td colspan="4"><a href="mailto:{{page.email}}">{{page.email}}</a></td>
+            </tr>
+            <tr class="about">
+                <td colspan="2" class="contact infobox-label">Website</td>
+                <td colspan="4"><a rel="nofollow noopener" href="{{page.website}}">{{page.website | remove: "https://"}}</a></td>
+            </tr>
+            <tr>
+                <td class="social-icon">{% if page.social.facebook %}<a rel="nofollow noopener" href="{{page.social.facebook}}"><img src="/assets/images/Icons8-facebook-48.png"></a>{% endif %}</td>
+                <td class="social-icon">{% if page.social.instagram %}<a rel="nofollow noopener" href="{{page.social.instagram}}"><img src="/assets/images/Icons8-instagram-48.png"></a>{% endif %}</td>
+                <td class="social-icon">{% if page.social.bluesky %}<a rel="nofollow noopener" href="{{page.social.bluesky}}"><img src="/assets/images/Icons8-bluesky-48.png"></a>{% endif %}</td>
+                <td class="social-icon">{% if page.social.twitter %}<a rel="nofollow noopener" href="{{page.social.twitter}}"><img src="/assets/images/Icons8-twitter-48.png"></a>{% endif %}</td>
+                <td class="social-icon">{% if page.social.linkedin %}<a rel="nofollow noopener" href="{{page.social.linkedin}}"><img src="/assets/images/Icons8-linkedin-48.png"></a>{% endif %}</td>
+                <td class="social-icon">{% if page.social.pinterest %}<a rel="nofollow noopener" href="{{page.social.pinterest}}"><img src="/assets/images/Icons8-pinterest-48.png"></a>{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+</aside>

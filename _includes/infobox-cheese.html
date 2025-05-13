@@ -1,0 +1,90 @@
+<aside class="sidebar__right infobox">
+    <table id="cheese-info">
+        <tbody>
+            {% if page.image_logo %}
+                {%  assign imgName = {{page.image_logo | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="/assets/images/{{page.image_logo}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.title}} logo">
+                                <img itemprop="photograph" src="/assets/images/{{page.image_logo}}" alt="the logo of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small">{{page.image_logo_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="about cheese">
+                <td class="infobox-label">Producer</td>
+                <td class="producer">{{page.cheese_producer}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Cheese Type</td>
+                <td>{% case page.cheese_style %}
+                    {% when 'fc' %}Fresh Cheese
+                    {% when 'afc' %}Aged Fresh Cheese
+                    {% when 'swc' %}Soft White Rind Cheese
+                    {% when 'ssc' %}Semi-Soft Cheese
+                    {% when 'hc' %}Hard Cheese
+                    {% when 'bc' %}Blue Cheese
+                    {% when 'fac' %}Flavor-Added Cheese
+                    {% else %}Missing Cheese Type!
+                    {% endcase %}
+                </td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Milk</td>
+                <td>{{page.cheese_milk}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Treatment</td>
+                <td>{{page.cheese_treatment}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td valign="top" class="infobox-label">Shape</td>
+                <td valign="top">{{page.cheese_shape}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Weight</td>
+                <td>{{page.cheese_weight}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Rind</td>
+                <td>{{page.cheese_rind}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Paste</td>
+                <td class="descriptor">{{page.cheese_paste}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Aroma</td>
+                <td>{{page.cheese_aroma}}</td>
+            </tr>
+            <tr class="about cheese">
+                <td class="infobox-label">Flavor</td>
+                <td>{{page.cheese_flavor}}</td>
+            </tr>
+            {% if page.cheese_dop == true %}
+                {%  assign imgName = {{page.cheese_dop_logo | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="/assets/images/{{page.cheese_dop_logo}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.title}} logo">
+                                <img itemprop="photograph" src="/assets/images/{{page.cheese_dop_logo}}" alt="the logo of the {{page.title}} DOP" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small"><a href="{{page.cheese_dop_link}}" rel="nofollow noopener">{{page.cheese_dop_link | markdownify | remove: "<p>" | remove: "</p>" }}</a></figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</aside>

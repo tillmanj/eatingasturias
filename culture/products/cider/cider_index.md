@@ -28,9 +28,9 @@ Let's start with a definition, for the benefit of my fellow Americans. *Sidra* m
 ## Llagares
 *Cider makers in Asturias*
 
-{% assign pages = site.pages | sort: 'title' %}
+{% assign llagar = site.llagares | sort: 'title' %}
 <ul class="col2">
-  {%- for item in pages %}
+  {%- for item in llagar %}
     {%- if item.category == "llagar" %}
       <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
     {% endif -%}

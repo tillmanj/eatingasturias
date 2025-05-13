@@ -137,7 +137,7 @@ $text-alignments: left, right, start, end, center, justify;
 /* image align left */
 
 .align-left {
-  display: block;
+  display: inline-block;
   margin-inline: auto;
 
   @include breakpoint($small) {
@@ -149,7 +149,7 @@ $text-alignments: left, right, start, end, center, justify;
 /* image align right */
 
 .align-right {
-  display: block;
+  display: inline-block;
   margin-inline: auto;
 
   @include breakpoint($small) {
