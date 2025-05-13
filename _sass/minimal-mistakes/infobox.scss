@@ -171,6 +171,29 @@ td.calories {
     text-align: center;
 }
 
+.recipe-diet { // see also here for another way to control list breaks https://stackoverflow.com/questions/14621656/how-to-make-line-break-in-ul-horizontal-list-for-every-x-list
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style-type: none;
+        list-style-image: none;
+        margin: 2px 2px 0 2px;
+        padding: 0 2px 0 0;
+        border-radius: 5px;
+        border-right: 1px dotted $contrast-color;
+        font-size: 0.665rem;
+
+        &:last-child {
+            border-right: none;
+          }
+    }
+}
+
 /* infobox-cheese.html styles */
 
 tr.cheese td {

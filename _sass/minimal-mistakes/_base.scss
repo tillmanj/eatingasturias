@@ -136,7 +136,7 @@ abbr[data-original-title] {
 
 blockquote {
   display: block;
-  float: right;
+  float: center;
   font-weight: 100;
   font-size: 1.5rem;
   font-style: italic;
@@ -145,8 +145,9 @@ blockquote {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 10px;
-  max-width: 60%;
+  max-width: 90%;
   padding: .5rem;
+  border-left: 3px solid $header-alt-color;
   color: $header-alt-color;
 
   cite {

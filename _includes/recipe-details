@@ -41,7 +41,7 @@
 {% endif  %}
 
 
-{% if page.recipeNotes %}
+{% if page.recipeNotes.size > 0 %}
   {% assign i = 1 %}
   <h2>Hints</h2>
   <ol class="ingredients">

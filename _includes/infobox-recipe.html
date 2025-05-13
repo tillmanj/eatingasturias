@@ -128,11 +128,11 @@
     {% if page.suitableForDiet.size %}
         <h3 class="recipe-suit">This Recipe Is:</h3>
         <div class="recipe-foot">
+            <ul class="recipe-diet">
             {% for diet in page.suitableForDiet %}
-                <div class="recipe-diet">
-                    <span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | slugify}}/">{{diet}}</a></span>
-                </div>
+                <li><span itemprop="suitableForDiet"><a href="/recipes/diet/{{diet | slugify}}/">{{diet}}</a></span></li>
             {% endfor %}
+            </ul>
         </div>
         {% endif %}
 </aside>

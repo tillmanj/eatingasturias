@@ -7,11 +7,12 @@ subcategories:
     - Deep Fried Recipes
     - Grilled Recipes
     - Pan Fried Recipes
+    - Raw Recipes
     - Simmered Recipes
     - Slow Cooked Recipes
 permalink: /recipes/method/
 title: Recipes by Cooking Method
-subtitle: 
+subtitle: Do it your way
 toc: false
 sidebar:
   nav: recipe_full
