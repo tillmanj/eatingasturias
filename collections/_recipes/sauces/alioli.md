@@ -25,20 +25,9 @@ recipeDifficulty: Easy
 recipeCuisine: Catalan
 cookingMethod: Raw
 recipeCourse: Tapas
-recipeIngredients:
-  - 1 egg yolk
-  - 1 clove garlic.
-  - 60 ml neutral oil. Canola and grapeseed are both vastly superior to olive in this context.
-  - 1 pinch salt.
-  - 1 pinch paprika.
-  - 1/2 lemon, juiced.
+recipeIngredients: [1 clove garlic., 1 egg yolk, 1 pinch paprika., 1 pinch salt., 1/2 lemon, 60 ml neutral oil. Canola and grapeseed are both vastly superior to olive in this context., juiced.]
 requires: []
-recipeInstructions:
-  - Press your garlic clove, and put it in a small mixing bowl.
-  - Separate your egg and add the yolk to the garlic. Stir a bit to combine.
-  - Add a pinch of salt and a pinch of paprika if you are using it. Stir a bit.
-  - Stick an immersion blender into your mixing bowl and slowly drizzle in the neutral oil while the blender is running. This will take a few minutes if you are adding the oil slow enough.
-  - Repeat with the oil. When it is all incorporated and light and fluffy, taste and adjust with the lemon juice.
+recipeInstructions: [Add a pinch of salt and a pinch of paprika if you are using it. Stir a bit., and put it in a small mixing bowl., Press your garlic clove, Repeat with the oil. When it is all incorporated and light and fluffy, Separate your egg and add the yolk to the garlic. Stir a bit to combine., Stick an immersion blender into your mixing bowl and slowly drizzle in the neutral oil while the blender is running. This will take a few minutes if you are adding the oil slow enough., taste and adjust with the lemon juice.]
 recipeNotes: []
 recipeSource: 
 recipeSourceExt: 
@@ -56,7 +45,7 @@ fiberContent: 2.3
 sugarContent: 1.6
 proteinContent: 3.8
 date created: Tuesday, May 13th 2025, 11:36:12 am
-date modified: Tuesday, May 13th 2025, 12:14:57 pm
+date modified: Tuesday, May 13th 2025, 1:22:36 pm
 ---
 How to start an argument in the western Mediterranean: Ask any two people what alioli or aïoli is. The only thing you’ll learn in the ensuing discussion is where the people involved are from. Let me try to pick apart the differences (both real and imagined) before we get into how to make your own awesome version of salsa alioli to dip your fried potatoes in.
 
