@@ -1,4 +1,6 @@
 ---
+aliases: []
+tags: []
 layout: page
 title: Asturian Food Culture Primer
 subtitle: The Basics of Asturian Food Culture
@@ -8,6 +10,8 @@ toc_sticky: true
 toc_label: Culture
 sidebar:
   nav: culture_full
+date created: Wednesday, January 22nd 2025, 11:09:02 am
+date modified: Tuesday, May 13th 2025, 11:08:17 am
 ---
 {% epigraph 'People who love to eat are always the best people.' 'Julia Child' 'The French Chef, WGBH' %}
 

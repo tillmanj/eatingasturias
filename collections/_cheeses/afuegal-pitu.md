@@ -30,21 +30,22 @@ Given both that the prior name for the cheese was, literally, “the fist”, an
 ## Where Is It from?
 
 Once made all over [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"), production is now limited to a small group of conceyos. The DOP lists eight individual producers who are part of the DOP:
-- [Tierra de Tineo](https://eatingasturias.com/index.php?title=Tierra_de_Tineo&action=edit&redlink=1 "Tierra de Tineo (page does not exist)")
-- [Quesería Agrovaldés](https://eatingasturias.com/index.php?title=Queser%C3%ADa_Agrovald%C3%A9s&action=edit&redlink=1 "Quesería Agrovaldés (page does not exist)")
-- [Quesería Ca Sanchu](https://eatingasturias.com/index.php?title=Queser%C3%ADa_Ca_Sanchu&action=edit&redlink=1 "Quesería Ca Sanchu (page does not exist)")
-- [Quesería El Viso](https://eatingasturias.com/index.php?title=Queser%C3%ADa_El_Viso&action=edit&redlink=1 "Quesería El Viso (page does not exist)")
-- [Quesería La Arquera](https://eatingasturias.com/index.php?title=Queser%C3%ADa_La_Arquera&action=edit&redlink=1 "Quesería La Arquera (page does not exist)")
-- [Quesería La Borbolla](https://eatingasturias.com/index.php?title=Queser%C3%ADa_La_Borbolla&action=edit&redlink=1 "Quesería La Borbolla (page does not exist)")
-- [Quesería La Peñona](https://eatingasturias.com/index.php?title=Queser%C3%ADa_La_Pe%C3%B1ona&action=edit&redlink=1 "Quesería La Peñona (page does not exist)")
-- [Quesería Temia](https://eatingasturias.com/index.php?title=Queser%C3%ADa_Temia&action=edit&redlink=1 "Quesería Temia (page does not exist)")
+- Tierra de Tineo
+- Quesería Agrovaldés
+- Quesería Ca Sanchu
+- Quesería El Viso
+- Quesería La Arquera
+- Quesería La Borbolla
+- Quesería La Peñona
+- Quesería Temia
+
 ## Making Afuega’l Pitu
 
 _Afuega’l Pitu_ cheese makers use only milk from farms located in the protected geographical area. Either pasteurized milk or raw milk is used, according to the choice of the cheese maker. If raw milk is used, the cheese must be aged for a minimum of 60 days.
 
 The _Afuega’l Pitu_ cheese curd is an acidic type, made slowly over a period of 15-20 hours at a temperature of 22-32 ºC. Once this natural curdling process is finished, the cheese maker transfers the curd to the molds. The cheese then drains in these molds for 24 hours.
 
-After these 24 hours, the cheese maker either packs the curds into the final shaped mold for the _antroncau_ shape or wraps it in cheesecloth for the _trapu_ shape. At this stage the cheese maker adds _pimentón_ if they are making the _roxu_ varieties. After that, the cheese rests in the mold for another 24 hours.
+After these 24 hours, the cheese maker either packs the curds into the final shaped mold for the _antroncau_ shape or wraps it in cheesecloth for the _trapu_ shape. At this stage the cheese maker adds _pimentón_ if they are making the [_roxu_ varieties](/culture/products/cheese/afuegal-pitu.html). After that, the cheese rests in the mold for another 24 hours.
 
 The cheeses are then matured. Cheeses made with pasteurized milk will age for a minimum of five days. Raw milk cheeses age for a minimum of 60 days.
 
