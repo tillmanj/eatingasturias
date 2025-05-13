@@ -405,7 +405,7 @@ external_links:
 # PLUGIN: jekyll-maps
 maps:
   google:
-    api_key: AIzaSyAfXJb95B8pPw7YsEQxyOOUiIQIFZMnWHw
+    api_key: {{ site.env.GOOGLE_MAPS_API_KEY }}
 
 # PLUGIN: microformats
 
