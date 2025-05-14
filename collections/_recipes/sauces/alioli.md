@@ -45,7 +45,7 @@ fiberContent: 2.3
 sugarContent: 1.6
 proteinContent: 3.8
 date created: Tuesday, May 13th 2025, 11:36:12 am
-date modified: Tuesday, May 13th 2025, 1:22:36 pm
+date modified: Wednesday, May 14th 2025, 8:28:35 am
 ---
 How to start an argument in the western Mediterranean: Ask any two people what alioli or aïoli is. The only thing you’ll learn in the ensuing discussion is where the people involved are from. Let me try to pick apart the differences (both real and imagined) before we get into how to make your own awesome version of salsa alioli to dip your fried potatoes in.
 

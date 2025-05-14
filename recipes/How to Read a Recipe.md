@@ -2,7 +2,7 @@
 layout: page
 title: How to Read a Recipe
 subtitle: Recipes have their own conventions and assumptions
-permalink: /recipes/how-to-read-a-recipe/
+permalink: /recipes/how-to-read-a-recipe.html
 toc: true
 toc_sticky: true
 toc_label: Recipe Parts

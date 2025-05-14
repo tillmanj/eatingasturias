@@ -1,0 +1,53 @@
+<aside class="sidebar__right infobox">
+    <table id="conceyu-info">
+        <tbody>
+            {% if page.conceyu_map %}
+                {%  assign imgName = {{page.conceyu_map | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/conceyos/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="the location of {{page.title}} within Asturias">
+                                <img itemprop="photograph" src="{{imgName}}" alt="the location of {{page.title}} within Asturias" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small">The location of {{page.title}} within Asturias</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="about conceyu">
+                <td class="infobox-label">Region</td>
+                <td><a href="/visit/where/#{{page.conceyu_region | slugify}}-asturias">{{page.conceyu_region}}</a></td>
+            </tr>
+            <tr class="about conceyu">
+                <td class="infobox-label">Comarca</td>
+                <td><a href="/visit/comarcas/{{page.conceyu_comarca | slugify}}.html">{{page.conceyu_comarca}}</a></td>
+            </tr>
+            <tr class="about conceyu">
+                <td class="infobox-label">Capital</td>
+                <td>{{page.conceyu_capital}}</td>
+            </tr>
+            {% if page.conceyu_website.size > 1 %}
+            <tr class="about conceyu">
+                <td class="infobox-label">Website</td>
+                <td><a href="{{page.conceyu_website}}" rel="nofollow noopener">{{page.conceyu_website | remove: "https://" }}</a></td>
+            </tr>
+            {% endif %}
+            {% if page.conceyu_email.size > 1 %}
+            <tr class="about conceyu">
+                <td class="infobox-label">Email</td>
+                <td><a href="mailto:{{page.conceyu_email}}">{{page.conceyu_email}}</a></td>
+            </tr>
+            {% endif %}
+            {% if page.conceyu_telephone.size > 1 %}
+            <tr class="about conceyu">
+                <td class="infobox-label">Telephone</td>
+                <td><a href="tel://+34{{page.conceyu_telephone | remove: " "}}">{{page.conceyu_telephone}}</a></td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</aside>

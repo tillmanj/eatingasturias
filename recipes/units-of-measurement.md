@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /recipes/units-of-measurement/
+permalink: /recipes/units-of-measurement.html
 title: Units of Measurement
 subtitle: you're doing it all wrong
 toc: false

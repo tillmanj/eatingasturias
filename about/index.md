@@ -43,13 +43,16 @@ The rest of your interaction with the website is governed by very standard [Term
 Interested in using something you saw on the website? Here’s what you need to know.
 ### License
 
-Unless otherwise stated or mentioned below under the list of exceptions, texts on this website are © Copyright 2024 -Jon Tillman. More information is available at [Eating Asturias:Copyright](https://eatingasturias.com/wiki/Eating_Asturias:Copyright "Eating Asturias:Copyright")
+Unless otherwise stated or mentioned below under the list of exceptions, texts on this website are © Copyright 2024 -Jon Tillman.
+
 ### Recipe Attribution Policy
 
-Our recipes are a special case. While they are covered by the same license as other texts on this site, we request that you kindly follow our guidelines in the [Recipe Attribution Policy](https://eatingasturias.com/wiki/Recipe_Attribution_Policy "Recipe Attribution Policy").
+Our recipes are a special case. While they are covered by the same license as other texts on this site, we request that you kindly follow our guidelines in the [Recipe Attribution Policy](/about/policies/#recipe-attribution-policy).
+
 ### Exceptions
 
 Unless otherwise specified in the image, all photos were created by Jon Tillman. All photos taken by Jon Tillman are excluded from this license. Please see our [Image Copyright & Licensing](https://eatingasturias.com/wiki/Image_Copyright_%26_Licensing "Image Copyright & Licensing") page for more details.
+
 ## Publication Data
 
 Deposito Legal: pending

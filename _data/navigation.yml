@@ -18,13 +18,13 @@ recipes:
     url: /recipes/
     children:
       - title: "How To Read A Recipe"
-        url: /recipes/how_to_read_a_recipe/
+        url: /recipes/how-to-read-a-recipe.html
       - title: "Seasonality"
-        url: /recipes/seasonality/
+        url: /recipes/seasonality.html
       - title: "Units of Measurement"
-        url: /recipes/units_of_measurement/
+        url: /recipes/units-of-measurement.html
       - title: "Notes About Recipes"
-        url: /recipes/notes_about_recipes/
+        url: /recipes/notes-about-recipes.html
 
 culture:
   - title: Food Culture
@@ -78,13 +78,13 @@ recipe_full:
     - title: Common Ingredients
       url: /culture/ingredients/
     - title: "How To Read A Recipe"
-      url: /recipes/how-to-read-a-recipe/
+      url: /recipes/how-to-read-a-recipe.html
     - title: "Seasonality"
-      url: /recipes/seasonality/
+      url: /recipes/seasonality.html
     - title: "Units of Measurement"
-      url: /recipes/units-of-measurement/
+      url: /recipes/units-of-measurement.html
     - title: "Notes About Recipes"
-      url: /recipes/notes-on-recipes/
+      url: /recipes/notes-on-recipes.html
   - title: Type of Dish
     children:
       - title: "Breakfast Recipes"
@@ -147,12 +147,16 @@ visit_full:
         url: /visit/rural-relaxation/
   - title: Travel
     children:
-      - title: Getting To Asturias
-        url: /visit/getting-to-asturias/
-      - title: Getting Around In Asturias
-        url: /visit/getting-around-asturias/
-      - title: Places To Go In Asturias
-        url: /visit/places-to-go-in-asturias/
+      - title: Getting Here
+        url: /visit/getting-to-asturias.html
+      - title: Getting Around
+        url: /visit/getting-around.html
+      - title: Where To Go
+        url: /visit/where/
+      - title: Comarcas
+        url: /visit/comarcas/
+      - title: Conceyos
+        url: /visit/conceyos/
   - title: Food Destinations
     children:
       - title: Food Markets

@@ -67,7 +67,7 @@ Below is my calendar of food related events happening soon throughout Asturias. 
 
 ## Payares (November)
 - Jornadas de las Cebollas Rellenas
-- [Amagüestu](https://eatingasturias.com/wiki/Amag%C3%BCestu "Amagüestu")
+- [Amagüestu](/visit/events/amagüestu.html)
 - Jornadas del Boronchu y el Emberzau
 
 ## Avientu (December)

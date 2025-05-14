@@ -46,6 +46,7 @@ If you want to reproduce one of my recipes as-is, without rewriting the whole th
 If you put effort into making the recipe yourself, give it some tweaks, and publish it on your site, I would very much appreciate if you provide a link to my recipe and title or subtitle the recipe “adapted from Jon Tillman’s recipe” or “adapted from Eating Asturias” or something else similar in wording and intent.
 
 If you change the recipe a lot, please link as above but change the wording to something along the lines of “inspired by…”. 
+
 # Restaurant Review Policy
 
 > Caution to Innkeepers and others.—The Editor of the Hand-books has learned from various quarters that a person or persons have of late been extorting money from innkeepers, tradespeople, artists, and others, on the Continent, under pretext of procuring recommendations and favourable notices of them and their establishments in the Hand-books for Travellers. The Editor, therefore, thinks proper to warn all whom it may concern, that recommendation in the Hand-books are not to be obtained by purchase, and that the persons alluded to are not only unauthorised by him, but are totally unknown to him. All those, therefore, who put confidence in such promises may rest assured that they will be defrauded of their money without attaining their object.
@@ -63,6 +64,7 @@ I like to eat. I sometimes like to eat in restaurants; sometimes with other peop
 - I think you would like to hear about the experience, and would probably enjoy eating in the restaurant as well.
 
 When all of those things happen to coincide, I write up my experience of the restaurant and post it here.
+
 ## Inclusion or Exclusion
 
 If I have not written about a particular restaurant here, it could be for one of many reasons. Some of those reasons include:

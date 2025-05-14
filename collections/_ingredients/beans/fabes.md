@@ -15,6 +15,7 @@ variety:
   - de la granja
   - del cura
 dop: 
+conceyu: 
 ---
 {% newthought 'Fabes may be the single most important'%} contribution to Asturian cooking to come out of the [Columbian Exchange](/culture/history/early-modern/columbian-exchange.html).
 

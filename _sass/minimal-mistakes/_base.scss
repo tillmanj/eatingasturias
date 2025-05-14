@@ -270,7 +270,13 @@ span.listSectionHead::after {
 
 .col3 {
   column-count: 3;
-  
+  column-width: 30%;
+  column-fill: balance;
+  column-gap: 5%;
+  column-rule-style: solid;
+  column-rule-color: $border-color;
+  column-rule-width: 1px;
+  margin-left: -40px;
 }
 
 /*

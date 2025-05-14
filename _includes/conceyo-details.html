@@ -1,0 +1,190 @@
+<h2>Eating {{page.title}}</h2>
+<p>The following are the best eating, drinking, and food-related shopping to be had in {{page.title}}. My goal is always to provide a complete picture of the foodways of the area, from seed to after-dinner drinks.</p>
+
+{% assign ingredients = site.ingredients | where_exp: "ingredient", "ingredient.conceyu contains page.title" %}
+{% assign recipes = site.recipes | where_exp: "recipe", "recipe.conceyu contains page.title" %}
+{% assign markets = site.markets | where: "conceyu", page.title %}
+{% if ingredients.size > 0 or recipes.size > 0 or markets.size > 0 %}
+<h3>Growing, Cooking & Producing</h3>
+<p>From the seed that goes in the ground to the traditional recipe that uses it, and maybe a farmer's market to pick some up for yourself: these are the constituent parts of Asturian home cooking.</p>
+<div class="three-columns">
+    {% if ingredients.size > 0 %}
+        <div><h3>Ingredients</h3>
+            <ul>
+                {% for ingredient in ingredients %}
+                    <li><a href="{{ingredient.url}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    
+    {% if recipes.size > 0 %}
+        <div><h3>Recipes</h3>
+            <ul>
+                {% for recipe in recipes %}
+                    <li><a href="{{recipe.url}}" title="{{recipe.subtitle}}">{{recipe.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    
+    {% if markets.size > 0 %}
+        <div><h3>Markets</h3>
+            <ul>
+                {% for market in markets %}
+                    <li><a href="{{market.url}}" title="{{market.subtitle}}">{{market.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</div>
+{% endif %}
+
+{% assign restaurants = site.restaurants | where: "conceyu", page.title %}
+{% assign traditional = restaurants | where: "type", "traditional" %}
+{% assign fine_dining = restaurants | where: "type", "fine" %}
+{% assign sidreria = restaurants | where: "type", "sidreria" %}
+{% assign parilla = restaurants | where: "type", "parilla" %}
+{% assign marisqueria = restaurants | where: "type", "marisqueria" %}
+{% assign other = restaurants | where: "type", "other" %}
+{% if traditional.size > 0 or fine_dining.size > 0 or sidreria.size > 0 or parilla.size > 0 or marisqueria.size > 0 or other.size > 0 %}
+<h3>Dining</h3>
+<p></p>
+<div class="three-columns">
+    {% if traditional.size > 0 %}<div><h3>Traditional</h3>
+        <ul>
+            {% for item in traditional %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+    {% if fine_dining.size > 0 %}<div><h3>Fine Dining</h3>
+        <ul>
+            {% for item in fine_dining %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+    {% if sidreria.size > 0 %}<div><h3>Sidrerías</h3>
+        <ul>
+            {% for item in sidreria %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+</div>
+<div class="three-columns">
+    {% if parilla.size > 0 %}<div><h3>Parillas</h3>
+        <ul>
+            {% for item in parilla %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+    {% if marisqueria.size > 0 %}<div><h3>Marisquerías</h3>
+        <ul>
+            {% for item in marisqueria %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+    {% if other.size > 0 %}<div><h3>Other</h3>
+        <ul>
+            {% for item in other %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>{% endif %}
+</div>{% endif %}
+
+{% assign llagares = site.llagares | where: "conceyu", page.title %}
+{% assign breweries = site.breweries | where: "conceyu", page.title %}
+{% assign wineries = site.wineries | where: "conceyu", page.title %}
+{% assign bars = site.bars | where: "conceyu", page.title %}
+{% if llagares.size > 0 or breweries.size > 0 or wineries.size > 0 or bars.size > 0 %}
+<h3>Drinking</h3>
+<p></p>
+<div class="three-columns">
+    {% if llagares.size > 0 %}
+    <div><h3>Llagares</h3>
+        <ul>
+            {% for item in llagares %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if breweries.size > 0 %}
+    <div><h3>Breweries</h3>
+        <ul>
+            {% for item in breweries %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if wineries.size > 0 %}
+    <div><h3>Wineries</h3>
+        <ul>
+            {% for item in wineries %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if bars.size > 0 %}
+    <div><h3>Bars</h3>
+        <ul>
+            {% for item in bars %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
+{% assign producers = site.producers | where: "conceyu", page.title %}
+{% assign bakeries = producers | where: "type", "bakery" %}
+{% assign queseria = producers | where: "type", "queseria" %}
+{% assign carniceria = producers | where: "type", "carniceria" %}
+
+{% if bakeries.size > 0 or queseria.size > 0 or carniceria.size > 0 %}
+<h3>Shopping</h3>
+<p></p>
+<div class="three-columns">
+    {% if bakeries.size > 0 %}
+    <div><h3>Bakeries</h3>
+        <ul>
+            {% for item in bakeries %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if queseria.size > 0 %}
+    <div><h3>Cheese Makers</h3>
+        <ul>
+            {% for item in queseria %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if carniceria.size > 0 %}
+    <div><h3>Sausage Makers</h3>
+        <ul>
+            {% for item in carniceria %}
+                <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+</div>
+{% endif %}

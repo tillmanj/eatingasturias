@@ -2,7 +2,7 @@
 layout: page
 title: Seasonality
 subtitle: Cooking through the seasons in Asturias
-permalink: /recipes/seasonality/
+permalink: /recipes/seasonality.html
 toc: false
 toc_sticky: true
 toc_label: Seasonal Cooking

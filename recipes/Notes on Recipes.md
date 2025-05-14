@@ -2,7 +2,7 @@
 layout: page
 title: Some Notes on Recipes
 subtitle: Some thoughts on better cooking
-permalink: /recipes/notes-on-recipes/
+permalink: /recipes/notes-on-recipes.html
 toc: true
 toc_sticky: true
 toc_label: Recipe Notes

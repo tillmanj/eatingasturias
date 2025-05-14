@@ -5,6 +5,7 @@ sidebar:
 title: Chorizo a la Sidra
 permalink: /recipes/appetizers/chorizo-a-la-sidra.html
 subtitle: Chorizo stewed in Asturian cider
+conceyu: 
 author: Jon Tillman
 dateCreated: 
 datePublished: 
