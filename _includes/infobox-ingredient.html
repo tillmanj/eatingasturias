@@ -1,0 +1,47 @@
+<aside class="sidebar__right infobox">
+    <table id="ingredient-info">
+        <tbody>
+            {% if page.plant_image %}
+                {%  assign imgName = {{page.plant_image | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/ingredients/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="the location of {{page.title}} within Asturias">
+                                <img itemprop="photograph" src="{{imgName}}" alt="{{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small">{{page.plant_image_alt}}</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="about ingredient">
+                <td class="infobox-label">English Name</td>
+                <td><a href="{{page.plant_name_eng_auth}}">{{page.plant_name_eng}}</a></td>
+            </tr>
+            <tr class="about ingredient">
+                <td class="infobox-label">Castilian Name</td>
+                <td><a href="{{page.plant_name_esp_auth}}">{{page.plant_name_esp}}</a></td>
+            </tr>
+            <tr class="about ingredient">
+                <td class="infobox-label">Species</td>
+                <td><a href="{{plant_species_wfo}}">{{page.plant_species}}</a></td>
+            </tr>
+            {% if page.plant_subspecies.size > 1 %}
+            <tr class="about ingredient">
+                <td class="infobox-label">Subspecies</td>
+                <td><a href="{{page.plant_subspecies_wfo}}">{{page.plant_subspecies}}</a></td>
+            </tr>
+            {% endif %}
+            {% if page.plant_cultivar.size > 1 %}
+            <tr class="about ingredient">
+                <td class="infobox-label">Cultivar(s)</td>
+                <td>{{page.plant_cultivar}}</td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</aside>

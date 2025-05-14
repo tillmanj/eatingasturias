@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Food Events
-subtitle: 
+subtitle:
 permalink: /visit/food-events/
 toc: true
 toc_sticky: true
@@ -22,7 +22,7 @@ Below is my calendar of food related events happening soon throughout Asturias. 
 - Festival del Oricio
 - Concurso de Pinchos
 - Jornadas de la Calderada y Caldereta
-- [Antroxu](https://eatingasturias.com/wiki/Antroxu "Antroxu")
+- [Antroxu](/visit/events/antroxu.html)
 
 ## Marzu (March)
 - Jornadas de los Oricios

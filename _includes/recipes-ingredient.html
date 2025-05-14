@@ -1,0 +1,11 @@
+{% assign recipes = site.recipes | where_exp: "recipe", "recipe.indexIngredients contains page.title" %}
+{% if recipes.size > 0 %}
+<p>The following recipes use {{page.title}}:</p>
+<ul>
+    {% for item in recipes %}
+        <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>There are no recipes on the site using {{page.title}}, yet.</p>
+{% endif %}

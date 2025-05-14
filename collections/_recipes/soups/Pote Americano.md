@@ -26,6 +26,10 @@ recipeDifficulty: Easy
 recipeCuisine: Asturian
 cookingMethod: Slow Cooked
 recipeCourse: First
+indexIngredients:
+  - chorizo
+  - morcilla
+  - tocino
 recipeIngredients:
   - 300g dried white Great Northern beans
   - 1 medium yellow onion, finely chopped

@@ -37,79 +37,13 @@ layout: default
             {% include page__meta.html %}
           </header>
         {% endunless %}  
+        
         <section class="page__content" itemprop="text">
-        <!--- Recipe Infobox --->
-        {% include infobox-recipe.html %}
-        {% include recipe-head %}
+            <!--- Ingredient Infobox --->
+        {% include infobox-ingredient.html %}
         {{ content }}
-        <!--- Recipe Source --->  
-        {% if page.recipeSource %}
-          {% assign source = page.recipeSource | split: ',' %}
-          <h2>Recipe Source</h2>
-          <p>This recipe is a modified version of a recipe found on page {{source.last}} of:</p>
-          {% bibliography --query @*[key={{source.first}}] %}
-        {% endif %}
-        {% if page.recipeSourceExt %}
-          <h2>Recipe Source</h2>
-          <p>{{page.recipeSourceExt | markdownify}}</p>
-        {% endif %}
-        <!--- Article Sources --->
-        {% if page.recipeCitations %}
-            <h2>References</h2>
-            <ul>
-            {% for citation in page.recipeCitations %}
-                {% bibliography --query @*[key={{citation}}] %}
-            {% endfor %}
-            </ul>
-        {% endif %}
-        {% if page.isBasedOn %}
-            {% assign parentRecipe = site.pages | where: "title", {{page.isBasedOn}} | first %}
-            <h3>Variation</h3>
-            <p>This recipe is based on or is otherwise a variation of the recipe <span itemprop="hasPart"><a href="{{parentRecipe.permalink}}">{{page.isBasedOn}}</a></span>.</p>
-        {% endif %}
-        <!--- mentions from other recipes -->
-        {%- assign countMentions = 0 -%}
-        {%- assign thisTitle = page.title | downcase -%}
-          {%- for recipe in site.recipes -%}
-            {%- assign thatRequires = recipe.requires | downcase -%}
-            {%- if thatRequires contains thisTitle -%}
-              {%- assign countMentions = countMentions | plus:1 -%}
-            {%- endif -%}
-          {% endfor %}
- 
-          {% if countMentions == 1 %}
-            {% for recipe in site.recipes %}
-              {%- assign thatRequires = recipe.requires | downcase -%}
-              {%- if thatRequires contains thisTitle -%}
-                {% assign thisPermalink = recipe.permalink %}
-                {% assign thisTitle = recipe.title %}
-              {% endif %}
-            {% endfor %}
-            <h3>Used Elsewhere</h3>            
-            <p>This recipe is used as an ingredient in the recipe <a href="{{thisPermalink}}">{{thisTitle}}</a>.</p>
-          {% elsif countMentions > 1 %}
-            <h3>Used Elsewhere</h3>
-            <p>This recipe is used as an ingredient in the following recipes:</p>
-            <ul>
-            {% for recipe in site.recipes %}
-              {%- assign thatRequires = recipe.requires | downcase -%}
-              {%- if thatRequires contains thisTitle -%}
-                <li><a href="{{recipe.permalink}}" title="{{recipe.subtitle}}">{{recipe.title}}</a></li>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          {% endif %}
-          <!--- Recipe Tags --->
-          {% if page.recipeTags %}
-            <h2>Tags</h2>
-            <ul class="tags">
-                {% for tag in page.recipeTags %}
-                    <li><a href="/recipes/tag/{{tag | downcase}}/">{{tag}}</a></li>
-                {% endfor %}
-            </ul>
-          {% endif  %}        
 
-          {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+            {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         </section>
   
         <footer class="page__meta">

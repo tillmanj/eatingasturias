@@ -11,10 +11,8 @@ sidebar:
 conceyu:
 month:
 date created: Wednesday, May 14th 2025, 9:38:26 am
-date modified: Wednesday, May 14th 2025, 12:16:01 pm
-sources:
-  - https://www.xuliocs.com/castanamaguest.htm
-  - https://www.xuliocs.com/diccionario-etimologico-asturiano-A.php
+date modified: Wednesday, May 14th 2025, 12:37:34 pm
+sources: [https://www.xuliocs.com/castanamaguest.htm, https://www.xuliocs.com/diccionario-etimologico-asturiano-A.php]
 ---
 {% epigraph 'Magüestu per Navidá y fuxó la señardá' 'Xulio Viejo Fernández' 'Paremias populares asturianas (Estudio, clasificación y glosa), pp153' %}
 
