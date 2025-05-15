@@ -22,7 +22,7 @@ What do people in Asturias eat? Why do they eat those things? How do they feel a
 Here is where you can learn about the food and food culture of one of the most interesting regions of Spain. It is a place quite unlike other regions of Spain. It consumes far more cider than anywhere else in Spain (and more per capita than anywhere in the world). It produces more cheeses in a smaller area than anywhere else in the world. It is unique, not just in Spain, but in all of Europe for its adherence to that food connected to geography mentioned above. 
 
 ## Who I Am
-![Jon Tillman](/assets/images/Jon.jpeg){: width="300px" style="float:right;"}
+![Jon Tillman](/assets/images/branding/Jon.jpeg){: width="300px" style="float:right;"}
 
 My name is [Jon Tillman](/about/jon/), and writing about food in Asturias is my second (or maybe third) career. Previously I’ve spent almost my entire professional life around food. I first began working in restaurants at 15, and over the next 20 years held pretty much every conceivable job in food service; from dishwasher to executive chef. When my first child was born I took a step back from the totalizing grind that is life as a chef and started looking for a new thing to do. On my first visit to Asturias I fell in love, and now I live here full time.
 

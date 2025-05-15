@@ -58,7 +58,7 @@ webmentions:
 title: "Eating Asturias"
 title_separator: "|"
 subtitle: "The English-Language Encyclopedia of Asturian Gastronomy"
-logo: "/assets/images/EAlogo.svg"
+logo: "/assets/images/branding/EAlogo.svg"
 masthead_title: "Eating Asturias"
 name: "Jon Tillman"
 email: jon@eatingasturias.com
@@ -70,7 +70,7 @@ date_format: "%Y-%m-%d"
 # Author settings
 author:
   name: "Jon Tillman"
-  avatar: "/assets/images/Jon.jpeg"
+  avatar: "/assets/images/branding/Jon.jpeg"
   bio: "*writer, farmer, photographer, food nerd*"
   home: "/about/jon/"
   location: "Llangréu, Asturias"

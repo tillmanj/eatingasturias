@@ -197,7 +197,7 @@ a {
 }
 
 a[rel~="external"]::after {
-  content: url('/assets/images/external-icon.svg');
+  content: url('/assets/images/interface/external-icon.svg');
 }
 
 /* buttons */
@@ -238,7 +238,7 @@ ol li {
 }
 
 .page__content ul {
-  list-style-image: url("/assets/images/Raquote.svg");
+  list-style-image: url("/assets/images/interface/Raquote.svg");
   list-style-position: inside;
 }
 
