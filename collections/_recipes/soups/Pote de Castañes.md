@@ -26,6 +26,13 @@ recipeDifficulty: Easy
 recipeCuisine: Asturian
 cookingMethod: Slow Cooked
 recipeCourse: First
+indexIngredients:
+  - Castañes
+  - Chorizo
+  - Morcilla
+  - Tocino
+  - Lacón
+  - Berza
 recipeIngredients:
   - 500g [Castañes](/culture/ingredients/fruits-nuts/castañes.html)
   - 2 [Chorizo Asturiano](/culture/products/embutidos/chorizo.html#ahumado-de-asturias) (*cured, smoked chorizo*)
@@ -57,6 +64,8 @@ carbohydrateContent: 35
 fiberContent: 6
 sugarContent: 1
 proteinContent: 16
+date created: Monday, March 10th 2025, 4:03:18 pm
+date modified: Friday, May 16th 2025, 11:24:49 am
 ---
 Prior to the introduction of the potato from the Americas, the chestnut was the staple food of a good bit of the Asturian peasantry.[^1] The number and variety of uses of this humble nut are pretty amazing when you look into the peasant food of Asturias. A whole vocabulary arose to describe the many uses of chestnuts, and the techniques for drying, boiling, roasting, peeling, and storing them.
 
@@ -65,5 +74,6 @@ The ones that featured in Pote were dried in a specific way. They were piled up,
 {% include recipe-details %}
 
 ## Notes
+
 [^1]: López, Pascual Pastor y. _Memoria geognóstico-agrícola sobre la provincia de Asturias_. Auseva, 1853.
 [^2]: {% cite MendezRiestra2017DiccionarioCocinaGastronomia -l 154 %}

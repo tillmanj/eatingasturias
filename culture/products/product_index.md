@@ -21,6 +21,8 @@ More than anything else, the products of Asturian preserving define the cuisine 
 
 I am not interested in debating legalistic definitions of what is artisanal or not. Partially because, as Justice Potter Stewart said "*I know it when I see it*".{% sidenote 'm01' 'Supreme Court Justice Stewart was describing his threshold test for obscenity in Jacobellis v. Ohio, and himself paraphrasing Arthur Conan Doyle who in *The Hound of the Baskervilles* has Sherlock Holmes comment "I know what is good when I see it." ' %} And partially because what I am talking about is the general class of artisanal foods produced in Asturias and associated closely with that place, not about the *bona fides* of one particular producer.
 
+That said, there are a number of [Quality Marks](/culture/products/asturian-quality-marks.html) available to let you know that certain products meet standards for origin, traditional methods of production, and quality.
+
 ## Sidra Natural
 The defining taste of Asturias is, without any hyperbole, sidra natural. The growing of apples, turning them into a unique cider, bottling it, pouring it, drinking it, cooking with it, and talking about it are preoccupations that permeate Asturian culture. From prehistory to now, much of Asturian life has revolved around cider. Asturian culture (food and otherwise) continues to revolve around this famous beverage. From visits to llagares to tasting notes on individual ciders from Asturias, you can find it here. 
 

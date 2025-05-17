@@ -31,3 +31,19 @@
         margin-top: -10px;
     }
 }
+
+.list-3-col {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px dotted $gray;
+    li {
+        margin-top: 0;
+        margin-left: -45px;
+        font-size: 0.825rem;
+        white-space: nowrap;
+    }
+  }
+
+  .list-3-col > h4:nth-child(1) {
+    margin-top: 0;
+  }

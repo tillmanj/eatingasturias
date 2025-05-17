@@ -33,3 +33,9 @@ Second courses are almost always meat courses, unless a traditional holiday meal
 
 ## Postres
 For desserts, the options are endless. From the humble pice of fruit peeled at the table to elaborate confections and cakes, everything is possible here, so have a look at the [Dessert](/recipes/desserts/) section for a full run down.
+{% assign recipes = site.recipes | where: "recipeCourse", "Postre" %}
+<ul class="col2">
+{% for entry in recipes %}
+    <li><a href="{{entry.permalink}}">{{entry.title}}</a></li>
+{% endfor %}
+</ul>

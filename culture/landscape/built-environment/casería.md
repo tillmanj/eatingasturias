@@ -8,6 +8,8 @@ toc_sticky: true
 toc_label: Built Environment
 sidebar:
     nav: culture_full
+date created: Thursday, March 27th 2025, 7:40:54 am
+date modified: Friday, May 16th 2025, 12:14:43 pm
 ---
 {% marginfigure 'mf01' 'assets/images/Caseria.jpeg' 'Blanco Súarez, D. Alberto. Casería Asturiana. 2008. (Private Collection)' %}
 {% newthought 'The casería is the common name'%} in Asturias for a farmstead. In most usage, it denotes the farmhouse, along with all assorted other buildings and spaces, such as the antoxana, [hórreo](https://eatingasturias.com/wiki/H%C3%B3rreo "Hórreo"), cuadra, tool sheds, wood sheds, etc... It forms a single unit of agricultural production, residence, consumption, use, and storage. Also included are the associated orchards, fields, meadows, pastures, and communal land rights.[^1] The term does not describe a single unit of land with one boundary, but instead the functional areas making up a whole farm.[^2] The immediate area around the farmhouse formed by the closest buildings and land is (or at least was) called the _quintana_[^3] [^4] The space within the _quintana_ directly in front of the door to the house, and usually surrounded by the most important buildings is the _antoxana_.[^5] Often these words are used interchangeably, and most people would understand them as synonyms.
@@ -34,17 +36,18 @@ A casería usually encompasses the following buildings and spaces:
 - an _[hórreo](https://eatingasturias.com/wiki/H%C3%B3rreo "Hórreo")_ or _panera -_ a granary and storehouse for dried foods, designed to guard against humidity and rodents. Commonly the space below the hórreo is used to store farm implements and larger tools.
 - a stable (_cuadra_), with or without a hayloft (_payar_).
 - an apple orchard (_pumarada_) and possibly other orchards.
-- one or more vegetable gardens (_huerto_ or _güertu_),[^8] normally placed close to the house, and planted with the various fruits and vegetables the family eats daily.
+- one or more vegetable gardens (_huerto_ or _güertu_),[^7] normally placed close to the house, and planted with the various fruits and vegetables the family eats daily.
 - one or more fields (_güerta_ or _tierres_) - Large fields planted with what we would call "field crops" in English: beans, cereals, potatoes, etc...
 - one or more pastures (_praos_) - for grazing livestock.
-- one or more _corras_ - a low stone wall, roughly circular where gathered chestnuts still in their shells are stored before processing.[^9]
+- one or more _corras_ - a low stone wall, roughly circular where gathered chestnuts still in their shells are stored before processing.[^8]
 - Other various outbuildings - hen houses, rabbit hutches, etc...
 ## Notes
+
 [^1]: Gómez Pellón, Eloy. “La Casería Asturiana: Estructura de la unidad de expltación agraria.” _Enciclopedia de la Asturias Popular_, 1st ed., vol. 3, La Voz de Asturias, 1994, pp. 1–16.
 [^2]: Rodríguez Muñoz, Javier. _Diccionario histórico de Asturias_. pp 211. 1st ed., Editorial Prensa Asturiana : La Nueva España, 2002.
 [^3]: Fernández Benítez, Vicente. _Trabayar pa comer: producción y alimentación na Asturies tradicional - Tomo I (Asturiano)_. pp 37. Fundación Municipal de Cultura, Educación y Universidá Popular, 2002.
 [^4]: _Quintana, La - Diccionario General De La Lengua Asturiana (DGLA)_. [mas.lne.es/diccionario/palabra/61778](http://mas.lne.es/diccionario/palabra/61778).
 [^5]: _Antoxana, L’ - Diccionario General De La Lengua Asturiana (DGLA)_. [mas.lne.es/diccionario/palabra/37357](http://mas.lne.es/diccionario/palabra/37357).
 [^6]: Mases, José Antonio. “La Casa Campesina.” _Enciclopedia de la Asturias Popular_, 1st ed., vol. 1, La Voz de Asturias, 1994, pp. 33–64. Eating Asturias.
-[^8]: See also [this short article](https://eatingasturias.com/wiki/Huerto_or_Huerta "Huerto or Huerta") on the difference between a _huerto_ and a _huerta_.
-[^9]: Vila Díez, Sara. _La Huerta Ecológica Asturiana_. 1a ed, Glayiu, 2013.
+[^7]: See also [this short article](https://eatingasturias.com/wiki/Huerto_or_Huerta "Huerto or Huerta") on the difference between a _huerto_ and a _huerta_.
+[^8]: Vila Díez, Sara. _La Huerta Ecológica Asturiana_. 1a ed, Glayiu, 2013.

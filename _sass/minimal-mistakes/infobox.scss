@@ -4,11 +4,13 @@
 
 td.image {
     padding: 0;
+    text-align: center;
 }
 
 .infobox img {
     max-width: max-content;
     margin-top: unset;
+    object-fit: contain
 }
 
 .infobox > table {

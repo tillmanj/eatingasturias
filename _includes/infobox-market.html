@@ -1,0 +1,53 @@
+<aside class="sidebar__right infobox">
+    <table id="market-info">
+        <tbody>
+            {% if page.market_image %}
+                {%  assign imgName = {{page.market_image | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/conceyos/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="the location of {{page.title}} within Asturias">
+                                <img itemprop="photograph" src="{{imgName}}" alt="the location of {{page.title}} within Asturias" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small">{{page.market_image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="about market">
+                <td class="infobox-label">Type</td>
+                <td>{{page.market_type}}</td>
+            </tr>
+            <tr class="about market">
+                <td class="infobox-label">Weekday</td>
+                <td>{{page.market_day}}</td>
+            </tr>
+            <tr class="about market">
+                <td class="infobox-label">Hours</td>
+                <td>{{page.market_hours}}</td>
+            </tr>
+            <tr class="about market">
+                <td class="infobox-label">Vendors</td>
+                <td>{{page.market_vendors}}</td>
+            </tr>
+            <tr class="about market">
+                <td class="infobox-label">Conceyu</td>
+                <td>{{page.conceyu}}</td>
+            </tr>
+            <tr class="about market">
+                <td class="infobox-label">Location</td>
+                <td>{{page.market_location}}</td>
+            </tr>
+            {% if page.location.latitude > 1 %}
+            <tr class="about market">
+                <td class="infobox-label">Telephone</td>
+                <td><a href="tel://+34{{page.conceyu_telephone | remove: " "}}">{{page.conceyu_telephone}}</a></td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</aside>

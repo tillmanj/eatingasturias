@@ -1,10 +1,22 @@
 <h2>Eating {{page.title}}</h2>
 <p>The following are the best eating, drinking, and food-related shopping to be had in {{page.title}}. My goal is always to provide a complete picture of the foodways of the area, from seed to after-dinner drinks.</p>
-
+{% assign events = site.events | where: "conceyu", page.title %}
+{% if events.size > 0 %}
+<div class="three-columns">
+<h3>Food Events</h3>
+<ul>
+    {% for item in events %}
+        <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+    {% endfor %}
+</ul>
+</div>
+{% endif %}
 {% assign ingredients = site.ingredients | where_exp: "ingredient", "ingredient.conceyu contains page.title" %}
 {% assign recipes = site.recipes | where_exp: "recipe", "recipe.conceyu contains page.title" %}
 {% assign markets = site.markets | where: "conceyu", page.title %}
-{% if ingredients.size > 0 or recipes.size > 0 or markets.size > 0 %}
+{% assign cheeses = site.cheeses | where: "conceyu", page.title %}
+{% assign embutidos = site.embutidos | where: "conceyu", page.title %}
+{% if ingredients.size > 0 or recipes.size > 0 or markets.size > 0 or cheeses.size > 0 or embutidos.size > 0 %}
 <h3>Growing, Cooking & Producing</h3>
 <p>From the seed that goes in the ground to the traditional recipe that uses it, and maybe a farmer's market to pick some up for yourself: these are the constituent parts of Asturian home cooking.</p>
 <div class="three-columns">
@@ -37,6 +49,27 @@
             </ul>
         </div>
     {% endif %}
+
+    {% if cheeses.size > 0 %}
+        <div><h3>Cheeses</h3>
+            <ul>
+                {% for item in cheeses %}
+                    <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    {% if embutidos.size > 0 %}
+        <div><h3>Markets</h3>
+            <ul>
+                {% for item in embutidos %}
+                    <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
 </div>
 {% endif %}
 

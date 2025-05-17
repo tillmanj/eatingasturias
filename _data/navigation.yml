@@ -46,11 +46,11 @@ visit:
       - title: "Tour Asturias with Me"
         url: /visit/tours/
       - title: "Food Festivals"
-        url: /visit/food-events/
+        url: /visit/events/
       - title: "Regions & Towns"
         url: /visit/places/
       - title: "Asturian Market Days"
-        url: /visit/food-markets/
+        url: /visit/markets/
       - title: "Cider Makers"
         url: /visit/llagares/
       - title: "Breweries"
@@ -160,11 +160,11 @@ visit_full:
   - title: Food Destinations
     children:
       - title: Food Markets
-        url: /visit/food-markets/
+        url: /visit/markets/
       - title: Food Events
-        url: /visit/food-events/
+        url: /visit/events/
       - title: Food Tours
-        url: /visit/food-tours/
+        url: /visit/tours/
   - title: Dining & Drinking
     url: /visit/eating-and-drinking/
     children:

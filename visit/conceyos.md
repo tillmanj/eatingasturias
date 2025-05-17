@@ -25,17 +25,17 @@ In much of Asturias, the main town or city in the conceyu has the same name as i
 <li><a href="/visit/conceyos/allande.html">Allande (4)</a></li>
 <li><a href="/visit/conceyos/aller.html">Aller (5)</a></li>
 <li><a href="/visit/conceyos/amieva.html">Amieva (2)</a></li>
-<li>Avilés (3)</li>
-<li>Belmonte de Miranda (6)</li>
-<li>Bimenes (7)</li>
-<li>Boal (8)</li>
-<li>Cabrales (9)</li>
-<li>Cabranes (10)</li>
-<li>Candamo (11)</li>
-<li>Cangas de Onís (13)</li>
-<li>Cangas del Narcea (12)</li>
-<li>Caravia (14)</li>
-<li>Carreño (15)</li>
+<li><a href="/visit/conceyos/avilés.html">Avilés (3)</a></li>
+<li><a href="/visit/conceyos/belmonte-de-miranda.html">Belmonte de Miranda (6)</a></li>
+<li><a href="/visit/conceyos/bimenes.html">Bimenes (7)</a></li>
+<li><a href="/visit/conceyos/boal.html">Boal (8)</a></li>
+<li><a href="/visit/conceyos/cabrales.html">Cabrales (9)</a></li>
+<li><a href="/visit/conceyos/cabranes.html">Cabranes (10)</a></li>
+<li><a href="/visit/conceyos/candamo.html">Candamo (11)</a></li>
+<li><a href="/visit/conceyos/cangas-de-onís.html">Cangas de Onís (13)</a></li>
+<li><a href="/visit/conceyos/cangas-del-narcea.html">Cangas del Narcea (12)</a></li>
+<li><a href="/visit/conceyos/caravia.html">Caravia (14)</a></li>
+<li><a href="/visit/conceyos/carreño.html">Carreño (15)</a></li>
 <li>Caso (18)</li>
 <li>Castrillón (16)</li>
 <li>Castropol (17)</li>

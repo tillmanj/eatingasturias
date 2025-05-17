@@ -68,6 +68,8 @@ carbohydrateContent: 30
 fiberContent: 4
 sugarContent: 1
 proteinContent: 17 
+date created: Monday, March 10th 2025, 4:06:10 pm
+date modified: Friday, May 16th 2025, 10:21:54 am
 ---
 Ok, so pote is a big deal in Asturias. A BIG deal. Think Texas State Fair BBQ and Chili Cook-Off big deal. Pote has the same level of competitive cooking to it here in Asturias. So of course, I have to throw my hat into the ring and offer up my very own ***Pote Americano***.
 

@@ -26,7 +26,7 @@ plant_subspecies_wfo:
 plant_cultivar: Alderman, Express, Teléfono, Lincoln
 conceyu: Lena
 date created: Wednesday, May 14th 2025, 1:27:38 pm
-date modified: Wednesday, May 14th 2025, 4:25:00 pm
+date modified: Thursday, May 15th 2025, 3:57:42 pm
 ---
 *Arbeyos* can be a bit of a confusing word, as it requires context to know if the speaker is talking about green garden peas (_Pisum Sativum_) or common vetch (_[Vicia Sativa](https://plants.ces.ncsu.edu/plants/vicia-sativa/)_).[^1] For our purposes, we are going to assume we are speaking of Garden Peas - the Castellano _guisante_. The common garden pea. L'arbeyu is an integral part of Asturian early spring cuisine. It stars in the dish Arbeyos con Jamón, famous in Lena conceyu because of the arbeyos grown in the village of Llanos in the parish of Somerón.
 

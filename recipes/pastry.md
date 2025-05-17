@@ -4,7 +4,7 @@ permalink: /recipes/desserts/pastry/
 title: Pastry Recipes
 subtitle: 
 type: category
-category: pastry
+category: Pastry
 toc: false
 sidebar:
   nav: recipe_full

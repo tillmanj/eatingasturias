@@ -24,6 +24,9 @@ cheese_flavor: Slightly acidic, increasing with age. No detectable salty notes, 
 cheese_dop: true
 cheese_dop_logo: 736px-Logo-queso-afuega-l-pitu.png
 cheese_dop_link: https://www.doafuegalpitu.es/
+conceyu: 
+  - Candamo
+  - Cangas de Onís
 date created: Tuesday, May 13th 2025, 10:42:56 am
 date modified: Tuesday, May 13th 2025, 11:00:05 am
 ---

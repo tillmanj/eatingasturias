@@ -58,6 +58,8 @@ carbohydrateContent: 30.6
 fiberContent: 4.1
 sugarContent: 1
 proteinContent: 17.4
+date created: Monday, March 10th 2025, 4:06:00 pm
+date modified: Friday, May 16th 2025, 6:10:59 pm
 ---
 Pote is not one soup. It is hundreds of soups. That is, it is a style of soup making that does not have a fixed single recipe. Originally named for the pottage common across all of medieval Europe, it is today defined as a particularly Asturian and Galician version of the Spanish type of pottage, known as *olla podrida* or simply *olla*. 
 

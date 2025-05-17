@@ -4,14 +4,14 @@
     <tbody>
     {% if page.recipeImage %}
     {%  assign imgName = {{page.recipeImage | url_decode }} %}
-    {%  assign imgName = {{imgName}} | prepend: "/assets/images/" %}
+    {%  assign imgName = {{imgName}} | prepend: "/assets/images/recipes/" %}
         <tr>
             <td colspan="4" class="image">
                 <figure>
                     <picture>
-                        <source srcset="/assets/images/{{page.recipeImage}}" type="image/png" media="(orientation: portrait)">
+                        <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
                         <a href="{{imgName}}" class="image-popup" title="{{page.recipeImageCaption}}">
-                        <img itemprop="photograph" src="/assets/images/{{page.recipeImage}}" alt="a prepared dish of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                        <img itemprop="photograph" src="{{imgName}}" alt="a prepared dish of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                         </a>
                     </picture>
                     <figcaption class="small">{{page.recipeImageCaption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
