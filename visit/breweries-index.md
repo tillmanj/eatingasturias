@@ -9,7 +9,7 @@ toc_label: Artisan Beers
 sidebar:
   nav: culture_full
 date created: Friday, May 16th 2025, 11:23:59 am
-date modified: Friday, May 16th 2025, 6:12:59 pm
+date modified: Monday, May 19th 2025, 10:08:03 am
 ---
 Craft brewing is a relatively new, and still very niche, thing in Spain in general, and Asturias specifically. Spain in 2020 with regards to craft beer is analogous to the late 1990s in the United States. In 1990, a US state getting its first craft brewery was news.[^1] By 1996, there were just over 1000 breweries in the entire US. That is roughly where I would put the craft beer scene in Spain today. There is a craft-focused bar or brewpub within an hour’s drive of pretty much anywhere in the country.
 

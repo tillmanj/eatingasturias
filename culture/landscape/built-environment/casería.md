@@ -9,10 +9,10 @@ toc_label: Built Environment
 sidebar:
     nav: culture_full
 date created: Thursday, March 27th 2025, 7:40:54 am
-date modified: Friday, May 16th 2025, 12:14:43 pm
+date modified: Monday, May 19th 2025, 10:11:59 am
 ---
 {% marginfigure 'mf01' 'assets/images/Caseria.jpeg' 'Blanco Súarez, D. Alberto. Casería Asturiana. 2008. (Private Collection)' %}
-{% newthought 'The casería is the common name'%} in Asturias for a farmstead. In most usage, it denotes the farmhouse, along with all assorted other buildings and spaces, such as the antoxana, [hórreo](https://eatingasturias.com/wiki/H%C3%B3rreo "Hórreo"), cuadra, tool sheds, wood sheds, etc... It forms a single unit of agricultural production, residence, consumption, use, and storage. Also included are the associated orchards, fields, meadows, pastures, and communal land rights.[^1] The term does not describe a single unit of land with one boundary, but instead the functional areas making up a whole farm.[^2] The immediate area around the farmhouse formed by the closest buildings and land is (or at least was) called the _quintana_[^3] [^4] The space within the _quintana_ directly in front of the door to the house, and usually surrounded by the most important buildings is the _antoxana_.[^5] Often these words are used interchangeably, and most people would understand them as synonyms.
+{% newthought 'The casería is the common name'%} in Asturias for a farmstead. In most usage, it denotes the farmhouse, along with all assorted other buildings and spaces, such as the antoxana, [hórreo](/culture/landscape/built-environment/hórreo-panera.html), cuadra, tool sheds, wood sheds, etc... It forms a single unit of agricultural production, residence, consumption, use, and storage. Also included are the associated orchards, fields, meadows, pastures, and communal land rights.[^1] The term does not describe a single unit of land with one boundary, but instead the functional areas making up a whole farm.[^2] The immediate area around the farmhouse formed by the closest buildings and land is (or at least was) called the _quintana_[^3] [^4] The space within the _quintana_ directly in front of the door to the house, and usually surrounded by the most important buildings is the _antoxana_.[^5] Often these words are used interchangeably, and most people would understand them as synonyms.
 
 The rest of the farm — the fields and pastures for instance — are connected to the main house area, and each other, by farm roads (_caminos_) and walking paths (_caleyas_).
 ## History
@@ -31,11 +31,11 @@ According to the customary laws of Asturias, collected and codified in 2007, a c
 
 A casería usually encompasses the following buildings and spaces:
 
-- a [farmhouse](https://eatingasturias.com/index.php?title=Casa_Campesina&action=edit&redlink=1 "Casa Campesina (page does not exist)") - usually of two floors, and containing an attic and/or a _corredor_; a (sometimes enclosed) windowed porch used to dry fruits, hang corn, or put out the washing.
+- a farmhouse - usually of two floors, and containing an attic and/or a _corredor_; a (sometimes enclosed) windowed porch used to dry fruits, hang corn, or put out the washing.
 - an _antoxana_ or _quintana_, a walled or fenced patio immediately outside the front door of the house.
-- an _[hórreo](https://eatingasturias.com/wiki/H%C3%B3rreo "Hórreo")_ or _panera -_ a granary and storehouse for dried foods, designed to guard against humidity and rodents. Commonly the space below the hórreo is used to store farm implements and larger tools.
+- an _hórreo_ or _panera -_ a granary and storehouse for dried foods, designed to guard against humidity and rodents. Commonly the space below the hórreo is used to store farm implements and larger tools.
 - a stable (_cuadra_), with or without a hayloft (_payar_).
-- an apple orchard (_pumarada_) and possibly other orchards.
+- an apple orchard ([_pumarada_](/culture/landscape/built-environment/pumarada.html)) and possibly other orchards.
 - one or more vegetable gardens (_huerto_ or _güertu_),[^7] normally placed close to the house, and planted with the various fruits and vegetables the family eats daily.
 - one or more fields (_güerta_ or _tierres_) - Large fields planted with what we would call "field crops" in English: beans, cereals, potatoes, etc...
 - one or more pastures (_praos_) - for grazing livestock.

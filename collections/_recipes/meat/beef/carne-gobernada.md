@@ -71,7 +71,7 @@ fiberContent: 1.3
 sugarContent: 1
 proteinContent: 52.5
 date created: Friday, May 16th 2025, 3:38:04 pm
-date modified: Friday, May 16th 2025, 3:48:35 pm
+date modified: Saturday, May 17th 2025, 10:31:00 am
 ---
 Oviedo is the seat of government in Asturias, so I suppose it isn’t too odd to christen the favorite dish of the city “Government Beef”. Carne Gobernada is the classic work-a-day lunch in Oviedo. You can find variations on this recipe that are much closer to a British or American Pot Roast or Stew Beef. Those come with carrots, two types of peppers, and leeks, and all sorts of other things. But in Oviedo, they stick to a classic preparation. Beef, Onion, Garlic, Wine. Serve it with the ever-present french fries on a white plate.
 

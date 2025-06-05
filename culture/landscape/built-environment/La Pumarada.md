@@ -8,6 +8,8 @@ toc_sticky: true
 toc_label: Built Environment
 sidebar:
   nav: culture_full
+date created: Friday, March 28th 2025, 8:01:29 am
+date modified: Saturday, May 17th 2025, 10:32:03 am
 ---
 The growing of fruit, particularly apples, is an inseparable part of the [casería](/culture/landscape/built-environment/casería.html), both in actuality and in the popular imagination.[^1] One expression of the primacy of apples in fruit cultivation in Asturias is the existence of the word _pumarada_. No other orchard gets its own name, but apple orchards do.
 

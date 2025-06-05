@@ -17,6 +17,7 @@ totalTime: 1 h
 recipeYield: 200g
 recipeCategory:
   - Appetizers
+  - Seafood
 suitableForDiet:
 recipeOccasion: 
 recipeSeason: 

@@ -36,9 +36,9 @@ In much of Asturias, the main town or city in the conceyu has the same name as i
 <li><a href="/visit/conceyos/cangas-del-narcea.html">Cangas del Narcea (12)</a></li>
 <li><a href="/visit/conceyos/caravia.html">Caravia (14)</a></li>
 <li><a href="/visit/conceyos/carreño.html">Carreño (15)</a></li>
-<li>Caso (18)</li>
-<li>Castrillón (16)</li>
-<li>Castropol (17)</li>
+<li><a href="/visit/conceyos/caso.html">Caso (18)</a></li>
+<li><a href="/visit/conceyos/castrillón.html">Castrillón (16)</a></li>
+<li><a href="/visit/conceyos/castropol.html">Castropol (17)</a></li>
 <li>Coaña (21)</li>
 <li>Colunga (19)</li>
 <li>Corvera de Asturias (20)</li>

@@ -8,6 +8,8 @@ toc_sticky: true
 toc_label: Built Environment
 sidebar:
   nav: culture_full
+date created: Thursday, March 27th 2025, 9:39:32 am
+date modified: Monday, May 19th 2025, 10:12:02 am
 ---
 {% marginfigure 'mf01' 'assets/images/Horreo-feature.jpeg' 'A fine example of an hórreo I took a picture of in the village of Güeñu' %}
 {% newthought 'The Hórreo is one of the'%} most identifiable expressions of Asturian culture. Just as [fabada](/recipes/soups/fabada.html) and Cabrales cheese are the most well-known tastes of Asturias, the hórreo is the most well-known image of Asturias. Much like the red barn is the image of the American farm, the hórreo is the enduring symbol of rural Asturias. It is the most visible expression of the unique rural nature of Asturias, and of the food culture that comes from it.
@@ -81,6 +83,7 @@ Hórreos can be found throughout the Asturian countryside. This is obviously the
 - **Güeñu / Bueño**: This rural area is just over 10 km from Oviedo and has an Hórreo Interpretation Center, which is a great place for discovering the history and features of the granaries. The town of Güeñu also has a large number of incredibly well-preserved hórreos and paneras to visit. I highly recommend visiting it as well.
 - **Barcia and Leiján**: There are around 80 _hórreos_ in these communities, situated near Luarca. Many are still used for their original purpose.
 ## Notes
+
 [^1]: Brillat-Savarin. _Physiologie du goût, ou, Méditations de gastronomie transcendante, ouvrage théorique, historique et à l’ordre du jour, dédié aux gastronomes parisiens_. Lavigne, libraire-éditeur, rue de Paon Saint-André, N. 1., 1841.
 [^2]: V, L. Á. “Hasta 30.000 hórreos en Asturias, buena parte de ellos en riesgo de derrumbe por dejadez.” _La Nueva España_, 7 Dec. 2018, [https://www.lne.es/sucesos/2018/12/07/30-000-horreos-asturias-buena-18622837.html](https://www.lne.es/sucesos/2018/12/07/30-000-horreos-asturias-buena-18622837.html).
 [^3]: “Asturias tiene más de 14.500 hórreos, paneras y cabazos protegidos.” _El Comercio_, 27 May 2021, [https://www.elcomercio.es/asturias/asturias-14500-horreos-cabazos-paneras-protegidos-20210527192229-nt.html](https://www.elcomercio.es/asturias/asturias-14500-horreos-cabazos-paneras-protegidos-20210527192229-nt.html).

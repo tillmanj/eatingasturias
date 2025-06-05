@@ -9,7 +9,7 @@ toc_label: Dining & Drinking
 sidebar:
   nav: visit_full
 date created: Thursday, May 15th 2025, 6:11:35 pm
-date modified: Friday, May 16th 2025, 11:27:10 am
+date modified: Saturday, May 17th 2025, 10:28:32 am
 ---
 Spain plays fast and loose with language, much to the chagrin of those of us who need spec-i-fic-i-ty to understand and use our own native language, much less an adopted one. Nowhere is this more in evidence than in how it names (or refuses to name) its eating and drinking establishments. Fortunately, Spain loves to eat and drink, so you are never more than a few meters from something on this list.
 
