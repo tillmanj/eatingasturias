@@ -29,7 +29,7 @@ module Jekyll
         else
           "<label for='#{@text[0]}' class='margin-toggle'>&#8853;</label>"+
           "<input type='checkbox' id='#{@text[0]}' class='margin-toggle'/>"+
-          "<span class='marginnote'><a href='#{baseurl}#{@text[1]}' data-lightbox='#{pageTitle}' data-alt='#{label}' data-title='#{label}' title='#{label}'><img class='fullwidth' src='#{baseurl}/#{@text[1]}'/></a><br>#{label}</span>"
+          "<span class='marginnote'><a href='#{baseurl}#{@text[1]}' data-lightbox='#{pageTitle}' data-alt='#{label}' data-title='#{label}' title='#{label}'><img class='fullwidth' src='#{baseurl}#{@text[1]}'/></a><br>#{label}</span>"
         end
       end
     end
