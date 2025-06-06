@@ -10,7 +10,7 @@ toc_label: Picadillo
 
 {% newthought 'The internet is full of people'%} who love to go on and on about the difference between ‘Mexican chorizo’ and ‘Spanish chorizo’. Guess what? They’re all wrong, and anyone who has ever visited Spain knows it. 
 
-Spain has a huge variety of sausages called chorizo, and plenty of them are uncured, just like the famous Mexican one. Spain has cured chorizos, uncured chorizos, and uncased bulk chorizos, just like Mexico. Here in Asturias, that bulk uncured chorizo mix is called *l’adobu* or *picadillo*.[^1] In other parts of Spain, it goes by the names *jijas*, *zorza*, *moraga*, *chichas*, or *prueba*.[^3]
+Spain has a huge variety of sausages called [chorizo](/culture/products/embutidos/chorizo.html), and plenty of them are uncured, just like the famous Mexican one. Spain has cured chorizos, uncured chorizos, and uncased bulk chorizos, just like Mexico. Here in Asturias, that bulk uncured chorizo mix is called *l’adobu* or *picadillo*.[^1] In other parts of Spain, it goes by the names *jijas*, *zorza*, *moraga*, *chichas*, or *prueba*.[^3]
 
 Picadillo in Mexico however refers to a [dish made from ground beef](https://www.cocinavital.mx/recetas/carnes-y-aves/picadillo/2017/08/), carrot and potato that looks very similar to a Midwestern [hamburger hash](https://dinnerthendessert.com/hamburger-hash/). Funny how something as simple as a word can separate people. It would be ridiculous to say there is no such thing as hamburger hash in Mexico simply because the local name is different, now wouldn’t it? 
 

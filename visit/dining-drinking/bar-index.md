@@ -47,13 +47,12 @@ From swank to dank, these are my favorite spots for liquor drinks.
 
 ## Cider Bars
 
-The [chigre](https://eatingasturias.com/wiki/Chigre "Chigre") is the Asturian answer to the pub.
+The [chigre](/culture/landscape/built-environment/chigre.html) is the Asturian answer to the pub, and the best place to go to drink *sidra natural* with the locals.
 
 [Chigre Orbayu](https://eatingasturias.com/index.php?title=Chigre_Orbayu&action=edit&redlink=1 "Chigre Orbayu (page does not exist)")
 
 ## Beach Bars
-
-What's better than day drinking on vacation? Day drinking at the beach!
+The *[chiringuito](/culture/landscape/built-environment/chiringuito.html)* is the quintessential Spanish beach bar. Asturias has several notably good ones.
 
 [El Castru](https://eatingasturias.com/index.php?title=El_Castru&action=edit&redlink=1 "El Castru (page does not exist)") - Playa de Andrín, [Llanes](https://eatingasturias.com/wiki/Llanes "Llanes")
 

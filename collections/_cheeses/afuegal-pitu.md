@@ -25,6 +25,8 @@ cheese_dop_link: https://www.doafuegalpitu.es/
 conceyu:
   - Candamo
   - Cangas de Onís
+date created: Tuesday, May 13th 2025, 8:59:27 am
+date modified: Friday, June 6th 2025, 7:51:33 am
 ---
 There is a bit of a linguistic disagreement about what the name _afuega’l pitu_ actually means. One camp translates the name literally into Castilian Spanish as “_ahogar el pollo_” or “drown the chicken”. The second camp, which includes the DOP regulator, claim a local slang meaning for _pitu_ is the throat or gullet, giving the cheese the name of “sticks in the throat”.
 

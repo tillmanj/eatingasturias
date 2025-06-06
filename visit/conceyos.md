@@ -39,12 +39,12 @@ In much of Asturias, the main town or city in the conceyu has the same name as i
 <li><a href="/visit/conceyos/caso.html">Caso (18)</a></li>
 <li><a href="/visit/conceyos/castrillón.html">Castrillón (16)</a></li>
 <li><a href="/visit/conceyos/castropol.html">Castropol (17)</a></li>
-<li>Coaña (21)</li>
-<li>Colunga (19)</li>
-<li>Corvera de Asturias (20)</li>
-<li>Cudillero (22)</li>
-<li>Degaña (23)</li>
-<li>El Franco (25)</li>
+<li><a href="/visit/conceyos/coaña.html">Coaña (21)</a></li>
+<li><a href="/visit/conceyos/colunga.html">Colunga (19)</a></li>
+<li><a href="/visit/conceyos/corvera.html">Corvera de Asturias (20)</a></li>
+<li><a href="/visit/conceyos/cudillero.html">Cudillero (22)</a></li>
+<li><a href="/visit/conceyos/degaña.html">Degaña (23)</a></li>
+<li><a href="/visit/conceyos/el-franco.html">El Franco (25)</a></li>
 <li>Gijón (76)</li>
 <li>Gozón (28)</li>
 <li>Grado (30)</li>

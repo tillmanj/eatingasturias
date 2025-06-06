@@ -6,13 +6,13 @@ subtitle: It's a lot more than you'd think
 toc: true
 toc_sticky: true
 ---
-Asturians drinks a lot of cider. That is a mostly uncontroversial statement. Everywhere I look people are drinking cider. It is impossible to imagine any gathering anywhere in Asturias that didn’t involve drinking cider. But how much is it really? What are the cider consumption numbers for Asturias, and how do they stack up? Is this place as truly cider mad as I think it is? 
+{% newthought 'Asturians drinks a lot of cider.'%} That is a mostly uncontroversial statement. Everywhere I look people are drinking cider. It is impossible to imagine any gathering anywhere in Asturias that didn’t involve drinking cider. But how much is it really? What are the cider consumption numbers for Asturias, and how do they stack up? Is this place as truly cider mad as I think it is? 
 
 ## World Cider Rankings
 
 According to the National Association of Cider Makers’ Paul Mitchell, Spain ranks sixth in the world in millions of liters of cider consumed per year.[^1] As you can see below, Spain is one of the Big Six cider drinking countries.[^2]
 
-{% maincolumn 'assets/images/1-Cider-production-consumption-and-trends-by-country-and-region-Total-estimated-sales.png' 'Cider production/consumption and trends by country and region. Total estimated sales value worldwide in 2005 were more than US$ 3 billion.' %}
+{% maincolumn 'assets/images/cider/1-Cider-production-consumption-and-trends-by-country-and-region-Total-estimated-sales.png' 'Cider production/consumption and trends by country and region. Total estimated sales value worldwide in 2005 were more than US$ 3 billion.' %}
 
 That information can be used to plot a consumption per capita number for each of those countries:
 

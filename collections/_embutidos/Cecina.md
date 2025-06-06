@@ -28,6 +28,10 @@ I enjoy adding it to all sorts of things, and have made a habit of making pizza 
 
 You can find many mail order companies that ship to all of the EU, so European visitors wanting to try this delicacy will have no problems. Unfortunately, like many European cured meats, it is not possible to import _cecina_ into the United States. You will have to eat your fill on your next trip to Asturias.
 
+### Recipes
+
+{% include recipes-ingredient.html %}
+
 ## Notes
 
 [^1]: Wilson, C. Anne. “Preserving Food to Preserve Life: The Response to Glut and Famine from Early Times to the End of the Middle Ages.” _Waste Not, Want Not: Food Preservation from Early Times to the Present Day_, Edinburgh University Press, 1991, pp. 6.

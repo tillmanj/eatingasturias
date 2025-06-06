@@ -72,7 +72,7 @@ These are, in my opinion, the best seafood dishes to try in Asturias. They will 
 
 Baby squid or cuttlefish (the word _chipirones_ can mean either) are the ultimate snack food all over Spain. In the rest of Spain they are found battered and deep fried. However in Asturias they are usually cooked _afogaos_ – pan fried with garlic and onion.
 
-Recipe: [Chipirones afogaos](https://eatingasturias.com/wiki/Chipirones_Afogaos "Chipirones Afogaos")
+Recipe: [Chipirones afogaos](/recipes/seafood/chipirones-afogaos.html)
 
 ### Pastel de Cabracho
 

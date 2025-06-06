@@ -67,7 +67,7 @@ There is a growing number of cervecerías in Asturias that have passed over into
 
 ### Chigre
 
-Think _ye olde tavern_. But with no beer. Only cider. The [chigre](https://eatingasturias.com/wiki/Chigre "Chigre") is an Asturian institution, a truly local creation, and the closest thing I have found to a British or Irish pub in all of Spain. A chigre is a neighborhood or village social center with alcohol.
+Think _ye olde tavern_. But with no beer. Only cider. The [chigre](/culture/landscape/built-environment/chigre.html) is an Asturian institution, a truly local creation, and the closest thing I have found to a British or Irish pub in all of Spain. A chigre is a neighborhood or village social center with alcohol.
 ### Bar-Tienda
 The "primordial knot" that ties together the social fabric of the rural environment of Asturias, the _bar-tienda_ is a unique combination of local pub and general store. 
 ### Bar de Copas
@@ -76,7 +76,7 @@ This is, pure and simple, a cocktail bar. Focused on mixed drinks, not beer, the
 
 ### Chiringuito
 
-The Spanish beach bar. Somewhat equivalent to a Mexican _changarro_ but without the fresh fruit and grocery rack. [Chiringuitos](https://eatingasturias.com/wiki/Chiringuito "Chiringuito") are found at almost all the beaches of the area, the prices are at a premium, but how can you go wrong with cold beer and fried sardines on the sand? Well worth paying the "scenery tax" for. The best chiringuitos serve some variation on fried or grilled seafood, but they all have standard snack bar types of things.
+The Spanish beach bar. Somewhat equivalent to a Mexican _changarro_ or *palapa* but without the fresh fruit and grocery rack. [Chiringuitos](https://eatingasturias.com/wiki/Chiringuito "Chiringuito") are found at almost all the beaches of the area, the prices are at a premium, but how can you go wrong with cold beer and fried sardines on the sand? Well worth paying the "scenery tax" for. The best chiringuitos serve some variation on fried or grilled seafood, but they all have standard snack bar types of things.
 
 ### Discoteca
 

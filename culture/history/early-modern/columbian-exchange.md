@@ -1,15 +1,21 @@
 ---
 layout: page
 title: The Columbian Exchange
-subtitle: 
+subtitle: ...of crops, not foods.
 permalink: /culture/history/early-modern/columbian-exchange.html
 toc: false
 toc_sticky: true
 toc_label: 
 sidebar:
   nav: culture_full
+sources:
+  - https://www.gilderlehrman.org/history-resources/essays/columbian-exchange
 ---
-The Columbian Exchange refers to the exchange of diseases, ideas, food crops, and populations between the “*New World*” (the Americas) in the Western Hemisphere, and the “*Old World*” (Afro-Eurasia) in the Eastern Hemisphere, in the late 15th and following centuries.[^1] The term was coined by Alfred W. Crosby, an American historian at the University of Texas at Austin. His 1972 book _The Columbian Exchange_, and subsequent volumes within the same decade cemented the term in the popular imagination.[^2] It is however, critically important to remember that the Columbian Exchange was an exchange of ingredients, **not an exchange of foods**. To quote Rachel Lauden:
+{% marginfigure 'mf01' 'assets/images/history/columbian exchange map.jpg' 'The 1562 map *[Americae sive quartae orbis partis nova et exactissima descriptio](https://www.loc.gov/collections/discovery-and-exploration/articles-and-essays/the-1562-map-of-america/)* by Diego Gutiérrez' %}
+
+{% epigraph 'To ecologists, the Columbian Exchange is arguably the most important event since the death of the dinosaurs.' 'Charles C. Mann' '1493: Uncovering the New World Columbus Created' %}
+
+{% newthought 'The Columbian Exchange'%} refers to the exchange of diseases, ideas, food crops, and populations between the “*New World*” (the Americas) in the Western Hemisphere, and the “*Old World*” (Afro-Eurasia) in the Eastern Hemisphere, in the late 15th and following centuries.[^1] The term was coined by Alfred W. Crosby, an American historian at the University of Texas at Austin. His 1972 book _The Columbian Exchange_, and subsequent volumes within the same decade cemented the term in the popular imagination.[^2] It is however, critically important to remember that the Columbian Exchange was an exchange of ingredients, **not an exchange of foods**. To quote Rachel Lauden:
 
 {% blockquote 'BQ01' 'Pigs went to Mexico, dry-cured hams did not. Maize went to Europe, but treating maize with alkali did not. Chiles made it round the world, but pureed chile sauces did not either.'
 'Rachel Lauden' 'Why Didn’t the Spanish Dry-Cure Ham in Mexico?' '[Why Didn’t the Spanish Dry-Cure Ham in Mexico?](http://www.rachellaudan.com/2023/03/why-didnt-the-spanish-dry-cure-ham-in-mexico.html) - Rachel Laudan. _Rachel Laudan_, 7 Mar. 2023' %}
