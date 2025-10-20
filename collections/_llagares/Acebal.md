@@ -6,14 +6,14 @@ permalink: /culture/products/cider/llagares/Acebal.html
 category: llagar
 toc: false
 toc_sticky: true
-toc_label: The Method
+toc_label: 
 sidebar:
-  nav: culture_full
+  nav: visit_full
 image_splash: Acebal_main.jpeg
 image_logo: Acebal_logo.png
 status: In Operation
 production: 500,000 Bottles 
-manager: D. Luis Alberto Acebal Valdés 
+manager: Luis Alberto Acebal Valdés 
 conceyu: Gijón
 location: 
   title: Sidra Acebal
@@ -42,7 +42,7 @@ Acebal is a 100+ year old family-run business dedicated to the production, bottl
 
 ## History
 
-Founded at the end of the 19th century by D. Benito Acebal. At the beginning it was a farmhouse operation, with production intended for family and friends. His son, nicknamed El Fraile build the current warehouse, and installed the industrial presses – thought to be the first used in Asturias.
+Founded at the end of the 19th century by Benito Acebal. At the beginning it was a farmhouse operation, with production intended for family and friends. His son, nicknamed El Fraile build the current warehouse, and installed the industrial presses – thought to be the first used in Asturias.
 
 The third generation took over in the 70s and spent the 80s modernizing the bottling process and investing in machinery. Prior to this all of the cider had been bottled completely by hand. At the beginning of the 90s, the fourth generation took charge of the llagar. They were the first to concentrate solely on the cider business. They continued the previous generations strong committment to the incorporation of new technologies.
 

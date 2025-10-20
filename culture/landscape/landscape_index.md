@@ -10,6 +10,7 @@ sidebar:
     nav: culture_full
 description: Explore how both the natural and built environments of Asturias inform the indissoluble relationship between rural life and gastronomy.
 ---
+{% marginfigure 'mf01' '/assets/images/culture/Brooklyn_Museum_-_Asturian_Landscape_(Paisaje_asturiano)_-_Joaquín_Sorolla_y_Bastida_-_overall.jpeg' '*Paisaje Asturiano*, Joaquín Sorolla, 1903, Brooklyn Museum' %}
 {% epigraph 'Life — all life — is in the service of life. Necessary nutrients are made available to life by life in greater and greater richness as the diversity of life increases. The entire landscape comes alive, filled with relationships and relationships within relationships' 'Frank Herbert' 'Dune' %}
 
 {% newthought 'What do I mean when I say' %} the *culinary landscape?* Do I mean the food system, in it's technocratic sense? Or do I mean the menu of food offerings available in a specific place -- the sociological factors that shape an industry that provides food to people?

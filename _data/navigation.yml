@@ -195,7 +195,7 @@ visit_full:
         url: /visit/embutidos/
 
 culture_full:
-  - title: Culture Basics
+  - title: Food Culture Basics
     url: /culture/primer/
     children:
       - title: Meal Times

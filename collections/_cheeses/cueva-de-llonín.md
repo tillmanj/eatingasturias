@@ -25,7 +25,7 @@ cheese_dop: false
 cheese_dop_logo: 
 cheese_dop_link: 
 date created: Friday, June 6th 2025, 7:39:22 am
-date modified: Friday, June 6th 2025, 7:51:51 am
+date modified: Thursday, October 16th 2025, 9:42:14 am
 conceyu: Peñamellera Alta
 ---
 An outlier among Asturian cheeses, this is one of the few local cheeses that remind one of Brie or Camembert. Cueva de Llonín Cheese is made by the Cooperativa quesera de Peñamellera, located in the town of Alles, capital of the Asturian conceyo of Peñamellera Alta.

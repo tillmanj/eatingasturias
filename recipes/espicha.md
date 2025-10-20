@@ -5,9 +5,8 @@ title: Espicha Recipes
 subtitle: the best of Asturian party food
 type: occasion
 category: Espicha
-excerpt: the best of Asturian party food
 header:
-  overlay_image: /assets/images/header-espicha-test.jpg
+  overlay_image: /assets/images/recipes/header-espicha-test.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Jon Tillman**](https://jontillman.me)"
 toc: false

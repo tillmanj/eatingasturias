@@ -76,6 +76,12 @@
   domain: sidra
   subdomain: flavors
   topic: alcohol
+- term: Casa Rural
+  definition: Literally “rural house”. It is very popular to rent a whole house in a village in Asturias for a family vacation, a weekend with friends, or a romantic getaway. They are popular all over Spain, both for their prices (much lower than hotels) and their settings, which are, unsurprisingly, rural. Many of them in Asturias are located in tiny villages in the hills or mountains. Usually, casas rurales are self-catering with a fully equipped kitchen and associated appliances. If the house is located on a larger plot, there’s likely to be a grill and outside seating. Almost all of them will require a car to get to, and may be located some distance from the nearest store. 
+  url: 
+  domain: environment
+  subdomain: built
+  topic: housing
 - term: Casería
   connotation: neutral
   definition: The Asturian term for a farmstead
@@ -90,6 +96,9 @@
   domain: environment
   subdomain: built
   topic: casería
+- term: Culín
+  definition: '(also *culete*) – The small amount of cider that is poured into a glass and which should be drunk all at once. Most commonly heard as a question when the waiter visits your table: “*¿un culín?*”'
+  domain: sidra
 - term: Desvanecíu
   connotation: negative
   definition: Very little carbon dioxide, which dissipates too quickly. 

@@ -1,0 +1,11 @@
+{% assign beers = site.beers | where: "brewery", page.title %}
+{% if beers.size > 0 %}
+<p>The following beers from {{page.title}} have been reviewed here:</p>
+<ul>
+    {% for beer in beers %}
+        <li><a href="{{beer.url}}" title="{{beer.subtitle}}">{{beer.title}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>I have not yet reviewed any beers from {{page.title}} yet.</p>
+{% endif %}
