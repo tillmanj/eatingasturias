@@ -410,6 +410,7 @@ maps:
 # PLUGIN: jekyll-mapping
 mapping:
   provider: openstreetmap
+  zoom: 16
 
 # PLUGIN: microformats
 
