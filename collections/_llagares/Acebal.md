@@ -15,8 +15,7 @@ status: In Operation
 production: 500,000 Bottles 
 manager: Luis Alberto Acebal Valdés 
 conceyu: Gijón
-location: 
-  title: Sidra Acebal
+mapping:
   latitude: 43.5379975
   longitude: -5.6234594
 hours:
