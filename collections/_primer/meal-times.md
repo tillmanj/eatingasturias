@@ -8,6 +8,8 @@ toc_sticky: true
 toc_label: Meal Times
 sidebar:
   nav: culture_full
+date created: Friday, January 17th 2025, 12:51:55 pm
+date modified: Tuesday, October 28th 2025, 10:07:59 am
 ---
 You would be forgiven for thinking that people in Spain are always eating. Forgiven precisely because it is true. Spain is a great nation of grazers, moving throughout their day from one mealtime to the next, never more than an hour or two from the next nibble. 
 
@@ -24,6 +26,7 @@ Many people in Spain completely skip this meal entirely, having nothing but a cu
 
 ## La Hora del Pinchu
 *Second Breakfast: from 10 to 11 am*
+
 {% marginnote 'mn-meals-01' 'The common translation of magdelena to muffin is incorrect. Cakes, and thus cupcakes, are made via the creaming method where high-speed whipping of butter and sugar, and then eggs, creates a light and fluffy texture, whereas muffins are stirred like other quickbreads. And since every magdalena recipe I have ever seen called for creaming the fat and sugar, they are 100% cupcakes. The icing has nothing to do with whether or not it is a cupcake.' %}
 Known as *almuerzo* in most of Spain, this it the time for the second coffee of the day, and possibly more pastry. Savory food makes its first appearance in the Asturian day, with [bars](/visit/bars/) and *cafeterías* in full swing now, serving *tortilla de patata* and *bocadillos* filled with *chorizo*, *lomo*, or *pollo*. Pastries are never far away, and the un-iced cupcakes called *magdalenas* make an appearance.
 
@@ -66,7 +69,6 @@ An essential part of the Spanish lunch is the time spent after dessert around th
 **Where:** While most restaurants in Asturias offer a *menú del día* the absolute best options are found away from the touristy parts of town. You will never as good a lunch downtown in the shadow of the cathedral as you will on the outskirts of town in an industrial estate in the shadow of a power plant.
 
 ## Merienda
-
 *afternoon snack: from 5 to 7 pm*
 
 The afternoon snack is a sacred obligation in Spain, first inculcated in grade school, and carried throughout life. It is an dual-purpose meal time, serving as both a tide-me-over for the peckish and as after-work beers for the social. Often eaten in bars by adults leaving work (or just getting out of the house after a day of domestic labor) and around kitchen counters by the younger set, it is a catch-as-catch-can affair, with snacks making an appearance from all the other meals of the day. As is usual in Spain, sweets predominate, but the number and variety of savory options is higher than during morning snacking.

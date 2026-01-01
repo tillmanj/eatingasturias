@@ -7,7 +7,7 @@ subtitle: Panicum miliaceum
 permalink: /culture/ingredients/grains/miyu.html
 toc: false
 toc_sticky: true
-toc_label: Arbeyos
+toc_label: 
 sidebar:
   nav: culture_full
 ingredientCategory: Grains
@@ -31,7 +31,7 @@ date modified: Saturday, October 18th 2025, 6:11:38 pm
 description: ""
 ---
 {% newthought 'El Miyu, known in English as common or Proso millet'%} was once the staple crop of most of Europe.
-
+borona
 ## History
 
 ## Cultivation

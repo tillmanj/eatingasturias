@@ -36,7 +36,7 @@ In other words, to receive the PDO status, the entire product must be traditiona
 - Queso Casín
 - Sidra de Asturias
 - Vino de la Tierra de Cangas
-- Escanda de Asturias
+- Escanda Asturiana
 
 ### IGP
 _(Indicación Geográfica Protegida_) In English **Protected Geographical Indication (PGI)** – An EU scheme for geographical indications and traditional specialties. These laws protect the names of wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, raw meats and vegetables.

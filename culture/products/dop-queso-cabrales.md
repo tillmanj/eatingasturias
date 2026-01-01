@@ -4,7 +4,7 @@ title: DOP Queso Cabrales
 subtitle: Consejo Regulador
 permalink: /culture/products/dop-queso-cabrales.html
 date created: Thursday, May 15th 2025, 4:18:58 pm
-date modified: Friday, October 17th 2025, 8:19:29 am
+date modified: Tuesday, October 28th 2025, 10:07:28 am
 sidebar:
   nav: culture_full
 toc: false

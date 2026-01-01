@@ -38,7 +38,7 @@ Originally a wild plant growing throughout the Mediterranean Basin, there is sol
 
 Arbeyos are usually planted between November and January and harvested in May, when they are tiny and perfect. Many folks seed them continuously from November to March and enjoy them throughout the spring and summer. The preferred cultivars are of two types. [Alderman](https://www.seedaholic.com/pea-alderman.html), [Teléfono](https://www.smartgardener.com/plants/933-peas-tall-telephone/overview), and [Lincoln](https://www.smartgardener.com/plants/640-peas-lincoln-garden/overview) are all late-bearing vine types.[^6] Express is a mystery to me, as I have not found it for sale in Asturian garden shops, and the only named variety I can find is a [yellow seeded variety](https://cdnsciencepub.com/doi/10.4141/cjps89-106).[^7]
 
-In Llanos de Somerón, high in the mountains, they are famously harvested in September.[^8] This late crop is prized for it's particularly fatty and meaty texture. IT certainly doesn't hurt their reputation that they are the only fresh peas available in the market at that time!
+In Llanos de Somerón, high in the mountains, they are famously harvested in September.[^8] This late crop is prized for it's particularly fatty and meaty texture. It certainly doesn't hurt their reputation that they are the only fresh peas available in the market at that time!
 
 ## Uses in Asturian Cooking
 
