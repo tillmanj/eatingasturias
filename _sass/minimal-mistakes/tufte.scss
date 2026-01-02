@@ -9,7 +9,7 @@ div.epigraph {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    width: 85%;
+    width: 90%;
     margin-top: .5636rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
@@ -66,12 +66,14 @@ div.epigraph > blockquote > footer > cite {
 span.left {
     flex: auto;
     white-space: nowrap;
-    margin-right: 5%;
+    max-width: 49%;
 }
 
 span.right {
     flex: auto;
     white-space: nowrap;
+    max-width: 49%;
+    margin-top: 1.5rem;
 }
 
 div.epigraph 
