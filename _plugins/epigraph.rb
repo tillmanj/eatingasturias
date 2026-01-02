@@ -27,7 +27,7 @@ module Jekyll
         source = ", " + source
       end
         "<div class='epigraph'><blockquote><p>#{quote}</p>"+
-        "<footer>#{@text[1]}"+"<cite>#{source}</cite></footer></blockquote></div>"
+        "<footer><span class='author'>#{@text[1]}</span>"+"<cite>#{source}</cite></footer></blockquote></div>"
     end
   end
 end

@@ -49,6 +49,11 @@ div.epigraph > blockquote > footer {
     margin-bottom: 1rem;
 }
 
+div.epigraph > blockquote > footer > span.author {
+    flex:auto;
+    white-space: nowrap;
+}
+
 div.epigraph > blockquote > footer > cite {    
     all: unset;
     font-style: italic;
@@ -68,6 +73,8 @@ span.right {
     flex: auto;
     white-space: nowrap;
 }
+
+div.epigraph 
 
 /* end chapter epigraphs styles */
 
