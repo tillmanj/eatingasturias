@@ -43,15 +43,14 @@ div.epigraph > blockquote > footer {
     padding-right: 2.5%;
     padding-top: 0;
     margin-top: 0.45rem;
-    &::before {
-        content: "— ";
-    }
     margin-bottom: 1rem;
 }
 
 div.epigraph > blockquote > footer > span.author {
-    flex:auto;
     white-space: nowrap;
+    &::before {
+        content: "— ";
+    }
 }
 
 div.epigraph > blockquote > footer > cite {    
@@ -59,7 +58,7 @@ div.epigraph > blockquote > footer > cite {
     font-style: italic;
     &::before {
         content: "";
-        padding-inline-end: 5px;
+        position: absolute; /* dumb fuckery to shift the comma left to where it should be */
       }
 }
 
@@ -75,8 +74,6 @@ span.right {
     max-width: 49%;
     margin-top: 1.5rem;
 }
-
-div.epigraph 
 
 /* end chapter epigraphs styles */
 
