@@ -16,8 +16,11 @@ production: 500,000 Bottles
 manager: Luis Alberto Acebal Valdés 
 conceyu: Gijón
 mapping:
-  latitude: 43.5379975
-  longitude: -5.6234594
+  locations:
+    - title: Sidra Acebal
+      latitude: 43.5379975
+      longitude: -5.6234594
+      address: Ctra. Piles al Infanzón, Periurbano - Rural, 33394 Cabueñes-Gijón, Asturias
 hours:
   mon: 10:00–23:30
   tue: 10:00–23:30

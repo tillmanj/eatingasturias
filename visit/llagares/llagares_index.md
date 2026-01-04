@@ -9,14 +9,15 @@ toc_label: Llagares
 sidebar:
   nav: visit_full
 ---
-At one point, every [farmstead](/culture/landscape/built-environment/caser%C3%ADa.html) in Asturias had it’s own *[llagar](/culture/landscape/built-environment/llagar.html)* and produced it’s own cider. these days it’s not so many, though plenty still do.
+At one point, every [farmstead](/culture/landscape/built-environment/caser%C3%ADa.html) in Asturias had it’s own *[llagar](/culture/landscape/built-environment/llagar.html)* and produced it’s own cider. these days it’s not so many, though plenty still do. For more on the home cider press, see my article on the *[llagar de caserío](/culture/landscape/built-environment/llagar.html)*.
 
-On the other end of the scale from the llagar de caserío is the commercial llagar - the cider mills that produce the millions of bottles of cider Asturians drink a year. Arising in the late 19th century, these commercial llagares have consolidated over time into a smaller and smaller number of larger and larger concerns. In 1958 there were 70 commercial llagares making _sidra natural_ in Asturias. By 1980 that number was just 216, and in 1989 it had shrunk further to 134.[^1] Currently, by my own count, there are roughly 125 commercial llagares in Asturias.
+On the other end of the scale from the *llagar de caserío* is the commercial llagar - the cider mills that produce the millions of bottles of cider Asturians drink every year. Arising in the late 19th century, these enterprises, ranging from barely larger than a farm-scale llagar to industrial behemoths producing multiple millions of bottles per year, are the engine driving Asturian cider culture. For a comprehensive history of these cider makers, please see the article [Commercial Cider Making in Asturias](/culture/products/cider/llagares).
 
-As I visit them, I will add specific articles about each of them below
+As I visit them, I will add specific articles about each of them below.
+
 ## Operating Llagares
 
-- Acebal
+- [Acebal](/culture/products/cider/llagares/Acebal.html)
 - Agreco
 - Alonso
 - Angones
@@ -118,6 +119,3 @@ As I visit them, I will add specific articles about each of them below
 - Viuda de Corsino
 - Viuda de Palacio
 {:.col3}
-
-## Notes
-[^1]: Méndez Riestra, Eduardo. _Diccionario de cocina y gastronomía de Asturias_. 1st ed., Trea, 2017. p 365-368
