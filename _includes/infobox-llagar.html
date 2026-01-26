@@ -3,9 +3,9 @@
         <tbody>
             {% if page.image_logo %}
                 {% assign imgName = {{page.image_logo | url_decode }} %}
-                {% capture imgName %}/assets/images/{{page.collection}}/{{imgName}}{% endcapture %}
+                {% capture imgName %}/assets/images/{{page.collection}}/{{page.title}}/{{imgName}}{% endcapture %}
                 <tr>
-                    <td colspan="6" class="image">
+                    <td colspan="2" class="image">
                         <figure>
                             <picture>
                                 <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
@@ -17,30 +17,37 @@
                     </td>
                 </tr>
                 <tr class="about">
-                    <td colspan="2" class="infobox-label">Status</td>
-                    <td colspan="4" >{{page.status}}</td>
+                    <td class="infobox-label">Status</td>
+                    <td>{{page.status}}</td>
                 </tr>
                 {% if page.production %}
                 <tr class="about">
-                    <td colspan="2" class="infobox-label">Production</td>
-                    <td colspan="4" >{{page.production}}</td>
+                    <td class="infobox-label">Production</td>
+                    <td>{{page.production}}</td>
                 </tr>
                 {% endif %}
                 {% if page.manager %}
                 <tr class="about">
-                    <td colspan="2" class="infobox-label">Manager</td>
-                    <td colspan="4" >{{page.manager}}</td>
+                    <td class="infobox-label">Manager</td>
+                    <td>{{page.manager}}</td>
                 </tr>
                 {% endif %}
                 {% if page.conceyu %}
                 <tr class="about">
-                    <td colspan="2" class="infobox-label">Conceyu</td>
-                    <td colspan="4" >{{page.conceyu}}</td>
+                    <td class="infobox-label">Conceyu</td>
+                    <td>{{page.conceyu}}</td>
                 </tr>
                 {% endif %}
                 <tr>
-                    <td colspan="6">
-                        {% render_map 300,250 %}
+                    <td colspan="2">
+                        {% capture popup %}<b>{{page.location.title}}</b><br /><i>{{page.location.address}}</i>{% endcapture %}
+                        {% leaflet_map { "center" : [{{page.location.latitude}}, {{page.location.longitude}}],
+                                        "zoom" : 14,
+                                        "providerBasemap" : "OpenStreetMap.Mapnik" } %}
+                            {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                                                "longitude" : {{page.location.longitude}},
+                                                "popupContent" : "{{popup}}" } %}
+                        {% endleaflet_map %}
                     </td>
                 </tr>
             {% endif %}

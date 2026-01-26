@@ -5,7 +5,7 @@ subtitle: ''
 permalink: /visit/breweries/asturias-brewing-company.html
 image_logo: Asturias-brewing-company-logo-large.png
 header:
-  overlay_image: /assets/images/breweries/Brewery-Asturias-Brewing-Company-profile--1024x576.jpeg
+  overlay_image: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-profile--1024x576.jpeg
   overlay_filter: 0.5
 toc: false
 toc_sticky: true
@@ -18,7 +18,7 @@ manager: Fernando Braga Sanzo
 conceyu: Langreo
 location:
   title: Asturias Brewing Company
-  address: Plaza Industrial Riaño I, 210, 33920 Langreo, Asturias, Spain
+  address: "Plaza Industrial Riaño I, 210, 33920 Langreo, Asturias, Spain"
   latitude: 43.32588309691023
   longitude: -5.725340473177866
 hours:
@@ -40,44 +40,44 @@ social:
   linkedin: 
   pinterest: 
 gallery:
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-01-1200x800.jpeg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-01-1200x800.jpeg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-01-1200x800.jpeg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-01-1200x800.jpeg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-02-1200x800.jpeg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-02-1200x800.jpeg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-02-1200x800.jpeg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-02-1200x800.jpeg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-03-1200x800.jpeg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-03-1200x800.jpeg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-03-1200x800.jpeg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-03-1200x800.jpeg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-04-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-04-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-04-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-04-1200x800.jpg
+    alt: 
+    title: The original brew tree that the brewers used when they started brewing Salas in the village
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-05-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-05-1200x800.jpg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-05-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-05-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-07-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-07-1200x800.jpg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-07-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-07-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-08-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-08-1200x800.jpg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-08-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-08-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-12-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-12-1200x800.jpg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-12-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-12-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-13-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-13-1200x800.jpg
     alt: 
     title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-13-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-13-1200x800.jpg
-    alt: 
-    title: 
-  - url: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-14-1200x800.jpg
-    image_path: /assets/images/breweries/Brewery-Asturias-Brewing-Company-Tour-14-1200x800.jpg
+  - url: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-14-1200x800.jpg
+    image_path: /assets/images/breweries/Asturias Brewing Company/Brewery-Asturias-Brewing-Company-Tour-14-1200x800.jpg
     alt: 
     title: 
 ---
@@ -121,7 +121,3 @@ Over the summer, I got a chance to tour the Asturias Brewing Company facility wi
 
 ### And now the last question is just for you. Do you have a favorite style, a favorite beer or favorite brewery?
 “Well, I like all types of beer but it’s true that, for example, IPAs are good because your taste buds get used to them and, over time, you end up liking stronger flavors. I also like Belgian ales, and I’m also becoming an aficionado of something I didn’t really care about before, which is Imperial Stouts. These are beers I enjoy having with chocolate and, on a day I feel like drinking one of them, I usually have an Imperial Stout in my fridge to pair with food.”
-
-## Gallery
-{% capture gallery_caption %}A gallery of photos from my tour of {{page.title}}{% endcapture %}
-{% include gallery id="gallery" class="full" layout="third" caption=gallery_caption %}

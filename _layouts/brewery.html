@@ -42,7 +42,11 @@ layout: default
             <!--- Brewery Infobox --->
             {% include infobox-llagar.html %}
             {{ content }}
-
+            {% if page.gallery %}
+              <h2>Gallery</h2>
+              <p>Here are some images of {{page.title}} that I took on my visit to their brewery.</p>
+              {% include gallery %}
+            {% endif %}
             {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         </section>
   

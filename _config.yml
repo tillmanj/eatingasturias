@@ -320,7 +320,8 @@ plugins:
   - jekyll-glossary_tooltip
   - jekyll-image-size
   - jekyll-include-cache
-  - jekyll-last-modified-at  
+  - jekyll-last-modified-at
+  - jekyll-leaflet
   - jekyll-link-attributes
   - jekyll-loading-lazy
   - jekyll-maps
@@ -392,6 +393,9 @@ feed:
 last-modified-at:
     date-format: '%Y-%m-%d'
 
+# PLUGIN: jekyll-leaflet
+# Providers List: https://leaflet-extras.github.io/leaflet-providers/preview/index.html 
+
 # PLUGIN: jekyll-link-attributes
 external_links:
   enabled: true
@@ -401,16 +405,6 @@ external_links:
     - https://jontillman.me
 
 # PLUGIN: jekyll-loading-lazy
-
-# PLUGIN: jekyll-maps
-maps:
-  google:
-    api_key: {{ site.env.GOOGLE_MAPS_API_KEY }}
-
-# PLUGIN: jekyll-mapping
-mapping:
-  provider: openstreetmap
-  zoom: 16
 
 # PLUGIN: microformats
 

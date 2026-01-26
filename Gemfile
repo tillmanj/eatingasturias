@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-image-size'
   gem "jekyll-include-cache"  
   gem "jekyll-last-modified-at"
+  gem "jekyll-leaflet"
   gem 'jekyll-link-attributes'
   gem 'jekyll-loading-lazy'
   gem 'jekyll-maps'

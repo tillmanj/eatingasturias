@@ -291,7 +291,7 @@ span.listSectionHead::after {
 
 figure {
   display: -webkit-box;
-  display: inline-block;
+  display: flex; //TODO: find out what I broke by changing this from "inline-block"
   -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
