@@ -18,6 +18,9 @@ td.image {
     border-radius: $border-radius;
     padding: 0px;
     font-size: 0.825rem;
+    width: $right-sidebar-width;
+    min-width: $right-sidebar-width;
+    max-width: $right-sidebar-width;
 }
 
 .infobox th.header {
@@ -26,6 +29,9 @@ td.image {
     vertical-align: middle;
     font-family: $sans-serif-narrow;
     font-variant-caps: small-caps;
+    width: $right-sidebar-width;
+    min-width: $right-sidebar-width;
+    max-width: $right-sidebar-width;
 }
 
 .infobox figure {
@@ -76,7 +82,7 @@ td.image {
     font-family: $sans-serif-narrow;
     font-weight: 500;
     font-size: 1cqw;
-    width: 50%;
+    max-width: 50%;
 }
 
 .infobox > table > tbody > tr.about > td:first-child::after {
@@ -133,7 +139,15 @@ tr.about td {
     justify-content: right;
 }
 
-/* infobox-recipe.html styles */
+/* Business Socials styles
+------------------------------------------------------*/
+td.social-icon { 
+    width: 16.667%; // set the empty value to 1/8 of the row
+    min-width: 16.667%;
+}
+
+/* infobox-recipe.html styles 
+------------------------------------------------------*/
 
 ul.ingredients {
     list-style-type:square;

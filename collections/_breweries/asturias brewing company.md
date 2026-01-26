@@ -1,5 +1,5 @@
 ---
-layout: llagar
+layout: brewery
 title: Asturias Brewing Company
 subtitle: ''
 permalink: /visit/breweries/asturias-brewing-company.html
@@ -22,7 +22,7 @@ location:
   latitude: 43.32588309691023
   longitude: -5.725340473177866
 hours:
-  mon: 
+  mon: 10:00-15:00
   tue: 
   wed: 
   thu: 

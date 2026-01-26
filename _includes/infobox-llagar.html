@@ -1,16 +1,16 @@
 <aside class="sidebar__right infobox">
-    <table id="llagar-info">
+    <table id="business-info">
         <tbody>
             {% if page.image_logo %}
-                {%  assign imgName = {{page.image_logo | url_decode }} %}
-                {%  assign imgName = {{imgName}} | prepend: "/assets/images/" %}
+                {% assign imgName = {{page.image_logo | url_decode }} %}
+                {% capture imgName %}/assets/images/{{page.collection}}/{{imgName}}{% endcapture %}
                 <tr>
                     <td colspan="6" class="image">
                         <figure>
                             <picture>
-                                <source srcset="/assets/images/llagares/{{page.image_logo}}" type="image/png" media="(orientation: portrait)">
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
                                 <a href="{{imgName}}" class="image-popup" title="{{page.title}} logo">
-                                <img itemprop="photograph" src="/assets/images/llagares/{{page.image_logo}}" alt="the logo of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                <img itemprop="photograph" src="{{imgName}}" alt="the logo of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                                 </a>
                             </picture>
                         </figure>
@@ -20,18 +20,24 @@
                     <td colspan="2" class="infobox-label">Status</td>
                     <td colspan="4" >{{page.status}}</td>
                 </tr>
+                {% if page.production %}
                 <tr class="about">
                     <td colspan="2" class="infobox-label">Production</td>
                     <td colspan="4" >{{page.production}}</td>
                 </tr>
+                {% endif %}
+                {% if page.manager %}
                 <tr class="about">
                     <td colspan="2" class="infobox-label">Manager</td>
                     <td colspan="4" >{{page.manager}}</td>
                 </tr>
+                {% endif %}
+                {% if page.conceyu %}
                 <tr class="about">
                     <td colspan="2" class="infobox-label">Conceyu</td>
                     <td colspan="4" >{{page.conceyu}}</td>
                 </tr>
+                {% endif %}
                 <tr>
                     <td colspan="6">
                         {% render_map 300,250 %}
@@ -40,62 +46,88 @@
             {% endif %}
         </tbody>
     </table>
-    <table id="llagar-hours">
+    {% if page.hours.mon or page.hours.tue or page.hours.wed or page.hours.thu or page.hours.fri or page.hours.sat or page.hours.sun %}
+    <table id="business-hours">
         <thead>
             <tr class="about hours">
                 <th colspan="2" class="header">Hours of Operation</td>
             </tr>
         </thead>
         <tbody>
+            {% if page.hours.mon %}
             <tr class="about hours">
                 <td class="day infobox-label">Monday</td>
                 <td class="hours">{{page.hours.mon}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.tue %}
             <tr class="about hours">
                 <td class="day infobox-label">Tuesday</td>
                 <td class="hours">{{page.hours.tue}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.wed %}
             <tr class="about hours">
                 <td class="day infobox-label">Wednesday</td>
                 <td class="hours">{{page.hours.wed}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.thu %}
             <tr class="about hours">
                 <td class="day infobox-label">Thursday</td>
                 <td class="hours">{{page.hours.thu}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.fri %}
             <tr class="about hours">
                 <td class="day infobox-label">Friday</td>
                 <td class="hours">{{page.hours.fri}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.sat %}
             <tr class="about hours">
                 <td class="day infobox-label">Saturday</td>
                 <td class="hours">{{page.hours.sat}}</td>
             </tr>
+            {% endif %}
+            {% if page.hours.sun %}
             <tr class="about hours">
                 <td class="day infobox-label">Sunday</td>
                 <td class="hours">{{page.hours.sun}}</td>
             </tr>
+            {% endif %}
         </tbody>
     </table>
-    <table id="llagar-contact">
+        {% endif %}
+    <table id="business-contact">
         <thead>
             <tr class="contact">
-                <th colspan="6" class="header">Contact</td>
+                <th colspan="2" class="header">Contact</td>
             </tr>
         </thead>
         <tbody>
+            {% if page.telephone %}
             <tr class="about">
-                <td colspan="2" class="contact infobox-label">Telephone</td>
-                <td colspan="4"><a href="tel://+34{{page.telephone | remove: " "}}">{{page.telephone}}</a></td>
+                <td class="contact infobox-label">Telephone</td>
+                <td><a href="tel://+34{{page.telephone | remove: " "}}">{{page.telephone}}</a></td>
             </tr>
+            {% endif %}
+            {% if page.email %}
             <tr class="about">
-                <td colspan="2" class="contact infobox-label">Email</td>
-                <td colspan="4"><a href="mailto:{{page.email}}">{{page.email}}</a></td>
+                <td class="contact infobox-label">Email</td>
+                <td><a href="mailto:{{page.email}}">{{page.email}}</a></td>
             </tr>
+            {% endif %}
+            {% if page.website %}
             <tr class="about">
-                <td colspan="2" class="contact infobox-label">Website</td>
-                <td colspan="4"><a rel="nofollow noopener" href="{{page.website}}">{{page.website | remove: "https://"}}</a></td>
+                <td class="contact infobox-label">Website</td>
+                <td><a rel="nofollow noopener" href="{{page.website}}">{{page.title}}</a></td>
             </tr>
+            {% endif %}
+        </tbody>
+    </table>
+    <table id="business-social">
+        <tbody>
             <tr>
                 <td class="social-icon">{% if page.social.facebook %}<a rel="nofollow noopener" href="{{page.social.facebook}}"><img src="/assets/images/branding/Icons8-facebook-48.png"></a>{% endif %}</td>
                 <td class="social-icon">{% if page.social.instagram %}<a rel="nofollow noopener" href="{{page.social.instagram}}"><img src="/assets/images/branding/Icons8-instagram-48.png"></a>{% endif %}</td>

@@ -3,11 +3,11 @@ layout: page
 title: Asturian Breweries
 subtitle: Craft Beer in Asturias
 permalink: /visit/breweries/
-toc: true
+toc: false
 toc_sticky: true
 toc_label: Artisan Beers
 sidebar:
-  nav: culture_full
+  nav: visit_full
 date created: Friday, May 16th 2025, 11:23:59 am
 date modified: Monday, May 19th 2025, 10:08:03 am
 ---
@@ -20,23 +20,25 @@ Asturias joined the craft movement officially in 2007 with the founding of Cerve
 ## Breweries
 These are the breweries I know about in Asturias. Blue links are breweries I have visited and written an in-depth guide to. As I get to visit more of them, I will add them here. 
 
+- Asgaya
 - [Asturias Brewing Company](/visit/breweries/asturias-brewing-company.html)
-- Bayura Cerveza Artesano
-- Berrea Cerveza Artesanal
+- Barriá
+- Bayura 
+- Berrea 
 - Cantábrico Craft Beer
-- Cerveza Caleya
-- Cerveza Cascayu
-- Cerveza Cotoya
-- Cerveza DAI
-- Cerveza Deva
-- Cerveza D'Equi
-- Cerveza Nurse
-- Cerveza Pagana
-- Cerveza Pepinum
-- Cerveza Sacavera
-- Cervezas Asgaya
+- Caleya
+- Cascayu
+- Cotoya
+- DAI
+- Deva
+- D'Equi
+- Nurse
+- Pagana
+- Pepinum
+- Sacavera
 - Crazy Dodo Brewery
 - Curuxera Brewery
+- Grisú
 - La Estrella de Gijón
 - La Fragua
 - Naviega Cerveza Artesanal
@@ -46,13 +48,18 @@ These are the breweries I know about in Asturias. Blue links are breweries I hav
 - Tolibiers
 - Vor Bier & Bar
 - Zángana
+{:.col2}
 
 ## Beer Festivals
 There are several excellent beer festivals in Asturias each year.
 
-- [Festival Internacional de Cerveza Artesano de Llangréu](https://eatingasturias.com/index.php?title=Festival_Internacional_de_Cerveza_Artesano_de_Llangr%C3%A9u&action=edit&redlink=1 "Festival Internacional de Cerveza Artesano de Llangréu (page does not exist)")
-- [Tolivia Fest](https://eatingasturias.com/index.php?title=Tolivia_Fest&action=edit&redlink=1 "Tolivia Fest (page does not exist)")
-- [Seronda Fest](https://eatingasturias.com/index.php?title=Seronda_Fest&action=edit&redlink=1 "Seronda Fest (page does not exist)")
+- Festival Internacional de Cerveza Artesano de Llangréu
+- Tolivia Fest
+- Seronda Fest
+- Somiedo Beer Festival
+- Hidromiel Fest
+- Mafia Fest
+
 ## Notes
 
 [^1]: [https://www.craftbeer.com/beer/beer-history](https://www.craftbeer.com/beer/beer-history)
