@@ -21,12 +21,11 @@ During the 12th and 13th centuries, apple cultivation became so widespread and i
 It is out of these contracts that the beginnings of commercial cider pressing begins. 
 
 The [early modern period](/culture/history/early-modern/) in Asturias was, broadly, one of privation and in many cases, starvation.
-### 15th Century
-The 1600’s have come to be called the General Crisis, due to the widespread malnutrition, famine, inflation, and war that effected all parts of Europe.[^2]
 
 ### 16th Century
 
 ### 17th Century
+The 1600’s have come to be called the General Crisis, due to the widespread malnutrition, famine, inflation, and war that effected all parts of Europe.[^2]
 
 ### 18th Century
 A mania for planting apples takes over Asturias. The concept of the *añada de sidra*; that of making biennial double crops to store sufficient cider for the low-producing year; begins to be employed by cider makers, and signals a constant and growing demand for the drink. Indeed, the records of the conceyu of Villaviciosa show an increase from roughly 300,000 liters of cider produced in 1753, to 4.5 million liters by the end of the century. That is a serious increase in production: tenfold in ~50 years!
