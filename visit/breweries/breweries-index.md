@@ -16,6 +16,28 @@ Craft brewing is a relatively new, and still very niche, thing in Spain in gener
 While the first craft brewery opened in Spain in 1989,[^2] the early decades were ones of stagnation, not growth. Catalonia, now the center of the craft beer scene in Spain, did not have a single craft brewery until almost a decade after Madrid.[^3]
 
 Asturias joined the craft movement officially in 2007 with the founding of Cervezas La Xana del Molín del Nora.[^4] Not long after that, breweries were found in Gijón, Oviedo, Langreo, and Avilés. Now, less than 15 years later, Asturias has more than two dozen operating craft breweries, and multiple excellent annual beer festivals. 
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 8,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %}
+
+  {%- for brewery in site.breweries -%}
+    {% if brewery.location.geojson %}
+      {% leaflet_geojson {{brewery.location.geojson}} %}
+    {% elsif brewery.location.latitude and brewery.location.longitude %}
+      {% leaflet_marker { "latitude" : {{brewery.location.latitude}},
+                          "longitude" : {{brewery.location.longitude}},
+                          "href" : "{{brewery.url}}",
+                          "popupContent" : "{{brewery.title}}" } %}
+      {% endif %}
+  {% endfor %}
+{% endleaflet_map %}
 
 ## Breweries
 These are the breweries I know about in Asturias. Blue links are breweries I have visited and written an in-depth guide to. As I get to visit more of them, I will add them here. 
