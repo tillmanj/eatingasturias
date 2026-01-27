@@ -22,13 +22,13 @@ location:
   latitude: 43.32588309691023
   longitude: -5.725340473177866
 hours:
-  mon: 10:00-15:00
-  tue: 
-  wed: 
-  thu: 
-  fri: 
-  sat: 
-  sun: 
+  mon: closed
+  tue: by appointment
+  wed: by appointment
+  thu: by appointment
+  fri: by appointment
+  sat: by appointment
+  sun: closed
 telephone: 622 886 772
 email: 
 website: https://asturiasbrewingcompany.com/

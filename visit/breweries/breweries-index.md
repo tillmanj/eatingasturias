@@ -46,7 +46,7 @@ These are the breweries I know about in Asturias. Blue links are breweries I hav
 - [Asturias Brewing Company](/visit/breweries/asturias-brewing-company.html)
 - Barriá
 - Bayura 
-- Berrea 
+- [Berrea ](/visit/breweries/berrea-cerveza-artesanal.html)
 - Cantábrico Craft Beer
 - Caleya
 - Cascayu
