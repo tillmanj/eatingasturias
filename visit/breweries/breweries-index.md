@@ -16,6 +16,9 @@ Craft brewing is a relatively new, and still very niche, thing in Spain in gener
 While the first craft brewery opened in Spain in 1989,[^2] the early decades were ones of stagnation, not growth. Catalonia, now the center of the craft beer scene in Spain, did not have a single craft brewery until almost a decade after Madrid.[^3]
 
 Asturias joined the craft movement officially in 2007 with the founding of Cervezas La Xana del Molín del Nora.[^4] Not long after that, breweries were found in Gijón, Oviedo, Langreo, and Avilés. Now, less than 15 years later, Asturias has more than two dozen operating craft breweries, and multiple excellent annual beer festivals. 
+
+## Breweries
+These are the breweries I know about in Asturias. Blue links are breweries I have visited and written an in-depth guide to. As I get to visit more of them, I will add them here. 
 <style>
   #indexMap{
     height: 500px;
@@ -23,7 +26,7 @@ Asturias joined the craft movement officially in 2007 with the founding of Cerve
   }
 </style>
 {% leaflet_map { "center" : [43.363129, -5.951843],
-                "zoom" : 8,
+                "zoom" : 9,
                 "providerBasemap" : "OpenStreetMap.Mapnik",
                 "divId" : "indexMap" } %}
 
@@ -39,21 +42,18 @@ Asturias joined the craft movement officially in 2007 with the founding of Cerve
   {% endfor %}
 {% endleaflet_map %}
 
-## Breweries
-These are the breweries I know about in Asturias. Blue links are breweries I have visited and written an in-depth guide to. As I get to visit more of them, I will add them here. 
-
 - Asgaya
 - [Asturias Brewing Company](/visit/breweries/asturias-brewing-company.html)
 - Barriá
 - Bayura 
-- [Berrea ](/visit/breweries/berrea-cerveza-artesanal.html)
+- [Berrea](/visit/breweries/berrea-cerveza-artesanal.html)
 - Cantábrico Craft Beer
 - Caleya
 - Cascayu
 - Cotoya
 - DAI
 - Deva
-- D'Equi
+- [D'Equi](/visit/breweries/cerveza-d-equi.html)
 - Nurse
 - Pagana
 - Pepinum

@@ -39,7 +39,8 @@ exclude: [
   'frontmatter.json',
   'jekyll up.cmd',
   'jekyll_build.cmd',
-  'Snippets.md'
+  'Snippets.md',
+  'hints.md'
 ]
 include:
   - _pages
@@ -394,6 +395,7 @@ last-modified-at:
     date-format: '%Y-%m-%d'
 
 # PLUGIN: jekyll-leaflet
+# davidjvitale.com/tech/jekyll-leaflet/getting-started/
 # Providers List: https://leaflet-extras.github.io/leaflet-providers/preview/index.html 
 
 # PLUGIN: jekyll-link-attributes

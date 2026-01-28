@@ -9,7 +9,7 @@ toc_label: Cider
 sidebar:
   nav: culture_full
 ---
-{% marginfigure 'mf01' 'assets/images/Oficialidá_bandera.png' 'Iniciativa pol Asturianu is a broad coalition aimed at securing official recognition by the Spanish government of Asturianu as one of the co-official languages of the country' %}
+{% marginfigure 'mf01' '/assets/images/culture/Oficialidá_bandera.png' 'Iniciativa pol Asturianu is a broad coalition aimed at securing official recognition by the Spanish government of Asturianu as one of the co-official languages of the country' %}
 As this website is dedicated to the study of both traditional and modern Asturian foodways, and that food culture is inextricably linked with the larger cultural milieu it is a part of, it is necessary to establish linguistic criteria that accurately reflect the essence of what I am investigating in the most honest and faithful way. Representing Asturians as they present themselves to me is important, as is being respectful of the regional differences within a country.[^1] The Asturian language is a sign of cultural identity that is inseparable from the socio-cultural reality of living and working in Asturias.
 
 Taking into account the existence of the "Law for the use and promotion of Asturian", and wishing to promote Asturian culture through the understanding of food and food culture, I decided that:[^2]
