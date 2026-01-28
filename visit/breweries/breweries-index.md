@@ -51,21 +51,21 @@ These are the breweries I know about in Asturias. Blue links are breweries I hav
 - Caleya
 - Cascayu
 - Cotoya
+- Crazy Dodo Brewery
+- Curuxera Brewery
 - DAI
 - Deva
 - [D'Equi](/visit/breweries/cerveza-d-equi.html)
-- Nurse
-- Pagana
-- Pepinum
-- Sacavera
-- Crazy Dodo Brewery
-- Curuxera Brewery
+- [Nurse](/visit/breweries/cerveza-nurse.html)
 - Grisú
 - La Estrella de Gijón
 - La Fragua
 - Naviega Cerveza Artesanal
 - Nuclear Pigs
 - Ordum
+- Pagana
+- Pepinum
+- Sacavera
 - Scone Brewery
 - Tolibiers
 - Vor Bier & Bar

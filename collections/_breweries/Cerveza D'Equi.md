@@ -141,7 +141,3 @@ We don’t do tours per se because, if you look around, you can see the brewery 
 
 ## Taproom
 Often, customers come to the bar and ask us to taste a beer, or we offer them ourselves. We have locals who already know what they want, they come to drink Metal IPA, or a new beer we have, for example, but there are many people who aren’t sure what they want, or that they ask for advice, so we let them try the beers. We don’t do flights per se in which for example you let them try 5, pay for them, and they it turns out they only like 2 of them. I prefer that they try it before and, if they like it, they can have a glass of it and, and if they want more, they can keep tasting and then have another full glass again. 
-
-## Gallery
-{% capture gallery_caption %}A gallery of photos from my tour of {{page.title}}{% endcapture %}
-{% include gallery caption=gallery_caption %}

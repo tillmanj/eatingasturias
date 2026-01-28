@@ -1,7 +1,7 @@
 ---
 layout: brewery
 title: Berrea Cerveza Artesanal
-subtitle: ''
+subtitle: 'French style beers in rural Asturias'
 permalink: /visit/breweries/berrea-cerveza-artesanal.html
 image_logo: berrea-logo.jpg
 header:

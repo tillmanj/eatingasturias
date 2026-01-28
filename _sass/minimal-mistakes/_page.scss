@@ -6,6 +6,7 @@
   @include clearfix;
   margin-inline: auto;
   padding-inline: 1rem;
+  flex-grow: 1;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
