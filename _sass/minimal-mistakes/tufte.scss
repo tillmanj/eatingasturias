@@ -151,9 +151,8 @@ figcaption.marginnote { //push down marginalia from main_column_img.rb plugin on
 
 /* This is essentially an inline version of the sidenote or marginnote for very short parenthetical statements */
 .parenthetical{
-    font-size: 0.8rem;
+    font-size: $type-size-7;
     line-height: 0.96; //changed to bring line heights into rational pattern
-    color: darken($contrast-color, 5%); // change this?
     @include scut-reverse-italics; // mixins.scss
 }
 

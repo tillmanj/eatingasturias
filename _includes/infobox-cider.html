@@ -1,0 +1,109 @@
+<aside class="sidebar__right infobox">
+    <table id="cider-info">
+        <tbody>
+            {% if page.label_image %}
+                {%  assign imgName = {{page.label_image | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/" %}
+                {%  assign imgName = {{imgName}} | prepend: page.llagar %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/cider/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.title}} label">
+                                <img itemprop="photograph" src="{{imgName}}" alt="the bottle label of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="about cider">
+                <td class="infobox-label">Llagar</td>
+                <td class="value">{{page.llagar}}</td>
+            </tr>
+            <tr class="about cider">
+                <td class="infobox-label">Cider Type</td>
+                <td class="value">{{page.type}}</td>
+            </tr>
+            <tr class="about cider">
+                <td class="infobox-label">DOP</td>
+                <td class="value">{{page.dop}}</td>
+            </tr>
+            <tr class="about cider">
+                <td class="infobox-label">Format</td>
+                <td class="value">{{page.type}}</td>
+            </tr>
+            <tr class="about cider">
+                <td class="infobox-label">Alcohol</td>
+                <td class="value">{{page.abv}} ABV</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="cider-rating" class="divider">
+        <tbody>
+            <tr>
+                <th class="header" colspan="2">Ratings</th>
+            </tr>
+            <tr id="cider_rating_style" class="about cider">
+                <td class="infobox-label">In Style</td>
+                <td class="value"><div class="rating" title="{{page.rate_style}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_style}}" title="{{page.rate_style}} out of 5 stars"></meter></div></td>
+            </tr>
+            <tr id="cider_rating_excite" class="about cider">
+                <td class="infobox-label">Excitement</td>
+                <td class="value"><div class="rating" title="{{page.rate_excite}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_excite}}" title="{{page.rate_excite}} out of 5 stars"></meter></div></td>
+            </tr>
+            <tr id="cider_rating_fresh" class="about cider">
+                <td class="infobox-label">Freshness</td>
+                <td class="value"><div class="rating" title="{{page.rate_fresh}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_fresh}}" title="{{page.rate_fresh}} out of 5 stars"></meter></div></td>
+            </tr>
+            <tr id="cider_rating_sweet" class="about cider">
+                <td class="infobox-label">Sweetness</td>
+                <td class="value"><div class="rating" title="{{page.rate_sweet}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_sweet}}" title="{{page.rate_sweet}} out of 5 stars"></meter></div></td>
+            </tr>
+            <tr id="cider_rating_intense" class="about cider">
+                <td class="label">Intensity</td>
+                <td class="value"><div class="rating" title="{{page.rate_intense}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_intense}}" title="{{page.rate_intense}} out of 5 stars"></meter></div></td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="cider-images">
+        <tbody>
+            <tr>
+                <td class="image_display" colspan="3">
+                    {% if page.image_bottle %}
+                        {%  assign bottleImg = {{page.image_bottle | url_decode }} %}
+                        {%  assign bottleImg = {{bottleImg}} | prepend: "/" %}
+                        {%  assign bottleImg = {{bottleImg}} | prepend: page.llagar %}
+                        {%  assign bottleImg = {{bottleImg}} | prepend: "/assets/images/cider/" %} 
+                        <img src="{{bottleImg}}">
+                    {% endif %}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="cider-links">
+        <tbody>
+            <tr>
+                <th class="header" colspan="2">Elsewhere</th>
+            </tr>
+            <tr id="cider_links" class="cider">
+                <td class="link">
+                    {% if page.link_untappd %}
+                        <a href="{{page.link_untappd}}" rel="nofollow">
+                            <img src="/assets/images/branding/96px-Untappd-logo.png" alt="untappd logo" decoding="async" width="96" height="28">
+                        </a>
+                    {% endif %}                    
+                </td>
+                <td class="link">
+                    {% if page.link_ratebeer %}
+                        <a href="{{page.link_ratebeer}}" rel="nofollow">
+                            <img src="/assets/images/branding/96px-RateBeer-logo.png" alt="ratebeer logo" decoding="async" width="96" height="28">
+                        </a>
+                    {% endif %}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</aside>

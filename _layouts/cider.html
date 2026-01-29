@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+    {% include page__hero.html %}
+  {% elsif page.header.video.id and page.header.video.provider %}
+    {% include page__hero_video.html %}
+  {% endif %}
+  
+  {% assign breadcrumbs_enabled = site.breadcrumbs %}
+  {% if page.breadcrumbs != null %}
+    {% assign breadcrumbs_enabled = page.breadcrumbs %}
+  {% endif %}
+  {% if page.url != "/" and breadcrumbs_enabled %}
+    {% unless paginator %}
+      {% include breadcrumbs.html %}
+    {% endunless %}
+  {% endif %}
+  
+  <div id="main" role="main">
+    {% include sidebar.html %}
+    <article class="page" itemscope itemtype="https://schema.org/Product"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+      {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+      {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+      <div class="page__inner-wrap">
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <header>
+            {% if page.title -%}
+            <h1 id="page-title" class="page__title" itemprop="headline">
+              <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+            </h1>
+            {%- endif %}
+            {% if page.subtitle %}<span class="subtitle">{{page.subtitle}}</span>{% endif %}
+            {% include page__meta.html %}
+          </header>
+        {% endunless %}  
+        
+        <section class="page__content" itemprop="text">
+            <!--- Cider Infobox --->
+            {% include infobox-cider.html %}
+            {{ content }}
+            <h3>Appearance</h3>
+
+            <table id="cider_appearance" class="tasting">
+                <p>Asturians put great stock in the proper appearance and presentation of the cider. Perhaps more so than anywhere else I’ve ever drunk cider. For that reason, there is a well-developed vocabulary in Asturias for describing the visual aspects of sidra natural.</p>
+                <tr>
+                    <td class="label">Color:</td>
+                    <td class="value">{{page.color}} ({{page.srm}} SRM)</td>
+                </tr>
+                <tr>
+                    <td class="label">Clarity:</td>
+                    {% case page.clarity %}
+                        {% when 1 %}
+                            <td class="value">Cloudy</td>
+                        {% when 2 %}
+                            <td class="value">Hazy</td>
+                        {% when 3 %}
+                            <td class="value">Bright</td>
+                        {% when 4 %}
+                            <td class="value">Brilliant</td>
+                    {% endcase %}
+                    
+                </tr>
+                <tr>
+                    <td class="label">Espalme:</td>
+                    {% case page.espalme %}
+                        {% when 1 %}
+                            <td class="value"><b>Plasmáu</b> - <i>no detectable carbon dioxide</i></td>
+                        {% when 2 %}
+                            <td class="value"><b>Desvanecíu</b> - <i>very little carbon dioxide, dissipating too quickly</i></td>
+                        {% when 3 %}
+                            <td class="value"><b>Panizal</b> - <i>lively carbon dioxide, well balanced</i></td>
+                        {% when 4 %}
+                            <td class="value"><b>Volador</b> - <i>highly carbonated; but not to the point of flying corks</i></td>
+                        {% when 5 %}
+                            <td class="value"><b>Axiblatau</b> - <i>an excess of carbon dioxide, dangerously over carbonated</i></td>
+                    {% endcase %}                   
+                </tr>
+                <tr>
+                    <td class="label">Pegue:</td>
+                    <td class="value">{{page.pegue}}</td>
+                </tr>
+            </table>
+
+            <h3>Mouthfeel</h3>
+            <p>Mouthfeel refers to the physical sensations (as opposed to the aromas and flavors) of the cider. It refers to textures that touch the tongue, roof of the mouth, teeth, throat, and to some extent, the aftertaste sensations.</p>
+            <table id="cider_mouthfeel" class="tasting">
+                <tr>
+                    <td class="label">Body:</td>
+                    {% case page.body %}
+                        {% when 1 %}
+                            <td class="value">Light - thin, ephemeral</td>
+                        {% when 2 %}
+                            <td class="value">Medium - crisp, juicy</td>
+                        {% when 3 %}
+                            <td class="value">Full - creamy, syrupy</td>
+                    {% endcase %}
+                </tr>
+                <tr>
+                    <td class="label">Sensation:</td>
+                    <td class="value">{{page.sensation}}</td>
+                </tr>
+                <tr>
+                    <td class="label">Finish:</td>
+                    {% case page.finish %}
+                        {% when 1 %}
+                            <td class="value">Short (0-15 Seconds)</td>
+                        {% when 2 %}
+                            <td class="value">Medium (15-30 Seconds)</td>
+                        {% when 3 %}
+                            <td class="value">Long (30+ Seconds)</td>
+                    {% endcase %}
+                </tr>
+                <tr>
+                    <td class="label">Balance:</td>
+                    {% case page.balance %}
+                        {% when 1 %}
+                            <td class="value"><b>Floxu</b> - <i>insipid</i></td>
+                        {% when 2 %}
+                            <td class="value"><b>Tiernu</b> - <i>low alcohol and flat, from not being fermented long enough. "too young"</i></td>
+                        {% when 3 %}
+                            <td class="value"><b>Finu</b> - <i>a cider that is "clean", "clear", and "balanced" - The ideal cider flavor profile</i></td>
+                        {% when 4 %}
+                            <td class="value"><b>Fechu</b> - <i>A full bodied cider with high alcohol content and a strong flavor</i></td>
+                        {% when 5 %}
+                            <td class="value"><b>Mui Fechu</b> - <i>overly strong and becoming vinegary. "gone off"</i></td>
+                    {% endcase %}
+                </tr>
+            </table>
+
+            <h3>Aromas & Flavors</h3>
+            <p>Sidra natural has a set of basic aromas and flavors that, to one degree or another, all examples exhibit. Here I rate the relative strength of those basic flavors, and afterwards discuss any additional flavor or aroma components that are noteworthy.</p>
+            <table id="cider_aroma" class="tasting">
+                <tr>
+                    <td class="label">Alcohol:</td>
+                    {% case page.alcohol %}
+                        {% when 1 %}
+                            <td class="value"><b>n/a</b> - <i>non-alcoholic or none detected</i></td>
+                        {% when 2 %}
+                            <td class="value"><b>Blandu</b> - <i>Faintly alcoholic</i></td>
+                        {% when 3 %}
+                            <td class="value"><b>Alma</b> - <i>Balanced alcohol</i></td>
+                        {% when 4 %}
+                            <td class="value"><b>Fechu</b> - <i>A full bodied cider with high alcohol content and a strong flavor</i></td>
+                        {% when 5 %}
+                            <td class="value"><b>Encabazáu</b> - <i>"fortified" Has additional alcohol added to cover defects</i></td>
+                    {% endcase %}
+                </tr>
+                <tr>
+                    <td class="label">Apple Notes:</td>
+                    {% case page.apple %}
+                        {% when 1 %}
+                            <td class="value"><b>Verdín</b> - <i>excessive flavors of unripe apples</i></td>
+                        {% when 2 %}
+                            <td class="value"><b></b> - <i>Apple forward</i></td>
+                        {% when 3 %}
+                            <td class="value"><b></b> - <i>Balanced apple flavors</i></td>
+                        {% when 4 %}
+                            <td class="value"><b></b> - <i>Sweet apples (table apples)</i></td>
+                        {% when 5 %}
+                            <td class="value"><b></b> - <i>Overly ripe / wine like apple flavor</i></td>
+                    {% endcase %}
+                </tr>
+                <tr>
+                    <td class="label">Acetic Notes:</td>
+                    {% case page.acetic %}
+                        {% when 1 %}
+                            <td class="value"><b>Fema</b> - <i>low or undetectable amounts of acetic acid</i></td>
+                        {% when 2 %}
+                            <td class="value"><b></b> - <i>Pleasant balanced acetic qualities</i></td>
+                        {% when 3 %}
+                            <td class="value"><b>Machu</b> - <i>A very full bodied cider with much more acetic notes and very little sweetness.</i></td>
+                        {% when 4 %}
+                            <td class="value"><b>Pa la fábrica</b> - <i>noticeably off, and best for making vinegar</i></td>
+                        {% when 5 %}
+                            <td class="value"><b>Resquemor</b> - <i>this is already vinegar. Attacks the tongue</i></td>
+                    {% endcase %}
+                </tr>
+                <tr>
+                    <td class="label">Astringency:</td>
+                    {% case page.astringent %}
+                        {% when 1 %}
+                            <td class="value"><b>de Restallu</b> - <i>Strong, astringent, mouth-puckering cider.</i></td>
+                        {% when 2 %}
+                            <td class="value"><b>Agrín</b> - <i>Strong, dry, cider.</i></td>
+                        {% when 3 %}
+                            <td class="value"><b>Secante</b> - <i>refreshingly dry and stimulating to the palate.</i></td>
+                        {% when 4 %}
+                            <td class="value"><b>Fema</b> - <i>more sweet than tart, with little acidity or astringency, without any strong notes.</i></td>
+                        {% when 5 %}
+                            <td class="value"><b>Dulcín</b> - <i>unwanted levels of sweetness due to incomplete fermentation.</i></td>
+                    {% endcase %}
+                </tr>
+            </table>
+                        
+            <h2>About Cider Tasting</h2>
+            <p class="parenthetical">This evaluation standard is my own. It is not created or endorsed by any official body in Asturias or elsewhere. I designed it based on the work of the <a href="https://www.brewersassociation.org/">Brewer’s Association</a> and the work of Travis Robert Alexander & Brianna L. Ewing Valliere of the Washington State University Center for Sustainable Agriculture and Natural Resources. It is also informed by the traditional vocabulary used to describe cider in Asturias. You can read more about my <a href="/culture/products/cider/cider-methodology.html">Cider Tasting Methodology</a>, my <a href="/culture/products/cider/evaluation-standard.html">Cider Evaluation Standard</a> for evaluating Asturian cider, and the <a href="/culture/products/cider/cider-lexicon.html">Asturian Cider Lexicon</a> I use.</p>
+            
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        </section>
+  
+        <footer class="page__meta">
+          {% if site.data.ui-text[site.locale].meta_label %}
+            <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          {% endif %}
+          {% include page__taxonomy.html %}
+          {% include page__date.html %}
+        </footer>
+      </div>
+    </article>
+  </div>

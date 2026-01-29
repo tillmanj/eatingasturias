@@ -38,3 +38,25 @@ td,
 th {
   vertical-align: middle;
 }
+
+/* 
+Tasting Note Table Styles
+========================================================================== */
+
+table.tasting {
+  width: 95%;
+}
+
+table.tasting > tbody > tr > td.label {
+  text-align: end;
+  font-family: $sans-serif-narrow;
+  font-weight: 700;
+  width: fit-content;
+  white-space: nowrap;
+  max-width: 45%;
+}
+
+table.tasting > tbody > tr > td.value {
+  text-align: start;
+  font-style: italic;
+}

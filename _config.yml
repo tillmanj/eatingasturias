@@ -327,6 +327,7 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-maps
   - microformats
+  - jekyll-redirect-from
   - jekyll-scholar
   - jekyll-sidenotes
   - jekyll-sitemap

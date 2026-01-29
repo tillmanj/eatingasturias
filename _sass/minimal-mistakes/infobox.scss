@@ -8,9 +8,8 @@ td.image {
 }
 
 .infobox img {
-    max-width: max-content;
     margin-top: unset;
-    object-fit: contain
+    object-fit: scale-down;
 }
 
 .infobox > table {
@@ -139,6 +138,11 @@ tr.about td {
     justify-content: right;
 }
 
+.divider {
+    border-top: 1px solid mix(#000, $border-color, 25%);
+    
+}
+
 /* Business Socials styles
 ------------------------------------------------------*/
 td.social-icon { 
@@ -225,4 +229,69 @@ tr.cheese td.descriptor {
     width: 80% !important;
 }
 
-/* infobox-conceyo.html styles */
+/* infobox-cider.html styles */
+
+td.link {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+td.image_label {
+    width: 33%;
+    margin:auto;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.image_display > img {
+    max-width: 100%;
+}
+
+
+
+/* infobox-rating block styles */
+.rating {
+  --background-color: #dcdf80;
+  --icon-color: #54692a;
+  --height: 30px;
+  --aspect-ratio: 168/30;
+  --background-size: 34px 32px;
+  aspect-ratio: var(--aspect-ratio);
+  height: var(--height);
+  position: relative;
+}
+
+.rating meter {
+  position: absolute;
+  inset: 0;
+  background: none;
+  background-color: var(--background-color);
+  height: var(--height);
+  width: auto;
+}
+
+.rating ::-moz-meter-bar {
+  background: none;
+  background-color: var(--icon-color);
+}
+.rating ::-webkit-meter-bar {
+  background: var(--background-color);
+  border: 0;
+  border-radius: 0;
+  height: var(--height);
+}
+.rating ::-webkit-meter-optimum-value {
+  background: var(--icon-color);
+}
+
+.rating:after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 16'%3E%3Cpath d='M17 0v16H0V0h17ZM8.87.788a.97.97 0 0 0-1.745 0L5.177 4.796l-4.351.643a.967.967 0 0 0-.779.657.974.974 0 0 0 .24.991l3.157 3.124-.746 4.415a.974.974 0 0 0 1.415 1.018l3.888-2.076 3.887 2.076a.971.971 0 0 0 1.415-1.018l-.748-4.415 3.157-3.124a.968.968 0 0 0-.539-1.648l-4.354-.643L8.87.788Z' fill='%23ffffff'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: var(--background-size);
+}
