@@ -25,13 +25,10 @@ group :jekyll_plugins do
   gem "jekyll-leaflet"
   gem 'jekyll-link-attributes'
   gem 'jekyll-loading-lazy'
-  gem 'jekyll-maps'
   gem 'jekyll-redirect-from'
   gem 'jekyll-scholar'
-  gem 'jekyll-sidenotes'
   gem 'jekyll-sitemap'
   gem 'jekyll-webmention_io'
-  gem 'jekyll-wikirefs'  
   gem 'microformats'
 end
 

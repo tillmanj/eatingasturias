@@ -325,22 +325,20 @@ plugins:
   - jekyll-leaflet
   - jekyll-link-attributes
   - jekyll-loading-lazy
-  - jekyll-maps
   - microformats
   - jekyll-redirect-from
   - jekyll-scholar
-  - jekyll-sidenotes
   - jekyll-sitemap
   - jekyll-webmention_io
-  - jekyll-wikirefs
 
 # PLUGIN: jekyll-analytics
+# https://github.com/hendrikschneider/jekyll-analytics
 google_site_verification: TDSlnEqLiDJGZc7K3Hs2lfVEq1R4QS8ZVTe6Qr2X4J4
 # https://matomo.org/gdpr-analytics/
 jekyll_analytics:
   Matomo:                           # Add, if you want to track with Matomo (former Piwik Analytics)
     url: matomo.eatingasturias.com  # Required - url to Matomo installation without trailing /
-    siteId: "1"                  # Required - replace with your Matomo site id (Write id as string)
+    siteId: "1"                     # Required - replace with your Matomo site id (Write id as string)
 
 # PLUGIN: jekyll-archives
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
@@ -365,17 +363,8 @@ jekyll-archives:
     tag: '/news/tag/:name/'
     category: '/news/category/:name/'
 
-# PLUGIN: jekyll-darkvisitors
-# https://github.com/pettazz/jekyll-darkvisitors
-# darkvisitors:
-#   access_token: {{ site.env.DARK_VISITORS_ACCESS_TOKEN }}
-#   append_existing: false
-#   agent_types:
-#     - AI Data Scraper
-#    - AI Assistant
-#    - AI Search Crawler
-#    - Undocumented AI Agent
-#  disallow: /
+# PLUGIN: jekyll-environment-variables
+# https://github.com/iBug/jekyll-environment-variables
 
 # PLUGIN: jekyll-feed
 # https://github.com/jekyll/jekyll-feed
@@ -386,12 +375,16 @@ feed:
 #     - articles
 
 # PLUGIN: jekyll-glossary_tooltip
+# https://github.com/erikw/jekyll-glossary_tooltip
 
 # PLUGIN: jekyll-image-size
+# https://github.com/generalui/jekyll-image-size
 
 # PLUGIN: jekyll-include-cache
+# https://github.com/benbalter/jekyll-include-cache
 
 # PLUGIN: jekyll-last-modified-at
+# https://github.com/gjtorikian/jekyll-last-modified-at
 last-modified-at:
     date-format: '%Y-%m-%d'
 
@@ -400,6 +393,7 @@ last-modified-at:
 # Providers List: https://leaflet-extras.github.io/leaflet-providers/preview/index.html 
 
 # PLUGIN: jekyll-link-attributes
+# https://github.com/twinsunllc/jekyll-link-attributes
 external_links:
   enabled: true
   rel: external nofollow noopener
@@ -408,8 +402,15 @@ external_links:
     - https://jontillman.me
 
 # PLUGIN: jekyll-loading-lazy
+# https://github.com/gildesmarais/jekyll-loading-lazy
 
-# PLUGIN: microformats
+# RUBY: microformats
+# https://github.com/microformats/microformats-ruby
+# https://www.rubydoc.info/gems/microformats/4.5.0
+# SEE ALSO: indieweb-endpoints
+
+# PLUGIN: jekyll-redirect-from
+# https://github.com/jekyll/jekyll-redirect-from
 
 # PLUGIN: jekyll-scholar
 # https://github.com/inukshuk/jekyll-scholar
@@ -456,10 +457,10 @@ scholar:
   relative: /resources/bibliography/
 
 # PLUGIN: jekyll-sitemap
+# https://github.com/jekyll/jekyll-sitemap
 
-# PLUGIN: tzinfo
-
-# PLUGIN: jekyll-wikirefs
+# RUBY: tzinfo
+# https://tzinfo.github.io/
 
 # PLUGIN: jekyll-webmentions
 # https://aarongustafson.github.io/jekyll-webmention_io/tags/webmentions_js
