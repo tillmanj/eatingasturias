@@ -14,6 +14,7 @@ gem "minimal-mistakes-jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-admin"
   gem "jekyll-analytics"
   gem "jekyll-archives"
   gem "jekyll-environment-variables"

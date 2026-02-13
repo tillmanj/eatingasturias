@@ -265,6 +265,7 @@ collections:
   posts:
     output: true
     permalink: /news/:year/:month/:day/:title/
+    sidebar_label: Weeknotes
   bars:
     output: true
   beers:
@@ -314,6 +315,7 @@ lunr:
 
 # Load Plugins
 plugins:
+  - jekyll-admin
   - jekyll-analytics
   - jekyll-archives
   - jekyll-environment-variables
@@ -330,6 +332,16 @@ plugins:
   - jekyll-scholar
   - jekyll-sitemap
   - jekyll-webmention_io
+
+# PLUGIN: jekyll-admin
+# https://github.com/jekyll/jekyll-admin/
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
 
 # PLUGIN: jekyll-analytics
 # https://github.com/hendrikschneider/jekyll-analytics
