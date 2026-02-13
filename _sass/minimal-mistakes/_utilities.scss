@@ -6,12 +6,19 @@
    Visibility
    ========================================================================== */
 
-/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/
+   http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+*/
 
 .hidden,
 .is--hidden {
+  font-size: 0;
+  color: transparent;
   display: none;
   visibility: hidden;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* for preloading images */
