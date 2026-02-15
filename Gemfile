@@ -12,7 +12,21 @@ gem "jekyll", "~> 4.4.1"
 
 gem "minimal-mistakes-jekyll"
 
-# If you have any plugins, put them here!
+# Non-jekyll specific gems we need to manage
+group :ruby_plugins do
+  gem 'activesupport'
+  gem 'indieweb-endpoints'
+  gem 'jsonpath'
+  gem 'link-header-parser'
+  gem 'microformats'
+  gem 'octokit'
+  gem 'openssl'
+  gem 'terminal-table'
+  gem 'unicode-display_width'
+  gem 'webmention'
+end
+
+# Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-admin"
   gem "jekyll-analytics"
@@ -30,7 +44,6 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem 'jekyll-sitemap'
   gem 'jekyll-webmention_io'
-  gem 'microformats'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
