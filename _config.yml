@@ -308,10 +308,10 @@ collections:
 
 # Search
 search: true
-search_provider: lunr # https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/
+search_provider: pagefind
+search_full_content: true
 lunr:
   search_within_pages: true
-  search_full_content: true
 
 # Load Plugins
 plugins:

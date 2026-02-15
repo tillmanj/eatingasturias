@@ -13,7 +13,7 @@ gem "jekyll", "~> 4.4.1"
 gem "minimal-mistakes-jekyll"
 
 # Non-jekyll specific gems we need to manage
-group :ruby_plugins do
+group :ruby_gems do
   gem 'activesupport'
   gem 'indieweb-endpoints'
   gem 'jsonpath'

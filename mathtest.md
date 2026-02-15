@@ -1,11 +1,10 @@
 ---
-term: 
-  connotation: 
-  definition: 
+term:
+  connotation: null
+  definition: null
   domain: sidra
-  subdomain: 
-  topic: 
-
+  subdomain: null
+  topic: null
 layout: page
 title: Test Scratch Pad
 subtitle: you shouldn't be here
@@ -14,21 +13,21 @@ recipeIngredients:
   - step one
   - title: step two
     steps:
-    - 1 whole chicken, cleaned
-    - 2 bay leaf
-    - 2 whole onion
-    - 3 cloves garlic
-    - 2 ribs celery
-    - 1 tbsp pimentón
-    - 1 tbsp cumin
-    - 10 whole peppercorns
+      - 1 whole chicken, cleaned
+      - 2 bay leaf
+      - 2 whole onion
+      - 3 cloves garlic
+      - 2 ribs celery
+      - 1 tbsp pimentón
+      - 1 tbsp cumin
+      - 10 whole peppercorns
   - title: step three
     steps:
-    - Meat from one chicken
-    - 320g short grain rice
-    - 150g baby carrot, frozen
-    - 150g corn, frozen
-    - 150g green beans or peas, frozen
+      - Meat from one chicken
+      - 320g short grain rice
+      - 150g baby carrot, frozen
+      - 150g corn, frozen
+      - 150g green beans or peas, frozen
   - step four
 recipeInstructions:
   - Combine all the broth ingredients in your slow cooker, and fill with water to just cover the chicken (about 2 quarts).
@@ -39,24 +38,14 @@ recipeInstructions:
   - Strain broth, discarding vegetables and seasonings.
   - Refrigerate for 8 hours or overnight.
   - Skim fat from surface.
+lastmod: 2026-02-15T17:37:41.038Z
 ---
+## Old Pagefind 1.4 search box
+<div id="search"></div>
 
-{% if page.recipeIngredients %}
-  <h2>Ingredients</h2>
-  <ul class="ingredients">
-  {% for ingredient in page.recipeIngredients %}
-    <li>
-      {% if ingredient.title %}
-        {{ingredient.title}}
-          <ul>
-          {% for step in ingredient.steps %}
-            <li>{{step}}</li>
-          {% endfor%}
-          </ul>
-      {% else %}
-        {{ingredient}}
-      {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
-{% endif  %}
+## Pagefind 1.5 search box
+<pagefind-searchbox></pagefind-searchbox>
+
+## Pagefind 1.5 modal
+<pagefind-modal-trigger></pagefind-modal-trigger>
+<pagefind-modal></pagefind-modal>
