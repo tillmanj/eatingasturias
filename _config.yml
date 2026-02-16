@@ -20,7 +20,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 locale: "en-US"
 timezone: Europe/Madrid
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: [
+exclude: [ # files that should not be monitored, and thus will not trigger rebuilds when using --watch
   'Gemfile',
   'Gemfile.lock',
   'Rakefile',
@@ -40,7 +40,8 @@ exclude: [
   'jekyll up.cmd',
   'jekyll_build.cmd',
   'Snippets.md',
-  'hints.md'
+  'hints.md',
+  'task-tree.json'
 ]
 include:
   - _pages
