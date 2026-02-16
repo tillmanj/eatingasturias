@@ -1,0 +1,37 @@
+belgian-style-blonde-ale:
+  style: Belgian-Style Blonde Ale
+  slug: belgian-style-blonde-ale
+  type: Ale
+  group: Belgian and French Origin Ale Styles
+  color: Straw to light amber
+  clarity: Chill haze is acceptable at low temperatures
+  malt: Low to medium 
+  hop: Very low to medium. Noble-type hops are commonly used. 
+  bitter: Very low to medium-low
+  ferment: Medium to medium-high fruity esters are balanced with low to medium level malt attributes. Low level yeast-derived phenolic spiciness may be present. Diacetyl and acidic character should not be present.
+  body: Low to medium
+  og: 1.054-1.068
+  fg: 1.01-1.014
+  abw: 5.00%-6.20%
+  abv: 6.30%-7.90%
+  ibu: 15-40
+  srm: 2-7
+  ebc: 4-14
+ordinary-bitter:
+  style: Ordinary Bitter
+  type: Ale
+  group: British Origin Ale Styles
+  color: Gold to copper-colored
+  clarity: Chill haze is allowable at cold temperatures
+  malt: Low to medium residual malt sweetness should be present 
+  hop: Very low to medium-low 
+  bitter: Medium
+  ferment: Mild carbonation traditionally characterizes draft-cask versions, but in bottled versions, a slight increase in carbon dioxide content is acceptable. Fruity esters are acceptable. Diacetyl is usually absent in these beers but may be present at low levels
+  body: Low to medium
+  og: 1.033-1.038
+  fg: 1.006-1.012
+  abw: 2.40%-3.30%
+  abv: 3.00%-4.20%
+  ibu: 20-35
+  srm: 5-12
+  ebc: 10-24

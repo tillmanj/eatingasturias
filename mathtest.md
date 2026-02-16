@@ -9,43 +9,24 @@ layout: page
 title: Test Scratch Pad
 subtitle: you shouldn't be here
 permalink: /test/
-recipeIngredients:
-  - step one
-  - title: step two
-    steps:
-      - 1 whole chicken, cleaned
-      - 2 bay leaf
-      - 2 whole onion
-      - 3 cloves garlic
-      - 2 ribs celery
-      - 1 tbsp pimentón
-      - 1 tbsp cumin
-      - 10 whole peppercorns
-  - title: step three
-    steps:
-      - Meat from one chicken
-      - 320g short grain rice
-      - 150g baby carrot, frozen
-      - 150g corn, frozen
-      - 150g green beans or peas, frozen
-  - step four
-recipeInstructions:
-  - Combine all the broth ingredients in your slow cooker, and fill with water to just cover the chicken (about 2 quarts).
-  - Set the slow cooker to low and let cook overnight.
-  - In the morning, turn off the slow cooker and remove the chicken to a strainer set over a bowl. Let cool.
-  - Once chicken is cool enough to handle;  remove meat from bones.
-  - Discard bones and skin; save meat for the stew.
-  - Strain broth, discarding vegetables and seasonings.
-  - Refrigerate for 8 hours or overnight.
-  - Skim fat from surface.
-lastmod: 2026-02-15T17:37:41.038Z
+style: Belgian-Style Blonde Ale
+lastmod: 2026-02-16T21:48:38.274Z
 ---
-## Old Pagefind 1.4 search box
-<div id="search"></div>
+## styleSlug
+{% assign styleSlug = page.style | slugify "ascii" %}
 
-## Pagefind 1.5 search box
-<pagefind-searchbox></pagefind-searchbox>
+styleSlug == {{styleSlug}}
 
-## Pagefind 1.5 modal
-<pagefind-modal-trigger></pagefind-modal-trigger>
-<pagefind-modal></pagefind-modal>
+## thisStyle
+### assign
+{% assign thisStyle = site.data.beer_styles | find: "slug", {{styleSlug}}  %}
+{{thisStyle | inspect}}
+### enumerate
+- {{thisStyle.slug}}
+- {{thisStyle.style}}
+- {{thisStyle.og}}
+
+## beer_styles.yml loop
+{% for test in site.data.beer_styles %}
+  - {{test.[0]}}
+{% endfor %}

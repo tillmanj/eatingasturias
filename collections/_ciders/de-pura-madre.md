@@ -1,14 +1,14 @@
 ---
 layout: cider
 title: De Pura Madre
-subtitle: ''
+subtitle: ""
 permalink: /culture/products/cider/JR/de-pura-madre.html
 redirect_from:
-    - /visit/llagares/JR/de-pira-madre.html
+  - /visit/llagares/JR/de-pura-madre.html
 toc: false
 toc_sticky: true
-toc_label:
-sidebar: 
+toc_label: null
+sidebar:
   nav: culture_full
 label_image: JR_label_de_pura_madre.png
 llagar: JR
@@ -20,7 +20,7 @@ color: Yellow
 srm: 5
 clarity: 2
 espalme: 3
-pegue: "Slick and sticky bubbles last a long time."
+pegue: Slick and sticky bubbles last a long time.
 body: 3
 sensation: "A powerful apple attack and a long semi-dry finish "
 finish: 2
@@ -35,10 +35,11 @@ rate_fresh: 5
 rate_sweet: 3
 rate_intense: 4.5
 image_bottle: De_Pura_Madre_bottle.jpg
-image_color:
-image_glass:
+image_color: null
+image_glass: null
 link_untappd: https://untappd.com/b/sidra-natural-altoinfanzon-jr-de-pura-madre/4419839
-link_ratebeer:
+link_ratebeer: null
+lastmod: 2026-02-16T11:00:22.894Z
 ---
 A limited edition of the first batch of cider of each year, and available only for a month or two, De Pura Madre is JR’s homage to the old ways of cider making.
 

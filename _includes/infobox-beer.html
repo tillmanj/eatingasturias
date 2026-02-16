@@ -1,72 +1,11 @@
-<style>
-    .slider{
-    width: 290px;
-    height: 600px;
-    position: relative;
-}
-
-.slide{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    font-size: 3em;
-    color: white;
-    transition: all .5s ease-in-out;
-}
-
-.slide:not(:target),
-:target ~ #slide4{
-  opacity: 0;
-}
-
-#slide4{
-  opacity: 1;
-}
-
-nav.infobox {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 20;
-}
-
-nav.infobox a{
-    background: #dcdf80;
-    color: #54692a;
-    border-radius: 20%;
-    border-color: black;
-    border-width: 1px;
-    padding: 1px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav.infobox a:hover{
-    opacity: .6;
-}
-</style>
-
 <aside class="sidebar__right infobox">
-    <table id="cider-info">
+    <table id="beer-info">
         <tbody>
             {% if page.label_image %}
                 {%  assign imgName = {{page.label_image | url_decode }} %}
                 {%  assign imgName = {{imgName}} | prepend: "/" %}
-                {%  assign imgName = {{imgName}} | prepend: page.llagar %}
-                {%  assign imgName = {{imgName}} | prepend: "/assets/images/cider/" %}
+                {%  assign imgName = {{imgName}} | prepend: page.brewery %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/beer/" %}
                 <tr>
                     <td colspan="6" class="image">
                         <figure>
@@ -80,56 +19,48 @@ nav.infobox a:hover{
                     </td>
                 </tr>
             {% endif %}
-            <tr class="about cider">
-                <td class="infobox-label">Llagar</td>
-                <td class="value">{{page.llagar}}</td>
+            <tr class="about beer">
+                <td class="infobox-label">Brewery</td>
+                <td class="value"><a href="/visit/breweries/{{page.brewery | slugify: "ascii"}}.html">{{page.brewery}}</a></td>
             </tr>
-            <tr class="about cider">
-                <td class="infobox-label">Cider Type</td>
-                <td class="value">{{page.type}}</td>
+            <tr class="about beer">
+                <td class="infobox-label">Beer Style</td>
+                <td class="value">{{page.style}}</td>
             </tr>
-            <tr class="about cider">
-                <td class="infobox-label">DOP</td>
-                <td class="value">{{page.dop}}</td>
-            </tr>
-            <tr class="about cider">
-                <td class="infobox-label">Format</td>
-                <td class="value">{{page.type}}</td>
-            </tr>
-            <tr class="about cider">
+            <tr class="about beer">
                 <td class="infobox-label">Alcohol</td>
                 <td class="value">{{page.abv}} ABV</td>
             </tr>
         </tbody>
     </table>
-    <table id="cider-rating" class="divider">
+    <table id="beer-rating" class="divider">
         <tbody>
             <tr>
                 <th class="header" colspan="2">Ratings</th>
             </tr>
-            <tr id="cider_rating_style" class="about cider">
+            <tr id="beer_rating_style" class="about beer">
                 <td class="infobox-label">In Style</td>
                 <td class="value"><div class="rating" title="{{page.rate_style}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_style}}" title="{{page.rate_style}} out of 5 stars"></meter></div></td>
             </tr>
-            <tr id="cider_rating_excite" class="about cider">
+            <tr id="beer_rating_excite" class="about beer">
                 <td class="infobox-label">Excitement</td>
                 <td class="value"><div class="rating" title="{{page.rate_excite}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_excite}}" title="{{page.rate_excite}} out of 5 stars"></meter></div></td>
             </tr>
-            <tr id="cider_rating_fresh" class="about cider">
+            <tr id="beer_rating_fresh" class="about beer">
                 <td class="infobox-label">Freshness</td>
                 <td class="value"><div class="rating" title="{{page.rate_fresh}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_fresh}}" title="{{page.rate_fresh}} out of 5 stars"></meter></div></td>
             </tr>
-            <tr id="cider_rating_sweet" class="about cider">
+            <tr id="beer_rating_sweet" class="about beer">
                 <td class="infobox-label">Sweetness</td>
                 <td class="value"><div class="rating" title="{{page.rate_sweet}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_sweet}}" title="{{page.rate_sweet}} out of 5 stars"></meter></div></td>
             </tr>
-            <tr id="cider_rating_intense" class="about cider">
+            <tr id="beer_rating_intense" class="about beer">
                 <td class="label">Intensity</td>
                 <td class="value"><div class="rating" title="{{page.rate_intense}} out of 5 stars"><meter class="star-rating" min="0" max="5" value="{{page.rate_intense}}" title="{{page.rate_intense}} out of 5 stars"></meter></div></td>
             </tr>
         </tbody>
     </table>
-    <table id="cider-images">
+    <table id="beer-images" class="divider">
         <tbody>
             <tr>
                 <td class="image_display" colspan="3">
@@ -139,22 +70,22 @@ nav.infobox a:hover{
                                 {% if page.image_bottle %}
                                     {%  assign bottleImg = {{page.image_bottle | url_decode }} %}
                                     {%  assign bottleImg = {{bottleImg}} | prepend: "/" %}
-                                    {%  assign bottleImg = {{bottleImg}} | prepend: page.llagar %}
-                                    {%  assign bottleImg = {{bottleImg}} | prepend: "/assets/images/cider/" %} 
+                                    {%  assign bottleImg = {{bottleImg}} | prepend: page.brewery %}
+                                    {%  assign bottleImg = {{bottleImg}} | prepend: "/assets/images/beer/" %} 
                                     <div id="slide-1"><img src="{{bottleImg}}"></div>                                    
                                 {% endif %}
                                 {% if page.image_glass %}
                                     {%  assign glassImg = {{page.image_glass | url_decode }} %}
                                     {%  assign glassImg = {{glassImg}} | prepend: "/" %}
-                                    {%  assign glassImg = {{glassImg}} | prepend: page.llagar %}
-                                    {%  assign glassImg = {{glassImg}} | prepend: "/assets/images/cider/" %} 
+                                    {%  assign glassImg = {{glassImg}} | prepend: page.brewery %}
+                                    {%  assign glassImg = {{glassImg}} | prepend: "/assets/images/beer/" %} 
                                     <div id="slide-2"><img src="{{glassImg}}"></div>
                                 {% endif %}
                                 {% if page.image_color %}
                                     {%  assign colorImg = {{page.image_color | url_decode }} %}
                                     {%  assign colorImg = {{colorImg}} | prepend: "/" %}
-                                    {%  assign colorImg = {{colorImg}} | prepend: page.llagar %}
-                                    {%  assign colorImg = {{colorImg}} | prepend: "/assets/images/cider/" %} 
+                                    {%  assign colorImg = {{colorImg}} | prepend: page.brewery %}
+                                    {%  assign colorImg = {{colorImg}} | prepend: "/assets/images/beer/" %} 
                                     <div id="slide-3"><img src="{{colorImg}}"></div>
                                 {% endif %}
                             </div>
@@ -167,12 +98,12 @@ nav.infobox a:hover{
             </tr>
         </tbody>
     </table>
-    <table id="cider-links">
+    <table id="beer-links">
         <tbody>
             <tr>
                 <th class="header" colspan="2">Elsewhere</th>
             </tr>
-            <tr id="cider_links" class="cider">
+            <tr id="beer_links" class="beer">
                 <td class="link">
                     {% if page.link_untappd %}
                         <a href="{{page.link_untappd}}" rel="nofollow">
@@ -181,9 +112,9 @@ nav.infobox a:hover{
                     {% endif %}                    
                 </td>
                 <td class="link">
-                    {% if page.link_ratecider %}
-                        <a href="{{page.link_ratecider}}" rel="nofollow">
-                            <img src="/assets/images/branding/96px-Ratecider-logo.png" alt="ratecider logo" decoding="async" width="96" height="28">
+                    {% if page.link_ratebeer %}
+                        <a href="{{page.link_ratebeer}}" rel="nofollow">
+                            <img src="/assets/images/branding/96px-RateBeer-logo.png" alt="ratebeer logo" decoding="async" width="96" height="28">
                         </a>
                     {% endif %}
                 </td>

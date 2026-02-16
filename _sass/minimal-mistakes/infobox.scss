@@ -90,6 +90,7 @@ td.image {
 
 .infobox > table > tbody > tr.about > td:nth-child(2) {
     font-style: italic;
+    text-wrap: nowrap;
 }
 
 tr.about td {
@@ -294,4 +295,76 @@ td.image_label {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 16'%3E%3Cpath d='M17 0v16H0V0h17ZM8.87.788a.97.97 0 0 0-1.745 0L5.177 4.796l-4.351.643a.967.967 0 0 0-.779.657.974.974 0 0 0 .24.991l3.157 3.124-.746 4.415a.974.974 0 0 0 1.415 1.018l3.888-2.076 3.887 2.076a.971.971 0 0 0 1.415-1.018l-.748-4.415 3.157-3.124a.968.968 0 0 0-.539-1.648l-4.354-.643L8.87.788Z' fill='%23ffffff'/%3E%3C/svg%3E");
   background-repeat: repeat-x;
   background-size: var(--background-size);
+}
+
+/* Infobox Image Switcher */
+.slider {
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.slider::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+  display: none;
+}
+.slides {
+  display: flex;  
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 290px;
+  height: 600px;
+  margin-right: 50px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+/*   transform: scale(0.8); */
+}
+
+.slider > a {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
 }
