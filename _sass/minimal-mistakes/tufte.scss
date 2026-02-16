@@ -234,3 +234,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
     figcaption.maincolumn-figure, figure.fullwidth figcaption { float:none; text-align: center;}
     figure.fullwidth figcaption { margin-left: 0; }
 }
+
+.small_caps {
+    font-variant: small-caps;
+}

@@ -11,6 +11,7 @@ comments: true
 share: false
 related: false
 toc: true
+lastmod: 2026-02-16T08:22:09.227Z
 ---
 Perhaps this topic doesn't merit its own post, simply because if this site [isn't a blog](/news/2024/12/30/iterative-writing/), then it probably doesn't need comments. But, lots of other types of sites have comment sections, and whether or not to have one is a decision everyone making a website has to make, so here is my thinking on the subject.
 
@@ -36,3 +37,5 @@ I have a smallholding that feeds and otherwise provisions my family, this full-t
 Instead of a comments section under every article I write, I have implemented a system that allows people to comment on, or respond to, things that I write **elsewhere on the web**, and automatically notify my website that they have done so. Old people reading this might recognize that as Trackbacks or Pingbacks. Yes, that is the idea I am talking about, if not the exact technology.
 
 I use WebMention, a [W3C Recommendation](https://www.w3.org/TR/webmention/) to automatically manage display of responses mentioning my articles elsewhere on the internet. Anyone who writes about my site can ping me with a WebMention either directly or using a service, and that response will get filed under the correct article.
+
+If you would like to discuss an article directly with me, there is an email link at the bottom of every page on this site that will allow you to do so directly. I reserve the right to publish all emails sent to me this way as comments under the article.

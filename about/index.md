@@ -5,6 +5,7 @@ subtitle: What we do and how we do it
 permalink: /about/
 toc: true
 toc_sticky: true
+lastmod: 2026-02-16T08:34:42.919Z
 ---
 Eating Asturias is a serial publication of investigation into the gastronomy of Asturias. It is published on an irregular schedule in the English language.
 
@@ -18,9 +19,9 @@ Raquel Cortés Mazuelas – Translation editor, copy editor
 
 ## What We Do
 
-We strive to be trustworthy reporters of facts, ideas, and opinions. We do so as independently and honestly as possible. All the information on our website has been checked as carefully as we can. We make every effort to ensure that the information provided is complete, up-to-date and factually correct. It is, however, impossible to guarantee that all errors have been excluded. No liability can therefore be accepted for the information’s completeness, accuracy or currency. For complete details, please see our [Disclaimer](https://eatingasturias.com/wiki/Eating_Asturias:General_disclaimer "Eating Asturias:General disclaimer"). We subscribe to the principles of the Association of Food Journalists' [Code of Ethics](https://www.poynter.org/ethics-trust/2021/association-of-food-journalists-code-of-ethics/).
+We strive to be trustworthy reporters of facts, ideas, and opinions. We do so as independently and honestly as possible. All the information on our website has been checked as carefully as we can. We make every effort to ensure that the information provided is complete, up-to-date and factually correct. It is, however, impossible to guarantee that all errors have been excluded. No liability can therefore be accepted for the information’s completeness, accuracy or currency. For complete details, please see our [Disclaimer](/about/disclaimer/). We subscribe to the principles of the Association of Food Journalists' [Code of Ethics](https://www.poynter.org/ethics-trust/2021/association-of-food-journalists-code-of-ethics/).
 
-We collect certain non-identifying information and store it in cookies on your web browser. We also use web analytics software that additionally uses cookies. For complete details, see our [Cookie Policy](https://eatingasturias.com/wiki/Cookie_Policy "Cookie Policy").
+We collect certain non-identifying information and store it in cookies on your web browser. We also use web analytics software that additionally uses cookies. For complete details, see our [Cookie Policy](/about/privacy/#cookies).
 
 ## What We Don’t Do
 
@@ -51,7 +52,7 @@ Our recipes are a special case. While they are covered by the same license as ot
 
 ### Exceptions
 
-Unless otherwise specified in the image, all photos were created by Jon Tillman. All photos taken by Jon Tillman are excluded from this license. Please see our [Image Copyright & Licensing](https://eatingasturias.com/wiki/Image_Copyright_%26_Licensing "Image Copyright & Licensing") page for more details.
+Unless otherwise specified in the image, all photos were created by Jon Tillman. All photos taken by Jon Tillman are excluded from this license. Please see our [Image Copyright & Licensing](/about/policies/#image-copyright--licensing) page for more details.
 
 ## Publication Data
 

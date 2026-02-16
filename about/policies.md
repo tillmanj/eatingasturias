@@ -5,6 +5,7 @@ subtitle: be nice, be kind, give credit
 permalink: /about/policies/
 toc: true
 toc_sticky: true
+lastmod: 2026-02-16T08:13:42.599Z
 ---
 # Advertising Policy
 Advertising on blogs is a thing that exists. Underhanded advertising practices on blogs are also a thing that exists. Some attempts have been made to rein in these underhanded types of advertisements:
@@ -76,3 +77,12 @@ If I have not written about a particular restaurant here, it could be for one of
 That means that you are not going to find negative reviews of restaurants here. You might find a negative thing said about a place as an aside in a story I post about something else. If you try hard enough, you might be able to suss out what exact restaurant I was talking about.
 
 I also will not accept free meals or drinks in exchange for mentioning a restaurant. I only write about meals I have paid for without compensation of any kind.
+
+# Image Copyright & Licensing
+**You are interested in using photos from Eating Asturias?**
+
+Jon Tillman holds the copyright of all photos, except those with a copyright notice – shown next to the image – naming another party.
+
+You have no permission to use any of these photos except Jon Tillman grants a license for one of his photos. For licenses of photos owned by another party you have to contact the copyright owner.
+
+If you want to acquire a license to an Eating Asturias photo please write an email to jon@eatingasturiasjontillman.me with the URL of the page where you have found it.
