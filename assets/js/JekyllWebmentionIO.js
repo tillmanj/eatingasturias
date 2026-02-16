@@ -189,7 +189,7 @@
         incoming[plural_type].push( webmention );
       }
       
-      // If there’s a generic, add it there too
+      // If there's a generic, add it there too
       if ( incoming.webmentions )
       {
         incoming.webmentions.push( webmention );
@@ -528,10 +528,11 @@
   collectExistingWebmentions();
   identifyWebmentionCollections();
   
-}(this, this.document));// @ts-check
+}(this, this.document));
+// @ts-check
 /**
  *  WebMentions.io JS
- *  A re-tooling of Aaron Parecki’s recommended JS for using the WebMention.io API
+ *  A re-tooling of Aaron Parecki's recommended JS for using the WebMention.io API
  * 
  *  Updates Webmentions on a static site immediately when the page is loaded and
  *  in real-time (using WebSockets) as the user engages with the page.
@@ -561,7 +562,8 @@
     return k;
   };
 
-}(this,this.document));var Liquid={author:'Matt McCray <darthapo@gmail.com>',version:'1.3.2',readTemplateFile:function(path){throw("This liquid context does not allow includes.");},registerFilters:function(filters){Liquid.Template.registerFilter(filters);},parse:function(src){return Liquid.Template.parse(src);}};Liquid.extensions={};Liquid.extensions.object={};Liquid.extensions.object.update=function(newObj){for(var p in newObj){this[p]=newObj[p];}
+}(this,this.document));
+var Liquid={author:'Matt McCray <darthapo@gmail.com>',version:'1.3.2',readTemplateFile:function(path){throw("This liquid context does not allow includes.");},registerFilters:function(filters){Liquid.Template.registerFilter(filters);},parse:function(src){return Liquid.Template.parse(src);}};Liquid.extensions={};Liquid.extensions.object={};Liquid.extensions.object.update=function(newObj){for(var p in newObj){this[p]=newObj[p];}
 return this;};Liquid.extensions.object.hasKey=function(arg){return!!this[arg];};Liquid.extensions.object.hasValue=function(arg){for(var p in this){if(this[p]==arg)return true;}
 return false;};Liquid.extensions.object.isEmpty=function(obj){if(!obj||Liquid.extensions.stringTools.strip(obj.toString())==="")return true;if(obj.length&&obj.length>0)return false;if(typeof obj==='number')return false;for(var prop in obj)if(obj[prop])return false;return true;};Liquid.extensions.stringTools={};Liquid.extensions.stringTools.capitalize=function(str){return str.charAt(0).toUpperCase()+str.substring(1).toLowerCase();};Liquid.extensions.stringTools.strip=function(str){return str.replace(/^\s+/,'').replace(/\s+$/,'');};Liquid.extensions.arrayTools={};Liquid.extensions.arrayTools.last=function(array){return array[array.length-1];};Liquid.extensions.arrayTools.indexOf=function(array,obj){for(var i=0;i<array.length;i++){if(array[i]==obj)return i;}
 return-1;};Liquid.extensions.arrayTools.map=function(obj,fun){var len=obj.length;if(typeof fun!="function")
