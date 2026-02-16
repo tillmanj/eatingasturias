@@ -5,13 +5,13 @@ sidebar:
 title: Chorizo a la Sidra
 permalink: /recipes/appetizers/chorizo-a-la-sidra.html
 subtitle: Chorizo stewed in Asturian cider
-conceyu: 
+conceyu: null
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: 1920px-Chorizo_a_la_sidra_EA.jpeg
-recipeImageCaption: Chorizo a la sidra is a classic [tapa](/recipes/courses/tapas/). This bar snack is in every sidrería in Asturias. Here’s how to make an amazing version at home. 
+recipeImageCaption: Chorizo a la sidra is a classic [tapa](/recipes/courses/tapas/). This bar snack is in every sidrería in Asturias. Here’s how to make an amazing version at home.
 prepTime: 30 mins
 cookTime: 1 hour
 totalTime: 1 h 30 m
@@ -22,17 +22,17 @@ suitableForDiet:
   - Diabetic
   - Gluten Free
   - Low Salt
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Easy
 recipeCuisine: Asturian
 cookingMethod: Boiled
 recipeNotes:
   - If you can find the small choricitos, those make an excellent substitute for sliced chorizo.
-recipeCitations:
-recipeSource: 
-isBasedOn:
-mentions:
+recipeCitations: null
+recipeSource: null
+isBasedOn: null
+mentions: null
 recipeCourse: Tapas
 recipeIngredients:
   - 3–4 smoked Asturian chorizos (~250g)
@@ -55,6 +55,9 @@ carbohydrateContent: 5
 fiberContent: 0
 sugarContent: 4.8
 proteinContent: 12.1
+lastmod: 2026-02-14T10:18:19.341Z
+categories:
+  - recipe
 ---
 When you visit Asturias, you are going to drink cider. And when you drink cider, you are probably going to be offered a tapa. Either on a tray carried by a waiter, or an individual dish. The most common of the individual dishes is this classic; chorizo a la sidra. Smoky Asturian chorizo poached in cider, sliced, and served with a toothpick.
 

@@ -1,17 +1,18 @@
 ---
 layout: page
 title: The History of Fabada
-subtitle: The origins of Asturias' most-loved dish
+subtitle: The origins of the most-loved dish in Asturias
 permalink: /culture/history/early-modern/fabada.html
 toc: true
 toc_sticky: true
 toc_label: Fabada History
 sidebar:
   nav: culture_full
+lastmod: 2026-02-15T13:21:07.818Z
 ---
 {%- newthought 'Fabada has a somewhat murky past,'-%} owing to the fact that, like most places, the food of the peasant and later the country dweller, was of little interest to those who wrote treatises on agriculture, travel narratives, and newspapers. Indeed, it is not until the 24th of July, 1884 that Fabada as a dish is mentioned in print.[^6] It is worth noting in that announcement, that fabada is already referred to as “traditional”.
 
-{% marginfigure 'mf01' 'assets/images/2025-03-06 22_15_43-Página 3 del 24 de julio de 1884 Gijon - El Comercio. Resultados de publicación .png' 'The first mention of fabada in print - Página 3 del 24 de julio de 1884 Gijon - El Comercio' %}
+{% marginfigure 'mf01' '/assets/images/history/fabada-first-mention.png' 'The first mention of fabada in print - Página 3 del 24 de julio de 1884 Gijon - El Comercio' %}
 
 So we know it is old enough to be considered a venerable part of Asturian cuisine in 1884, and we know, roughly, how old it can be, at least in it’s current guise. Fabada contains *phaseolus vulgaris* white beans, so it cannot (at least in a recognizable shape and thus under the same name) be older than 1492. Indeed, there are zero records of beans in European herbariums before 1543, though it is known from ships records that common beans were shipped into Spain in 1506 or thereabouts.[^10] 
 
@@ -22,19 +23,17 @@ To find out, we actually have to go much farther back in time. To the fall of th
 
 Most of medieval Europe ate some version of a perpetual stew, a *pottage*. That is exactly what it sounds like:
 
-{% blockquote 'q01' '…an ever-changing broth enriched daily with whatever was available. The cauldron was rarely emptied out except in preparation for the meatless weeks of Lent, so that while a hare, hen or pigeon would give it a fine, meaty flavor, the taste of salted pork or cabbage would linger for days, even weeks.' 'Reay Tannahill' 'Food in History' %}
+{% blockquote 'q01' '…an ever-changing broth enriched daily with whatever was available. The cauldron was rarely emptied out except in preparation for the meatless weeks of Lent, so that while a hare, hen or pigeon would give it a fine, meaty flavor, the taste of salted pork or cabbage would linger for days, even weeks.' 'Reay Tannahill' 'Food in History' '' %}
 
 In Spain this was the *olla podrida*, the forerunner of not just fabada, but of almost every beloved regional stew in the country.[^8] Descended from the Jewish adafina stew, it was popular across the Iberian peninsula.[^9] It was described by Cervantes, through the words of Sancho Panza:
 
-{% blockquote 'q02' '“*Aquel platonazo que está más adelante vahando me parece que es olla podrida, que por la diversidad de cosas que en las tales ollas podridas hay, no podré dejar de topar con alguna que me sea de gusto y de provecho*”<br /><br />That great big steaming dish looks like olla podrida to me, and since that sort of hotchpotch stew has got so many different things in it, I can’t fail to come across one that I’ll like and will do me good.' 'Miguel de Cervantes Saavedra' 'El ingenioso caballero Don Quijote de la Mancha (Parte II, Cap. XLVII)' %}
+{% blockquote 'q02' '“*Aquel platonazo que está más adelante vahando me parece que es olla podrida, que por la diversidad de cosas que en las tales ollas podridas hay, no podré dejar de topar con alguna que me sea de gusto y de provecho*”<br /><br />That great big steaming dish looks like olla podrida to me, and since that sort of hotchpotch stew has got so many different things in it, I can’t fail to come across one that I’ll like and will do me good.' 'Miguel de Cervantes Saavedra' 'El ingenioso caballero Don Quijote de la Mancha (Parte II, Cap. XLVII)' '' %}
 
 In the 16th and 17th centuries it was known as *la olla poderida*, referring to its place at the tables of the rich and powerful who could afford a stew with so many ingredients.[^11] It was only after the Bourbon restoration of the early 19th century that it fell out of fashion with the *poderosos* and took on it’s current, rotten, name.
 
 ## Conquistadors & Industrialists
 
-
 As an interesting aside, one of the early bean cultivars to arise from the Iberian peninsula was called "favada", and all of the beans now accepted by the IGP for Fabes Asturianas are descended from that mutation.
-
 
 ## Modern Fabada
 
