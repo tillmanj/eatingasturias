@@ -3,11 +3,12 @@ layout: page
 title: Contemporary Asturian Food History
 subtitle: 1808 CE - Present Day
 permalink: /culture/history/contemporary/
-toc: true
+toc: false
 toc_sticky: true
 toc_label: Contemporary Asturias
 sidebar:
   nav: culture_full
+lastmod: 2026-02-17T15:46:47.063Z
 ---
 For our purposes, *contemporary* means from the outbreak of the Peninsular War and the Spanish American wars of independence onwards to now. The period of Dictatorship, Tourism, and Revindication.
 
