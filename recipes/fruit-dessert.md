@@ -8,5 +8,6 @@ category: Fruit Dessert
 toc: false
 sidebar:
   nav: recipe_full
+lastmod: 2026-02-17T15:41:59.754Z
 ---
 Fruit desserts abound in Asturias (and Spain in general). The default "I don't really want dessert" dessert is a piece of fresh fruit. Fruit dressed with cream, yogurt, cognac, or wine are common, as are things Americans would more commonly think of as breakfast, like fruit compotes served with yogurt. And then there are *membrillo* and the other *dulces* that let dessert slide into a cheese course...

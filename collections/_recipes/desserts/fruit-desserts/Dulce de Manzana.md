@@ -6,22 +6,22 @@ title: Dulce de manzana
 permalink: /recipes/desserts/fruit-desserts/dulce-de-manzana.html
 subtitle: Asturian Apple Jelly
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Dulce_de_manzana.jpg
 recipeImageCaption: Homemade dulce de manzana in trays
 prepTime: 30 minutes
 cookTime: 2 hours
 totalTime: 2 h 30 m
 recipeYield: 1.5 kg
-recipeCategory: Fruit Desserts
+recipeCategory: Fruit Dessert
 suitableForDiet:
   - Halal
   - Kosher
   - Vegan
   - Vegetarian
-recipeOccasion: 
+recipeOccasion: null
 recipeSeason: Autumn
 recipeDifficulty: Medium
 recipeCuisine: Asturian
@@ -32,10 +32,10 @@ recipeNotes:
   - It is also excellent smeared on some good bread, for breakfast or a snack
 recipeCitations:
   - MendezRiestra2017DiccionarioCocinaGastronomia
-recipeSource: 
-isBasedOn:
-mentions:
-recipeCourse: 
+recipeSource: null
+isBasedOn: null
+mentions: null
+recipeCourse: null
 recipeIngredients:
   - 1 kg apples
   - 700 g sugar
@@ -62,6 +62,7 @@ carbohydrateContent: 24.74
 fiberContent: 0.7
 sugarContent: 1
 proteinContent: 0
+lastmod: 2026-02-17T15:42:01.587Z
 ---
 {% newthought 'One of the great benefits' %} of living in Asturias is the abundance of apples in every hamlet, village, and town. And despite the vast majority of those apples going into [cider](/culture/products/cider/), there are plenty left for a plethora of apple-based recipes.
 
