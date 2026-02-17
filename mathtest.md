@@ -9,8 +9,8 @@ layout: page
 title: Test Scratch Pad
 subtitle: you shouldn't be here
 permalink: /test/
-style: Belgian-Style Blonde Ale
-lastmod: 2026-02-16T21:48:38.274Z
+style: Ordinary Bitter
+lastmod: 2026-02-17T15:11:06.239Z
 ---
 ## styleSlug
 {% assign styleSlug = page.style | slugify "ascii" %}

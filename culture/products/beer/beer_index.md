@@ -1,15 +1,16 @@
 ---
 layout: page
 title: Craft Beer In Asturias
-subtitle: 
+subtitle: null
 permalink: /culture/products/beer/
 toc: false
 toc_sticky: true
 toc_label: Asturian Craft Beer
 sidebar:
-  nav: culture_full
+    nav: culture_full
 date created: Thursday, June 5th 2025, 5:02:27 pm
 date modified: Thursday, June 5th 2025, 6:53:01 pm
+lastmod: 2026-02-17T15:19:36.629Z
 ---
 {% marginfigure 'mf01' '/assets/images/beer/landgeist-spain-alcohol.jpg' 'Contrary to popular belief Spain is not part of wine drinking southern Europe, and instead joins central Europe in the beer-drinking camp. (thanks to Martijn from [Landgeist](https://landgeist.com/2021/06/03/beer-spirits-or-wine/))' %}
 

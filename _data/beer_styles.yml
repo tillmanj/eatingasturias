@@ -19,6 +19,7 @@ belgian-style-blonde-ale:
   ebc: 4-14
 ordinary-bitter:
   style: Ordinary Bitter
+  slug: ordinary-bitter
   type: Ale
   group: British Origin Ale Styles
   color: Gold to copper-colored

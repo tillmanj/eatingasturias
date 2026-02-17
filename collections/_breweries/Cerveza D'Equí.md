@@ -1,26 +1,26 @@
 ---
 layout: brewery
 title: Cerveza D'Equi
-subtitle: 'An American style brewpub in Oviedo'
-permalink: /visit/breweries/cerveza-d-equi.html
+subtitle: An American style brewpub in Oviedo
+permalink: /visit/breweries/cerveza-d-equí.html
 image_logo: Dequi-logo.png
 header:
   overlay_image: /assets/images/breweries/Cerveza-DEqui/Dequi-feature--1024x576.jpg
   overlay_filter: 0.5
 toc: false
 toc_sticky: true
-toc_label: 
+toc_label: null
 sidebar:
   nav: visit_full
 status: Temporarily Closed
-production: 
+production: null
 manager: Javier Huerta
 conceyu: Oviedo
 location:
   title: Cerveza D'Equi
   address: Carretera N-634 Colloto, 382, 33199, Asturias, Spain
   latitude: 43.3800014
-  longitude:  -5.789455
+  longitude: -5.789455
 hours:
   mon: closed
   tue: closed
@@ -33,69 +33,70 @@ telephone: 622 886 772
 email: info@cervezadequi.com
 website: cervezadequi.com
 social:
-  facebook: 
-  instagram: 
-  bluesky: 
-  twitter: 
-  linkedin: 
-  pinterest: 
+  facebook: null
+  instagram: null
+  bluesky: null
+  twitter: null
+  linkedin: null
+  pinterest: null
 gallery:
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-07.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-07.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-08.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-08.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-09.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-09.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-10.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-10.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-11.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-11.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-12.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-12.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-13.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-13.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-14.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-14.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-15.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-15.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-16.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-16.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-17.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-17.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-22.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-22.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-23.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-tour-23.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
   - url: /assets/images/breweries/Cerveza D'Equi/DEqui-bbc19-.jpg
     image_path: /assets/images/breweries/Cerveza D'Equi/DEqui-bbc19-.jpg
-    alt: 
-    title: 
+    alt: null
+    title: null
+lastmod: 2026-02-17T15:19:34.839Z
 ---
 
 We caught up with Javi Huerta of Cerveza D’Equí early on a Monday morning. He and his crew was unpacking from a weekend at Festival Internacional de Cerveza Artesano de Llangréu. He was gracious enough to answer questions about the brewery. I also got to take some pictures of his really nice tap room.

@@ -42,7 +42,7 @@ layout: default
             <!--- Beer Infobox --->
             {% include infobox-beer.html %}
             {{ content }}
-            {% assign styleSlug = page.style | slugify "ascii" %}
+            {% assign styleSlug = page.style | slugify %}
             {% assign thisStyle = site.data.beer_styles | find: "slug", {{styleSlug}}  %}
             <h3>Appearance</h3>
             <table id="beer_appearance" class="tasting">
@@ -87,7 +87,7 @@ layout: default
             </tr>
             <tr>
                 <td class="label">Bitterness</td>
-                <td class="value">{{page.bitter}}</td>
+                <td class="value">{{page.bitter}} ({{page.ibu}} IBU)</td>
                 <td class="value">{{thisStyle.bitter}}</td>
             </tr>
             <tr>
