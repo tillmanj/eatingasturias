@@ -5,9 +5,11 @@ title: Ten Commandments of Cider Pouring
 subtitle: El decálogo del escanciador
 toc: false
 toc_sticky: true
+date created: Wednesday, March 26th 2025, 9:00:43 pm
+date modified: Wednesday, February 18th 2026, 11:49:01 am
+lastmod: 2026-02-18T12:10:23.750Z
 ---
 
-{% marginfigure 'mf01' 'assets/images/decalogo escanciador poster.jpg' 'the poster version of the *decálogo del escancidor* that hangs in the author’s kitchen' %}
 
 In the summer of 1997, the renowned food writer Pepe Iglesías published his Decálogo del escanciador (Ten Commandments for the Cider Pourer) in the Diario El Comercio newspaper in Gijón.[^1] Since their publication, they have become something of a meme – appearing on everything from t-shirts to posters. Iglesías was a keen observer of the world, and distilled the commandments from what he observed at the sidrerías and chigres.
 

@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Cider Ritual Steps
 sidebar:
   nav: culture_full
+lastmod: 2026-02-18T13:41:08.885Z
 ---
 {% epigraph '<span title="A blackbird sang a song, from an apple tree. Because he doesn´t drink cider, he isn´t Asturian">Canciaba un ñerbatu<br />&nbsp;&nbsp;&nbsp; dende un manzanu;<br />el que nun bebe sidra<br />&nbsp;&nbsp;&nbsp;nun ye asturianu</span>' 'traditional' 'Refranes y Cantares Populares n´Asturianu' %}
 
@@ -39,10 +40,12 @@ This is both the catch-all term for places that focus on serving cider, and a pr
 - **Table service**. While you might get a bottle dropped off for you at a chigre, a sidrería almost certainly has wait staff circulating to make sure you have all the cider you require. As a matter of fact, in most sidrerías it is impossible to sit at a bar.
 - **Substantial food**. At a chigre you can (maybe) get snacks. At a sidrería you can get dinner. Some will be full-blown restaurants, some will have a chalkboard outside with a menu of the day, but all of them will feed you should you want to.
 
+Sidrerías are my personal favorite of places to drink cider, by far. When you find one that fits you well, it is very easy to spend an entire evening there.
+
 ### Llagar
 A llagar is (among other things) a cider mill -- a more or less commercial maker of cider. While some are purely industrial affairs, dedicated entirely to the production, bottling and shipping of cider, many of them now incorporate a sidrería into their production facilities, allowing for a really unique experience.
 
-Sidrerías are my personal favorite of places to drink cider, by far. When you find one that fits you well, it is very easy to spend an entire evening there.
+A llagar may also have [espichas](/culture/products/cider/espicha.html), which are communal cider drinking parties with plenty of food
 
 ## How To Order Cider
 Now that you have found a salubrious place in which to drink your cider, you need to actually get some of the green gold into your greedy hands. How you go about this varies depending on where you are. Asturian cider houses, no matter what they are called, have their own etiquette and norms of behavior. Once you have picked a place to go, here’s what to expect. 
@@ -51,7 +54,7 @@ Now that you have found a salubrious place in which to drink your cider, you nee
 For the cider drinker, the defining feature of the *bar-tienda* is the lack of table service. Like a British or Irish pub, service is at the bar, and in the smallest examples, no tables may exist at all.
 
 ### In a chigre
-In a functional sense, a *chigre* is a *bar-tienda* without anything other than cider for sale.
+In a functional sense, a *chigre* is a *bar-tienda* without anything other than cider for sale. It is a bare-bones
 
 ### In a sidrería or llagar
 
@@ -61,13 +64,16 @@ In a functional sense, a *chigre* is a *bar-tienda* without anything other than 
 
 ### Poured for you 
 *the local way*
+{:.subtitle}
 
 Having your cider poured for you by an accomplished escanciador is the height of cider drinking in Asturias.
 
 ### From a mechanical escanciador 
 *the tourist way*
+{:.subtitle}
 
 ### From the bottle 
 *for experts only*
+{:.subtitle}
 
-The true test of whether or not an immigrant has integrated into Asturian culture is the ability to *escanciar* -- to pour the cider yourself from far over head into a glass held as low as possible.
+The true test of whether or not an immigrant has integrated into Asturian culture is the ability to *[escanciar](/culture/products/cider/escanciar.html)* -- to pour the cider yourself from far over head into a glass held as low as possible.

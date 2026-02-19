@@ -42,6 +42,8 @@ image_glass: de_salas_glass.jpg
 link_untappd: https://untappd.com/b/asturias-brewing-company-de-salas/2991278
 link_ratebeer: https://www.ratebeer.com/beer/asturias-brewing-de-salas/669950/
 lastmod: 2026-02-16T22:29:38.133Z
+date created: Thursday, June 5th 2025, 5:25:04 pm
+date modified: Wednesday, February 18th 2026, 11:47:04 am
 ---
 Though I have been calling it Estrella de Salas for a couple of years now, it turns out I am wrong. A visit to the brewery set me right. Not only did I get the low-down on the name and the origin of the beer, I got to see the brew tree the whole enterprise began with.
 
