@@ -3,6 +3,8 @@
         <tbody>
             {% if page.image_logo %}
                 {%  assign imgName = {{page.image_logo | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/" %}
+                {%  assign imgName = {{imgName}} | prepend: page.cheese_producer %}
                 {%  assign imgName = {{imgName}} | prepend: "/assets/images/cheese/" %}
                 <tr>
                     <td colspan="6" class="image">
@@ -52,6 +54,25 @@
                 <td class="infobox-label">Weight</td>
                 <td>{{page.cheese_weight}}</td>
             </tr>
+            {% if page.image_detail %}
+                {%  assign imgName = {{page.image_detail | url_decode }} %}
+                {%  assign imgName = {{imgName}} | prepend: "/" %}
+                {%  assign imgName = {{imgName}} | prepend: page.cheese_producer %}
+                {%  assign imgName = {{imgName}} | prepend: "/assets/images/cheese/" %}
+                <tr>
+                    <td colspan="6" class="image">
+                        <figure>
+                            <picture>
+                                <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.title}} detail">
+                                <img itemprop="photograph" src="{{imgName}}" alt="a detail image of {{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
+                                </a>
+                            </picture>
+                            <figcaption class="small">{{page.image_detail_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            {% endif %}
             <tr class="about cheese">
                 <td class="infobox-label">Rind</td>
                 <td>{{page.cheese_rind}}</td>
