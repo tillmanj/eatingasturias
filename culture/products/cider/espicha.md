@@ -1,28 +1,31 @@
 ---
 layout: page
 title: Espicha
-subtitle:
+subtitle: null
 permalink: /culture/products/cider/espicha.html
-toc: true
+toc: false
 toc_sticky: true
 toc_label: Espicha
 sidebar:
   nav: visit_full
-lastmod: 2026-02-18T13:17:33.524Z
+lastmod: 2026-02-19T13:31:04.235Z
 description: An overview of Asturian espicha, a food and cider party
 date created: Wednesday, February 18th 2026, 1:15:46 pm
 date modified: Wednesday, February 18th 2026, 2:18:41 pm
 ---
-An *espicha* is a specific type of party that is very popular in Asturias. It is celebrated in a llagar, with the aim of eating and drinking for several hours. They are very popular for locals and tour groups alike.
+{% epigraph 'la espicha es un fenómeno a caballo entre la psicología y la sociología.' 'Juan Cueto' 'La Sidra Asturiana: bebida, ritual y simbolo' %}
+{% marginfigure 'img01' '/assets/images/culture/products/cider/Espichas-feature.jpg' 'A llagar set up for an espicha' %}
+
+{% newthought 'An *espicha* is a specific type of party' %} that is very popular in Asturias. It is celebrated in a llagar, with the aim of eating and drinking for several hours. They are very popular for locals and tour groups alike.
 
 In both the Basque Country and Asturias, opening the first barrels of cider after the long winter fermentation is a celebration. In Asturias, the word for this opening is espichar, from the Spanish to pierce in reference to piercing (or tapping) the first barrel of the season.
 
-The second person singular tú espichas has drifted in meaning over time. It has gone from “you are opening (piercing) the barrel” to “you are going to the opening of the barrel”. And now it means “you’re going to go drink cider with a bunch of people in a warehouse”. 
+The second person singular *tú espichas* has drifted in meaning over time. It has gone from “you are opening (piercing) the barrel” to “you are going to the opening of the barrel”. And now it means “you’re going to go drink cider with a bunch of people in a warehouse”. 
 
 ## Origin
 Originally an espicha celebrated the opening or “espichar” a barrel of cider at a llagar. Many were announced to the public in newspaper advertisements.[^1] Traditionally, most cider was made on farmsteads for consumption by friends, family, and neighbors. Then the espicha was a smallish gathering where covered dish or potluck dining was common. Perhaps someone would bring their bagpipes for entertainment, or sing some folk songs (tonadas) as the night went on. These days, they are more elaborate and larger. Some can even be regularly scheduled and open to the general public instead of just personal friends.
 
-An espicha was once a celebration of the primer sidre l’añu; the first barrel of cider. It was celebrated either in early February for young cider or March 19 (San José) for mature cider. 
+An espicha was once a celebration of the *primer sidre l’añu*; the first barrel of cider. It was celebrated either in early February for young cider or March 19 (San José) for mature cider. 
 
 ## Current Usage
 These days, an espicha is a party for a large group, held in a llagar.
