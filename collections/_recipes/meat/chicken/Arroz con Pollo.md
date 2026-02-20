@@ -6,9 +6,9 @@ sidebar:
 title: Arroz con Pollo
 subtitle: Chicken & Rice
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Arroz-con-pollo.png
 prepTime: 12 hours
 cookTime: 12 hours
@@ -16,36 +16,43 @@ totalTime: 24 hours
 recipeYield: 12
 recipeCategory: Chicken
 suitableForDiet: Halal
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Slow Cooked
 recipeNotes:
   - You can absolutely make this recipe with canned chicken broth, as time and budget allows.
   - this is a second note to mess up the code
-recipeSource: 
-recipeCitations:
-isBasedOn: 
+recipeSource: null
+recipeCitations: null
+isBasedOn: null
 recipeCourse: First
+indexIngredients:
+  - Bay Leaf
+  - Onion
+  - Garlic
+  - Pimentón
+  - Arbeyos
+  - Maíz
 recipeIngredients:
   - title: For the Broth
     steps:
-    - 1 whole chicken, cleaned
-    - 2 bay leaf
-    - 2 whole onion
-    - 3 cloves garlic
-    - 2 ribs celery
-    - 1 tbsp pimentón
-    - 1 tbsp cumin
-    - 10 whole peppercorns
+      - 1 whole chicken, cleaned
+      - 2 bay leaf
+      - 2 whole onion
+      - 3 cloves garlic
+      - 2 ribs celery
+      - 1 tbsp pimentón
+      - 1 tbsp cumin
+      - 10 whole peppercorns
   - title: For the Stew
     steps:
-    - Meat from one chicken
-    - 320g short grain rice
-    - 150g baby carrot, frozen
-    - 150g corn, frozen
-    - 150g green beans or peas, frozen
+      - Meat from one chicken
+      - 320g short grain rice
+      - 150g baby carrot, frozen
+      - 150g corn, frozen
+      - 150g green beans or peas, frozen
 recipeInstructions:
   - Combine all the broth ingredients in your slow cooker, and fill with water to just cover the chicken (about 2 quarts).
   - Set the slow cooker to low and let cook overnight.
@@ -70,6 +77,7 @@ carbohydrateContent: 32.5
 fiberContent: 2.5
 sugarContent: 1
 proteinContent: 17.56
+lastmod: 2026-02-20T12:28:07.933Z
 ---
 
 I was immediately drawn to this dish when I first saw it in a cookbook in Asturias. It looks so much like the kind of food I grew up eating, so I knew it would be my sort of recipe. 

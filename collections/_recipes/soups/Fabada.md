@@ -6,19 +6,19 @@ sidebar:
 title: Fabada
 subtitle: the most famous dish in Asturias
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Fabada_Asturiana.jpeg
-recipeImageCaption: Fabada is the classic Asturian dish. It has come to symbolize the whole of Asturian gastronomy. A hearty stew of white beans and multiple sausages and meats, it is a serious meal in a bowl. 
+recipeImageCaption: Fabada is the classic Asturian dish. It has come to symbolize the whole of Asturian gastronomy. A hearty stew of white beans and multiple sausages and meats, it is a serious meal in a bowl.
 prepTime: 12 hours
 cookTime: 12 hours
 totalTime: 24 hours
 recipeYield: 12
 recipeCategory: Soups
-suitableForDiet:
-recipeOccasion: 
-recipeSeason: 
+suitableForDiet: null
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Simmered
@@ -31,9 +31,15 @@ recipeCitations:
   - Riestra2007ComidoServidoAproximacion
   - Domenech1942MiPlatoCocina
 recipeSource: Taibo1988BreviarioFabada, 136
-recipeSourceExt:
-isBasedOn:
+recipeSourceExt: null
+isBasedOn: null
 recipeCourse: First
+indexIngredients:
+  - Fabes
+  - Chorizo
+  - Morcilla
+  - Tocino
+  - Lacón
 recipeIngredients:
   - 1 kg [Fabes de la Granja](/culture/ingredients/beans/fabes.html) (*extra-large cannellini beans*)
   - 4 [Chorizo Asturiano](/culture/products/embutidos/chorizo.html#ahumado-de-asturias) (*cured, smoked chorizo*)
@@ -69,6 +75,7 @@ carbohydrateContent: 32.5
 fiberContent: 2.5
 sugarContent: 1
 proteinContent: 17.56
+lastmod: 2026-02-20T12:21:11.567Z
 ---
 
 {% epigraph '<span class="left">El cassoulet es un invento francés<br />La fabada es un hallazgo asturiano</span><span class="right">Cassoulet is a French invention<br />Fabada is an Asturian discovery</span>' 'Paco Ignacio Taibo I' 'Breviario de la Fabada' %}

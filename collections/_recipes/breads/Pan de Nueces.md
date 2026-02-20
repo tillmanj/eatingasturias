@@ -6,9 +6,9 @@ sidebar:
 title: Pan de Nueces
 subtitle: A bread designed for cheeses
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Arroz-con-pollo.png
 prepTime: 12 hours
 cookTime: 12 hours
@@ -19,8 +19,8 @@ recipeCategory:
 suitableForDiet:
   - Halal
   - Kosher
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Simmered
@@ -35,6 +35,11 @@ isBasedOn:
 mentions:
   - Jon's Favorite Asturian Stews
 recipeCourse: First
+indexIngredients:
+  - Chicken
+  - Bay Leaf
+  - Onion
+  - Pimentón
 recipeIngredients:
   - 1 whole chicken, cleaned
   - 2 bay leaf
@@ -65,6 +70,7 @@ carbohydrateContent: 32.5
 fiberContent: 2.5
 sugarContent: 1
 proteinContent: 17.56
+lastmod: 2026-02-20T12:21:57.134Z
 ---
 
 I was immediately drawn to this dish when I first saw it in a cookbook in [[Asturias]]. It looks so much like the kind of food I grew up eating, so I knew it would be my sort of recipe. 

@@ -6,11 +6,11 @@ title: Cueva de Llonín Canapé
 permalink: /recipes/appetizers/cueva-de-llonín-canapé.html
 subtitle: A smart and simple addition to any canapé spread
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Canape-llonin.jpeg
-recipeImageCaption: Cueva de Llonín Canapé 
+recipeImageCaption: Cueva de Llonín Canapé
 prepTime: 20m
 cookTime: 0
 totalTime: 20m
@@ -26,15 +26,18 @@ suitableForDiet:
   - Low Fat
   - Low Salt
   - Vegetarian
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Easy
 recipeCuisine: Asturian
-conceyu: 
-cookingMethod: 
+conceyu: null
+cookingMethod: null
 recipeCourse: Tapas
-indexIngredients: 
+indexIngredients:
   - Cueva de Llonín
+  - Cider
+  - Butter
+  - Pimentón
 recipeIngredients:
   - 250 g Cueva de Llonín cheese.
   - 250 ml still cider.
@@ -42,17 +45,17 @@ recipeIngredients:
   - 1 tbsp sherry or port wine.
   - Pimentón or another sweet smoked paprika for garnish
 requires:
-  - 
+  - null
 recipeInstructions:
   - To create and exceptional canapé, combine two Asturian friends – cheese and cider. Simply marinating your cheese in cider overnight will give you an exciting alternative to cheese and crackers. Place 250g of Cueva de Llonin and 250ml (1 cup) of cider in a bowl. Cover with plastic wrap and refrigerate overnight.
   - Drain the cheese and discard the cider. Remove and discard the rind, then roughly chop the cheese.
   - In a food processor, combine the cheese with 35g of unsalted butter and 1 tbsp of sherry, and process until smooth. Cover with plastic wrap and refrigerate for 20 minutes or until cheese is slightly firm.
   - By hand, roll teaspoonfuls of cheese into balls and sprinkle with pímenton.
 recipeNotes:
-  - 
-recipeSource: 
-recipeSourceExt: 
-isBasedOn:
+  - null
+recipeSource: null
+recipeSourceExt: null
+isBasedOn: null
 nutrition: true
 servingSize: 1 canapé
 calories: 101
@@ -65,6 +68,7 @@ carbohydrateContent: 1.3
 fiberContent: 0
 sugarContent: 1
 proteinContent: 3.8
+lastmod: 2026-02-20T12:20:09.061Z
 ---
 One thing I miss from the States is entertaining at home. Quite a lot of socializing the States revolving around the home. Dinner parties, cocktail parties, people dropping in for a drink and a chat, weekend cookouts… Cocktail parties were always a favorite of mine. Then I could show off my canapé game. Missing those cocktail parties is where this Cueva de Llonín Canapé idea came from.
 

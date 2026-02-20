@@ -6,9 +6,9 @@ title: Empanada de picadillo
 permalink: /recipes/breads/empanada-de-picadillo.html
 subtitle: My take on a ground sausage empanada
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Empanada.jpeg
 recipeImageCaption: A homemade classic of Asturian picnic food, the layers of country ham and hard-boiled eggs are a perfect match for the smoked chorizo.
 prepTime: 30 m
@@ -17,13 +17,19 @@ totalTime: 1 h 15 m
 recipeYield: 12 pieces
 recipeCategory:
   - Breads
-suitableForDiet:
+suitableForDiet: null
 recipeOccasion: Espicha
 recipeSeason: Summer
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Baked
 recipeCourse: Tapas
+indexIngredients:
+  - Onion
+  - Guindilla
+  - Garlic
+  - Tomato
+  - Picadillo
 recipeIngredients:
   - 1 medium onion, chopped
   - 1 guindilla (or shishito) pepper, seeded and chopped
@@ -50,10 +56,10 @@ recipeNotes:
   - Though my recipe calls for olive oil, you can use another type of oil if you prefer. Not only will a flavorless cooking oil be cheaper, it will allow the flavor of the filling ingredients to shine.
   - Once cooled, you can keep an empanada in the refrigerator for about a week.
   - If you refrigerate your empanada, make sure you remove it from the fridge several hours before eating it. Like most party food, it is designed to be eaten at room temperature.
-recipeCitations:
-recipeSource: 
+recipeCitations: null
+recipeSource: null
 recipeSourceExt: This recipe is my own attempt at recreating an empanada I have had several times at various events.
-isBasedOn:
+isBasedOn: null
 nutrition: true
 servingSize: 1/12 empanada
 calories: 319
@@ -66,6 +72,7 @@ carbohydrateContent: 43.6
 fiberContent: 1.7
 sugarContent: 1
 proteinContent: 6.3
+lastmod: 2026-02-20T12:21:04.621Z
 ---
 {% newthought 'I love picadillo.'%} The uncased chorizo mix, before curing, smoking, or otherwise processing, is a great ingredient. The longer I live here, the more I find myself replacing ground beef with it in recipes. You can find this in Mexican carnicerías as bulk chorizo, if you don’t feel like making your own.
 

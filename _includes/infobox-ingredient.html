@@ -20,26 +20,26 @@
             {% endif %}
             <tr class="about ingredient">
                 <td class="infobox-label">English Name</td>
-                <td><a href="{{page.plant_name_eng_auth}}">{{page.plant_name_eng}}</a></td>
+                <td class="about ingredient nowrap"><a href="{{page.plant_name_eng_auth}}">{{page.plant_name_eng}}</a></td>
             </tr>
             <tr class="about ingredient">
                 <td class="infobox-label">Castilian Name</td>
-                <td><a href="{{page.plant_name_esp_auth}}">{{page.plant_name_esp}}</a></td>
+                <td class="about ingredient nowrap"><a href="{{page.plant_name_esp_auth}}">{{page.plant_name_esp}}</a></td>
             </tr>
             <tr class="about ingredient">
                 <td class="infobox-label">Species</td>
-                <td><a href="{{plant_species_wfo}}">{{page.plant_species}}</a></td>
+                <td class="about ingredient nowrap"><a href="{{plant_species_wfo}}">{{page.plant_species}}</a></td>
             </tr>
             {% if page.plant_subspecies.size > 1 %}
             <tr class="about ingredient">
                 <td class="infobox-label">Subspecies</td>
-                <td><a href="{{page.plant_subspecies_wfo}}">{{page.plant_subspecies}}</a></td>
+                <td class="about ingredient nowrap"><a href="{{page.plant_subspecies_wfo}}">{{page.plant_subspecies}}</a></td>
             </tr>
             {% endif %}
             {% if page.plant_cultivar.size > 1 %}
             <tr class="about ingredient">
                 <td class="infobox-label">Cultivar(s)</td>
-                <td>{{page.plant_cultivar}}</td>
+                <td class="about ingredient nowrap">{{page.plant_cultivar}}</td>
             </tr>
             {% endif %}
         </tbody>

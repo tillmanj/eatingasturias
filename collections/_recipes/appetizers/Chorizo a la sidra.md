@@ -34,6 +34,9 @@ recipeSource: null
 isBasedOn: null
 mentions: null
 recipeCourse: Tapas
+indexIngredients:
+  - Chorizo
+  - Cider
 recipeIngredients:
   - 3–4 smoked Asturian chorizos (~250g)
   - 250 ml still cider.
@@ -55,7 +58,7 @@ carbohydrateContent: 5
 fiberContent: 0
 sugarContent: 4.8
 proteinContent: 12.1
-lastmod: 2026-02-14T10:18:19.341Z
+lastmod: 2026-02-20T12:19:46.516Z
 categories:
   - recipe
 ---

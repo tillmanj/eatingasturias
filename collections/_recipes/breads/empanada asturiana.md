@@ -6,9 +6,9 @@ title: Empanada asturiana
 permalink: /recipes/breads/empanada-asturiana.html
 subtitle: the classic espicha empanada
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Empanada.jpeg
 recipeImageCaption: A homemade classic of Asturian picnic food, the layers of country ham and hard-boiled eggs are a perfect match for the smoked chorizo.
 prepTime: 30 m
@@ -17,13 +17,17 @@ totalTime: 1 h 15 m
 recipeYield: 12 pieces
 recipeCategory:
   - Breads
-suitableForDiet:
+suitableForDiet: null
 recipeOccasion: Espicha
 recipeSeason: Summer
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Baked
 recipeCourse: Tapas
+indexIngredients:
+  - Eggs
+  - Jamón
+  - Chorizo
 recipeIngredients:
   - 3 hard boiled eggs, sliced
   - 150 g of jamón (use country ham), sliced like thick bacon
@@ -46,9 +50,9 @@ recipeNotes:
   - Though my recipe calls for olive oil, you can use another type of oil if you prefer. Not only will a flavorless cooking oil be cheaper, it will allow the flavor of the filling ingredients to shine.
   - Once cooled, you can keep an empanada in the refrigerator for about a week.
   - If you refrigerate your empanada, make sure you remove it from the fridge several hours before eating it. Like most party food, it is designed to be eaten at room temperature.
-recipeCitations:
+recipeCitations: null
 recipeSource: GarciaSanchez1993ArteCocinar1a, 285
-isBasedOn:
+isBasedOn: null
 nutrition: true
 servingSize: 1/12 empanada
 calories: 319
@@ -61,6 +65,7 @@ carbohydrateContent: 43.6
 fiberContent: 1.7
 sugarContent: 1
 proteinContent: 6.3
+lastmod: 2026-02-20T12:20:36.549Z
 ---
 {% newthought 'María Luisa García Sanchez'%} is to Asturias what Irma Rombauer is to the United States. Known in Asturias as simply María Luisa, her cookbook *el arte de cocinar* (The Art of Cooking) has been the standard reference cookbook for home cooks in Asturias since 1970. In it, she shares an ‘*empanada asturiana*‘ recipe that I really enjoy.
 

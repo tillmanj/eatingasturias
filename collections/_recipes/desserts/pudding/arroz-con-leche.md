@@ -6,9 +6,9 @@ title: Arroz con Leche
 permalink: /recipes/desserts/pudding/arroz-con-leche.html
 subtitle: Asturias' version of the world's favorite dessert
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Arroz_con_leche_asturiana.jpeg
 recipeImageCaption: The whole world eats rice pudding, and each culture puts its own unique spin on it. Learn how to make the unique Asturian arroz con leche.
 prepTime: 5 min
@@ -27,19 +27,21 @@ suitableForDiet:
   - Low Fat
   - Low Salt
   - Vegetarian
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Simmered
 recipeCourse: Postre
+indexIngredients:
+  - Arroz
 recipeIngredients:
   - 200 g Short-grain rice
   - 2 l whole milk
   - pinch salt
   - 200g granulated sugar. divided in half.
   - 10 g cinnamon, ground.
-requires: 
+requires: null
 recipeInstructions:
   - Measure your milk into a large pot and warm over medium heat until the milk begins to form a skin.
   - Add 100 grams of the sugar and stir to dissolve. A whisk will make short work of this step. Allow the milk to reheat and begin forming a skin again.
@@ -58,9 +60,9 @@ recipeNotes:
   - For the rice, it can be Sushi, Bomba, Arborio, Pudding – the exact type is less important. But it must be short-grain.
   - For the milk, don't use UHT (shelf-stable) if you can help it. It will thicken much slower.
   - If you have a caramelizing iron (quemador in Spanish), you will need to heat it prior to the operation, and you will need to move quickly to get several puddings caramelized before the iron cools too much. If you have an electric one (fancy you!) this is, of course, not a problem.
-recipeSource: 
-recipeSourceExt: 
-isBasedOn: 
+recipeSource: null
+recipeSourceExt: null
+isBasedOn: null
 nutrition: true
 servingSize: 1 ramekin
 calories: 271
@@ -75,6 +77,7 @@ sugarContent: 35.2
 proteinContent: 3.5
 date created: Thursday, May 15th 2025, 3:44:36 pm
 date modified: Thursday, May 15th 2025, 4:13:18 pm
+lastmod: 2026-02-20T12:24:36.053Z
 ---
 Everyone loves rice pudding. No, I’m serious. Literally everyone likes rice pudding. There is not a single culture that produces rice that doesn’t have some version of this dessert. Many cultures who have no local rice production at all also cherish their rice pudding dishes. From the final dish Gautama Buddha [ate before gaining enlightenment](http://www.buddhanet.net/e-learning/buddhism/lifebuddha/15lbud.htm) to the buttered Рисовая каша of Russian breakfast, rice pudding is worldwide.
 

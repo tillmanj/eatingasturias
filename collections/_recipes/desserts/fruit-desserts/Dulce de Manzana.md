@@ -36,6 +36,8 @@ recipeSource: null
 isBasedOn: null
 mentions: null
 recipeCourse: null
+indexIngredients:
+  - Manzana
 recipeIngredients:
   - 1 kg apples
   - 700 g sugar
@@ -62,7 +64,7 @@ carbohydrateContent: 24.74
 fiberContent: 0.7
 sugarContent: 1
 proteinContent: 0
-lastmod: 2026-02-17T15:42:01.587Z
+lastmod: 2026-02-20T12:24:00.196Z
 ---
 {% newthought 'One of the great benefits' %} of living in Asturias is the abundance of apples in every hamlet, village, and town. And despite the vast majority of those apples going into [cider](/culture/products/cider/), there are plenty left for a plethora of apple-based recipes.
 

@@ -6,24 +6,28 @@ title: Empanada Dough
 permalink: /recipes/breads/empanada.html
 subtitle: the basis of a proper Asturian picnic
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Empanada.jpeg
-recipeImageCaption: "Empanada, a large savory pie, is popular all over Spain, but is especially loved in Asturias and Galicia. Here I take the best of the regional variations and create a dough that will work for any filling you might want to use."
-prepTime: 30 m 
+recipeImageCaption: Empanada, a large savory pie, is popular all over Spain, but is especially loved in Asturias and Galicia. Here I take the best of the regional variations and create a dough that will work for any filling you might want to use.
+prepTime: 30 m
 cookTime: 45 m
 totalTime: 1 h 15 m
 recipeYield: 12 pieces
 recipeCategory:
   - Breads
-suitableForDiet:
+suitableForDiet: null
 recipeOccasion: Espicha
 recipeSeason: Summer
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Baked
-recipeCourse: 
+recipeCourse: null
+indexIngredients:
+  - Flour
+  - Pimentón
+  - Eggs
 recipeIngredients:
   - 500 g All-Purpose Flour.
   - 5 g sweet paprika.
@@ -32,7 +36,7 @@ recipeIngredients:
   - 150 ml dry white wine or still cider.
   - 1 large egg
 requires:
-  - 
+  - null
 recipeInstructions:
   - In the bowl of a stand mixer, combine the flour, salt, egg, paprika, and cider or wine.
   - Using the paddle attachment, mix on slow until you get a nice shaggy dough that can't quite hold together.
@@ -56,11 +60,11 @@ recipeNotes:
   - Though my recipe calls for olive oil, you can use another type of oil if you prefer. Not only will a flavorless cooking oil be cheaper, it will allow the flavor of the filling ingredients to shine.
   - Once cooled, you can keep an empanada in the refrigerator for about a week.
   - If you refrigerate your empanada, make sure you remove it from the fridge several hours before eating it. Like most party food, it is designed to be eaten at room temperature.
-recipeCitations:
-recipeSource: 
+recipeCitations: null
+recipeSource: null
 recipeSourceExt: This recipe is adapted liberally from a published recipe by Isabel Fraga Blanco in her column *La cocina de Frabisa* in the newspaper [La Voz de Galicia](https://lavozdegalicia.es/). My hearty thanks to Isabel and her aunt Aurita from who the recipe originates.
-isBasedOn: 
-mentions:
+isBasedOn: null
+mentions: null
 nutrition: true
 servingSize: 1 piece (1/12 of an empanada)
 calories: 309
@@ -73,6 +77,7 @@ carbohydrateContent: 43.6
 fiberContent: 1.7
 sugarContent: 1
 proteinContent: 6.3
+lastmod: 2026-02-20T12:21:30.413Z
 ---
 While most popular, and popularly associated with, neighboring Galicia, the empanada is a well-loved part of Asturian gastronomy. They are as ubiquitous here as the tortilla de patatas is further south in Spain. While all of Spain likes a good empanada, it is really the northwest where they become a way of life.
 

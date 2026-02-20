@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Food Events
-subtitle:
-permalink: /visit/food-events/
+subtitle: null
+permalink: /visit/http://127.0.0.1:4000/culture/products/cider/cider-ritual.htmlevents/
 toc: true
 toc_sticky: true
 toc_label: Events
 sidebar:
   nav: visit_full
+lastmod: 2026-02-20T12:29:32.364Z
 ---
 Asturias is absolutely jam packed with food related events. From multi-day international symposiums, to yearly cheese judging, there is something pretty much every week. Rural market days, food focused village fiestas, and beer and cider festivals can be found throughout the year, and throughout Asturias.
 

@@ -6,11 +6,11 @@ title: Basic Pizza Dough
 permalink: /recipes/breads/pizza-dough.html
 subtitle: A good pizza needs a good base
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Pizza-dough.jpeg
-recipeImageCaption: For me, this is the perfect pizza dough. 
+recipeImageCaption: For me, this is the perfect pizza dough.
 prepTime: 1 hr
 cookTime: 0
 totalTime: 1 hr
@@ -28,21 +28,24 @@ suitableForDiet:
   - Low Salt
   - Vegan
   - Vegetarian
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Italian
 cookingMethod: Baked
 recipeCourse: Seconds
+indexIngredients:
+  - Centenu
+  - Escanda
 recipeIngredients:
-  - '800 g Pastry Flour #45'
+  - "800 g Pastry Flour #45"
   - 150 g Rye flour
   - 50 g Spelt flour
   - 720 g warm water. 32-35C (90-95F)
   - 22 g Fine sea salt
   - 3 g active dry yeast
 requires:
-  - 
+  - null
 recipeInstructions:
   - Mix your flours together well, either sifting twice or using a wire whisk.
   - Weight out your salt in a small container.
@@ -57,12 +60,12 @@ recipeInstructions:
   - Cut into fifths if you want to make 5 pizzas, or cut off 2/5 and hold for foccacia, and split the remainder into three pieces, for pizzas. Each pizza piece should weigh around 340 grams, and the foccacia piece if you are making it should weigh around 680 grams.
   - Shape each of the balls you intend to make pizza with into a nice tight ball by slowly pushing a bit of the dough underneath the rest as you turn the ball with your hands.
   - Foccacia does not need to be shaped like this and can go directly into your recipe.
-  - Place the dough balls on floured silicone mat or baking sheet. Be sure to leave space between them for expansion. Flour the top, cover with plastic wrap, and stick them in the refrigerator. 
+  - Place the dough balls on floured silicone mat or baking sheet. Be sure to leave space between them for expansion. Flour the top, cover with plastic wrap, and stick them in the refrigerator.
 recipeNotes:
   - You can refrigerate these dough balls for anywhere from 1 hour to two days. The longer you hold them like this, the better the flavor of your final pizza dough will be. I find overnight to be a very happy medium.
-recipeSource: 
-recipeSourceExt: 
-isBasedOn:
+recipeSource: null
+recipeSourceExt: null
+isBasedOn: null
 nutrition: true
 servingSize: 1 slice
 calories: 91
@@ -77,6 +80,7 @@ sugarContent: 1
 proteinContent: 2.6
 date created: Friday, May 16th 2025, 8:01:28 am
 date modified: Friday, May 16th 2025, 8:28:37 am
+lastmod: 2026-02-20T12:23:05.785Z
 ---
 What makes a pizza Asturian? Isn’t it Italian? Isn’t **real** pizza Italian? Despite what some misguided ultra-conservative Italian defenders; pizza is now, has been for almost a century, and always will be, a universal, cosmopolitan food. Whether it be American, Romanian, Japanese, Brazilian, or Spanish style – pizza adapts to anywhere and any topping.
 

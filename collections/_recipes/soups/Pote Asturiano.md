@@ -19,13 +19,22 @@ recipeCategory:
   - Soups
 suitableForDiet:
   - Gluten Free
-recipeOccasion: 
+recipeOccasion: null
 recipeSeason:
   - Winter
 recipeDifficulty: Easy
 recipeCuisine: Asturian
 cookingMethod: Slow Cooked
 recipeCourse: First
+indexIngredients:
+  - Fabes
+  - Berza
+  - Chorizo
+  - Morcilla
+  - Tocino
+  - Lacón
+  - Potato
+  - Bay Leaf
 recipeIngredients:
   - 300g [Fabes de la Granja](/culture/ingredients/beans/fabes.html) (*extra-large cannellini beans*)
   - 1 large bunch [Berza](/culture/ingredients/vegetables/berza.html) (*collard greens - 20 large leaves, about 1.5lb*)
@@ -36,16 +45,16 @@ recipeIngredients:
   - 3-4 large potatoes
   - 1 bay leaf
   - salt (*a three-finger pinch*)
-requires: 
+requires: null
 recipeInstructions:
   - The night before put the dried fabes in the slow cooker with the bay leaf and the salt, and fill the slow cooker almost full with water. Cook on low overnight.
   - The next morning wash and chop your berza and add it to the pot along with all of the meats.
   - After an hour, add your three potatoes, cut into chunks, and cook on high until the potatoes are tender; 60-120 minutes.
 recipeNotes:
   - You can absolutely make this on the stove-top without a slow-cooker, but why would you? The Asturian wood-fired cookstove is designed to act almost identically to the slow-cooker, so arguably the most authentic style of preparation is with a slow-cooker.
-recipeSource: 
-recipeSourceExt: 
-isBasedOn:
+recipeSource: null
+recipeSourceExt: null
+isBasedOn: null
 nutrition: true
 servingSize: 240g
 calories: 345
@@ -60,6 +69,7 @@ sugarContent: 1
 proteinContent: 17.4
 date created: Monday, March 10th 2025, 4:06:00 pm
 date modified: Friday, May 16th 2025, 6:10:59 pm
+lastmod: 2026-02-20T11:45:26.227Z
 ---
 Pote is not one soup. It is hundreds of soups. That is, it is a style of soup making that does not have a fixed single recipe. Originally named for the pottage common across all of medieval Europe, it is today defined as a particularly Asturian and Galician version of the Spanish type of pottage, known as *olla podrida* or simply *olla*. 
 

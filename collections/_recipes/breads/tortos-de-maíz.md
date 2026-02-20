@@ -6,31 +6,34 @@ title: Tortos de Maíz
 permalink: /recipes/breads/tortos-de-maíz.html
 subtitle: Asturian-style hoecakes
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: tortos_stack.png
-recipeImageCaption: The Asturian version of the hoecake, itself an ancient form of very simple cornbread found throughout the Americas, is a hearty, and easy recipe. 
+recipeImageCaption: The Asturian version of the hoecake, itself an ancient form of very simple cornbread found throughout the Americas, is a hearty, and easy recipe.
 prepTime: 20 m
 cookTime: 5 m
 totalTime: 25 m
 recipeYield: 10 tortos
 recipeCategory:
   - Breads
-suitableForDiet:
-recipeOccasion: 
-recipeSeason: 
+suitableForDiet: null
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Pan Fried
 recipeCourse: Cena
+indexIngredients:
+  - Flour
+  - Maíz
 recipeIngredients:
   - 250 g Harina de Maíz. Any fine ground cornmeal will do. (*Please do not use Maseca or other nixtamalized precooked arepa dough.*)
   - 50 g all-purpose flour.
   - 10 g salt.
   - 200 ml water.
 requires:
-  - 
+  - null
 recipeInstructions:
   - Whisk together the corn flour, all-purpose flour, and salt.
   - Slowly add the water into the flour mixture while kneading until all of it comes together. Keep kneading for a few minutes. You are looking for a supple, pliable dough that holds its shape.
@@ -41,10 +44,10 @@ recipeInstructions:
   - Fry it for about 60-70 seconds and then flip it over in the oil and fry another 45-60 seconds. Remove the tortu to a wire rack and place another tortu in the oil.
 recipeNotes:
   - They are commonly served in the Caudal and Nalón with [picadillo](/recipes/meat/pork/picadillo.html) and a fried egg.
-recipeCitations:
-recipeSource: 
-isBasedOn:
-mentions:
+recipeCitations: null
+recipeSource: null
+isBasedOn: null
+mentions: null
 nutrition: true
 servingSize: 1 tortu
 calories: 108
@@ -57,6 +60,7 @@ carbohydrateContent: 23
 fiberContent: 2
 sugarContent: 0.2
 proteinContent: 2.3
+lastmod: 2026-02-20T12:23:19.772Z
 ---
 {%- newthought 'The southern United States' -%} has a whole vocabulary for describing all of the bread and bread-adjacent things one can make from cornmeal. One of my favorite of those things is the hoecake. Mostly forgotten now, this cornmeal cake is a real link to the past. So I was delighted to find out that in Asturias there are *tortos*, a local version of the hoecake. Like with *fariñes*, I was overjoyed to find something so familiar in a new setting.
 

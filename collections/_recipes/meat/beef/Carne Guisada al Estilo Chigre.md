@@ -6,11 +6,11 @@ title: Carne Guisada al Estilo Chigre
 permalink: /recipes/meat/beef/carne-guisada-al-estilo-chigre.html
 subtitle: Beef stew, cider-bar style
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Carne-Guisada-al-Estilo-Chigre.jpg
-recipeImageCaption: Carne Guisada al Estilo Chigre is a traditional bar room small plate, enjoyed throughout Asturias in the cooler months. Smoky, onion-y, garlic-y broth slowly turns the stew beef into delectable morsels. 
+recipeImageCaption: Carne Guisada al Estilo Chigre is a traditional bar room small plate, enjoyed throughout Asturias in the cooler months. Smoky, onion-y, garlic-y broth slowly turns the stew beef into delectable morsels.
 prepTime: 30 mins
 cookTime: 1 hour
 totalTime: 1 h 30 m
@@ -21,8 +21,8 @@ suitableForDiet:
   - Gluten Free
   - Kosher
   - Low Salt
-recipeOccasion: 
-recipeSeason: 
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Simmer
@@ -32,9 +32,14 @@ recipeNotes:
 recipeCitations:
   - MendezRiestra2017DiccionarioCocinaGastronomia
 recipeSource: GarciaSanchez1984PlatosTipicosAsturias, 40
-isBasedOn:
-mentions:
+isBasedOn: null
+mentions: null
 recipeCourse: Second
+indexIngredients:
+  - Beef
+  - Onion
+  - Cider
+  - Pimentón
 recipeIngredients:
   - 800g **Stew Beef**, cut into chunks
   - 1 large **White Onion**, diced
@@ -57,14 +62,15 @@ calories: 334
 fatContent: 15
 saturatedFatContent: 4.6
 transFatContent: 0.5
-cholesterolContent: 132.0
-sodiumContent: 168.0
+cholesterolContent: 132
+sodiumContent: 168
 carbohydrateContent: 5.5
 fiberContent: 0.7
 sugarContent: 1
 proteinContent: 44.7
 myINT: 15
-myFLOAT: 15.0
+myFLOAT: 15
+lastmod: 2026-02-20T12:25:36.891Z
 ---
 
 {% newthought 'The chigre is one of the cornerstones'%} of Asturian gastronomy. Or at least of Asturian drinking culture. Which may actually be the same thing. The longer I live here the more muddled the distinction between the two becomes. That muddle is not helped by “bars” that have excellent home-style food. Nor by “restaurants” that you go to solely to drink. 
