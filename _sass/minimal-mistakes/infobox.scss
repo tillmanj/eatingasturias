@@ -96,6 +96,10 @@ tr.about td {
     border-bottom: none;
 }
 
+tr.about td.nowrap {
+    text-wrap: nowrap;
+}
+
 .infobox #divider {
     border-bottom: 6px black solid;
     margin-bottom: 0%;
