@@ -9,14 +9,14 @@ author: Jon Tillman
 dateCreated: null
 datePublished: null
 dateModified: null
-recipeImage: null
-recipeImageCaption: null
+recipeImage: Fabes-con-pitu-caleya.jpg
+recipeImageCaption: a dish of Fabes con Pitu Caleya
 prepTime: null
 cookTime: null
 totalTime: null
 recipeYield: null
 recipeCategory:
-    - Appetizers
+    - Chicken
 suitableForDiet:
     - Diabetic
     - Gluten Free
@@ -81,7 +81,7 @@ carbohydrateContent: 23.2
 fiberContent: 5.4
 sugarContent: 1
 proteinContent: 23.7
-lastmod: 2026-06-30T15:25:26.602Z
+lastmod: 2026-06-30T15:45:14.906Z
 ---
 {% newthought '*Fabes con pitu caleya*' %} is a weekday favorite in Asturias. As such, this is a recipe with as many variations as there are cooks in the region. However, the bones of the recipe remain the same regardless. The simplest version of fabes con pitu essentially just throw everything in a pot and leave it for a while. And you certainly can take all the ingredients below and cook them together. Particularly in a slow cooker they will make a lovely stew. However, by splitting up the cooking into two stages, we can build more flavor, and have much better texture from our beans.
 
