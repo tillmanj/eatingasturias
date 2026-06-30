@@ -31,7 +31,6 @@ group :jekyll_plugins do
   gem "jekyll-admin"
   gem "jekyll-analytics"
   gem "jekyll-archives"
-  gem "jekyll-darkvisitors"
   gem "jekyll-environment-variables"
   gem "jekyll-feed"
   gem 'jekyll-glossary_tooltip'

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-permalink: /recipes/arroz-con-pollo/
+permalink: /recipes/meat/chicken/arroz-con-pollo/
 sidebar:
   nav: recipe_full
 title: Arroz con Pollo
@@ -77,7 +77,7 @@ carbohydrateContent: 32.5
 fiberContent: 2.5
 sugarContent: 1
 proteinContent: 17.56
-lastmod: 2026-02-20T12:28:07.933Z
+lastmod: 2026-02-20T12:35:06.507Z
 ---
 
 I was immediately drawn to this dish when I first saw it in a cookbook in Asturias. It looks so much like the kind of food I grew up eating, so I knew it would be my sort of recipe. 
