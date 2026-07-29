@@ -14,7 +14,7 @@ sidebar:
 lastmod: 2026-02-18T12:10:46.546Z
 description: An overview of Asturian cider pouring, the history, meaning, and social aspects of escanciando
 date created: Wednesday, February 18th 2026, 11:40:17 am
-date modified: Wednesday, February 18th 2026, 2:21:07 pm
+date modified: Tuesday, June 30th 2026, 6:05:05 pm
 ---
 {% epigraph 'echa sidre nesi vasu<br />que yo quiero beber más' 'Antón el Chiova' 'La Sidra Asturiana: bebida, ritual y simbolo' %}
 {% marginfigure 'image02' '/assets/images/culture/products/cider/Mieres_Escanciador_Statue.jpg' 'Statue in bronze located in Plaza San Juan, Barrio Requejo, Mieres del Camino. Sculpted by J. M. Félix Magdalena' %}

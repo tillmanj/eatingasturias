@@ -1,0 +1,10 @@
+{% assign products = site.products | where_exp: "product", "product.indexIngredients contains page.title" %}
+{% if products.size > 0 %}
+<h3>Artisanal Products</h3>
+<p>The following Asturian food products are made from {{page.title}}:</p>
+<ul>
+    {% for item in products %}
+        <li><a href="{{item.url}}" title="{{item.subtitle}}">{{item.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

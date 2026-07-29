@@ -10,8 +10,11 @@ sidebar:
   nav: culture_full
 date created: Friday, January 17th 2025, 12:51:55 pm
 date modified: Tuesday, October 28th 2025, 10:07:59 am
+lastmod: 2026-07-29T17:55:55.478Z
 ---
-You would be forgiven for thinking that people in Spain are always eating. Forgiven precisely because it is true. Spain is a great nation of grazers, moving throughout their day from one mealtime to the next, never more than an hour or two from the next nibble. 
+{% epigraph 'Eat breakfast like a king, lunch like a prince, and dinner like a pauper.' 'Adelle Davis' 'Let’s Eat Right to Keep Fit' %}
+
+{% newthought 'You would be forgiven' %} for thinking that people in Spain are always eating. Forgiven precisely because it is true. Spain is a great nation of grazers, moving throughout their day from one mealtime to the next, never more than an hour or two from the next nibble. 
 
 Lest you think I am comparing them to great plodding cows, let me say explicitly that I am not. I am rather more put in mind of goats -- who ramble over great distances each day, browsing on a little of this and a little of that as they go. Almost always in motion, and when not in motion, eating. This caprine browsing seems an apt metaphor for the Spanish food day.
 

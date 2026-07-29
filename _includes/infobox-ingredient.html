@@ -39,7 +39,17 @@
             {% if page.plant_cultivar.size > 1 %}
             <tr class="about ingredient">
                 <td class="infobox-label">Cultivar(s)</td>
-                <td class="about ingredient nowrap">{{page.plant_cultivar}}</td>
+                <td class="about ingredient">
+                    {% if page.plant_cultivar.size > 2 %}
+                        <ul>
+                        {% for cultivar in page.plant_cultivar %}
+                            <li>{{cultivar}}</li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        {{page.plant_cultivar}}
+                    {% endif %}
+                </td>
             </tr>
             {% endif %}
         </tbody>

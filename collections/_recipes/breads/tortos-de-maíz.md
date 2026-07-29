@@ -26,9 +26,9 @@ cookingMethod: Pan Fried
 recipeCourse: Cena
 indexIngredients:
   - Flour
-  - Maíz
+  - Harina de maíz
 recipeIngredients:
-  - 250 g Harina de Maíz. Any fine ground cornmeal will do. (*Please do not use Maseca or other nixtamalized precooked arepa dough.*)
+  - 250 g [Harina de Maíz](/culture/products/harina-de-maíz.html). Any fine ground cornmeal will do. (*Please do not use Maseca or other nixtamalized precooked arepa dough.*)
   - 50 g all-purpose flour.
   - 10 g salt.
   - 200 ml water.
@@ -60,7 +60,7 @@ carbohydrateContent: 23
 fiberContent: 2
 sugarContent: 0.2
 proteinContent: 2.3
-lastmod: 2026-02-20T12:23:19.772Z
+lastmod: 2026-07-29T16:36:00.464Z
 ---
 {%- newthought 'The southern United States' -%} has a whole vocabulary for describing all of the bread and bread-adjacent things one can make from cornmeal. One of my favorite of those things is the hoecake. Mostly forgotten now, this cornmeal cake is a real link to the past. So I was delighted to find out that in Asturias there are *tortos*, a local version of the hoecake. Like with *fariñes*, I was overjoyed to find something so familiar in a new setting.
 

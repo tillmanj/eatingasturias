@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Artisan Products
 sidebar:
   nav: culture_full
+lastmod: 2026-07-02T16:06:16.322Z
 ---
 {% epigraph 'Tradition is a guide and not a jailer.' 'W. Somerset Maugham.' 'Mr. Maugham Himself (1954)' %}
 
@@ -61,4 +62,4 @@ Winemaking in Asturias is a relatively small, relatively new thing. Having been 
 ## Other Craft Foods
 The above categories are not the sum total of artisan food products in Asturias. The ingenuity and resourcefulness of people makes that a certain impossibility. I have rounded up all the one-off and niche products into a category of their own.
 
-*learn more:* [Other Craft Foods](/culture/products/misc/)
+*learn more:* [Other Craft Foods](/culture/products/other/)

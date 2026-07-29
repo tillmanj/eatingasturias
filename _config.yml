@@ -296,6 +296,9 @@ collections:
     permalink: /culture/:collection/:name.html
   producers:
     output: true
+  products:
+    output: true
+    permalink: /culture/products/other/:name.html
   recipes:
     output: true
   restaurants:

@@ -78,6 +78,8 @@ fiberContent: 1.7
 sugarContent: 1
 proteinContent: 6.3
 lastmod: 2026-02-20T12:21:30.413Z
+date created: Monday, March 3rd 2025, 9:54:32 am
+date modified: Tuesday, June 30th 2026, 6:11:34 pm
 ---
 While most popular, and popularly associated with, neighboring Galicia, the empanada is a well-loved part of Asturian gastronomy. They are as ubiquitous here as the tortilla de patatas is further south in Spain. While all of Spain likes a good empanada, it is really the northwest where they become a way of life.
 
