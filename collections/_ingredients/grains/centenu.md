@@ -7,7 +7,7 @@ subtitle: Secale cereale
 permalink: /culture/ingredients/grains/centenu.html
 toc: false
 toc_sticky: true
-toc_label: Arbeyos
+toc_label: Centenu
 sidebar:
   nav: culture_full
 ingredientCategory: Grains
@@ -22,15 +22,16 @@ plant_name_esp: Centeno
 plant_name_esp_auth: http://datos.bne.es/resource/XX536073
 plant_species: Secale cereale L.
 plant_species_wfo: https://www.worldfloraonline.org/taxon/wfo-0000898524
-plant_subspecies: 
-plant_subspecies_wfo: 
-plant_cultivar: 
-dop: 
-conceyu: 
+plant_subspecies: null
+plant_subspecies_wfo: null
+plant_cultivar: null
+dop: null
+conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Saturday, October 18th 2025, 9:48:00 pm
+date modified: Thursday, July 30th 2026, 7:25:01 pm
+lastmod: 2026-07-30T17:30:28.137Z
 ---
-{% newthought 'El Panizu has gone by many names.'%} 
+{% newthought 'Rye (centenu) has a long history'%} in Asturias.
 
 ## History
 

@@ -1,20 +1,20 @@
 ---
-layout: page
+layout: ingredient
 title: Panizu
 subtitle: Setaria italica
 permalink: /culture/ingredients/grains/panizu.html
 ingredientCategory: Grains
 sidebar:
-  nav: 
+  nav:
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated:
+datePublished:
+dateModified:
 variety:
-dop: 
-conceyu: 
+dop:
+conceyu:
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Saturday, October 18th 2025, 6:11:41 pm
+date modified: Thursday, July 30th 2026, 7:24:57 pm
 ---
 {% newthought 'El Panizu has gone by many names.'%} Previously known scientifically as *Panicum italicum*, and colloquially known in parts of Asturias as *sara* or *pamplina*,[^1] **foxtail millet** (as it is currently known in English) is one of the oldest known cultivated grains on Earth.[^2]
 
