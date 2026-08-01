@@ -19,18 +19,19 @@ plant_name_eng: Spelt
 plant_name_eng_auth: https://id.loc.gov/authorities/subjects/sh96001543.html
 plant_name_esp: Espelta
 plant_name_esp_auth: https://datos.bne.es/tema/XX557583.html
-plant_species: Triticum spelta L.
+plant_species: Triticum aestivum
 plant_species_wfo: https://www.worldfloraonline.org/taxon/wfo-0000906367
-plant_subspecies: 
-plant_subspecies_wfo: 
-plant_cultivar: 
-dop:
-conceyu:
+plant_subspecies: spelta
+plant_subspecies_wfo: null
+plant_cultivar: null
+dop: null
+conceyu: null
 author: Jon Tillman
 date created: Saturday, October 18th 2025, 5:33:28 pm
 date modified: Saturday, October 18th 2025, 6:11:28 pm
+lastmod: 2026-08-01T15:15:52.030Z
 ---
-{% newthought 'El Panizu has gone by many names.'%} 
+{% newthought 'Spelt has gone by many names.'%} 
 
 ## History
 

@@ -29,7 +29,7 @@ dop: null
 conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
 date modified: Saturday, October 18th 2025, 9:48:20 pm
-lastmod: 2026-07-29T18:41:04.937Z
+lastmod: 2026-08-01T15:15:55.584Z
 ---
 {% newthought 'Zea mays, the humble corn plant'%} was cultivated for thousands of years before it made its way to Spain.
 

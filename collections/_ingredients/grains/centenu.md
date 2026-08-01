@@ -15,7 +15,7 @@ author: Jon Tillman
 plant_image: Secale cereale.jpg
 plant_image_alt: Rye growing in a field
 plant_name_ast: Centenu
-plant_name_ast_auth: https://sabencia.net/detalle.php?nomecientificu=Secale%20cereale&asturianu=Cent%C3%A9n&reconocimientu=By+LSDSL+-+Own+work%2C+CC+BY-SA+3.0%2C+https%3A%2F%2Fcommons.wikimedia.org%2Fw%2Findex.php%3Fcurid%3D2232399&num_id=2127
+plant_name_ast_auth: https://sabencia.net/detalle.php?nomecientificu=Secale+cereale&asturianu=Cent%C3%A9n&reconocimientu=By+LSDSL+-+Own+work%2C+CC+BY-SA+3.0%2C+https%3A%2F%2Fcommons.wikimedia.org%2Fw%2Findex.php%3Fcurid%3D2232399&num_id=2127
 plant_name_eng: Rye
 plant_name_eng_auth: https://id.loc.gov/authorities/subjects/sh85116118.html
 plant_name_esp: Centeno
@@ -28,8 +28,8 @@ plant_cultivar: null
 dop: null
 conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Thursday, July 30th 2026, 7:25:01 pm
-lastmod: 2026-07-30T17:30:28.137Z
+date modified: Friday, July 31st 2026, 9:14:07 am
+lastmod: 2026-08-01T15:15:48.349Z
 ---
 {% newthought 'Rye (centenu) has a long history'%} in Asturias.
 

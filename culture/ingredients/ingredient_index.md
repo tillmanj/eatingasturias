@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Ingredients
 sidebar:
   nav: culture_full
+lastmod: 2026-08-01T15:52:53.595Z
 ---
 
 {% epigraph 'Tradition, most of the time, doesn’t respect ingredients' 'Massimo Bottura' 'Chef‘s Table - [S1E1](https://www.imdb.com/title/tt4383018/)' %}
@@ -20,7 +21,7 @@ Asturias has a more-or-less year-round growing season, and a mild enough climate
 <ul class="col2">
 {% assign beans = site.ingredients | where: "ingredientCategory", "Beans" %}
 {% for ingredient in beans %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
 {% endfor %}
 </ul>
 
@@ -28,7 +29,7 @@ Asturias has a more-or-less year-round growing season, and a mild enough climate
 <ul class="col2">
 {% assign Meats = site.ingredients | where: "ingredientCategory", "Meats" %}
 {% for ingredient in Meats %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
 {% endfor %}
 </ul>
 
@@ -36,23 +37,23 @@ Asturias has a more-or-less year-round growing season, and a mild enough climate
 <ul class="col2">
 {% assign Fruits-Nuts = site.ingredients | where: "ingredientCategory", "Fruits-Nuts" %}
 {% for ingredient in Fruits-Nuts %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
 {% endfor %}
 </ul>
 
 ## Grains
 <ul class="col2">
-{% assign grains = site.ingredients | where: "ingredientCategory", "Grains" %}
-{% for ingredient in grains %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
-{% endfor %}
+{% assign Grains = site.ingredients | where: "ingredientCategory", "Grains" %}
+  {% for ingredient in Grains %}
+    <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
+  {% endfor %}
 </ul>
 
 ## Seafood
 <ul class="col2">
 {% assign seafood = site.ingredients | where: "ingredientCategory", "Seafood" %}
 {% for ingredient in seafood %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
 {% endfor %}
 </ul>
 
@@ -60,6 +61,6 @@ Asturias has a more-or-less year-round growing season, and a mild enough climate
 <ul class="col2">
 {% assign vegetables = site.ingredients | where: "ingredientCategory", "Vegetables" %}
 {% for ingredient in vegetables %}
-  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}</a></li>
+  <li><a href="{{ingredient.permalink}}" title="{{ingredient.subtitle}}">{{ingredient.title}}{% if ingredient.plant_name_eng %} ({{ingredient.plant_name_eng}}){% endif %}</a></li>
 {% endfor %}
 </ul>

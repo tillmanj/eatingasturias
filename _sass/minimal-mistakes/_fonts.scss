@@ -137,3 +137,11 @@
     font-weight: bold;
     font-style: normal;
 }
+
+// For Drop-Caps
+@font-face {
+    font-family: 'Spirax';
+    src: url('../fonts/Spirax/spirax-v22-latin-regular.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}

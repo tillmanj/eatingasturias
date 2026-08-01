@@ -9,7 +9,7 @@
                         <figure>
                             <picture>
                                 <source srcset="{{imgName}}" type="image/png" media="(orientation: portrait)">
-                                <a href="{{imgName}}" class="image-popup" title="the location of {{page.title}} within Asturias">
+                                <a href="{{imgName}}" class="image-popup" title="{{page.plant_image_alt}}">
                                 <img itemprop="photograph" src="{{imgName}}" alt="{{page.title}}" decoding="async" data-file-width="{% imagesize {{imgName}}:width %}" data-file-height="{% imagesize {{imgName}}:height %}">
                                 </a>
                             </picture>
@@ -20,20 +20,20 @@
             {% endif %}
             <tr class="about ingredient">
                 <td class="infobox-label">English Name</td>
-                <td class="about ingredient nowrap"><a href="{{page.plant_name_eng_auth}}">{{page.plant_name_eng}}</a></td>
+                <td class="about ingredient nowrap">{% if page.plant_name_eng_auth %}<a href="{{page.plant_name_eng_auth}}">{% endif %}{{page.plant_name_eng}}{% if page.plant_name_eng_auth %}</a>{% endif %}</td>
             </tr>
             <tr class="about ingredient">
                 <td class="infobox-label">Castilian Name</td>
-                <td class="about ingredient nowrap"><a href="{{page.plant_name_esp_auth}}">{{page.plant_name_esp}}</a></td>
+        <td class="about ingredient nowrap">{% if page.plant_name_esp_auth %}<a href="{{page.plant_name_esp_auth}}">{% endif %}{{page.plant_name_esp}}{% if page.plant_name_esp_auth %}</a>{% endif %}</td>
             </tr>
             <tr class="about ingredient">
                 <td class="infobox-label">Species</td>
-                <td class="about ingredient nowrap"><a href="{{plant_species_wfo}}">{{page.plant_species}}</a></td>
+        <td class="about ingredient nowrap">{% if page.plant_species_wfo %}<a href="{{page.plant_species_wfo}}">{% endif %}{{page.plant_species}}{% if page.plant_species_wfo %}</a>{% endif %}</td>
             </tr>
             {% if page.plant_subspecies.size > 1 %}
             <tr class="about ingredient">
                 <td class="infobox-label">Subspecies</td>
-                <td class="about ingredient nowrap"><a href="{{page.plant_subspecies_wfo}}">{{page.plant_subspecies}}</a></td>
+            <td class="about ingredient nowrap">{% if page.plant_subspecies_wfo %}<a href="{{page.plant_subspecies_wfo}}">{% endif %}{{page.plant_subspecies}}{% if page.plant_subspecies_wfo %}</a>{% endif %}</td>
             </tr>
             {% endif %}
             {% if page.plant_cultivar.size > 1 %}

@@ -39,8 +39,8 @@ indexIngredients:
   - Escanda
 recipeIngredients:
   - "800 g Pastry Flour #45"
-  - 150 g Rye flour
-  - 50 g Spelt flour
+  - 150 g [Rye](/culture/ingredients/grains/centenu.html) flour
+  - 50 g [Spelt](/culture/ingredients/grains/escanda.html) flour
   - 720 g warm water. 32-35C (90-95F)
   - 22 g Fine sea salt
   - 3 g active dry yeast
@@ -51,7 +51,7 @@ recipeInstructions:
   - Weight out your salt in a small container.
   - Measure out your warm water.
   - Combine a small amount of your warm water and yeast in a container.
-  - Autolyse:Combine the mixed flour with the remaining warm water and mix until just barely combined. Let sit for 20 minutes.
+  - Combine the mixed flour with the remaining warm water and mix until just barely combined. Let sit for 20 minutes.
   - Add your yeast mixture and sprinkle your salt over the top of the dough. Wet your hands and start mixing the dough, picking it up from your container and folding it back on itself. Stretch and turn the dough over and over. Fold, fold, fold. Then, once it is all well mixed and looks like a ball of dough instead of a shaggy mess, let it rest for 30 minutes.
   - Repeat your mixing a second time, bringing the dough back into a tight ball shape by the end. Cover the container tightly and allow the dough to rise until it is doubled in size. This will take close to 6 hours.
   - Once the dough has doubled in size, you need to start turning it into pizza-sized pieces. This recipe makes either 5 pizzas or 3 pizzas and a pan of foccacia.
@@ -80,7 +80,7 @@ sugarContent: 1
 proteinContent: 2.6
 date created: Friday, May 16th 2025, 8:01:28 am
 date modified: Friday, May 16th 2025, 8:28:37 am
-lastmod: 2026-02-20T12:23:05.785Z
+lastmod: 2026-07-31T07:17:54.882Z
 ---
 What makes a pizza Asturian? Isn’t it Italian? Isn’t **real** pizza Italian? Despite what some misguided ultra-conservative Italian defenders; pizza is now, has been for almost a century, and always will be, a universal, cosmopolitan food. Whether it be American, Romanian, Japanese, Brazilian, or Spanish style – pizza adapts to anywhere and any topping.
 
