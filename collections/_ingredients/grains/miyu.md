@@ -27,7 +27,7 @@ plant_cultivar: null
 dop: null
 conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Friday, July 31st 2026, 9:14:06 am
+date modified: Sunday, August 2nd 2026, 9:29:29 am
 description: ""
 lastmod: 2026-08-01T15:15:59.403Z
 ---

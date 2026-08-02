@@ -11,10 +11,10 @@ datePublished: null
 dateModified: null
 recipeImage: Farines-feature-1024x576.jpg
 recipeImageCaption: Fariñes topped with seared chorizo and crumbles of Cabrales blue cheese
-prepTime: null
-cookTime: null
-totalTime: null
-recipeYield: null
+prepTime: 5 min
+cookTime: 10 min
+totalTime: 15 min
+recipeYield: 4 servings
 recipeCategory:
   - Breakfast
 suitableForDiet:
@@ -38,30 +38,36 @@ recipeCourse:
   - Desayuno
 indexIngredients:
   - Polenta
+  - Harina de maíz
 recipeIngredients:
-  - null
+  - 4 cups Water
+  - 1 cup [Polenta](/culture/products/polenta.html) or [Harina de maíz](/culture/products/harina-de-maíz.html)
+  - 1 teaspoon salt
 requires:
   - null
 recipeInstructions:
-  - null
+  - Combine the water and salt in a heavy bottomed sauce pan and bring to a rolling boil
+  - Whisking constantly (to prevent clumping), slowly add the polenta or corn flour to the boiling water
+  - Lower the heat to a simmer, and let simmer, uncovered for up to 10 minutes. (Until they reach the thickness you like)
+  - Stir occasionally to prevent sticking on the bottom
 recipeNotes:
-  - null
+  - Yep, this is a [volume-based recipe](/recipes/units-of-measurement.html). Much like making rice, grits are one of the very small number of recipes that can be reduced to simple volume ratios.
 recipeSource: null
 recipeSourceExt: null
 isBasedOn: null
 nutrition: true
 servingSize: null
-calories: null
-fatContent: null
-saturatedFatContent: null
-transFatContent: null
-cholesterolContent: null
-sodiumContent: null
-carbohydrateContent: null
-fiberContent: null
-sugarContent: null
-proteinContent: null
-lastmod: 2026-07-29T18:41:04.947Z
+calories: 36
+fatContent: 0.1g
+saturatedFatContent: 0g
+transFatContent: 0g
+cholesterolContent: 0mg
+sodiumContent: 719mg
+carbohydrateContent: 7.8g
+fiberContent: 0.2g
+sugarContent: 0.1g
+proteinContent: 0.9g
+lastmod: 2026-08-02T07:11:31.727Z
 date created: Tuesday, June 30th 2026, 5:58:01 pm
 date modified: Monday, July 27th 2026, 8:07:01 am
 ---

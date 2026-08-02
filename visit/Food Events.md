@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Food Events
-subtitle: null
-permalink: /visit/culture/events/
+subtitle: The Asturian Edible Calendar
+permalink: /visit/events/
 toc: true
 toc_sticky: true
 toc_label: Events
 sidebar:
   nav: visit_full
-lastmod: 2026-02-24T09:15:57.859Z
+lastmod: 2026-08-02T08:57:43.841Z
 ---
 Asturias is absolutely jam packed with food related events. From multi-day international symposiums, to yearly cheese judging, there is something pretty much every week. Rural market days, food focused village fiestas, and beer and cider festivals can be found throughout the year, and throughout Asturias.
 
@@ -67,6 +67,7 @@ Below is my calendar of food related events happening soon throughout Asturias. 
 - Festival del Potaje
 
 ## Payares (November)
+- Festival del Chosco de Tineo
 - Jornadas de las Cebollas Rellenas
 - [Amagüestu](/visit/events/amagüestu.html)
 - Jornadas del Boronchu y el Emberzau

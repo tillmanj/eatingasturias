@@ -27,7 +27,7 @@ plant_cultivar: null
 dop: null
 conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Thursday, July 30th 2026, 7:24:57 pm
+date modified: Sunday, August 2nd 2026, 9:29:20 am
 lastmod: 2026-08-01T15:16:06.211Z
 ---
 {% newthought 'El Panizu has gone by many names.'%} Previously known scientifically as *Panicum italicum*, and colloquially known in parts of Asturias as *sara* or *pamplina*,[^1] **foxtail millet** (as it is currently known in English) is one of the oldest known cultivated grains on Earth.[^2]
@@ -45,5 +45,6 @@ In Asturias it was widely cultivated as a summer crop until the 16th century alo
 {% include recipes-ingredient.html %}
 
 ## Notes
+
 [^1]: See [the entry](https://mas.lne.es/diccionario/palabra/55788) at the **Diccionario General de la Lengua Asturiana** for *panizu*
 [^2]: Prasada Rao, K. E. ; de Wet, J. M. J. ; Brink, D. E. ; Mengesha, M. H., 1987. [Infraspecific variation and systematics of cultivated _Setaria italica_, foxtail millet (Poaceae)]([https://doi.org/10.1007/BF02859358](https://doi.org/10.1007/BF02859358)). Econ. Bot., 41 (1): 108-116
