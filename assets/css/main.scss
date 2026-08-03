@@ -12,3 +12,100 @@ $indent-var: 1.5em; // equivilent to ~1.75in on a printed page
 
 // @use "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @use "minimal-mistakes"; // main partials
+
+// Test CSS
+
+/*
+ CSS-Only Tabs Content example
+https://penote.com/css-pseudo-classes/creating-tabbed-interfaces-with-html-and-css-only/
+*/
+.cssonly-tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.cssonly-tabset .cssonly-tab-panel {
+  display: none;
+}
+
+.cssonly-tabset > input:first-child:checked ~ .cssonly-tab-panels > .cssonly-tab-panel:first-child,
+.cssonly-tabset > input:nth-child(2):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(2),
+.cssonly-tabset > input:nth-child(3):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(3),
+.cssonly-tabset > input:nth-child(4):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(4),
+.cssonly-tabset > input:nth-child(5):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(5),
+.cssonly-tabset > input:nth-child(6):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(6),
+.cssonly-tabset > input:nth-child(7):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(7),
+.cssonly-tabset > input:nth-child(8):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(8),
+.cssonly-tabset > input:nth-child(9):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(9),
+.cssonly-tabset > input:nth-child(10):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(10),
+.cssonly-tabset > input:nth-child(11):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(11),
+.cssonly-tabset > input:nth-child(12):checked ~ .cssonly-tab-panels > .cssonly-tab-panel:nth-child(12) {
+  display: block;
+}
+.cssonly-tabset > .cssonly-tabs label {
+  position: relative;
+  display: inline-block;
+  padding: .5rem .75rem .25rem;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cssonly-tabset > .cssonly-tabs label:hover{
+  color: #06c;
+}
+
+.cssonly-tabset > input:first-child:focus ~ .cssonly-tabs label:first-child,
+.cssonly-tabset > input:nth-child(2):focus ~ .cssonly-tabs label:nth-child(2),
+.cssonly-tabset > input:nth-child(3):focus ~ .cssonly-tabs label:nth-child(3),
+.cssonly-tabset > input:nth-child(4):focus ~ .cssonly-tabs label:nth-child(4),
+.cssonly-tabset > input:nth-child(5):focus ~ .cssonly-tabs label:nth-child(5),
+.cssonly-tabset > input:nth-child(6):focus ~ .cssonly-tabs label:nth-child(6),
+.cssonly-tabset > input:nth-child(7):focus ~ .cssonly-tabs label:nth-child(7),
+.cssonly-tabset > input:nth-child(8):focus ~ .cssonly-tabs label:nth-child(8),
+.cssonly-tabset > input:nth-child(9):focus ~ .cssonly-tabs label:nth-child(9),
+.cssonly-tabset > input:nth-child(10):focus ~ .cssonly-tabs label:nth-child(10),
+.cssonly-tabset > input:nth-child(11):focus ~ .cssonly-tabs label:nth-child(11),
+.cssonly-tabset > input:nth-child(12):focus ~ .cssonly-tabs label:nth-child(12),
+.cssonly-tabset > input:first-child:checked ~ .cssonly-tabs label:first-child,
+.cssonly-tabset > input:nth-child(2):checked ~ .cssonly-tabs label:nth-child(2),
+.cssonly-tabset > input:nth-child(3):checked ~ .cssonly-tabs label:nth-child(3),
+.cssonly-tabset > input:nth-child(4):checked ~ .cssonly-tabs label:nth-child(4),
+.cssonly-tabset > input:nth-child(5):checked ~ .cssonly-tabs label:nth-child(5),
+.cssonly-tabset > input:nth-child(6):checked ~ .cssonly-tabs label:nth-child(6),
+.cssonly-tabset > input:nth-child(7):checked ~ .cssonly-tabs label:nth-child(7),
+.cssonly-tabset > input:nth-child(8):checked ~ .cssonly-tabs label:nth-child(8),
+.cssonly-tabset > input:nth-child(9):checked ~ .cssonly-tabs label:nth-child(9),
+.cssonly-tabset > input:nth-child(10):checked ~ .cssonly-tabs label:nth-child(10),
+.cssonly-tabset > input:nth-child(11):checked ~ .cssonly-tabs label:nth-child(11),
+.cssonly-tabset > input:nth-child(12):checked ~ .cssonly-tabs label:nth-child(12){
+  color: #06c;
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.cssonly-tabset:focus:focus-visible,
+.cssonly-tabset > input:first-child:focus:focus-visible ~ .cssonly-tabs label:first-child,
+.cssonly-tabset > input:nth-child(2):focus:focus-visible ~ .cssonly-tabs label:nth-child(2),
+.cssonly-tabset > input:nth-child(3):focus:focus-visible ~ .cssonly-tabs label:nth-child(3),
+.cssonly-tabset > input:nth-child(4):focus:focus-visible ~ .cssonly-tabs label:nth-child(4),
+.cssonly-tabset > input:nth-child(5):focus:focus-visible ~ .cssonly-tabs label:nth-child(5),
+.cssonly-tabset > input:nth-child(6):focus:focus-visible ~ .cssonly-tabs label:nth-child(6),
+.cssonly-tabset > input:nth-child(7):focus:focus-visible ~ .cssonly-tabs label:nth-child(7),
+.cssonly-tabset > input:nth-child(8):focus:focus-visible ~ .cssonly-tabs label:nth-child(8),
+.cssonly-tabset > input:nth-child(9):focus:focus-visible ~ .cssonly-tabs label:nth-child(9),
+.cssonly-tabset > input:nth-child(10):focus:focus-visible ~ .cssonly-tabs label:nth-child(10),
+.cssonly-tabset > input:nth-child(11):focus:focus-visible ~ .cssonly-tabs label:nth-child(11),
+.cssonly-tabset > input:nth-child(12):focus:focus-visible ~ .cssonly-tabs label:nth-child(12){
+  outline: auto;
+}
+.cssonly-tab-panel {
+  margin: 0;
+  padding: .75rem;
+  border-top: 1px solid #ccc;
+}
+.cssonly-tabset {
+  max-width: 65em;
+}

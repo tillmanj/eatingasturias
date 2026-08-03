@@ -1,78 +1,169 @@
 ---
 layout: page
+classes: wide
 title: Food Events
 subtitle: The Asturian Edible Calendar
 permalink: /visit/events/
-toc: true
+toc: false
 toc_sticky: true
 toc_label: Events
 sidebar:
   nav: visit_full
-lastmod: 2026-08-02T08:57:43.841Z
+lastmod: 2026-08-03T15:38:35.687Z
 ---
 Asturias is absolutely jam packed with food related events. From multi-day international symposiums, to yearly cheese judging, there is something pretty much every week. Rural market days, food focused village fiestas, and beer and cider festivals can be found throughout the year, and throughout Asturias.
 
-Below is my calendar of food related events happening soon throughout Asturias. As more events are confirmed, I will add them as quickly as I can. 
+Below is my calendar of food related events happening yearly throughout Asturias.
 
-## Xineru (January)
-- Fiesta de los Nabos
-- Certamen de Queso Afuega'l Pitu
+<nav class="cssonly-tabset" aria-label="Sample Tabs">
+  <input type="radio" name="tabset" id="tab1" checked/>
+  <input type="radio" name="tabset" id="tab2" />
+	<input type="radio" name="tabset" id="tab3" />
+  <input type="radio" name="tabset" id="tab4" />
+  <input type="radio" name="tabset" id="tab5" />
+  <input type="radio" name="tabset" id="tab6" />
+  <input type="radio" name="tabset" id="tab7" />
+  <input type="radio" name="tabset" id="tab8" />
+  <input type="radio" name="tabset" id="tab9" />
+  <input type="radio" name="tabset" id="tab10" />
+  <input type="radio" name="tabset" id="tab11" />
+  <input type="radio" name="tabset" id="tab12" />
 
-## Febreru (February)
-- Jornadas del [Pote](https://eatingasturias.com/wiki/Pote "Pote") y Pitu Caleya
-- Festival del Oricio
-- Concurso de Pinchos
-- Jornadas de la Calderada y Caldereta
-- [Antroxu](/visit/events/antroxu.html)
-
-## Marzu (March)
-- Jornadas de los Oricios
-- Festival de la Angula
-
-## Abril (April)
-- [El Bollo / Comida en la Calle](https://eatingasturias.com/index.php?title=Festival_El_Bollo&action=edit&redlink=1 "Festival El Bollo (page does not exist)") - second weekend of the month
-- [Feria de Quesos de Taramundi](https://eatingasturias.com/index.php?title=Feria_de_Quesos_de_Taramundi&action=edit&redlink=1 "Feria de Quesos de Taramundi (page does not exist)") - second weekend of the month
-- [Festival Internacional de Cerveza Artesano de Llangréu](https://eatingasturias.com/index.php?title=Festival_Internacional_de_Cerveza_Artesano_de_Llangr%C3%A9u&action=edit&redlink=1 "Festival Internacional de Cerveza Artesano de Llangréu (page does not exist)") (FICAL) - second weekend of the month
-- [Premir Sidre l'Añu](https://eatingasturias.com/index.php?title=Premir_Sidre_l%27A%C3%B1u&action=edit&redlink=1 "Premir Sidre l'Añu (page does not exist)") - second weekend of the month, coincides with semana santa
-- [Certamen de Quesos Artesanos de Asturias](https://eatingasturias.com/index.php?title=Certamen_de_Quesos_Artesanos_de_Asturias&action=edit&redlink=1 "Certamen de Quesos Artesanos de Asturias (page does not exist)") - third weekend of the Month
-- [Festival de las Ostras del Eo](https://eatingasturias.com/index.php?title=Festival_de_las_Ostras_del_Eo&action=edit&redlink=1 "Festival de las Ostras del Eo (page does not exist)") - Last weekend of the month
-- [Jornadas de la Sidra Natural en La Felguera](https://eatingasturias.com/index.php?title=Jornadas_de_la_Sidra_Natural_en_La_Felguera&action=edit&redlink=1 "Jornadas de la Sidra Natural en La Felguera (page does not exist)") - Last Saturday of the month
-
-## Mayu (May)
-- [Festival del Arroz con leche](https://eatingasturias.com/index.php?title=Festival_del_Arroz_con_leche&action=edit&redlink=1 "Festival del Arroz con leche (page does not exist)") - Second weekend of the month
-- [Festival de Callos y Chipirón en Bañugues](https://eatingasturias.com/index.php?title=Festival_de_Callos_y_Chipir%C3%B3n_en_Ba%C3%B1ugues&action=edit&redlink=1 "Festival de Callos y Chipirón en Bañugues (page does not exist)") - third weekend of the month
-
-## Xunu (June)
-
-## Xunetu (July)
-- [Prau Llagüezos](https://eatingasturias.com/index.php?title=Prau_Llag%C3%BCezos&action=edit&redlink=1 "Prau Llagüezos (page does not exist)") - The first Sunday of the month
-- [Festival de la Sidra de Nava](https://eatingasturias.com/index.php?title=Festival_de_la_Sidra_de_Nava&action=edit&redlink=1 "Festival de la Sidra de Nava (page does not exist)") - Second weekend of the month
-
-## Agostu (August)
-- [El Xiringüelu](https://eatingasturias.com/index.php?title=Xiring%C3%BCelu&action=edit&redlink=1 "Xiringüelu (page does not exist)") - First weekend of the month
-- [Fiesta de la Sidra de Gijón](https://eatingasturias.com/index.php?title=Fiesta_de_la_Sidra_de_Gij%C3%B3n&action=edit&redlink=1 "Fiesta de la Sidra de Gijón (page does not exist)") - Last week of the month
-- [Certame del Quesu Cabrales](https://eatingasturias.com/index.php?title=Certame_del_Quesu_Cabrales&action=edit&redlink=1 "Certame del Quesu Cabrales (page does not exist)") - Last Sunday of the Month
-
-## Setiembre (September)
-- Concurso de Sidra Casera
-
-## Ochobre (October)
-- Feria de la Miel
-- Festival del [Chosco de Tineo](https://eatingasturias.com/wiki/Chosco_de_Tineo "Chosco de Tineo")
-- [Samaín](https://eatingasturias.com/wiki/Sama%C3%ADn "Samaín")
-- [El Desarme](https://eatingasturias.com/wiki/El_Desarme "El Desarme")
-- Festa del Vino
-- [Seronda Fest](https://eatingasturias.com/index.php?title=Seronda_Fest&action=edit&redlink=1 "Seronda Fest (page does not exist)")
-- Fiesta de los Callos
-- Festival del Potaje
-
-## Payares (November)
-- Festival del Chosco de Tineo
-- Jornadas de las Cebollas Rellenas
-- [Amagüestu](/visit/events/amagüestu.html)
-- Jornadas del Boronchu y el Emberzau
-
-## Avientu (December)
-- Jornadas de los Pimientos Rellenos
-- Jornadas de Matanza
-- Jornadas de las Setas Silvestres
+  <span class="cssonly-tabs" role="tablist">
+    <label for="tab1" role="tab" aria-selected="true" aria-controls="tab-1">Jan</label>
+		<label for="tab2" role="tab" aria-selected="false" aria-controls="tab-2">Feb</label>
+		<label for="tab3" role="tab" aria-selected="false" aria-controls="tab-3">Mar</label>
+    <label for="tab4" role="tab" aria-selected="false" aria-controls="tab-4">Apr</label>
+    <label for="tab5" role="tab" aria-selected="false" aria-controls="tab-5">May</label>
+    <label for="tab6" role="tab" aria-selected="false" aria-controls="tab-6">Jun</label>
+    <label for="tab7" role="tab" aria-selected="false" aria-controls="tab-7">Jul</label>
+    <label for="tab8" role="tab" aria-selected="false" aria-controls="tab-8">Aug</label>
+    <label for="tab9" role="tab" aria-selected="false" aria-controls="tab-9">Sep</label>
+    <label for="tab10" role="tab" aria-selected="false" aria-controls="tab-10">Oct</label>
+    <label for="tab11" role="tab" aria-selected="false" aria-controls="tab-11">Nov</label>
+    <label for="tab12" role="tab" aria-selected="false" aria-controls="tab-12">Dec</label>
+  </span>
+	<div class="cssonly-tab-panels">
+    <div id="tab-1" role="tabpanel" aria-labelledby="tab1" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Xineru (January)</h3>
+        <ul>
+          <li>Fiesta de los Nabos</li>
+          <li>Certamen de Queso Afuega'l Pitu</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-2" role="tabpanel" aria-labelledby="tab2" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Febreru (February)</h3>
+        <ul>
+          <li>Jornadas del [Pote](https://eatingasturias.com/wiki/Pote "Pote") y Pitu Caleya</li>
+          <li>Festival del Oricio</li>
+          <li>Concurso de Pinchos</li>
+          <li>Jornadas de la Calderada y Caldereta</li>
+          <li><a href="/visit/events/antroxu.html">Antroxu</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-3" role="tabpanel" aria-labelledby="tab3" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Marzu (March)</h3>
+        <ul>
+          <li>Jornadas de los Oricios</li>
+          <li>Festival de la Angula</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-4" role="tabpanel" aria-labelledby="tab4" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Abril (April)</h3>
+        <ul>
+          <li>El Bollo / Comida en la Calle - second weekend of the month</li>
+          <li>Feria de Quesos de Taramundi - second weekend of the month</li>
+          <li>Festival Internacional de Cerveza Artesano de Llangréu (FICAL) - second weekend of the month</li>
+          <li>Premir Sidre l'Añu - second weekend of the month, coincides with semana santa</li>
+          <li>Certamen de Quesos Artesanos de Asturias - third weekend of the Month</li>
+          <li>Festival de las Ostras del Eo - Last weekend of the month</li>
+          <li>Jornadas de la Sidra Natural en La Felguera - Last Saturday of the month</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-5" role="tabpanel" aria-labelledby="tab5" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Mayu (May)</h3>
+        <ul>
+          <li>Festival del Arroz con leche - - Second weekend of the month</li>
+          <li>Festival de Callos y Chipirón en Bañugues - third weekend of the month</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-6" role="tabpanel" aria-labelledby="tab6" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Xunu (June)</h3>
+        <p><i>no events found</i></p>
+      </div>
+    </div>
+    <div id="tab-7" role="tabpanel" aria-labelledby="tab7" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Xunetu (July)</h3>
+        <ul>
+          <li>Prau Llagüezos - The first Sunday of the month</li>
+          <li>Festival de la Sidra de Nava - Second weekend of the month</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-8" role="tabpanel" aria-labelledby="tab8" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Agostu (August)</h3>
+        <ul>
+          <li>El Xiringüelu - First weekend of the month</li>
+          <li><a href="/visit/events/sidra-gijon.html">Fiesta de la Sidra de Gijón</a> - Last week of the month</li>
+          <li>Certame del Quesu Cabrales - Last Sunday of the Month</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-9" role="tabpanel" aria-labelledby="tab9" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Setiembre (September)</h3>
+        <ul>
+          <li>Concurso de Sidra Casera</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-10" role="tabpanel" aria-labelledby="tab10" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Ochobre (October)</h3>
+        <ul>
+          <li>Feria de la Miel</li>
+          <li>Samaín</li>
+          <li>El Desarme</li>
+          <li>Festa del Vino</li>
+          <li>Seronda Fest</li>
+          <li>Fiesta de los Callos</li>
+          <li>Festival del Potaje</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-11" role="tabpanel" aria-labelledby="tab11" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Payares (November)</h3>
+        <ul>
+          <li><a href="/visit/events/chosco.html">Festival del Chosco de Tineo</a></li>
+          <li>Jornadas de las Cebollas Rellenas</li>
+          <li><a href="/visit/events/amagüestu.html">Amagüestu</a></li>
+          <li>Jornadas del Boronchu y el Emberzau</li>
+        </ul>
+      </div>
+    </div>
+    <div id="tab-12" role="tabpanel" aria-labelledby="tab12" class="cssonly-tab-panel">
+      <div class="panel-content">
+        <h3>Avientu (December)</h3>
+        <ul>
+          <li>Jornadas de los Pimientos Rellenos</li>
+          <li>Jornadas de Matanza</li>
+          <li>Jornadas de las Setas Silvestres</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
