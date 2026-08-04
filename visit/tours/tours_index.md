@@ -8,7 +8,9 @@ toc_sticky: true
 toc_label: Tour Info
 sidebar:
     nav: visit_full
-lastmod: 2026-02-17T16:39:07.011Z
+lastmod: 2026-08-04T06:53:29.868Z
+date created: Tuesday, February 17th 2026, 5:37:24 pm
+date modified: Tuesday, August 4th 2026, 8:51:57 am
 ---
 Want to eat and drink your way though the lushest, greenest landscapes in Spain? Ready to break away from the typical tourist trail and experience things a little closer to the ground? I provide English tours of Asturias for very reasonable prices.
 
@@ -26,5 +28,5 @@ Gastronomy Centered
 I am a firm believer that food is best ambassador. Being curious about local food and willing to try new things is one of the best ways to connect our lived experiences to another persons. Over a shared table we can learn about, and from, each other. People in Asturias are very proud of their food and drink and I want to help you experience that without a language barrier. All of my English tours of Asturias are gastronomy focused for this reason. 
 
 ## Available Trips
-- Food Walking Tour of Oviedo
-- Food Walking Tour of Gijón
+- [Food Walking Tour of Oviedo](/visit/tours/oviedo/)
+- [Food Walking Tour of Gijón](/visit/tours/gijón/)

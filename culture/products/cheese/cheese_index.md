@@ -6,7 +6,7 @@ permalink: /culture/products/cheese/
 toc: true
 toc_sticky: true
 toc_label: Cheese Types
-lastmod: 2026-02-20T08:20:48.541Z
+lastmod: 2026-08-04T07:06:03.904Z
 ---
 The number of cheeses made in Asturias is a somewhat contentious topic, and perhaps subject to a bit of inflation as time goes by. Depending on how you count them, there are between 40 and 200.
 

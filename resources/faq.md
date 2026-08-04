@@ -10,7 +10,7 @@ sidebar:
     nav: visit_full
 lastmod: 2026-08-02T08:57:21.761Z
 date created: Sunday, August 2nd 2026, 9:27:38 am
-date modified: Sunday, August 2nd 2026, 9:30:56 am
+date modified: Tuesday, August 4th 2026, 8:41:42 am
 ---
 From time to time I get questions that are not really a part of this site, but are more about the details **behind** the site, from what I do all day to smaller details of what to do when visiting, or how to do something while in [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"). I endeavor to answer all of those frequently asked questions here, so that they can be of use to everyone. The links below will take you to sections with more specific information.
 
