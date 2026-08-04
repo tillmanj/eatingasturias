@@ -8,9 +8,11 @@ permalink: /culture/products/cheese/cueva-de-llonín.html
 toc: false
 toc_sticky: true
 toc_label: Cheeses
-image_splash: Cueva_de_Llonín_main.jpeg
+image_splash: null
 image_logo: Cueva_de_Llonín_label.jpeg
 image_logo_caption: A new and innovative cheese for Asturias, this is in the tradition of Brie and Camembert
+image_detail: Cueva_de_Llonín_main.jpeg
+image_detail_caption: null
 cheese_producer: Cooperativa Queso de Peñamellera
 cheese_style: swc
 cheese_milk: Cow
@@ -22,19 +24,41 @@ cheese_paste: Soft, Supple, meltingly smooth
 cheese_aroma: Milky notes, under a grassy barnyard smell
 cheese_flavor: An unctuous mix of straightforward butter and cream flavors with more subtle herbal notes
 cheese_dop: false
-cheese_dop_logo: 
-cheese_dop_link: 
+cheese_dop_logo: null
+cheese_dop_link: null
 date created: Friday, June 6th 2025, 7:39:22 am
 date modified: Thursday, October 16th 2025, 9:42:14 am
 conceyu: Peñamellera Alta
+location:
+    latitude: 43.33233379080444,
+    longitude: -4.701739380854688
+lastmod: 2026-08-04T11:04:30.396Z
 ---
 An outlier among Asturian cheeses, this is one of the few local cheeses that remind one of Brie or Camembert. Cueva de Llonín Cheese is made by the Cooperativa quesera de Peñamellera, located in the town of Alles, capital of the Asturian conceyo of Peñamellera Alta.
 
 The cooperativa takes one base recipe, and from it creates four distinct cheeses. This particular cheese was first made in 2000, and has become something of a cult favorite in the decades since.
 
 ## Where Is It From?
-
 Peñamellera Alta is a mountainous conceyo in the eastern tip of Asturias. It is prime Asturian cheese country, and along with the neighboring conceyos of Peñamellera Baja and Cabrales, makes up on of the most dynamic and forward-thinking areas of cheese production in Spain.
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 9,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %} 
+    {% if page.location.geojson %}
+      {% leaflet_geojson {{page.location.geojson}} %}
+    {% elsif page.location.latitude and page.location.longitude %}
+      {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                          "longitude" : {{page.location.longitude}},
+                          "href" : "{{page.url}}",
+                          "popupContent" : "{{page.title}}" } %}
+      {% endif %}
+{% endleaflet_map %}
 
 ## How Cueva de Llonín Is Made
 

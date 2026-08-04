@@ -11,7 +11,7 @@ toc_label: Cheeses
 image_splash: null
 image_logo: Franxón_label.jpg
 image_logo_caption: An Asturian take on a classic French Brie, Franxón is a part of the new wave of Asturian cheese making.
-image_detail: 1000px-Franxón_main.jpg
+image_detail: Franxón_main.jpg
 image_detail_caption: null
 cheese_producer: Ca Llechi
 cheese_style: swc
@@ -28,11 +28,11 @@ cheese_dop_logo: null
 cheese_dop_link: null
 date created: null
 date modified: null
-conceyu: Illas
+conceyu: Piloña
 location:
-    latitude: 43.374564619127625
-    longitude: -5.360507072079859
-lastmod: 2026-08-04T07:05:09.117Z
+  latitude: 43.374564619127625
+  longitude: -5.360507072079859
+lastmod: 2026-08-04T07:49:23.580Z
 ---
 
 Asturian cheese making is undergoing something of a renaissance. New cheese varieties, Franxón included, are appearing more frequently now, and great artistic and technical innovation is taking place. Through initiatives like Queseros Artesanos, both traditional varieties and innovative new cheeses are promoted and recognized.

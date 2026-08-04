@@ -8,32 +8,57 @@ permalink: /culture/products/cheese/ahumado-de-pria.html
 toc: false
 toc_sticky: true
 toc_label: Cheeses
-image_splash: Ahumado_de_Pría_main.jpg
+image_splash: null
 image_logo: Ahumado_de_Pría_profile.jpg
 image_logo_caption: A wonderfully smoky, dense and buttery cheese perfect for snacking and sandwich making.
+image_detail: Ahumado_de_Pría_main.jpg
+image_detail_caption: null
 cheese_producer: Quesos de Pria
 cheese_style: ssc
 cheese_milk: Cow (90%), Sheep (10%)
 cheese_treatment: Pasteurized
 cheese_shape: Cylinder
-cheese_weight: 5o0g
+cheese_weight: 500g
 cheese_rind: Clear marks from cheese cloth. Somewhat waxy. Light brown from the smoking.
 cheese_paste: "\r\rWhite with a slightly yellow cast."
 cheese_aroma: Hints of grass, of cow pasture, and of milk. Some aromas of toasted nuts and, of course, smoke.
 cheese_flavor: Initially smoky, giving way to creamy butter flavors. Very creamy mouthfeel, like the best Muenster cheeses.
 cheese_dop: false
-cheese_dop_logo: 
-cheese_dop_link: 
+cheese_dop_logo: null
+cheese_dop_link: null
+conceyu: Llanes
+location:
+    latitude: 43.437690098044584
+    longitude: -5.014404682556221
 date created: Tuesday, May 13th 2025, 11:00:04 am
 date modified: Tuesday, May 13th 2025, 11:08:16 am
+lastmod: 2026-08-04T11:16:36.245Z
 ---
-Some cheeses are the result of long experimentation and adaptation to a particular climate. Others are the result of constant tinkering with a formula by untold generations. Some are modern inventions of agri-businesses, designed via focus groups and market research. And then there are a few strange outliers. Unique [products](https://eatingasturias.com/wiki/Products "Products") that are the result of a lucky turn or a bit of blind luck, or simple stubbornness. Ahumado de Pría is of the last kind.
+Some cheeses are the result of long experimentation and adaptation to a particular climate. Others are the result of constant tinkering with a formula by untold generations. Some are modern inventions of agri-businesses, designed via focus groups and market research. And then there are a few strange outliers. Unique products that are the result of a lucky turn or a bit of blind luck, or simple stubbornness. Ahumado de Pría is of the last kind.
 
 From an nearly impossible situation, one couple simply went about doing the one thing they knew how to do. From that came one of the region’s most popular cheeses.
 
 ## Where Is It From?
-
-Llanes concejo sits in the eastern coastal corner of [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"). It is situated between a spectacular collection of beaches and the almost sheer wall of of the Sierra del Cuera sub range. Rising to 750 meters at L’Abá, this wall overlooks a series of lush green valleys. In these valleys live the brown Tudanca and Frisian cows that provide the milk for this cheese.
+Llanes concejo sits in the eastern coastal corner of Asturias. It is situated between a spectacular collection of beaches and the almost sheer wall of of the Sierra del Cuera sub range. Rising to 750 meters at L’Abá, this wall overlooks a series of lush green valleys. In these valleys live the brown Tudanca and Frisian cows that provide the milk for this cheese.
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 9,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %} 
+    {% if page.location.geojson %}
+      {% leaflet_geojson {{page.location.geojson}} %}
+    {% elsif page.location.latitude and page.location.longitude %}
+      {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                          "longitude" : {{page.location.longitude}},
+                          "href" : "{{page.url}}",
+                          "popupContent" : "{{page.title}}" } %}
+      {% endif %}
+{% endleaflet_map %}
 
 ## How Ahumado de Pría Is Made
 

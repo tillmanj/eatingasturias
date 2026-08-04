@@ -28,7 +28,7 @@ plant_cultivar: null
 dop: null
 conceyu: null
 date created: Saturday, October 18th 2025, 5:33:28 pm
-date modified: Friday, July 31st 2026, 9:14:07 am
+date modified: Tuesday, August 4th 2026, 5:06:05 pm
 lastmod: 2026-08-01T15:15:48.349Z
 ---
 {% newthought 'Rye (centenu) has a long history'%} in Asturias.

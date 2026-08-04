@@ -24,11 +24,15 @@ cheese_flavor: Slightly acidic, increasing with age. No detectable salty notes, 
 cheese_dop: true
 cheese_dop_logo: 736px-Logo-queso-afuega-l-pitu.png
 cheese_dop_link: https://www.doafuegalpitu.es/
-conceyu: 
+conceyu:
   - Candamo
   - Cangas de Onís
+location:
+  latitude: 43.31734557769737
+  longitude: -6.131708553677335
 date created: Tuesday, May 13th 2025, 10:42:56 am
 date modified: Tuesday, May 13th 2025, 11:00:05 am
+lastmod: 2026-08-04T11:11:06.658Z
 ---
 This cheese comes in two variations. There is an [unspiced version](/culture/products/cheese/afuegal-pitu.html) that I have written about separately, and this, possibly the most unique cheese in Asturias. _Afuega’l pitu roxu_ is part of a cheese making tradition that is confined (as far I know) solely to Spain. Sure, Slovakia and Hungary have cheese spreads made with paprika,[^1] and a few American cheese makers rub paprika on the rind of their cheeses. But only in Spain have I seen paprika kneaded into the curd itself.[^2]
 
@@ -37,16 +41,27 @@ There is a bit of a linguistic disagreement about what the name afuega’l pitu 
 Given both that the prior name for the cheese was, literally, “the fist”, and that it does have a tendency to remind one of its existence for quite a while after being swallowed, I am going to have to declare myself a member of the “sticks in the throat” interpretation camp.
 
 ## Where Is It from?
+Once made all over Asturias, production is now limited to a small group of conceyos. 
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 9,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %} 
+    {% if page.location.geojson %}
+      {% leaflet_geojson {{page.location.geojson}} %}
+    {% elsif page.location.latitude and page.location.longitude %}
+      {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                          "longitude" : {{page.location.longitude}},
+                          "href" : "{{page.url}}",
+                          "popupContent" : "{{page.title}}" } %}
+      {% endif %}
+{% endleaflet_map %}
 
-Once made all over [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"), production is now limited to a small group of conceyos. The DOP lists eight individual producers who are part of the DOP:
-- Tierra de Tineo
-- Quesería Agrovaldés
-- Quesería Ca Sanchu
-- Quesería El Viso
-- Quesería La Arquera
-- Quesería La Borbolla
-- Quesería La Peñona
-- Quesería Temia
 ## How Afuega’l Pitu Roxu Is Made
 
 _Afuega’l Pitu cheese makers use only milk from farms located in the protected geographical area. Either pasteurized milk or raw milk is used, according to the choice of the cheese maker. If raw milk is used, the cheese must be aged for a minimum of 60 days.

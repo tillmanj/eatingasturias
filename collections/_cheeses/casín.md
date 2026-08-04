@@ -8,9 +8,11 @@ permalink: /culture/products/cheese/casín.html
 toc: false
 toc_sticky: true
 toc_label: Cheeses
-image_splash: Casín_main.jpeg
+image_splash: null
 image_logo: Casin_label.jpeg
 image_logo_caption: An ancient and unique cheese with an unforgettable flavor you must try
+image_detail: Casín_main.jpeg
+image_detail_caption: null
 cheese_producer: Ca Llechi
 cheese_style: hc
 cheese_milk: Cow
@@ -22,14 +24,18 @@ cheese_paste: Firm, dense, easily cracked and crumbled. A light yellow color tha
 cheese_aroma: Distinct notes of aged or seasoned butter. Lactic and pungent
 cheese_flavor: A strong, slightly spicy cheese with a long, somewhat bitter aftertaste
 cheese_dop: true
-cheese_dop_logo:  DOP_Queso_Casín.png
+cheese_dop_logo: DOP_Queso_Casín.png
 cheese_dop_link: http://dopquesocasin.com/
 date created: Monday, May 19th 2025, 10:38:57 am
 date modified: Saturday, May 24th 2025, 9:51:12 am
-conceyu: 
+conceyu:
   - Caso
   - Piloña
   - Sobrescobio
+location:
+  latitude: 43.37456522041343
+  longitude: -5.360950991981792
+lastmod: 2026-08-04T11:31:59.880Z
 ---
 There is a good case for calling Casín the oldest cheese in Spain. It is almost certainly the oldest in Asturias.
 
@@ -40,17 +46,35 @@ I am particularly taken with the unique, and by modern standards, lengthy proces
 Casín is produced primarily in the historical home and namesake conceyu of [Caso](/visit/conceyos/caso.html). It is also produced in the neighboring conceyos of Piloña and Sobrescobio. Together, these make up the Casín DOP.
 
 Currently there are four producers of this cheese, and all are part of the DOP.
-
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 9,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %} 
+    {% if page.location.geojson %}
+      {% leaflet_geojson {{page.location.geojson}} %}
+    {% elsif page.location.latitude and page.location.longitude %}
+      {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                          "longitude" : {{page.location.longitude}},
+                          "href" : "{{page.url}}",
+                          "popupContent" : "{{page.title}}" } %}
+      {% endif %}
+{% endleaflet_map %}
 ## How Casín Is Made
-{% marginfigure 'mf01' 'assets/images/cheese/Casin-vaca-casina-300x225.jpeg' 'Asturiana de la Montaña or casina cattle provide the milk for Casín cheese' %}
-Made with raw cow’s milk, Casín goes through several unique steps in production. These steps, so very similar to making sourdough breads, are the primary evidence for the antiquity of the recipe. The milk comes from locally pastured cows of the indigenous [Asturiana de la Montaña](https://eatingasturias.com/index.php?title=Asturiana_de_la_Monta%C3%B1a&action=edit&redlink=1 "Asturiana de la Montaña (page does not exist)") breed. These are ancient cattle that long ago adapted to the region. They are also named with the local denonym _casina_. Now considered to be primarily a beef breed, they were once the only cattle in the area.
+{% marginfigure 'mf01' '/assets/images/cheese/Ca Llechi/Casin-vaca-casina-300x225.jpeg' 'Asturiana de la Montaña or casina cattle provide the milk for Casín cheese' %}
+Made with raw cow’s milk, Casín goes through several unique steps in production. These steps, so very similar to making sourdough breads, are the primary evidence for the antiquity of the recipe. The milk comes from locally pastured cows of the indigenous Asturiana de la Montaña breed. These are ancient cattle that long ago adapted to the region. They are also named with the local denonym _casina_. Now considered to be primarily a beef breed, they were once the only cattle in the area.
 
 Traditionally, the curdling agent is obtained by fermenting the milk from a cow that has recently calved. This fermentation takes place in the stomach of a recently slaughtered pig (_butiellu_). After a week or eight day, the cheese maker adds this rennet substitute to gently warmed milk and leaves it to curdle. Once curdled, they allow it to drain for up to six days hanging in a cheesecloth or muslin bag.
 
 When the curd is longer draining, it is broken down into smallish pieces called _gorollos_ and left to rest for a few days in a cool space. The longer they sit, the more piquant the resulting cheese will become.
 
 The cheese maker then kneads the _gorollo_, using a _rabilar_ machine that looks like a [biscuit brake](https://www.cooksinfo.com/biscuit-brake) to me. The cheese maker kneads the paste well, folding and rolling it each time. Additionally, the cheese maker adds a small chunk of well-aged cheese to the mix to further fortify the flavors. This also boosts the fermentation taking place in the cheese. Usually the cheese maker does this kneading three or four times, allowing the cheese to rest for a week or so between kneadings.
-{% marginfigure 'mf01' 'assets/images/cheese/Casin-rabilar-brake-300x188.jpeg' 'A rabilar machine for making Casín cheese' %}
+{% marginfigure 'mf01' '/assets/images/cheese/Ca Llechi/Casin-rabilar-brake-300x188.jpeg' 'A rabilar machine for making Casín cheese' %}
 Once the kneading is done, the cheese maker ages the cheese for 2-3 months in a humid environment. This is usually around 80% humidity and as close to 8C as possible. Caves are obviously good places for this aging. During this maturation period, the cheese maker turns the cheeses daily.
 
 The final step is also unique. After aging, the cheese maker stamps it with his or her _marco_. These handheld wooden press forms are engraved with decorative patterns. They contain geometric designs, flowers, traditional symbols, or the makers name or company.
@@ -62,7 +86,7 @@ Unfortunately, as is common around here, I have very little to go on trying to s
 Note that Dr. Canut does not say that the origin of the cheese is neolithic. He merely states the factual case that the technology used in producing the cheese existed in the Neolithic, and that it is interesting that a recipe continues to this day that uses such simple machines. Any interpretation of his words to be proof of the Neolithic origin of the cheese is mendacious, at the very least.
 
 ### Other Spurious Claims
-{% marginfigure 'mf01' 'assets/images/cheese/Casin-Roman-Italia-260x300.gif' 'Luna existed on the border between Regio IX and Regio VII (click to expand)' %}
+{% marginfigure 'mf01' '/assets/images/cheese/Ca Llechi/Casin-Roman-Italia-260x300.gif' 'Luna existed on the border between Regio IX and Regio VII (click to expand)' %}
 It is also widely claimed to be something called the _caseus luniensis_ mentioned by Pliny the Elder in his Natural History. Now, book 11, chapter 97 is indeed **Various Kinds of Cheese**. And Pliny does speak of a _caseus luniensis_, a cheese from Luna. Inconveniently however, Luna is [well established](https://topostext.org/place/441100ULun) as being the modern Italian town of La Spezia. It’s rather obvious being that Pliny names its situation as being on the border between the [Etruria and the Liguria](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D11%3Achapter%3D97). These were two tribal groups that lived between the Alps and the Mediterranean Sea in northern Italy. In the Augustan model of Roman organization, Etruria was Regio VII and Etruria was Regio IX.[^2]
 
 As you can see from the map, that gives only a very small region that Pliny could have been talking about, and inconveniently for the pseudo-historians, rather far away from Asturias. There is certainly no argument that Pliny would not have known that, as the very book in question is the source for the Augustinian organization and the mapping of the Regios.

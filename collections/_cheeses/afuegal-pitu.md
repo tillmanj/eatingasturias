@@ -25,8 +25,12 @@ cheese_dop_link: https://www.doafuegalpitu.es/
 conceyu:
   - Candamo
   - Cangas de Onís
+location:
+  latitude: 43.31734557769737
+  longitude: -6.131708553677335
 date created: Tuesday, May 13th 2025, 8:59:27 am
 date modified: Friday, October 17th 2025, 8:19:30 am
+lastmod: 2026-08-04T11:11:29.298Z
 ---
 There is a bit of a linguistic disagreement about what the name _afuega’l pitu_ actually means. One camp translates the name literally into Castilian Spanish as “_ahogar el pollo_” or “drown the chicken”. The second camp, which includes the DOP regulator, claim a local slang meaning for _pitu_ is the throat or gullet, giving the cheese the name of “sticks in the throat”.
 
@@ -34,15 +38,26 @@ Given both that the prior name for the cheese was, literally, “the fist”, an
 
 ## Where Is It from?
 
-Once made all over [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"), production is now limited to a small group of conceyos. The DOP lists eight individual producers who are part of the DOP:
-- Tierra de Tineo
-- Quesería Agrovaldés
-- Quesería Ca Sanchu
-- Quesería El Viso
-- Quesería La Arquera
-- Quesería La Borbolla
-- Quesería La Peñona
-- Quesería Temia
+Once made all over [Asturias](https://eatingasturias.com/wiki/Asturias "Asturias"), production is now limited to a small group of conceyos.
+<style>
+  #indexMap{
+    height: 500px;
+    width: 100%;
+  }
+</style>
+{% leaflet_map { "center" : [43.363129, -5.951843],
+                "zoom" : 9,
+                "providerBasemap" : "OpenStreetMap.Mapnik",
+                "divId" : "indexMap" } %} 
+    {% if page.location.geojson %}
+      {% leaflet_geojson {{page.location.geojson}} %}
+    {% elsif page.location.latitude and page.location.longitude %}
+      {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                          "longitude" : {{page.location.longitude}},
+                          "href" : "{{page.url}}",
+                          "popupContent" : "{{page.title}}" } %}
+      {% endif %}
+{% endleaflet_map %}
 
 ## Making Afuega’l Pitu
 
