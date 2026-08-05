@@ -16,7 +16,7 @@
     {%- when "algolia" -%}
       {% include_cached search/algolia-search-scripts.html %}
     {%- when "pagefind" -%}
-      {% include_cached search/pagefind-search-scripts.html %}
+    {% if jekyll.environment == "production" %}{% include_cached search/pagefind-search-scripts.html %}{% endif %}
   {%- endcase -%}
 {% endif %}
 
