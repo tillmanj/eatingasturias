@@ -1,4 +1,5 @@
-# a Jekyll plugin to automatically run Pagefind search indexer after compile
+# a Jekyll plugin to automatically run Pagefind search indexer after compile.
+# will not run if jekyll.environment is set to "dev" or "development".
 # adapted from https://www.bfoliver.com/2025/pagefind
 
 module Jekyll
@@ -7,8 +8,8 @@ module Jekyll
     priority :lowest
 
     def generate(site)
-      # don't run in development environments
-      if (site.config['environment'] == 'production')
+      # puts "ENVIRONMENT FOR PAGEFIND: #{site.config['environment']}"
+      unless site.config['environment'].include?("dev")
         Jekyll::Hooks.register :site, :post_write do |_site|
           command = './_bin/pagefind --site _site'
           puts "Running: #{command}"
