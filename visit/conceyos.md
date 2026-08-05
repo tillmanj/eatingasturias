@@ -3,7 +3,7 @@ aliases: []
 tags: []
 layout: page
 title: Conceyos
-subtitle: 
+subtitle: null
 permalink: /visit/conceyos/
 toc: false
 toc_sticky: true
@@ -12,6 +12,7 @@ sidebar:
   nav: visit_full
 date created: Tuesday, May 13th 2025, 2:16:40 pm
 date modified: Wednesday, May 14th 2025, 9:56:46 am
+lastmod: 2026-08-05T13:11:56.080Z
 ---
 The *conceyu* is the basic unit of local governance in Asturias, and is roughly equivalent to the American or English county. Beginning use in the 13th century, they have continued until this day, and replace the *provincia* used in other parts of Spain.
 
@@ -45,21 +46,21 @@ In much of Asturias, the main town or city in the conceyu has the same name as i
 <li><a href="/visit/conceyos/cudillero.html">Cudillero (22)</a></li>
 <li><a href="/visit/conceyos/degaña.html">Degaña (23)</a></li>
 <li><a href="/visit/conceyos/el-franco.html">El Franco (25)</a></li>
-<li>Gijón (76)</li>
-<li>Gozón (28)</li>
-<li>Grado (30)</li>
-<li>Grandas de Salime (29)</li>
-<li>Ibias (31)</li>
-<li>Illano (24)</li>
-<li>Illas (32)</li>
-<li>Langreo (37)</li>
-<li>Las Regueras (34)</li>
-<li>Laviana (38)</li>
-<li>Lena (78)</li>
-<li>Llanera (35)</li>
-<li>Llanes (36)</li>
-<li>Mieres (39)</li>
-<li>Morcín (40)</li>
+<li><a href="/visit/conceyos/gijon.html">Gijón (76)</a></li>
+<li><a href="/visit/conceyos/gozon.html">Gozón (28)</a></li>
+<li><a href="/visit/conceyos/grado.html">Grado (30)</a></li>
+<li><a href="/visit/conceyos/grandes-de-salime.html">Grandas de Salime (29)</a></li>
+<li><a href="/visit/conceyos/ibias.html">Ibias (31)</a></li>
+<li><a href="/visit/conceyos/illano.html">Illano (24)</a></li>
+<li><a href="/visit/conceyos/illas.html">Illas (32)</a></li>
+<li><a href="/visit/conceyos/langreo.html">Langreo (37)</a></li>
+<li><a href="/visit/conceyos/las-regueras.html">Las Regueras (34)</a></li>
+<li><a href="/visit/conceyos/laviana.html">Laviana (38)</a></li>
+<li><a href="/visit/conceyos/lena.html">Lena (78)</a></li>
+<li><a href="/visit/conceyos/llanera.html">Llanera (35)</a></li>
+<li><a href="/visit/conceyos/llanes.html">Llanes (36)</a></li>
+<li><a href="/visit/conceyos/mieres.html">Mieres (39)</a></li>
+<li><a href="/visit/conceyos/morcín.html">Morcín (40)</a></li>
 <li>Muros de Nalón (41)</li>
 <li>Nava (42)</li>
 <li>Navia (43)</li>
