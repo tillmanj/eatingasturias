@@ -7,10 +7,13 @@ module Jekyll
     priority :lowest
 
     def generate(site)
-      Jekyll::Hooks.register :site, :post_write do |_site|
-        command = './_bin/pagefind --site _site'
-        puts "Running: #{command}"
-        system(command)
+      # don't run in development environments
+      if (site.config['environment'] == 'production')
+        Jekyll::Hooks.register :site, :post_write do |_site|
+          command = './_bin/pagefind --site _site'
+          puts "Running: #{command}"
+          system(command)
+        end
       end
     end
   end
