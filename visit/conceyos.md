@@ -12,7 +12,7 @@ sidebar:
   nav: visit_full
 date created: Tuesday, May 13th 2025, 2:16:40 pm
 date modified: Wednesday, May 14th 2025, 9:56:46 am
-lastmod: 2026-08-05T13:11:56.080Z
+lastmod: 2026-08-07T09:54:51.327Z
 ---
 The *conceyu* is the basic unit of local governance in Asturias, and is roughly equivalent to the American or English county. Beginning use in the 13th century, they have continued until this day, and replace the *provincia* used in other parts of Spain.
 
@@ -61,46 +61,46 @@ In much of Asturias, the main town or city in the conceyu has the same name as i
 <li><a href="/visit/conceyos/llanes.html">Llanes (36)</a></li>
 <li><a href="/visit/conceyos/mieres.html">Mieres (39)</a></li>
 <li><a href="/visit/conceyos/morcín.html">Morcín (40)</a></li>
-<li>Muros de Nalón (41)</li>
-<li>Nava (42)</li>
-<li>Navia (43)</li>
-<li>Noreña (44)</li>
-<li>Onís (45)</li>
-<li>Oviedo (1)</li>
-<li>Parres (46)</li>
-<li>Peñamellera Alta (26)</li>
-<li>Peñamellera Baja (27)</li>
-<li>Pesoz (47)</li>
-<li>Piloña (48)</li>
-<li>Ponga (49)</li>
-<li>Pravia (50)</li>
-<li>Proaza (51)</li>
-<li>Quirós (52)</li>
-<li>Ribadedeva (53)</li>
-<li>Ribadesella (54)</li>
-<li>Ribera de Arriba (43)</li>
-<li>Riosa (55)</li>
-<li>Salas (56)</li>
-<li>San Martín de Oscos (57)</li>
-<li>San Martín del Rey Aurelio (58)</li>
-<li>San Tirso de Abres (59)</li>
-<li>Santa Eulalia de Oscos (6)</li>
-<li>Santo Adriano (61)</li>
-<li>Sariego (62)</li>
-<li>Siero (63)</li>
-<li>Sobrescobio (64)</li>
-<li>Somiedo (65)</li>
-<li>Soto del Barco (66)</li>
-<li>Tapia de Casariego (67)</li>
-<li>Taramundi (68)</li>
-<li>Teverga (69)</li>
-<li>Tineo (70)</li>
-<li>Valdés (72)</li>
-<li>Vegadeo (1)</li>
-<li>Villanueva de Oscos (73)</li>
-<li>Villaviciosa (74)</li>
-<li>Villayón (75)</li>
-<li>Yernes y Tameza (77)</li>
+<li><a href="/visit/conceyos/muros-de-nalón.html">Muros de Nalón (41)</a></li>
+<li><a href="/visit/conceyos/nava.html">Nava (42)</a></li>
+<li><a href="/visit/conceyos/navia.html">Navia (43)</a></li>
+<li><a href="/visit/conceyos/noreña.html">Noreña (44)</a></li>
+<li><a href="/visit/conceyos/onís.html">Onís (45)</a></li>
+<li><a href="/visit/conceyos/oviedo.html">Oviedo (1)</a></li>
+<li><a href="/visit/conceyos/parres.html">Parres (46)</a></li>
+<li><a href="/visit/conceyos/penamellera-alta.html">Peñamellera Alta (26)</a></li>
+<li><a href="/visit/conceyos/penamellera-baja.html">Peñamellera Baja (27)</a></li>
+<li><a href="/visit/conceyos/pesoz.html">Pesoz (47)</a></li>
+<li><a href="/visit/conceyos/pilona.html">Piloña (48)</a></li>
+<li><a href="/visit/conceyos/ponga.html">Ponga (49)</a></li>
+<li><a href="/visit/conceyos/pravia.html">Pravia (50)</a></li>
+<li><a href="/visit/conceyos/proaza.html">Proaza (51)</a></li>
+<li><a href="/visit/conceyos/quiros.html">Quirós (52)</a></li>
+<li><a href="/visit/conceyos/ribadedeva.html">Ribadedeva (53)</a></li>
+<li><a href="/visit/conceyos/ribadesella.html">Ribadesella (54)</a></li>
+<li><a href="/visit/conceyos/ribera-de-arriba.html">Ribera de Arriba (43)</a></li>
+<li><a href="/visit/conceyos/riosa.html">Riosa (55)</a></li>
+<li><a href="/visit/conceyos/salas.html">Salas (56)</a></li>
+<li><a href="/visit/conceyos/san-martin-de-oscos.html">San Martín de Oscos (57)</a></li>
+<li><a href="/visit/conceyos/san-matrin-del-rey-aurelio.html">San Martín del Rey Aurelio (58)</a></li>
+<li><a href="/visit/conceyos/san-tirso-de-abres.html">San Tirso de Abres (59)</a></li>
+<li><a href="/visit/conceyos/santa-eulalia-de-oscos.html">Santa Eulalia de Oscos (6)</a></li>
+<li><a href="/visit/conceyos/santo-adriano.html">Santo Adriano (61)</a></li>
+<li><a href="/visit/conceyos/sariego.html">Sariego (62)</a></li>
+<li><a href="/visit/conceyos/siero.html">Siero (63)</a></li>
+<li><a href="/visit/conceyos/sobrescobio.html">Sobrescobio (64)</a></li>
+<li><a href="/visit/conceyos/somiedo.html">Somiedo (65)</a></li>
+<li><a href="/visit/conceyos/soto-del-barco.html">Soto del Barco (66)</a></li>
+<li><a href="/visit/conceyos/tapia-de-casariego.html">Tapia de Casariego (67)</a></li>
+<li><a href="/visit/conceyos/taramundi.html">Taramundi (68)</a></li>
+<li><a href="/visit/conceyos/teverga.html">Teverga (69)</a></li>
+<li><a href="/visit/conceyos/tineo.html">Tineo (70)</a></li>
+<li><a href="/visit/conceyos/valdes.html">Valdés (72)</a></li>
+<li><a href="/visit/conceyos/vegadeo.html">Vegadeo (1)</a></li>
+<li><a href="/visit/conceyos/villanueva-de-oscos.html">Villanueva de Oscos (73)</a></li>
+<li><a href="/visit/conceyos/villaviciosa.html">Villaviciosa (74)</a></li>
+<li><a href="/visit/conceyos/villayon.html">Villayón (75)</a></li>
+<li><a href="/visit/conceyos/yernes-tameza.html">Yernes y Tameza (77)</a></li>
 </ul>
 
 ## Notes
