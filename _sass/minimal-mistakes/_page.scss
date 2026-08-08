@@ -581,6 +581,9 @@ body {
       padding-inline-end: 0;
     }
   }
+  .page__inner-wrap {
+    width: calc(34rem + #{$right-sidebar-width});
+  }
 }
 
 /*

@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: single
+classes: wide
 title: Wishlist
 subtitle: Support Eating Asturias directly with research materials
 permalink: /resources/wishlist/
 toc: false
 toc_sticky: true
 toc_label: Artisan Products
-lastmod: 2026-08-08T12:19:07.104Z
+lastmod: 2026-08-08T12:26:35.688Z
 ---
 I do not have access to all of the research materials I would like in order to further develop this website. I am not tenured faculty with the ability to requisition whatever books I need via an institutional library. I am not independently wealthy and able to order dozens of books a month on whatever topic. I do expend significant personal resources on the ever-growing research library behind this website. (and the recording equipment, and the photography...)
 
