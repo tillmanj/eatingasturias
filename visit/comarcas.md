@@ -7,8 +7,8 @@ toc: true
 toc_sticky: true
 toc_label: Comarcas
 sidebar:
-    nav: culture_full
-lastmod: 2026-08-08T11:48:54.056Z
+    nav: visit_full
+lastmod: 2026-08-08T11:58:13.689Z
 ---
 In Spain, a *comarca* is a traditional territorial division, often informal, that comprises multiple other legal entities such as counties or municipalities. Usually a comarca is seen as having some sort of defining trait that ties it together; be it economic, geographic, cultural, or linguistic.
 

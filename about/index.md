@@ -5,7 +5,7 @@ subtitle: What we do and how we do it
 permalink: /about/
 toc: true
 toc_sticky: true
-lastmod: 2026-02-16T08:34:42.919Z
+lastmod: 2026-08-08T12:19:10.335Z
 ---
 Eating Asturias is a serial publication of investigation into the gastronomy of Asturias. It is published on an irregular schedule in the English language.
 
