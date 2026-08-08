@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Notes on the Asturian Language
-subtitle: 
+subtitle: null
 permalink: /culture/primer/language.html
 toc: false
 toc_sticky: true
 toc_label: Cider
 sidebar:
   nav: culture_full
+lastmod: 2026-08-08T11:09:41.549Z
 ---
 {% marginfigure 'mf01' '/assets/images/culture/Oficialidá_bandera.png' 'Iniciativa pol Asturianu is a broad coalition aimed at securing official recognition by the Spanish government of Asturianu as one of the co-official languages of the country' %}
 As this website is dedicated to the study of both traditional and modern Asturian foodways, and that food culture is inextricably linked with the larger cultural milieu it is a part of, it is necessary to establish linguistic criteria that accurately reflect the essence of what I am investigating in the most honest and faithful way. Representing Asturians as they present themselves to me is important, as is being respectful of the regional differences within a country.[^1] The Asturian language is a sign of cultural identity that is inseparable from the socio-cultural reality of living and working in Asturias.
@@ -17,6 +18,7 @@ Taking into account the existence of the "Law for the use and promotion of Astur
 - The official language of the country of Spain will be referred to as _Castellano_ or Castilian.
 - The Asturian language will be referred to as _Asturianu_. 
 - Toponyms and local terms will always be written in *Asturianu* if possible.[^3] [^4]
+  - The official source for toponyms will be the [Nomenclátor Geográfico de la Toponimia Oficial de Asturias](https://ideas.asturias.es/es/visores-y-aplicaciones/visores-por-temas/toponimia)
 - I prefer to use the proper Asturian names for nouns as often as is possible. 
 - I comply wholeheartedly with the 2002 Decree on the Recuperation of Asturian Toponymic Names and use them as often as is practicable, while still creating findable resources for English speakers who may not know the Asturian names of cities and towns.[^8]
 - I use the Asturian names of dishes, [ingredients](/culture/ingredients/), raw materials, techniques, equipment, and materials when discussing cooking, farming, gardening, or any other food-related topic.
