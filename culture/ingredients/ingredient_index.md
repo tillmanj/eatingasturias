@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: Ingredients
 sidebar:
   nav: culture_full
-lastmod: 2026-08-01T15:52:53.595Z
+lastmod: 2026-08-26T06:48:43.524Z
 ---
 
 {% epigraph 'Tradition, most of the time, doesn’t respect ingredients' 'Massimo Bottura' 'Chef‘s Table - [S1E1](https://www.imdb.com/title/tt4383018/)' %}

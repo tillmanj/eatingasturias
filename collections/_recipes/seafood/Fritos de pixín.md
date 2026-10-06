@@ -6,9 +6,9 @@ title: Fritos de pixín
 permalink: /recipes/appetizers/fritos-de-pixín.html
 subtitle: Breaded and fried monkfish bites
 author: Jon Tillman
-dateCreated: 
-datePublished: 
-dateModified: 
+dateCreated: null
+datePublished: null
+dateModified: null
 recipeImage: Fritos_de_pixín_recipe.png
 recipeImageCaption: Deep-fried monkfish bites are a sidrería favorite
 prepTime: 30 mins
@@ -18,22 +18,24 @@ recipeYield: 200g
 recipeCategory:
   - Appetizers
   - Seafood
-suitableForDiet:
-recipeOccasion: 
-recipeSeason: 
+suitableForDiet: null
+recipeOccasion: null
+recipeSeason: null
 recipeDifficulty: Medium
 recipeCuisine: Asturian
 cookingMethod: Deep Fried
 recipeNotes:
   - Spanish deep frying is almost always a single coat of flour followed by a dip in egg, then straight into the frying oil.
   - Do not be tempted to get fancy with the batter. Monkfish is expensive precisely because it has amazing taste and texture, and you don't want to be doing things that will get in the way of allowing it to shine. Save the spiced beer batter for other less interesting fish.
-recipeCitations:
-recipeSource: 
-isBasedOn:
-mentions:
+recipeCitations: null
+recipeSource: null
+isBasedOn: null
+mentions: null
 recipeCourse: Tapas
+indexIngredients:
+  - Pixín
 recipeIngredients:
-  - 200g monkfish steaks, cleaned
+  - 200g [Pixín](/culture/ingredients/seafood/pixín.html) (monkfish steaks), cleaned
   - 1 garlic clove, finely diced
   - 1 lemon, juice only
   - flour for coating
@@ -64,6 +66,7 @@ carbohydrateContent: 23.5
 fiberContent: 1.7
 sugarContent: 1
 proteinContent: 40.3
+lastmod: 2026-08-27T08:27:51.371Z
 ---
 
 There are a few fish that hold an emblematic place in Asturian cooking. There is the Tiñosu, made so famous by a Basque chef that even in Asturias it is better known as Cabracho. There is the ubiquitous Merluza in a thousand recipes, most famously Merluza a la sidra. And then there is the Pixín, the tastiest of all, in my opinion.

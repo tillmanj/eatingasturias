@@ -24,7 +24,9 @@ plant_subspecies_wfo: null
 plant_cultivar: Granxa Asturiana
 conceyu: null
 dop: true
-lastmod: 2026-02-20T11:46:16.896Z
+dop_logo: null
+dop_url: https://alimentosdelparaiso.asturias.es/igp-faba-asturiana
+lastmod: 2026-08-08T15:04:25.162Z
 ---
 {% newthought 'Fabes may be the single most important'%} contribution to Asturian cooking to come out of the [Columbian Exchange](/culture/history/early-modern/columbian-exchange.html).
 
