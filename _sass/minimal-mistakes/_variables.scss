@@ -55,7 +55,61 @@ $h-size-6: 1rem !default; // ~16px
 
 /*
    Colors
-   ========================================================================== */
+   ========================================================================== 
+   (https://jekyllhub.com/tutorial/2026/01/02/add-dark-mode-jekyll/)
+*/
+
+:root {
+   /* Backgrounds */
+   --bg-primary:    #f5f7fa;
+   --bg-secondary:  ;
+   --bg-code:       #fafafa;
+   /* Text */
+  --text-primary:   #1D1729;
+  --text-secondary: #6B7280;
+  --text-muted:     #94A3B8;
+   /* UI */
+  --border-color:   ;
+  --link-color:     ;
+  --link-hover:     ;
+  --heading-color:  ;
+   /* Components */
+  --card-bg:        ;
+  --card-border:    ;
+  --tag-bg:         ;
+  --tag-text:       ;
+  --nav-bg:         ;
+  --nav-border:     ;
+   /* Syntax highlighting (light) */
+  --syntax-bg:      ;
+  --syntax-text:    ;
+}
+
+[data-theme="dark"] {
+/* Backgrounds */
+   --bg-primary:    #1c3b34;
+   --bg-secondary:  rgba(224,224,224,.1);
+   --bg-code:       #121212;
+   /* Text */
+  --text-primary:   #f7f1e3;
+  --text-secondary: #827d3a;
+  --text-muted:     #94a3b8;
+   /* UI */
+  --border-color:   ;
+  --link-color:     rgba(161,155,79,.6);
+  --link-hover:     ;
+  --heading-color:  ;
+   /* Components */
+  --card-bg:        ;
+  --card-border:    ;
+  --tag-bg:         ;
+  --tag-text:       ;
+  --nav-bg:         ;
+  --nav-border:     ;
+   /* Syntax highlighting (light) */
+  --syntax-bg:      ;
+  --syntax-text:    ;
+}
 
 $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
@@ -63,7 +117,7 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
-$background-color: #fff !default;
+$background-color: #f5f7fa !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
