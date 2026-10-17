@@ -20,11 +20,27 @@
             {% endif %}
             <tr class="about market">
                 <td class="infobox-label">Type</td>
-                <td>{{page.market_type}}</td>
+                <td>{{page.market_type}} Market</td>
             </tr>
             <tr class="about market">
-                <td class="infobox-label">Weekday</td>
-                <td>{{page.market_day}}</td>
+                <td class="infobox-label">
+                    {% if page.market_day.size > 1 %}
+                        Weekdays
+                    {% else %}
+                        Weekday
+                    {% endif %}
+                </td>
+                <td>
+                    {% if page.market_day.size > 1 %}
+                        <ul>
+                            {% for day in page.market_day %}
+                                <li>{{day}}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        {{page.market_day}}
+                    {% endif %}
+                </td>
             </tr>
             <tr class="about market">
                 <td class="infobox-label">Hours</td>
@@ -42,7 +58,7 @@
                 <td class="infobox-label">Location</td>
                 <td>{{page.market_location}}</td>
             </tr>
-            {% if page.location.latitude > 1 %}
+            {% if conceyu_telephone > 1 %}
             <tr class="about market">
                 <td class="infobox-label">Telephone</td>
                 <td><a href="tel://+34{{page.conceyu_telephone | remove: " "}}">{{page.conceyu_telephone}}</a></td>
