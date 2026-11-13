@@ -12,13 +12,12 @@ sidebar:
     nav: visit_full
 date created: Tuesday, May 13th 2025, 2:16:40 pm
 date modified: Tuesday, May 13th 2025, 5:59:02 pm
-lastmod: 2026-10-17T09:29:53.322Z
+lastmod: 2026-10-17T09:32:59.279Z
 ---
 Every day of the week in Asturias is market day somewhere. In addition to the large central markets in the main cities, Asturias has multiple markets every day of the week. Add in organic produce markets, seasonal markets, the ever-popular winter medieval markets, and a couple of Christmas events, and you have a very full market calendar. Indeed, it is so full that I have made both a Complete Guide to Asturian Market days and an interactive map for finding the closest markets to where you are in Asturias. 
 
 <style>
   #indexMap{
-    all: none;
     height: 500px;
     width: 100%;
   }

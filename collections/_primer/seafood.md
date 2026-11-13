@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: Seafood
 sidebar:
     nav: culture_full
-lastmod: 2026-08-01T17:17:26.624Z
+lastmod: 2026-11-13T13:29:27.578Z
 ---
 
 {% marginfigure 'mf01' '/assets/images/ingredients/Fishing_boats.jpeg' 'Fishing boats in the harbor of Cudillero' %}No food lover should come to Asturias and miss out on the ridiculously high quality seafood. Asturians on average consume a kilo of seafood a week per person. Even in a country as seafood obsessed as Spain, this is a high number.[^1] This is partially because Asturias is neighbors with Galicia, which by itself has the largest fishing fleet in Europe. Additionally, Asturias has its own fishing fleet, albeit a much smaller one. The Asturian fleet concentrates on fishing the Bay of Biscay, and sells the vast majority of it’s catch locally. That is usually very locally. It is not unusual for a fishing boat to supply a restaurant located mere meters from the dock. Indeed, so numerous are these seafront restaurants that much of the Asturian fleets catch never leaves the harbor. 
@@ -59,6 +59,8 @@ Once you picked a place to go and get seafood, you have to decide on what you sh
 | Xarda             | Caballa          | Atlantic Mackerel     | *Scomber scombrus*                                            |
 | Xargo             | Sargo picudo     | Sheephead Bream       | *Diplodus puntazzo*                                           |
 | Xuella            | Platija          | European Flounder     | *Platichthys flesus*                                          |
+
+
 
 _Please note that this is not a complete list of seafood dishes you will find in Asturias. Not by a long shot! This is an incomplete list of terms for fish and seafood you might not be familiar with. Specifically ones that will be unfamiliar even if you are a native Spanish speaker._
 
