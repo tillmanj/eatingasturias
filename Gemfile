@@ -15,6 +15,7 @@ gem "minimal-mistakes-jekyll"
 # Non-jekyll specific gems we need to manage
 group :ruby_gems do
   gem 'activesupport'
+  gem 'faraday-retry'
   gem 'indieweb-endpoints'
   gem 'jsonpath'
   gem 'link-header-parser'
