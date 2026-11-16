@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Cider
 sidebar:
   nav: culture_full
+lastmod: 2026-11-16T17:15:17.279Z
 ---
 _Sobremesa_ is lingering over the table in a restaurant after a meal, and is a common practice in Spain. Traditionally this is a time for coffee, digestive drinks (_chupitos_), and story telling. Spanish people love pointing out that there is no equivalent word in English, but that has more to do with where people do their entertaining in different countries. See below for more on this misunderstanding of American culture.
 
@@ -36,3 +37,7 @@ In addition to the above linguistic difficulties, there is another issue. Relati
 The first is, of course, the hegemonic position of American popular media. Add in a little bit of cultural myopia, and you have a recipe for misapprehension. The United States cranks out a shocking number of films a year, and a surprising number of them involve scenes in restaurants. Indeed, if you only watched American movies, you might get the idea that Americans were pretty much **always** in restaurants. And that would seem very normal to the average European, who is actually in a restaurant pretty constantly.
 
 The second is the very different ways in which Americans and Europeans actually approach restaurants. For most Americans, a visit to a sit-down restaurant is more of an event than it is for a European, broadly speaking. American dining out is more for marking a special occasion than for having a meal with friends. Whereas for Europeans, a visit to a restaurant is a normal and casual way to get together with friends for a chat and a laugh.
+
+## The Real Meaning of Sobremesa
+
+There is a uniquely un-American type of sobremesa however, and that is what Spaniards are talking about when they talk about sobremesa. It's the ability to do all this chatting around the table all afternoon or evening after your meal in public, at a restaurant. It actually is a part of Spanish life that is really unique; to laze around having drinks and talking for as long as you'd like, in a restaurant. This ability to treat every restaurant as if it were your own dining room is uniquely Spanish, and should be experienced as exactly that.

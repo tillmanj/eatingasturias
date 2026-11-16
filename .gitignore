@@ -20,3 +20,4 @@ Gemfile.lock
 /hints.md
 /task-tree.json
 /mathtest.md
+/node_modules
