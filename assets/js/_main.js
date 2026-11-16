@@ -6,6 +6,14 @@ $(document).ready(function () {
   // FitVids init
   $("#main").fitVids();
 
+  // datatable loader for Markdown tables
+  $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display table');
+  $('table.display').DataTable( {
+      paging: true,
+      stateSave: true,
+      searching: true
+  });
+
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
     $(".author__urls").toggleClass("is--visible");

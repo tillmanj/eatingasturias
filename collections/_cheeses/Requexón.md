@@ -27,7 +27,7 @@ cheese_dop: false
 cheese_dop_logo: null
 cheese_dop_link: null
 date created: Tuesday, August 4th 2026, 7:26:22 pm
-date modified: Tuesday, August 4th 2026, 7:30:42 pm
+date modified: Monday, November 16th 2026, 9:42:03 am
 conceyu: Cudillero
 location:
     latitude: 43.55080711338088

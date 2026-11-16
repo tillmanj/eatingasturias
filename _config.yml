@@ -105,8 +105,14 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 sass:
   style: compressed
   sourcemap: development # source maps will only be generated if the site is in development environment. That is, when the environment variable JEKYLL_ENV is set to development.
-  silence_deprecations: ['color-functions', 'global-builtin', 'imports', 'slash-div'] # see https://sass-lang.com/documentation/js-api/interfaces/deprecations/ for active deprecations that can be passed
+  silence_deprecations: ['color-functions', 'global-builtin', 'import', 'slash-div'] # see https://sass-lang.com/documentation/js-api/interfaces/deprecations/ for active deprecations that can be passed
   quiet_deps: true
+
+# Javascript settings
+# see https://mmistakes.github.io/minimal-mistakes/docs/javascript/
+after_footer_scripts:
+  - /assets/js/datatables.min.js
+
 
 # Site Defaults
 # all of these settings can be overridden on a per-page basis through YAML frontmatter

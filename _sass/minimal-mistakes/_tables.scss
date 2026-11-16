@@ -16,8 +16,6 @@ table {
 }
 
 thead {
-  background-color: $header-color;
-  color: $contrast-color;
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
@@ -59,4 +57,41 @@ table.tasting > tbody > tr > td.label {
 table.tasting > tbody > tr > td.value {
   text-align: start;
   font-style: italic;
+}
+
+/* 
+DataTables Table Styles
+========================================================================== */
+td.binomial {
+  font-style: italic;
+}
+
+td.datatable ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+select#dt-length-0 {
+  margin-bottom: unset !important;
+  box-shadow: none !important;
+  display: inline !important;
+}
+
+div.dt-length label {
+  display: inline !important;
+}
+
+input#dt-search-0 {
+  width: auto !important;
+  margin-bottom: unset !important;
+}
+.dt-search > label:nth-child(1) {
+  display: inline !important;
+}
+
+button.fg-button {
+  background-color: unset;
+  border: none;
+  border-radius: 5px;
 }
