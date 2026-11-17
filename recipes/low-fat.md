@@ -4,10 +4,11 @@ permalink: /recipes/diet/low-fat/
 title: Low Fat Recipes
 subtitle: I did the math so you don't have to
 type: diet
-category: Low-fat
+category: Low Fat
 toc: false
 sidebar:
   nav: recipe_full
+lastmod: 2026-11-17T11:17:22.351Z
 ---
 These recipes are, to the best of my knowledge, low-fat. That is to say, these recipes have been calculated to contain 3 g or less of fat per 100 g as prepared and not more than 30% of its calories from fat, as laid out in [EU Permitted Nutrition Claims](https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en).
 

@@ -4,10 +4,11 @@ permalink: /recipes/diet/gluten-free/
 title: Gluten-Free Recipes
 subtitle: Celiacs eat well in Asturias
 type: diet
-category: Gluten-free
+category: Gluten Free
 toc: false
 sidebar:
   nav: recipe_full
+lastmod: 2026-11-17T11:13:51.425Z
 ---
 These recipes meet the generally accepted definition of gluten-free, in that they:
 

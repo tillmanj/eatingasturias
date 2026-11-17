@@ -4,10 +4,11 @@ permalink: /recipes/diet/low-calorie/
 title: Low Calorie Recipes
 subtitle: I did the math so you don't have to
 type: diet
-category: Low-calorie
+category: Low Calorie
 toc: false
 sidebar:
   nav: recipe_full
+lastmod: 2026-11-17T11:17:16.743Z
 ---
 These recipes are, to the best of my knowledge, low-calorie. That is to say, these recipes have been calculated to contain 40 calories or less per 100 g as prepared, as laid out in [EU Permitted Nutrition Claims](https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en).
 

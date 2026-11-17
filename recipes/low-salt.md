@@ -4,10 +4,11 @@ permalink: /recipes/diet/low-salt/
 title: Low Salt Recipes
 subtitle: I did the math so you don't have to
 type: diet
-category: Low-salt
+category: Low Salt
 toc: false
 sidebar:
   nav: recipe_full
+lastmod: 2026-11-17T11:17:28.790Z
 ---
 These recipes are, to the best of my knowledge, low-salt. That is to say, these recipes have been calculated to contain 120 mg or less of salt per 100 g as prepared, as laid out in [EU Permitted Nutrition Claims](https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en).
 
