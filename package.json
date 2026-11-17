@@ -25,6 +25,7 @@
     "uglify-js": "^3.19.3"
   },
   "dependencies": {
+    "npm": "^12.2.2",
     "package-lock-only": "^0.0.4",
     "uglify": "^0.1.5",
     "uglifyjs": "^2.4.11"
