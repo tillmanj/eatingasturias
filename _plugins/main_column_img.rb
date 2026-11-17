@@ -26,7 +26,7 @@ module Jekyll
         if @text[0].start_with?('http://', 'https://','//')
           "<figure><img src='#{@text[0]}'/><figcaption class='marginnote'>#{label}</figcaption></figure>"
         else
-          "<figure><img src='#{baseurl}/#{@text[0]}'/><figcaption class='marginnote'>#{label}</figcaption></figure>"
+          "<figure><img src='#{baseurl}#{@text[0]}'/><figcaption class='marginnote'>#{label}</figcaption></figure>"
         end
       end
     end
