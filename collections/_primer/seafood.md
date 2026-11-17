@@ -12,7 +12,7 @@ lastmod: 2026-11-16T14:34:23.777Z
 datatable: true
 classes: wide
 date created: Saturday, August 1st 2026, 6:28:09 pm
-date modified: Monday, November 16th 2026, 9:44:26 am
+date modified: Tuesday, November 17th 2026, 9:39:08 am
 ---
 
 {% marginfigure 'mf01' '/assets/images/ingredients/Fishing_boats.jpeg' 'Fishing boats in the harbor of Cudillero' %}No food lover should come to Asturias and miss out on the ridiculously high quality seafood. Asturians on average consume a kilo of seafood a week per person. Even in a country as seafood obsessed as Spain, this is a high number.[^1] This is partially because Asturias is neighbors with Galicia, which by itself has the largest fishing fleet in Europe. Additionally, Asturias has its own fishing fleet, albeit a much smaller one. The Asturian fleet concentrates on fishing the Bay of Biscay, and sells the vast majority of it’s catch locally. That is usually very locally. It is not unusual for a fishing boat to supply a restaurant located mere meters from the dock. Indeed, so numerous are these seafront restaurants that much of the Asturian fleets catch never leaves the harbor. 

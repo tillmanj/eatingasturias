@@ -10,7 +10,7 @@ sidebar:
     nav: culture_full
 date created: Thursday, June 5th 2025, 5:02:27 pm
 date modified: Thursday, June 5th 2025, 6:53:01 pm
-lastmod: 2026-02-17T15:19:36.629Z
+lastmod: 2026-11-17T13:30:44.111Z
 ---
 {% marginfigure 'mf01' '/assets/images/beer/landgeist-spain-alcohol.jpg' 'Contrary to popular belief Spain is not part of wine drinking southern Europe, and instead joins central Europe in the beer-drinking camp. (thanks to Martijn from [Landgeist](https://landgeist.com/2021/06/03/beer-spirits-or-wine/))' %}
 

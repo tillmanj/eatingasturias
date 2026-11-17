@@ -10,8 +10,9 @@ sidebar:
     nav: culture_full
 date created: Thursday, March 27th 2025, 7:40:54 am
 date modified: Monday, May 19th 2025, 10:11:59 am
+lastmod: 2026-11-17T10:37:52.762Z
 ---
-{% marginfigure 'mf01' 'assets/images/Caseria.jpeg' 'Blanco Súarez, D. Alberto. Casería Asturiana. 2008. (Private Collection)' %}
+{% marginfigure 'mf01' '/assets/images/culture/Caseria.jpeg' 'Blanco Súarez, D. Alberto. Casería Asturiana. 2008. (Private Collection)' %}
 {% newthought 'The casería is the common name'%} in Asturias for a farmstead. In most usage, it denotes the farmhouse, along with all assorted other buildings and spaces, such as the antoxana, [hórreo](/culture/landscape/built-environment/hórreo-panera.html), cuadra, tool sheds, wood sheds, etc... It forms a single unit of agricultural production, residence, consumption, use, and storage. Also included are the associated orchards, fields, meadows, pastures, and communal land rights.[^1] The term does not describe a single unit of land with one boundary, but instead the functional areas making up a whole farm.[^2] The immediate area around the farmhouse formed by the closest buildings and land is (or at least was) called the _quintana_[^3] [^4] The space within the _quintana_ directly in front of the door to the house, and usually surrounded by the most important buildings is the _antoxana_.[^5] Often these words are used interchangeably, and most people would understand them as synonyms.
 
 The rest of the farm — the fields and pastures for instance — are connected to the main house area, and each other, by farm roads (_caminos_) and walking paths (_caleyas_).
@@ -49,5 +50,5 @@ A casería usually encompasses the following buildings and spaces:
 [^4]: _Quintana, La - Diccionario General De La Lengua Asturiana (DGLA)_. [mas.lne.es/diccionario/palabra/61778](http://mas.lne.es/diccionario/palabra/61778).
 [^5]: _Antoxana, L’ - Diccionario General De La Lengua Asturiana (DGLA)_. [mas.lne.es/diccionario/palabra/37357](http://mas.lne.es/diccionario/palabra/37357).
 [^6]: Mases, José Antonio. “La Casa Campesina.” _Enciclopedia de la Asturias Popular_, 1st ed., vol. 1, La Voz de Asturias, 1994, pp. 33–64. Eating Asturias.
-[^7]: See also [this short article](https://eatingasturias.com/wiki/Huerto_or_Huerta "Huerto or Huerta") on the difference between a _huerto_ and a _huerta_.
+[^7]: See also [this short article](/culture/landscape/built-environment/huerto-huerta.html) on the difference between a _huerto_ and a _huerta_.
 [^8]: Vila Díez, Sara. _La Huerta Ecológica Asturiana_. 1a ed, Glayiu, 2013.

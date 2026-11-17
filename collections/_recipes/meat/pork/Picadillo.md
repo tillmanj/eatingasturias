@@ -17,6 +17,7 @@ totalTime: 1 h 5 m
 recipeYield: 750g
 recipeCategory:
   - Appetizers
+  - Pork
 suitableForDiet: null
 recipeOccasion: null
 recipeSeason: null
@@ -54,18 +55,18 @@ recipeSource: null
 isBasedOn: null
 mentions: null
 nutrition: true
-servingSize: null
-calories: null
-fatContent: null
-saturatedFatContent: null
-transFatContent: null
-cholesterolContent: null
-sodiumContent: null
-carbohydrateContent: null
-fiberContent: null
-sugarContent: null
-proteinContent: null
-lastmod: 2026-02-20T12:28:29.819Z
+servingSize: 50g
+calories: 202
+fatContent: 8.6
+saturatedFatContent: 3.5
+transFatContent: 0.024
+cholesterolContent: 38
+sodiumContent: 869
+carbohydrateContent: 12.5
+fiberContent: 1.8
+sugarContent: 0.6
+proteinContent: 18.8
+lastmod: 2026-11-17T09:02:10.595Z
 ---
 The Asturian (as opposed to Mexican) picadillo is an uncased chorizo. Call it sausage meat if you like. It is also one of the most popular ways to eat chorizo in Asturias, and there are a myriad of regional brands to choose from. The more rural and traditional folks still make it at home, and as those are my people, I like to do so as well.
 

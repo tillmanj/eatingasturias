@@ -9,9 +9,10 @@ toc_label: Psychogeography
 sidebar:
     nav: culture_full
 description: Situationist psychogeography as applied to rural Asturias, and an invitation to walk
+lastmod: 2026-11-17T08:46:39.068Z
 ---
 
-{% epigraph 'when trees die<br />all small hearts break' 'bell hooks' 'Appalachian Elegy, 18' %}
+{% epigraph 'Wandering re-establishes the original harmony which once existed between man and the universe' 'Anatole France' '' %}
 
 {% newthought 'Psychogeography describes the effect'%} of a geographical location on the emotions and behavior of individuals. While most often associated with the ideas of urban exploration and critiques of the civic landscape of cities, it is, I believe, equally useful for interrogating the built environment of the Asturian culinary landscape. Underneath it's outer shell of subverting the tyranny of city planning, is a toolbox for understanding the effect of any built environment on the behavior of its inhabitants.[^1]
 

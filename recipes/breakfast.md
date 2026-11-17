@@ -8,7 +8,7 @@ category: Breakfast
 toc: false
 sidebar:
   nav: recipe_full
-lastmod: 2026-07-29T17:49:14.591Z
+lastmod: 2026-11-17T11:20:12.818Z
 ---
 {% epigraph 'Life, within doors, has few pleasanter prospects than a neatly arranged and well-provisioned breakfast table' 'Nathaniel Hawthorne' 'The House of the Seven Gables' %}
 

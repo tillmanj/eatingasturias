@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Asturian Built Environment
-subtitle: 
+subtitle: null
 permalink: /culture/landscape/built-environment/
 toc: false
 toc_sticky: true
@@ -11,6 +11,7 @@ sidebar:
 description: Explore how both the natural and built environments of Asturias inform the indissoluble relationship between rural life and gastronomy.
 date created: Wednesday, March 26th 2025, 7:29:14 pm
 date modified: Friday, May 16th 2025, 12:14:48 pm
+lastmod: 2026-11-17T10:37:20.164Z
 ---
 {% marginfigure 'mf02' 'assets/images/El_Potrillo_en_el_Corral_-_Evaristo_Valle_1917.gif' 'El Potrillo en el Corral. *Valle, Evaristo. 1917.* Museo Evaristo Valle, Gijón' %}
 

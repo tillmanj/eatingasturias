@@ -1,14 +1,15 @@
 ---
 layout: page
 permalink: /culture/landscape/culinary-mind/global-world-cuisine.html
-title: Context is everything
-subtitle: null
+title: Global & World Cuisine
+subtitle: Context is everything
 toc: false
 toc_sticky: true
 toc_label: Global Cuisine
 sidebar:
     nav: culture_full
-description: 
+description: null
+lastmod: 2026-11-17T08:05:54.767Z
 ---
 Global Cuisine is my own term. I use it to describe the collection of dishes, preparations, and techniques that have become common or typical across many regions around the world. Once an ingredient, technique, or dish has been adopted widely enough that it is unremarkable to find it in some form in most places around the world, it is part of the Global Cuisine.
 
@@ -19,8 +20,8 @@ A *world cuisine*, in my estimation, is one in which a dish or a type of dish ha
 
 It is distinct from the concept of world cuisine - those cuisines that have, in one form or another, become widely appreciated far from their home. Global Cuisine is, instead, individual units of food production that have been completely decontextualized.
 
-The Columbian Exchange resulted in a huge expansion of what could be considered global cuisine.
+The [Columbian Exchange](/culture/history/early-modern/columbian-exchange.html) resulted in a huge expansion of what could be considered global cuisine.
 
 From the very basic and obvious (now) things like rice, potatoes, tomatoes, peppers, beef cattle, and chickens, world cuisine has steadily expanded from the 16th century.
 
-Tacos, pizza, ramen, burgers, tofu, pasta, arroz con pollo, ricotta cheese, rice pudding… all of these are now truly world wide foods. 
+Tacos, pizza, ramen, burgers, tofu, pasta, arroz con pollo, ricotta cheese, rice pudding… all of these are now truly world wide foods. And despite the efforts of tourism marketing boards in some of their (real or imagined) countries of origin, they are now all firmly part of world cuisine. Wherever they may have come from, they now belong to all.

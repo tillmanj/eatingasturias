@@ -1,3 +1,41 @@
+american-pale-ale:
+  style: American Pale Ale
+  slug: american-pale-ale
+  type: Ale
+  group: North American Style Ales
+  color: Straw to light amber
+  clarity: Chill haze is acceptable at low temperatures. Hop haze is allowable at any temperature.
+  malt: Low caramel malt aroma is allowable. Low to medium maltiness may include low caramel malt character.
+  hop: High, exhibiting a wide range of attributes including ﬂoral, citrus, fruity (berry, tropical, stone fruit and other), sulfur, diesel-like, onion-garlic, catty, piney, resinous, and many others.
+  bitter: Medium to medium-high
+  ferment: Fruity esters may be low to high. Diacetyl should not be present.
+  body: Medium
+  og: 1.044-1.05 
+  fg: 1.008-1.014
+  abw: 3.50%-4.30%
+  abv: 4.40%-5.40%
+  ibu: 30-50
+  srm: 4-7
+  ebc: 8-14
+american-style-india-pale-ale:
+  style: American-Style India Pale Ale
+  slug: american-style-india-pale-ale
+  type: Ale
+  group: North American Style Ales
+  color: Pale to copper
+  clarity: Chill haze is acceptable at low temperatures. Hop haze is allowable at any temperature.
+  malt: Medium-low to medium intensity malt attributes are present in aroma and ﬂavor
+  hop: High to very high, exhibiting a wide range of attributes including ﬂoral, piney, citrus, fruity (berry, tropical, stone fruit and other), sulfur, diesel-like, onion-garlic, catty, resinous, and many others.
+  bitter: Medium-high to very high
+  ferment: Fruity esters are low to high. Diacetyl and DMS should not be present.
+  body: Medium-low to medium
+  og: 1.06-1.07 
+  fg: 1.01-1.016
+  abw: 5.00%-6.00%
+  abv: 6.30%-7.50%
+  ibu: 15-40
+  srm: 4-12
+  ebc: 8-24
 belgian-style-blonde-ale:
   style: Belgian-Style Blonde Ale
   slug: belgian-style-blonde-ale
@@ -14,7 +52,7 @@ belgian-style-blonde-ale:
   fg: 1.01-1.014
   abw: 5.00%-6.20%
   abv: 6.30%-7.90%
-  ibu: 15-40
+  ibu: 50-70
   srm: 2-7
   ebc: 4-14
 ordinary-bitter:

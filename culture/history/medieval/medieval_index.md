@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: Medieval Asturias
 sidebar:
   nav: culture_full
+lastmod: 2026-11-17T11:42:43.250Z
 ---
 This is the age of Visigoths, Peasantry, and the All-Consuming Church
 
@@ -25,7 +26,10 @@ The autarky of the family farm (casería) became the primary goal of bread labor
 - 915 CE - Crop failure causes a famine on the Iberian Peninsula that is ruled in the south by the Arabs, and in the north by Christian princes.
 - 961 CE - The Arabs begin the production of the spice saffron on the Iberian Peninsula.
 - 980 CE - Nodicia de kesos
-- 1492 CE - In an attempt to reach Asia, Spanish navigator Christopher Columbus lands by accident in the Bahamas. His discovery of the New World will lead to the introduction of many new foods to Europe, among them potatoes, peppers, maize, tomatoes, pineapples, allspice, cacao, and turkey.
+#### The Great Famine (1315–1317)
+https://www.science.smith.edu/climatelit/the-great-famine/
+#### The Black Death (c. early to mid 1300s)
+https://www.science.smith.edu/climatelit/the-black-death/
 
 ## Notes
 [^1]: "But if a term appears only in the Iberian peninsula, and not in France, Italy, or other Romance countries, there is some justification for saying that if the Visigoths did not carry it there, at least they kept it alive." - pp 49 Spaulding, Robert K. _How Spanish Grew_. 3rd ed., University of California Press, 1962.
