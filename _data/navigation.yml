@@ -134,7 +134,7 @@ recipe_full:
       - title: "Recipes by Source"
         url: /recipes/source/
       - title: "Recipes by Spanish Course"
-        url: /recipes/courses/
+        url: /recipes/course/
 
 visit_full:
   - title: Why visit Asturias?

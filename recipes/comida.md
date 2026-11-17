@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /recipes/courses/comida/
+permalink: /recipes/course/comida/
 title: La Comida Recipes
 subtitle: A proper Spanish lunch
 type: course
@@ -9,7 +9,8 @@ category:
     - Second
 toc: false
 sidebar:
-  nav: recipe_full
+    nav: recipe_full
+lastmod: 2026-11-17T11:01:10.548Z
 ---
 {% newthought 'The Spanish lunch'%} is the main event. Whether eaten at home or in a restaurant, lunch is the main meal of the day in Asturias, and in Spain generally. Home meals (at least where I have been) tend to follow the 2+1 pattern with a couple of courses followed by an optional dessert and/or coffee.
 
