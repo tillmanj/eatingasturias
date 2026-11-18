@@ -56,7 +56,7 @@ gallery:
     image_path: /assets/images/markets/Mercadillo Grau 07.jpg
     alt: various baked goods for sale in the Grau market
     title: various baked goods for sale in the Grau market
-lastmod: 2026-10-17T08:37:44.408Z
+lastmod: 2026-11-18T10:23:24.664Z
 ---
 {% newthought 'The weekly market' %} in Grau has been taking place for more than 700 years. It remains one of the best attended weekly markets in Asturias, both on Wednesday and it's Sunday incarnation. The businesses in downtown Grau are also open on Sunday mornings to coincide with the market, making it a must-visit for folks in the area who need to do any Sunday shopping.
 
