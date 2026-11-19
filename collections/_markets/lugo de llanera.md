@@ -15,15 +15,15 @@ market_image: null
 market_image_caption: null
 market_name: null
 market_freq: weekly
-market_type: General Market
+market_type: General
 market_day: Saturday
 market_hours: 08:00 - 14:00
-market_location: Pl. de San Isidro, 33690 Lugo de Llanera, Asturias, España
 market_vendors: 50
 conceyu: Llanera
 conceyu_telephone: null
 location:
-    latitude: 43.44171
-    longitude: -5.819069
-lastmod: 2026-11-18T16:18:00.008Z
+  address: Pl. de San Isidro, 33690 Lugo de Llanera, Asturias, España
+  latitude: 43.44171
+  longitude: -5.819069
+lastmod: 2026-11-19T08:50:48.597Z
 ---

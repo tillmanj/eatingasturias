@@ -18,11 +18,11 @@ market_freq: weekly
 market_type: General
 market_day: Wednesday
 market_hours: 09:00 - 14:00
-market_location: C. Albéniz, San Martín del Rey Aurelio, Asturias, España
 market_vendors: 55
 conceyu: San Martin del Rey Aurelio
 location:
-    latitude: 43.287855506800646
-    longitude: -5.635386347959073
-lastmod: 2026-02-17T15:57:41.419Z
+  address: C. Albéniz, San Martín del Rey Aurelio, Asturias, España
+  latitude: 43.287855506800646
+  longitude: -5.635386347959073
+lastmod: 2026-11-18T20:00:36.706Z
 ---

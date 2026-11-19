@@ -18,13 +18,13 @@ market_freq: monthly
 market_type: Artisanal
 market_day: Second Sunday
 market_hours: 11:00 - 13:00
-market_location: Plaza Mayor de Santolaya de Cabranes
 market_vendors: 50
 conceyu: Cabranes
 location:
-    latitude: 43.417087387243576
-    longitude: -5.410030254519905
-lastmod: 2026-02-17T16:28:58.510Z
+  address: Plaza Mayor de Santolaya de Cabranes
+  latitude: 43.417087387243576
+  longitude: -5.410030254519905
+lastmod: 2026-11-19T09:06:11.129Z
 ---
 El Tenderete de Cabranes is a unique street market that takes place the second Sunday of every month in the village of Santolaya de Cabranes.
 

@@ -6,21 +6,20 @@ permalink: /culture/products/cider/llagares/Acebal.html
 category: llagar
 toc: false
 toc_sticky: true
-toc_label: 
+toc_label: null
 sidebar:
   nav: visit_full
 image_splash: Acebal_main.jpeg
 image_logo: Acebal_logo.png
 status: In Operation
-production: 500,000 Bottles 
-manager: Luis Alberto Acebal Valdés 
+production: 500,000 Bottles
+manager: Luis Alberto Acebal Valdés
 conceyu: Gijón
-mapping:
-  locations:
-    - title: Sidra Acebal
-      latitude: 43.5379975
-      longitude: -5.6234594
-      address: Ctra. Piles al Infanzón, Periurbano - Rural, 33394 Cabueñes-Gijón, Asturias
+location:
+  title: Sidra Acebal
+  address: Ctra. Piles al Infanzón, Periurbano - Rural, 33394 Cabueñes-Gijón, Asturias
+  latitude: 43.5379975
+  longitude: -5.6234594
 hours:
   mon: 10:00–23:30
   tue: 10:00–23:30
@@ -34,11 +33,12 @@ email: sidraacebal@yahoo.es
 website: https://www.sidraacebal.es/
 social:
   facebook: http://www.facebook.com/sidra.acebal.7
-  instagram:
-  bluesky:
-  twitter:
-  linkedin:
-  pinterest:
+  instagram: null
+  bluesky: null
+  twitter: null
+  linkedin: null
+  pinterest: null
+lastmod: 2026-11-18T19:22:31.805Z
 ---
 Acebal is a 100+ year old family-run business dedicated to the production, bottling and distribution of traditional natural cider. In addition to the llagar, they run a well-loved [sidrería](/visit/sidrerias/) (El Tasqueru) attached to the llagar.
 
@@ -67,4 +67,3 @@ Acebal has won the following awards for their natural cider:
 ## Tours
 
 Acebal offers guided tours of their facilities, with details of their production process, from the intake of the raw material, until the final product is ready for consumption. The visit includes a tasting of ciders directly from the tanks. To book a guided tour, it is essential to make an appointment in advance. Contact them by email or by phone to check prices and availability.
-

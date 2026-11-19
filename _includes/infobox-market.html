@@ -56,7 +56,7 @@
             </tr>
             <tr class="about market">
                 <td class="infobox-label">Location</td>
-                <td>{{page.market_location}}</td>
+                <td>{{page.location.address}}</td>
             </tr>
             {% if conceyu_telephone > 1 %}
             <tr class="about market">
@@ -64,6 +64,18 @@
                 <td><a href="tel://+34{{page.conceyu_telephone | remove: " "}}">{{page.conceyu_telephone}}</a></td>
             </tr>
             {% endif %}
+            <tr>
+                <td colspan="2">
+                    {% capture popup %}<b>{{page.title}}</b><br /><i>{{page.location.address}}</i>{% endcapture %}
+                    {% leaflet_map { "center" : [{{page.location.latitude}}, {{page.location.longitude}}],
+                                    "zoom" : 14,
+                                    "providerBasemap" : "OpenStreetMap.Mapnik" } %}
+                        {% leaflet_marker { "latitude" : {{page.location.latitude}},
+                                            "longitude" : {{page.location.longitude}},
+                                            "popupContent" : "{{popup}}" } %}
+                    {% endleaflet_map %}
+                </td>
+                </tr>
         </tbody>
     </table>
 </aside>

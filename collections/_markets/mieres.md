@@ -1,6 +1,6 @@
 ---
 layout: market
-title: Mieres Weekly MArket
+title: Mieres Weekly Market
 shortTitle: Mieres
 subtitle: null
 permalink: /visit/markets/mieres.html
@@ -15,30 +15,30 @@ market_image: null
 market_image_caption: null
 market_name: null
 market_freq: weekly
-market_type: General Market
+market_type: General
 market_day: Sunday
 market_hours: 09:00 – 14:00
-market_location: Pl. del Mercado, 33600 Mieres, Asturias, España
 market_vendors: 150
 conceyu: Mieres
 conceyu_telephone: null
 location:
-    latitude: 43.25155
-    longitude: -5.774662
+  address: Pl. del Mercado, 33600 Mieres, Asturias, España
+  latitude: 43.25155
+  longitude: -5.774662
 gallery:
-    - url: /assets/images/markets/Markets-sunday-mieres-feature-1024x576.jpg
-      image_path: /assets/images/markets/Markets-sunday-mieres-feature-1024x576.jpg
-      alt: null
-      title: null
-    - url: /assets/images/markets/Markets-mieres-food-01-1024x576.jpg
-      image_path: /assets/images/markets/Markets-mieres-food-01-1024x576.jpg
-      alt: null
-      title: null
-    - url: /assets/images/markets/Markets-mieres-food-02-1024x576.jpg
-      image_path: /assets/images/markets/Markets-mieres-food-02-1024x576.jpg
-      alt: null
-      title: null
-lastmod: 2026-11-18T16:29:50.251Z
+  - url: /assets/images/markets/Markets-sunday-mieres-feature-1024x576.jpg
+    image_path: /assets/images/markets/Markets-sunday-mieres-feature-1024x576.jpg
+    alt: null
+    title: null
+  - url: /assets/images/markets/Markets-mieres-food-01-1024x576.jpg
+    image_path: /assets/images/markets/Markets-mieres-food-01-1024x576.jpg
+    alt: null
+    title: null
+  - url: /assets/images/markets/Markets-mieres-food-02-1024x576.jpg
+    image_path: /assets/images/markets/Markets-mieres-food-02-1024x576.jpg
+    alt: null
+    title: null
+lastmod: 2026-11-19T09:02:47.946Z
 ---
 The Mieres market is one of the larger weekly markets in Asturias. There are 150+ vendors spread out on 6 streets around the Plaza del Mercado. There is of course the standard village market stuff (clothes, shoes, linens). However, the market in Mieres has a lot of used book sellers and a nice assortment of less common booths. I have seen walking sticks, pocket knives, and handmade jewelry among the offerings.
 

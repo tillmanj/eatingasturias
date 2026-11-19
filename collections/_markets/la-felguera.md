@@ -15,15 +15,15 @@ market_image: null
 market_image_caption: null
 market_name: null
 market_freq: weekly
-market_type: General Market
+market_type: General
 market_day:
   - Saturday
 market_hours: 09:00 - 14:00
-market_location: Calle Nte., 13D, 33900 Langreo, Asturias, España
 market_vendors: 200
 conceyu: Langreo
 conceyu_telephone: null
 location:
+  address: Calle Nte., 13D, 33900 Langreo, Asturias, España
   latitude: 43.308332232842886
   longitude: -5.692914687373666
 gallery:
@@ -63,7 +63,7 @@ gallery:
     image_path: /assets/images/markets/Mercadillo La Felguera 09.jpg
     alt: pipe and drum band playing at the market
     title: una banda de gaita y tambor
-lastmod: 2026-11-18T11:07:09.201Z
+lastmod: 2026-11-19T08:45:46.325Z
 ---
 
 ## Various Images of the La Felguera Weekly Market

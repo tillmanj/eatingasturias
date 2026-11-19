@@ -18,11 +18,11 @@ market_freq: weekly
 market_type: General
 market_day: Saturday
 market_hours: 08:00 - 14:00
-market_location: Calle Juan Carlos I, 6, 33540 Arriondas, Asturias, España
 market_vendors: 20
 conceyu: Parres
 location:
+  address: Calle Juan Carlos I, 6, 33540 Arriondas, Asturias, España
   latitude: 43.388780026575034
   longitude: -5.18662959312456
-lastmod: 2026-10-17T07:36:32.052Z
+lastmod: 2026-11-18T20:05:00.834Z
 ---
