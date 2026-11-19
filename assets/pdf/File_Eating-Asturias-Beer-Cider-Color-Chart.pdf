@@ -468,7 +468,7 @@ mw.user.tokens.set({
 						<!-- title of the page -->
 						<h1 id="firstHeading" class="firstHeading">Eating-Asturias-Beer-Cider-Color-Chart.pdf</h1>
 						<!-- tagline; usually goes something like "From WikiName" primary purpose of this seems to be for printing to identify the source of the content -->
-						<div id="siteSub" class="siteSub">From Eating Asturias, the Encyclopedia of Asturian Gastronomy</div><div id="jump-to-nav" class="mw-jump jump-to-nav">Jump to:<a href="#mw-navigation">navigation</a>, <a href="#p-search">search</a></div>
+						<div id="siteSub" class="siteSub">From Eating Asturias, An Encyclopedia of Asturian Gastronomy</div><div id="jump-to-nav" class="mw-jump jump-to-nav">Jump to:<a href="#mw-navigation">navigation</a>, <a href="#p-search">search</a></div>
 					</div>
 					<div id="bodyContent" class="bodyContent">
 						<!-- body text -->

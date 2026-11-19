@@ -59,7 +59,7 @@ webmentions:
 # in the templates via {{ site.myvariable }}.
 title: "Eating Asturias"
 title_separator: "|"
-subtitle: "The English-Language Encyclopedia of Asturian Gastronomy"
+subtitle: "An English-Language Encyclopedia of Asturian Gastronomy"
 logo: "/assets/images/branding/EAlogo.svg"
 masthead_title: "Eating Asturias"
 name: "Jon Tillman"
