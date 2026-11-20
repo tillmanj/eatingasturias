@@ -169,3 +169,5 @@ Gemfile.lock
 /node_modules
 /task-tree.json
 .keep-the-rhythm/
+/.vscode/ea_snippets.code-snippets
+/.vscode/spellright.dict
